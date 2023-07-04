@@ -36,3 +36,4 @@ for row in table.find_all("tr"):
 data_main_table_results = pd.DataFrame(main_table_results)
 data_main_table_results = data_main_table_results.set_index('position')
 data_main_table_results.to_csv('main_table_results.csv')
+
