@@ -41,4 +41,3 @@ for number_page in range(1, 39):
                       soup.find_all('a', class_='liveLink')]
 
     dict_match_url.update(zip(list_teams, list_url_match))
-    #print(dict_match_url['aston-villa-vs-brighton-and-hove-albion'])
