@@ -16,7 +16,7 @@ dict_match_url = {}
 # An example of string formatting:
 # AFC Bournemouth -> bournemouth
 def format_string(team_name: str) -> str:
-    return re.sub(r'( FC|&|AFC )', '', team_name).lower().replace(' ', '-')
+    return re.sub(r'( FC|AFC )', '', team_name).replace('&', 'and').lower().replace(' ', '-')
 
 
 # Parse each page, where a page represents a matchday in the Premier League
@@ -41,3 +41,4 @@ for number_page in range(1, 39):
                       soup.find_all('a', class_='liveLink')]
 
     dict_match_url.update(zip(list_teams, list_url_match))
+    #print(dict_match_url['aston-villa-vs-brighton-and-hove-albion'])
