@@ -136,13 +136,15 @@ with open(file_path, 'r') as file:
                 get_statistics(int(url[-7:]), substitutes_players, flag_team, False)
             flag_team = False
 
-        block_officials = soup.find_all('div', class_='sdc-site-team-lineup__officials')
+        officials_list = soup.find('dl', class_='sdc-site-team-lineup__officials-list')
+        block_officials = officials_list.find_all('dd', class_="sdc-site-team-lineup__officials-name")
         for official in block_officials:
             officials = {
                 'match_id': int(url[-7:]),
-                'name_officials': official.find('dd', class_="sdc-site-team-lineup__officials-name").text.strip(),
-                'role': official.find('dd', class_="sdc-site-team-lineup__officials-name").get('data-officials-role')
+                'name_officials': official.text.strip(),
+                'role': official.get('data-officials-role')
             }
+            print(officials['name_officials'], officials['role'])
             match_officials.append(officials)
 
 data_players_statistics_home_team = pd.DataFrame(players_statistics_home_team)
