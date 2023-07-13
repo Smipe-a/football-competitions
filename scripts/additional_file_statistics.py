@@ -8,10 +8,6 @@ import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
 
-# A dictionary that contains a pair where the key
-# is a substring of the link and the value is the link to that match in another source
-dict_match_url = {}
-
 
 # An example of string formatting:
 # AFC Bournemouth -> bournemouth
@@ -19,25 +15,52 @@ def format_string(team_name: str) -> str:
     return re.sub(r'( FC|AFC )', '', team_name).replace('&', 'and').lower().replace(' ', '-')
 
 
-# Parse each page, where a page represents a matchday in the Premier League
-for number_page in range(1, 39):
-    url = f'https://www.transfermarkt.com/premier-league/spieltag/wettbewerb/GB1/plus/?saison_id=2022&spieltag=' \
-          f'{number_page}'
-    response = requests.get(url, headers={'User-Agent': UserAgent().chrome}, timeout=10)
-    soup = BeautifulSoup(response.text, 'html.parser')
-
+def get_teams_urls(soup) -> list:
     # Parse the home (left) and away (right) teams
-    list_teams = [
-        f'{format_string(home_block.find("a").get("title"))}-vs-{format_string(away_block.find("a").get("title"))}'
-        for team_block in soup.find_all('tr', class_='table-grosse-schrift')
-        for home_block, away_block in
-        [(team_block.find('td', class_='rechts hauptlink no-border-rechts hide-for-small spieltagsansicht-vereinsname'),
-          team_block.find('td', class_='hauptlink no-border-links no-border-rechts hide-for-small '
-                                       'spieltagsansicht-vereinsname'))]
-    ]
+    teams_urls = []
+    team_blocks = soup.find_all('tr', class_='table-grosse-schrift')
+    for team_block in team_blocks:
+        home_block = team_block.find('td', class_='rechts hauptlink no-border-rechts hide-for-small '
+                                                  'spieltagsansicht-vereinsname')
+        away_block = team_block.find('td', class_='hauptlink no-border-links no-border-rechts hide-for-small '
+                                                  'spieltagsansicht-vereinsname')
 
+        home_team = home_block.find('a').get('title')
+        away_team = away_block.find('a').get('title')
+
+        if home_team == 'Go to matchday thread':
+            home_team = home_block.find_next_sibling().find_next_sibling().find('a').get('title')
+        if away_team == 'Go to matchday thread':
+            away_team = away_block.find_next_sibling().find_next_sibling().find('a').get('title')
+
+        teams_urls.append(f'{format_string(home_team)}-vs-{format_string(away_team)}')
+
+    return teams_urls
+
+
+def get_match_urls(soup) -> list:
     # Parse the match url
-    list_url_match = [f"https://www.transfermarkt.com{match.get('href')}" for match in
-                      soup.find_all('a', class_='liveLink')]
+    return [f"https://www.transfermarkt.com{match.get('href')}" for match in soup.find_all('a', class_='liveLink')]
 
-    dict_match_url.update(zip(list_teams, list_url_match))
+
+def parse_transfermarkt_matches() -> dict:
+    # A dictionary that contains a pair where the key
+    # is a substring of the link and the value is the link to that match in another source
+    dict_match_url = {}
+
+    # Parse each page, where a page represents a matchday in the Premier League
+    for number_page in range(1, 39):
+        url = f'https://www.transfermarkt.com/premier-league/spieltag/wettbewerb/GB1/plus/?saison_id=2022&spieltag=' \
+              f'{number_page}'
+        response = requests.get(url, headers={'User-Agent': UserAgent().chrome}, timeout=10)
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        teams_urls = get_teams_urls(soup)
+        match_urls = get_match_urls(soup)
+
+        dict_match_url.update(zip(teams_urls, match_urls))
+
+    return dict_match_url
+
+
+dict_match_all_url = parse_transfermarkt_matches()
