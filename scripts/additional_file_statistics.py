@@ -34,7 +34,6 @@ def get_teams_urls(soup) -> list:
             away_team = away_block.find_next_sibling().find_next_sibling().find('a').get('title')
 
         teams_urls.append(f'{format_string(home_team)}-vs-{format_string(away_team)}')
-
     return teams_urls
 
 
@@ -52,14 +51,13 @@ def parse_transfermarkt_matches() -> dict:
     for number_page in range(1, 39):
         url = f'https://www.transfermarkt.com/premier-league/spieltag/wettbewerb/GB1/plus/?saison_id=2022&spieltag=' \
               f'{number_page}'
-        response = requests.get(url, headers={'User-Agent': UserAgent().chrome}, timeout=10)
+        response = requests.get(url, headers={'User-Agent': UserAgent().chrome}, timeout=20)
         soup = BeautifulSoup(response.text, 'html.parser')
 
         teams_urls = get_teams_urls(soup)
         match_urls = get_match_urls(soup)
 
         dict_match_url.update(zip(teams_urls, match_urls))
-
     return dict_match_url
 
 
