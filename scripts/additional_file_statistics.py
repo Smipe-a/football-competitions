@@ -7,6 +7,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
+from concurrent.futures import ThreadPoolExecutor
 
 
 # An example of string formatting:
@@ -42,22 +43,28 @@ def get_match_urls(soup) -> list:
     return [f"https://www.transfermarkt.com{match.get('href')}" for match in soup.find_all('a', class_='liveLink')]
 
 
+def parse_match_urls(number_page: int) -> dict:
+    # Parse each page, where a page represents a matchday in the Premier League
+    url = f'https://www.transfermarkt.com/premier-league/spieltag/wettbewerb/GB1/plus/?saison_id=2022&spieltag=' \
+          f'{number_page}'
+    response = requests.get(url, headers={'User-Agent': UserAgent().chrome}, timeout=20)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    teams_urls = get_teams_urls(soup)
+    match_urls = get_match_urls(soup)
+    return dict(zip(teams_urls, match_urls))
+
+
 def parse_transfermarkt_matches() -> dict:
     # A dictionary that contains a pair where the key
     # is a substring of the link and the value is the link to that match in another source
     dict_match_url = {}
 
-    # Parse each page, where a page represents a matchday in the Premier League
-    for number_page in range(1, 39):
-        url = f'https://www.transfermarkt.com/premier-league/spieltag/wettbewerb/GB1/plus/?saison_id=2022&spieltag=' \
-              f'{number_page}'
-        response = requests.get(url, headers={'User-Agent': UserAgent().chrome}, timeout=20)
-        soup = BeautifulSoup(response.text, 'html.parser')
+    with ThreadPoolExecutor() as executor:
+        results = executor.map(parse_match_urls, range(1, 39))
 
-        teams_urls = get_teams_urls(soup)
-        match_urls = get_match_urls(soup)
-
-        dict_match_url.update(zip(teams_urls, match_urls))
+        for result in results:
+            dict_match_url.update(result)
     return dict_match_url
 
 

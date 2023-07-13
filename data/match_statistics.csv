@@ -143,8 +143,8 @@ match_id,stadium,attendance,is_home_team,team,possessions,total_shots,on_target,
 464949,Selhurst Park,25202,False,Everton,43.1,10,5,3,2,67.3,0,1,3,64.3,58.1,2,14,12,1,1
 464951,The King Power Stadium,32053,True,Leicester City,41.8,15,8,4,3,74.2,1,1,1,54.5,55.3,2,17,16,1,0
 464951,The King Power Stadium,32053,False,Wolverhampton Wanderers,58.2,16,3,7,6,81.7,0,7,3,66.7,44.7,5,16,17,3,0
-464952,Anfield,36955,True,Liverpool,81.1,18,6,7,5,87.7,5,9,2,57.1,57.6,3,9,12,0,0
-464952,Anfield,36955,False,Nottingham Forest,18.9,11,5,5,1,52.7,1,3,3,73.3,42.4,2,12,8,1,0
+464952,Anfield,53254,True,Liverpool,81.1,18,6,7,5,87.7,5,9,2,57.1,57.6,3,9,12,0,0
+464952,Anfield,53254,False,Nottingham Forest,18.9,11,5,5,1,52.7,1,3,3,73.3,42.4,2,12,8,1,0
 464945,Emirates Stadium,60175,True,Arsenal,74.2,25,6,11,8,86.1,2,7,1,58.8,57.7,3,10,14,1,0
 464945,Emirates Stadium,60175,False,Southampton,25.8,8,6,1,1,64.6,2,2,2,68.2,42.3,2,14,10,5,0
 464938,Elland Road,36657,True,Leeds United,26.4,13,3,7,3,68.9,1,4,1,53.8,52.6,1,6,11,0,0
@@ -419,8 +419,8 @@ match_id,stadium,attendance,is_home_team,team,possessions,total_shots,on_target,
 464819,Selhurst Park,25132,False,Tottenham Hotspur,53.3,14,6,3,5,86.2,2,4,2,63.6,70.4,4,8,10,2,0
 464815,Emirates Stadium,60319,True,Arsenal,66.8,17,4,8,5,85.8,0,5,1,61.5,42.9,1,10,16,4,0
 464815,Emirates Stadium,60319,False,Newcastle United,33.2,8,1,5,2,71.5,2,5,4,69.6,57.1,4,16,10,5,0
-464820,Goodison Park,36955,True,Everton,48.9,10,4,5,1,87.7,0,5,1,62.5,23.5,4,8,10,3,0
-464820,Goodison Park,36955,False,Brighton and Hove Albion,51.1,19,8,6,5,85.4,2,2,0,66.7,76.5,3,10,8,1,0
+464820,Goodison Park,39103,True,Everton,48.9,10,4,5,1,87.7,0,5,1,62.5,23.5,4,8,10,3,0
+464820,Goodison Park,39103,False,Brighton and Hove Albion,51.1,19,8,6,5,85.4,2,2,0,66.7,76.5,3,10,8,1,0
 464822,The King Power Stadium,30813,True,Leicester City,61.4,15,6,6,3,81.8,3,6,0,82.4,56.5,1,12,11,2,0
 464822,The King Power Stadium,30813,False,Fulham,38.6,11,2,7,2,75.4,2,3,1,61.5,43.5,6,11,12,6,0
 464823,Old Trafford,73322,True,Manchester United,58.5,18,6,6,6,85.5,4,6,0,66.7,40,4,13,7,0,0
@@ -645,8 +645,8 @@ match_id,stadium,attendance,is_home_team,team,possessions,total_shots,on_target,
 464690,Old Trafford,73431,False,Arsenal,60.5,16,3,8,5,83.4,2,5,0,57.1,23.1,3,9,13,3,0
 464689,Goodison Park,39240,True,Everton,39.1,14,3,6,5,71.9,1,7,3,57.9,39.1,8,7,9,2,0
 464689,Goodison Park,39240,False,Liverpool,60.9,23,8,9,6,81,0,9,2,80,60.9,4,11,7,2,0
-464686,Gtech Community Stadium,36955,True,Brentford,31.1,14,8,5,1,64.7,3,2,1,70.8,60.7,4,8,9,2,0
-464686,Gtech Community Stadium,36955,False,Leeds United,68.9,17,6,7,4,82.4,3,6,1,70.8,39.3,3,9,8,2,0
+464686,Gtech Community Stadium,16946,True,Brentford,31.1,14,8,5,1,64.7,3,2,1,70.8,60.7,4,8,9,2,0
+464686,Gtech Community Stadium,16946,False,Leeds United,68.9,17,6,7,4,82.4,3,6,1,70.8,39.3,3,9,8,2,0
 464688,Stamford Bridge,39923,True,Chelsea,68.1,8,3,2,3,87.3,2,10,1,68.8,50,2,6,11,4,0
 464688,Stamford Bridge,39923,False,West Ham United,31.9,6,3,2,1,75.3,2,3,1,64.3,50,1,11,6,2,0
 464691,St. James' Park,51863,True,Newcastle United,51.7,23,6,7,10,78.8,3,13,2,61.1,50,9,19,12,2,0
@@ -675,8 +675,8 @@ match_id,stadium,attendance,is_home_team,team,possessions,total_shots,on_target,
 464677,Selhurst Park,25043,False,Brentford,51.1,9,3,5,1,80.1,5,6,0,92.9,46.2,3,8,11,2,0
 464678,Craven Cottage,22224,True,Fulham,39.1,10,3,7,0,74.7,1,3,0,57.7,58.1,2,9,11,2,0
 464678,Craven Cottage,22224,False,Brighton and Hove Albion,60.9,7,4,3,0,83.7,1,3,2,52.2,41.9,2,11,9,1,0
-464684,St. Mary's Stadium,36955,True,Southampton,32.2,9,7,0,2,61,3,5,0,68.4,44.8,3,15,9,2,0
-464684,St. Mary's Stadium,36955,False,Chelsea,67.8,10,4,2,4,82,1,3,3,50,55.2,3,10,15,1,0
+464684,St. Mary's Stadium,31072,True,Southampton,32.2,9,7,0,2,61,3,5,0,68.4,44.8,3,15,9,2,0
+464684,St. Mary's Stadium,31072,False,Chelsea,67.8,10,4,2,4,82,1,3,3,50,55.2,3,10,15,1,0
 464679,Elland Road,36338,True,Leeds United,69.1,14,5,8,1,83.1,1,10,2,52,66.7,1,10,9,3,0
 464679,Elland Road,36338,False,Everton,30.9,7,2,2,3,69.5,3,2,2,46.4,33.3,4,9,7,3,0
 464666,Villa Park,41796,True,Aston Villa,57.8,9,3,4,2,84,0,3,2,64.7,59.1,1,10,10,2,0
@@ -699,8 +699,8 @@ match_id,stadium,attendance,is_home_team,team,possessions,total_shots,on_target,
 464671,Etihad Stadium,53112,False,Crystal Palace,25.7,2,2,0,0,74,1,1,1,66.7,33.3,1,8,14,2,0
 464665,Emirates Stadium,60164,True,Arsenal,72,22,8,4,10,85.5,2,9,1,73.3,33.3,2,6,12,2,0
 464665,Emirates Stadium,60164,False,Fulham,28,11,3,6,2,61.9,0,2,0,45.8,66.7,6,12,6,3,0
-464661,Old Trafford,36955,True,Manchester United,29.5,13,5,4,4,65.9,4,6,2,70.8,41.2,5,11,7,3,0
-464661,Old Trafford,36955,False,Liverpool,70.5,17,5,7,5,83.7,1,8,2,84.6,58.8,3,7,10,1,0
+464661,Old Trafford,76000,True,Manchester United,29.5,13,5,4,4,65.9,4,6,2,70.8,41.2,5,11,7,3,0
+464661,Old Trafford,76000,False,Liverpool,70.5,17,5,7,5,83.7,1,8,2,84.6,58.8,3,7,10,1,0
 464659,Elland Road,36372,True,Leeds United,39.1,12,6,4,2,71.4,2,4,1,53.8,32.3,3,16,15,0,0
 464659,Elland Road,36372,False,Chelsea,60.9,14,3,4,7,82,0,6,7,45.5,67.7,3,15,16,1,1
 464664,London Stadium,62449,True,West Ham United,49.6,13,3,3,7,80.5,0,5,3,62.5,69,0,10,6,2,0
