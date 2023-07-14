@@ -3,7 +3,6 @@
 # During the execution of the request, only data about Premier League
 # players was obtained, and no other information was extracted.
 # All the acquired data was solely taken from the transfermarkt.com website
-import os
 import re
 import requests
 import pandas as pd
@@ -118,84 +117,90 @@ def format_minutes_to_int(minute):
         return int(minute[:index_plus]) + int(minute[index_plus + 1:])
 
 
+def set_officials_match(match_id: int, name_officials: str, role: str):
+    official = {
+        'match_id': match_id,
+        'name_officials': name_officials,
+        'role': role
+    }
+    match_officials.append(official)
+
+
+def get_officials_match(source_url, soup_skysports, soup_transfermarket):
+    match_id = int(source_url[-7:])
+    manager_block = soup_transfermarket.find_all('div', class_='row sb-formation')[-1]
+    manager_name_block = manager_block.find_all('table', class_='inline-table')
+    manager_home_name = manager_name_block[0].find('img').get('title')
+    manager_away_name = manager_name_block[1].find('img').get('title')
+    print(manager_home_name, manager_away_name)
+
+    set_officials_match(match_id, manager_home_name, 'Manager Home Team')
+    set_officials_match(match_id, manager_away_name, 'Manager Away Team')
+
+    officials_list = soup_skysports.find('dl', class_='sdc-site-team-lineup__officials-list')
+    block_officials = officials_list.find_all('dd', class_='sdc-site-team-lineup__officials-name')
+    officials_data = [(official.text.strip().split(', '), official.get('data-officials-role')) for official in
+                      block_officials]
+    for name_officials, officials_role in officials_data:
+        for name_person in name_officials:
+            set_officials_match(match_id, name_person, officials_role)
+
+
 # Open the file that contains URLs of all matches
-file_path = os.path.abspath('../urls/file_players_url.txt')
-i = 1
-with open(file_path, 'r') as file:
-    for url in file:
-        print(i)
-        i += 1
-        response = requests.get(url.strip(), timeout=20)
-        soup_ss = BeautifulSoup(response.text, 'html.parser')
+def scrape_data():
+    i = 1
+    with open('../urls/file_players_url.txt', 'r') as file:
+        for url in file:
+            print(i)
+            i += 1
+            response = requests.get(url.strip(), timeout=20)
+            soup_ss = BeautifulSoup(response.text, 'html.parser')
 
-        transfermarkt_match_url = dict_match_all_url[url[35:-14]]
-        response = requests.get(transfermarkt_match_url, headers={'User-Agent': UserAgent().chrome}, timeout=20)
-        soup_tm = BeautifulSoup(response.text, 'html.parser')
-
-
-        block_team = soup_ss.find_all('div', class_='sdc-site-team-lineup__header sdc-site-team-lineup__header--main')
-        flag_team = True
-
-        for team in block_team:
-            main_players = team.find_next_sibling('dl').find_all('dd', class_='sdc-site-team-lineup__player-name')
-            get_statistics(int(url[-7:]), main_players, flag_team, True)
-
-            substitutes = team.find_next_sibling('h5', class_='sdc-site-team-lineup__header--subs')
-            if substitutes:
-                substitutes_players = substitutes.find_next_sibling('dl').find_all(
-                    'dd', class_='sdc-site-team-lineup__player-name')
-                get_statistics(int(url[-7:]), substitutes_players, flag_team, False)
-            flag_team = False
-
-        manager_home = soup_tm.find_all('div', class_='large-5 columns small-12 aufstellung-ersatzbank-box '
-                                                      'aufstellung-vereinsseite')
-        try:
-            manager_home_element = manager_home[0].find('tr', style='background-color: #FBFBFB;').find_all('td')
-            manager_away_element = manager_home[1].find('tr', style='background-color: #FBFBFB;').find_all('td')
-        except IndexError:
-            manager_home = soup_tm.find_all('div', class_='large-12 columns')
+            transfermarkt_match_url = dict_match_all_url[url[35:-14]]
             print(transfermarkt_match_url)
-        manager_home_name = manager_home_element[1].find('a').text
-        manager_home_role = manager_home_element[0].text.strip()[:-1] + ' Home Team'
+            response = requests.get(transfermarkt_match_url, headers={'User-Agent': UserAgent().chrome}, timeout=50)
+            soup_tm = BeautifulSoup(response.text, 'html.parser')
 
-        manager_away_name = manager_away_element[1].find('a').text
-        manager_away_role = manager_away_element[0].text.strip()[:-1] + ' Away Team'
+            get_url_lineup = soup_tm.find('a', string='Line-ups').get('href')
+            url_lineup = f'https://www.transfermarkt.com{get_url_lineup}'
+            response = requests.get(url_lineup, headers={'User-Agent': UserAgent().chrome}, timeout=20)
+            soup_tm = BeautifulSoup(response.text, 'html.parser')
 
-        official = {
-            'match_id': int(url[-7:]),
-            'name_officials': manager_home_name,
-            'role': manager_home_role
-        }
-        match_officials.append(official)
-        official = {
-            'match_id': int(url[-7:]),
-            'name_officials': manager_away_name,
-            'role': manager_away_role
-        }
-        match_officials.append(official)
 
-        officials_list = soup_ss.find('dl', class_='sdc-site-team-lineup__officials-list')
-        block_officials = officials_list.find_all('dd', class_="sdc-site-team-lineup__officials-name")
-        for official in block_officials:
-            name_officials = official.text.strip().split(', ')
-            for name_person in name_officials:
-                officials = {
-                    'match_id': int(url[-7:]),
-                    'name_officials': name_person,
-                    'role': official.get('data-officials-role')
-                }
-                match_officials.append(officials)
-        #print(match_officials)
+            get_officials_match(url, soup_ss, soup_tm)
 
-data_players_statistics_home_team = pd.DataFrame(players_statistics_home_team)
-data_players_statistics_away_team = pd.DataFrame(players_statistics_away_team)
-data_match_officials = pd.DataFrame(match_officials)
 
-data_players_statistics_home_team = data_players_statistics_home_team.set_index('match_id')
-data_players_statistics_home_team.to_csv('../data/players_statistics_home_team.csv')
 
-data_players_statistics_away_team = data_players_statistics_away_team.set_index('match_id')
-data_players_statistics_away_team.to_csv('../data/players_statistics_away_team.csv')
 
-data_match_officials = data_match_officials.set_index('match_id')
-data_match_officials.to_csv('../data/match_officials.csv')
+            block_team = soup_ss.find_all('div', class_='sdc-site-team-lineup__header sdc-site-team-lineup__header--main')
+            flag_team = True
+
+            for team in block_team:
+                main_players = team.find_next_sibling('dl').find_all('dd', class_='sdc-site-team-lineup__player-name')
+                get_statistics(int(url[-7:]), main_players, flag_team, True)
+
+                substitutes = team.find_next_sibling('h5', class_='sdc-site-team-lineup__header--subs')
+                if substitutes:
+                    substitutes_players = substitutes.find_next_sibling('dl').find_all(
+                        'dd', class_='sdc-site-team-lineup__player-name')
+                    get_statistics(int(url[-7:]), substitutes_players, flag_team, False)
+                flag_team = False
+
+
+        # print(match_officials)
+
+
+if __name__ == '__main__':
+    scrape_data()
+    # data_players_statistics_home_team = pd.DataFrame(players_statistics_home_team)
+    # data_players_statistics_away_team = pd.DataFrame(players_statistics_away_team)
+    data_match_officials = pd.DataFrame(match_officials)
+
+    # data_players_statistics_home_team = data_players_statistics_home_team.set_index('match_id')
+    # data_players_statistics_home_team.to_csv('../data/players_statistics_home_team.csv')
+    #
+    # data_players_statistics_away_team = data_players_statistics_away_team.set_index('match_id')
+    # data_players_statistics_away_team.to_csv('../data/players_statistics_away_team.csv')
+
+    data_match_officials = data_match_officials.set_index('match_id')
+    data_match_officials.to_csv('../data/match_officials.csv')
