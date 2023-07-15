@@ -783,8 +783,8 @@ match_id,name_officials,role
 464699,Michael Salisbury,Fourth official
 464699,Stuart Attwell,VAR
 464699,Richard West,Assistant VAR
-464700,Javi Gracia,Manager Home Team
-464700,Steve Cooper,Manager Away Team
+464700,Adam Sadler,Manager Home Team
+464700,Unai Emery,Manager Away Team
 464700,Graham Scott,Referee
 464700,Sam Lewis,Assistants
 464700,Steven Meredith,Assistants
@@ -991,8 +991,8 @@ match_id,name_officials,role
 464895,Stuart Attwell,Fourth official
 464895,Tony Harrington,VAR
 464895,Sian Massey,Assistant VAR
-464897,Thomas Frank,Manager Home Team
-464897,Jürgen Klopp,Manager Away Team
+464897,Sean Dyche,Manager Home Team
+464897,Thomas Frank,Manager Away Team
 464897,Simon Hooper,Referee
 464897,Mark Scholes,Assistants
 464897,Adrian Holmes,Assistants
@@ -1040,7 +1040,7 @@ match_id,name_officials,role
 464887,Craig Pawson,VAR
 464887,Ian Hussin,Assistant VAR
 464892,Steve Cooper,Manager Home Team
-464892,Marco Silva,Manager Away Team
+464892,Sean Dyche,Manager Away Team
 464892,John Brooks,Referee
 464892,Matt Wilkes,Assistants
 464892,Marc Perry,Assistants
@@ -1647,8 +1647,8 @@ match_id,name_officials,role
 464824,John Brooks,Fourth official
 464824,Lee Mason,VAR
 464824,Darren Cann,Assistant VAR
-464821,David Moyes,Manager Home Team
-464821,Steve Cooper,Manager Away Team
+464821,Jesse Marsch,Manager Home Team
+464821,David Moyes,Manager Away Team
 464821,David Coote,Referee
 464821,Timothy Wood,Assistants
 464821,Nicholas Hopton,Assistants
