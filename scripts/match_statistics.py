@@ -12,7 +12,7 @@ from concurrent.futures import ThreadPoolExecutor
 from additional_file_statistics import dict_match_all_url
 
 
-def get_stadium(header):
+def get_stadium(header) -> str:
     # We check 'stadium' for the absence of a block in the HTML
     separator_venue = header.find(class_='sdc-site-match-header__detail-venue--with-seperator')
     if separator_venue:
@@ -20,7 +20,7 @@ def get_stadium(header):
     return header.find(class_='sdc-site-match-header__detail-venue').text.strip()
 
 
-def get_attendance(header, url):
+def get_attendance(header, url: str) -> int:
     # We check 'attendance' for the absence of a block in the HTML
     attendance_element = header.find('span', class_='sdc-site-match-header__detail-attendance')
     if attendance_element:
@@ -34,20 +34,20 @@ def get_attendance(header, url):
         return int(attendance_text)
 
 
-def extract_number(text):
+def extract_number(text: str):
     match = re.search(r'\d+', text)
     if match:
         return int(match.group())
     return None
 
 
-def process_block_info(block_info):
+def process_block_info(block_info) -> str:
     if block_info:
         return block_info.find(class_='sdc-site-match-stats__val').text.strip()
     return ''
 
 
-def set_dict_statistics(team) -> dict:
+def set_dict_statistics(team: list) -> dict:
     match_data_team = {
         'match_id': team[0],
         'stadium': team[1],
@@ -74,7 +74,7 @@ def set_dict_statistics(team) -> dict:
     return match_data_team
 
 
-def process_match(url):
+def process_match(url: str):
     response = requests.get(url.strip(), timeout=10)
     soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -108,12 +108,13 @@ def process_match(url):
     return set_dict_statistics(home_team_statistics), set_dict_statistics(away_team_statistics)
 
 
-def process_matches():
+def process_matches() -> list:
     # Create a list that contains a pair of teams for the current match_id and detailed match statistics
     match_statistics = []
     # Open the file that contains URLs of all matches
     with open('../urls/file_teams_url.txt', 'r') as file:
         urls = file.readlines()
+
     with ThreadPoolExecutor() as executor:
         results = executor.map(process_match, urls)
 
@@ -122,12 +123,8 @@ def process_matches():
     return match_statistics
 
 
-def save_match_statistics(match_statistics):
-    match_statistics_df = pd.DataFrame(match_statistics)
-    match_statistics_df = match_statistics_df.set_index('match_id')
-    match_statistics_df.to_csv('../data/match_statistics.csv')
-
-
 if __name__ == '__main__':
     source_match_statistics = process_matches()
-    save_match_statistics(source_match_statistics)
+
+    match_statistics_df = pd.DataFrame(source_match_statistics).set_index('match_id')
+    match_statistics_df.to_csv('../data/match_statistics.csv')

@@ -29,7 +29,6 @@ def parse_main_table(url: str) -> pd.DataFrame:
         # Create a dictionary with the parsed data
         if len(cells := row.find_all('td')) > 0
     ]
-
     return pd.DataFrame(main_table_results).set_index('position')
 
 

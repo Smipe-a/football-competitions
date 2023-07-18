@@ -36,7 +36,7 @@ def accept_cookie_and_click_buttons(driver_chrome):
     wait.until(ec.element_to_be_clickable((By.CSS_SELECTOR, 'button.plus-more'))).click()
 
 
-def scrape_data():
+def scrape_data() -> list:
     # Open the web page using the Selenium library
     driver = webdriver.Chrome()
     driver.get('https://www.skysports.com/premier-league-results/2022-23')
@@ -63,17 +63,17 @@ def scrape_data():
         )
 
         match_data = {
-            "match_id": match_id,
-            "home_team": home_team,
-            "away_team": away_team,
-            "score_ht": match.find(class_='matches__teamscores-side').text.strip(),
-            "score_at": match.find(class_='matches__teamscores-side').find_next_sibling().text.strip(),
-            "date_start": date_with_year + ' ' + match.find(class_='matches__date').text.strip()
+            'match_id': match_id,
+            'home_team': home_team,
+            'away_team': away_team,
+            'score_ht': match.find(class_='matches__teamscores-side').text.strip(),
+            'score_at': match.find(class_='matches__teamscores-side').find_next_sibling().text.strip(),
+            'date_start': date_with_year + ' ' + match.find(class_='matches__date').text.strip()
         }
         match_table_results.append(match_data)
 
         # Create links for further parsing of match statistics and team statistics into separate files
-        path_teams = home_team.replace(' ', '-').lower() + '-vs-' + away_team.replace(' ', '-').lower()
+        path_teams = f"{home_team.replace(' ', '-').lower()}-vs-{away_team.replace(' ', '-').lower()}"
         players_path_url.append(f'https://www.skysports.com/football/{path_teams}/teams/{match_id}')
         teams_path_url.append(f'https://www.skysports.com/football/{path_teams}/stats/{match_id}')
 
@@ -86,7 +86,6 @@ def scrape_data():
 
 
 if __name__ == '__main__':
-    data_match_table_results = pd.DataFrame(scrape_data())
+    data_match_table_results = pd.DataFrame(scrape_data()).set_index('match_id')
     data_match_table_results['date_start'] = pd.to_datetime(data_match_table_results['date_start'])
-    data_match_table_results = data_match_table_results.set_index('match_id')
     data_match_table_results.to_csv('../data/match_table_results.csv')

@@ -13,6 +13,7 @@ from additional_file_statistics import dict_match_all_url
 
 
 match_officials = []
+# Create a list that contains a pair of teams for the current match_id and detailed match statistics
 players_statistics_home_team = []
 players_statistics_away_team = []
 
@@ -22,6 +23,8 @@ def quantity_events(event) -> int:
     return len(event)
 
 
+# Example formatting for minutes (also formats a string into age):
+# 90'+3' = 93
 def format_to_int(value: str) -> int:
     return int(re.sub(r'\D', '', value))
 
@@ -43,36 +46,40 @@ def format_price(price: str):
     return None
 
 
-def get_additional_info(url: str, player_skysports, dict_players: dict, block_players):
+# We supplement the main information from the skysports
+# source with additional information from transfermarket (transfer value, age, nationality, position)
+def get_additional_info(url: str, number_in_skysports, dict_players: dict, block_players):
     sub_block_players = block_players.find_all('table', class_='inline-table')
     for idx_block, player in enumerate(sub_block_players):
-        player_transfermarket = block_players.select('td.zentriert.rueckennummer')[idx_block].find(
+        number_in_transfermarket = block_players.select('td.zentriert.rueckennummer')[idx_block].find(
             'div', class_='rn_nummer').text.strip()
 
-        # Fix two number players
+        # Fix two number players (80 and 80)
         if url == f'https://www.transfermarkt.com/manchester-city_fulham-fc/aufstellung/spielbericht/3838230' and \
                 format_price(player.find('tr').find_next_sibling().text.strip()) == 1000000.0 and \
                 format_to_int(player.find('tr').text.strip()) == 17:
-            player_transfermarket = '82'
+            number_in_transfermarket = '82'
+
+        # We are correcting the error when player numbers differ between two different websites
+        if url == f'https://www.transfermarkt.com/leicester-city_brentford-fc/aufstellung/spielbericht/3837818' and \
+                number_in_transfermarket == '12':
+            number_in_transfermarket = '1'
 
         if url == f'https://www.transfermarkt.com/leicester-city_brentford-fc/aufstellung/spielbericht/3837818' and \
-                player_transfermarket == '12':
-            player_transfermarket = '1'
-
-        if url == f'https://www.transfermarkt.com/leicester-city_brentford-fc/aufstellung/spielbericht/3837818' and \
-                player_transfermarket == '29' and \
+                number_in_transfermarket == '29' and \
                 format_price(player.find('tr').find_next_sibling().text.strip()) == 20000000.0:
-            player_transfermarket = '20'
+            number_in_transfermarket = '20'
 
-        if str(player_skysports) == player_transfermarket:
+        if str(number_in_skysports) == number_in_transfermarket:
             nationality = player.find_next('td', class_='zentriert').find('img').get('title')
             age = format_to_int(player.find('tr').text.strip())
             position = format_position(block_players.select('td.zentriert.rueckennummer')[idx_block].get('title'))
             transfer_fee = format_price(player.find('tr').find_next_sibling().text.strip())
 
-            dict_players[player_transfermarket] = [nationality, age, position, transfer_fee]
+            dict_players[number_in_transfermarket] = [nationality, age, position, transfer_fee]
 
 
+# Obtain the basic statistics of players per match
 def get_statistics(match_id: int, url: str, players, soup_transfermarket, is_home: bool, is_first_team: bool):
     for player in players:
         # Find the first name and last name of the football player,
@@ -206,14 +213,11 @@ def get_officials_match(match_id: int, soup_skysports, soup_transfermarket) -> l
 
 # Open the file that contains URLs of all matches
 def scrape_data(url: str):
-    # Create a list that contains a pair of teams for the current match_id and detailed match statistics
-
     response = requests.get(url.strip(), timeout=20)
     soup_ss = BeautifulSoup(response.text, 'html.parser')
 
     transfermarkt_match_sheet = dict_match_all_url[url[35:-14]]
     response = requests.get(transfermarkt_match_sheet, headers={'User-Agent': UserAgent().chrome}, timeout=50)
-    print(transfermarkt_match_sheet)
 
     # Generating a link to navigate to the page with match lineups
     url_lineup = BeautifulSoup(response.text, 'html.parser').find('a', string='Line-ups').get('href')
@@ -226,8 +230,7 @@ def scrape_data(url: str):
     match_officials.extend(get_officials_match(int(url[-7:]), soup_ss, soup_tm))
 
     # Creating the players_statistics tables
-    block_team = soup_ss.find_all('div', class_='sdc-site-team-lineup__header '
-                                                'sdc-site-team-lineup__header--main')
+    block_team = soup_ss.find_all('div', class_='sdc-site-team-lineup__header sdc-site-team-lineup__header--main')
     flag_team = True
     for team in block_team:
         main_players = team.find_next_sibling('dl').find_all('dd', class_='sdc-site-team-lineup__player-name')
@@ -246,7 +249,9 @@ if __name__ == '__main__':
         urls = file.readlines()
 
     with ThreadPoolExecutor() as executor:
-        executor.map(scrape_data, urls)
+        for i in range(0, len(urls), 10):
+            batch_urls = urls[i: i + 10]
+            executor.map(scrape_data, batch_urls)
 
     data_match_officials = pd.DataFrame(match_officials).set_index('match_id')
     data_match_officials.to_csv('../data/match_officials.csv')
