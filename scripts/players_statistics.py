@@ -113,11 +113,11 @@ def get_statistics(match_id: int, url: str, players, soup_transfermarket, is_hom
                         sub_on = event.find_all('li', class_='sdc-site-team-lineup__event')[0]
                         sub_on_time = sub_on.find('span', class_='sdc-site-team-lineup__visually-hidden').text.strip()
                         substitution = True
-                        play_time = 90 - format_to_int(sub_on_time)
+                        play_time = abs(90 - format_to_int(sub_on_time))
                     if event.find(class_='sdc-site-team-lineup__item-event-icon--sub-off'):
                         sub_off = event.find_all('li', class_='sdc-site-team-lineup__event')[1]
                         sub_off_time = sub_off.find('span', class_='sdc-site-team-lineup__visually-hidden').text.strip()
-                        play_time = 90 - format_to_int(sub_off_time) - play_time
+                        play_time = abs(90 - format_to_int(sub_off_time)) - play_time
 
                 # Counting the number of events that have occurred
                 goals = quantity_events(event.find_all(class_='sdc-site-team-lineup__item-event-icon--goal'))
