@@ -26,7 +26,7 @@ def quantity_events(event) -> int:
 # Example formatting for minutes (also formats a string into age):
 # 90'+3' = 93
 def format_to_int(value: str) -> int:
-    return int(re.sub(r'\D', '', value))
+    return sum([int(num) for num in re.findall(r'\d+', value)])
 
 
 def format_position(position: str) -> str:
@@ -132,7 +132,13 @@ def get_statistics(match_id: int, url: str, players, soup_transfermarket, is_hom
                 if event.find_all(class_='sdc-site-team-lineup__item-event-icon--red-card'):
                     block_red_card = event.find_all(class_='sdc-site-team-lineup__item-event-icon--red-card')
                     block_minute = block_red_card[0].find_next(class_="sdc-site-team-lineup__event_time").text.strip()
-                    play_time = format_to_int(block_minute)
+                    if is_first_team:
+                        play_time = format_to_int(block_minute)
+                    else:
+                        sub_on = event.find_all('li', class_='sdc-site-team-lineup__event')[0]
+                        sub_on_time = sub_on.find('span', class_='sdc-site-team-lineup__visually-hidden').text.strip()
+                        play_time = format_to_int(block_minute) - format_to_int(sub_on_time)
+
                     red_card = True
         except AttributeError:
             if is_first_team:
