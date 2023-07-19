@@ -20,7 +20,7 @@ def get_stadium(header) -> str:
     return header.find(class_='sdc-site-match-header__detail-venue').text.strip()
 
 
-def get_attendance(header, url: str) -> int:
+def get_attendance(header, url: str):
     # We check 'attendance' for the absence of a block in the HTML
     attendance_element = header.find('span', class_='sdc-site-match-header__detail-attendance')
     if attendance_element:
@@ -28,10 +28,16 @@ def get_attendance(header, url: str) -> int:
         return int(re.findall(r'\d+', attendance_text)[0])
     else:
         transfermarkt_match_url = dict_match_all_url[url[35:-14]]
-        response = requests.get(transfermarkt_match_url, headers={'User-Agent': UserAgent().chrome}, timeout=20)
+        response = requests.get(transfermarkt_match_url, headers={'User-Agent': UserAgent().chrome}, timeout=30)
         soup_tm = BeautifulSoup(response.text, 'html.parser')
-        attendance_text = soup_tm.find('p', class_='sb-zusatzinfos').find('strong').text.split(': ')[1].replace('.', '')
-        return int(attendance_text)
+        try:
+            attendance_text = soup_tm.find('p', class_='sb-zusatzinfos').find('strong').text.split(': ')[1].replace('.', '')
+        except IndexError:
+            attendance_text = None
+        if attendance_text is None:
+            return attendance_text
+        else:
+            return int(attendance_text)
 
 
 def extract_number(text: str):
@@ -75,16 +81,18 @@ def set_dict_statistics(team: list) -> dict:
 
 
 def process_match(url: str):
-    response = requests.get(url.strip(), timeout=10)
+    response = requests.get(url.strip(), timeout=30)
     soup = BeautifulSoup(response.text, 'html.parser')
 
     head = soup.find(class_='sdc-site-match-header__detail')
 
+    print(url)
     stadium = get_stadium(head)
     attendance = get_attendance(head, url)
 
     # We set initial values that are the same for both teams
     # match_id, stadium, attendance, is_home_team
+    stadium = stadium.replace('.com', '')
     if stadium[-1] == '.':
         stadium = stadium[:-1]
     if stadium == "St James' Park, Newcastle":
