@@ -86,7 +86,6 @@ def process_match(url: str):
 
     head = soup.find(class_='sdc-site-match-header__detail')
 
-    print(url)
     stadium = get_stadium(head)
     attendance = get_attendance(head, url)
 
