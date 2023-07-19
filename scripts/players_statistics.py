@@ -130,6 +130,9 @@ def get_statistics(match_id: int, url: str, players, soup_transfermarket, is_hom
                 if event.find_all(class_='sdc-site-team-lineup__item-event-icon--yellow-card'):
                     yellow_card = True
                 if event.find_all(class_='sdc-site-team-lineup__item-event-icon--red-card'):
+                    block_red_card = event.find_all(class_='sdc-site-team-lineup__item-event-icon--red-card')
+                    block_minute = block_red_card[0].find_next(class_="sdc-site-team-lineup__event_time").text.strip()
+                    play_time = format_to_int(block_minute)
                     red_card = True
         except AttributeError:
             if is_first_team:
