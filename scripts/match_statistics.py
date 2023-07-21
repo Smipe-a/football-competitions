@@ -30,10 +30,13 @@ def get_attendance(header, url: str):
         transfermarkt_match_url = dict_match_all_url[url[35:-14]]
         response = requests.get(transfermarkt_match_url, headers={'User-Agent': UserAgent().chrome}, timeout=30)
         soup_tm = BeautifulSoup(response.text, 'html.parser')
+
         try:
-            attendance_text = soup_tm.find('p', class_='sb-zusatzinfos').find('strong').text.split(': ')[1].replace('.', '')
+            attendance_text = soup_tm.find('p', class_='sb-zusatzinfos').find(
+                'strong').text.split(': ')[1].replace('.', '')
         except IndexError:
             attendance_text = None
+
         if attendance_text is None:
             return attendance_text
         else:
@@ -91,7 +94,7 @@ def process_match(url: str):
 
     # We set initial values that are the same for both teams
     # match_id, stadium, attendance, is_home_team
-    stadium = stadium.replace('.com', '')
+    stadium = re.sub(r'\s+', ' ', stadium.replace('.com', ''))
     if stadium[-1] == '.':
         stadium = stadium[:-1]
     if stadium == "St James' Park, Newcastle":

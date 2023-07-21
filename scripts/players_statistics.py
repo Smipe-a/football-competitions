@@ -48,39 +48,21 @@ def format_price(price: str):
 
 # We supplement the main information from the skysports
 # source with additional information from transfermarket (transfer value, age, nationality, position)
-def get_additional_info(url: str, number_in_skysports, dict_players: dict, block_players):
+def get_additional_info(dict_players: dict, block_players):
     sub_block_players = block_players.find_all('table', class_='inline-table')
     for idx_block, player in enumerate(sub_block_players):
         number_in_transfermarket = block_players.select('td.zentriert.rueckennummer')[idx_block].find(
             'div', class_='rn_nummer').text.strip()
 
-        # Fix two number players (80 and 80)
-        if url == f'https://www.transfermarkt.com/manchester-city_fulham-fc/aufstellung/spielbericht/3838230' and \
-                format_price(player.find('tr').find_next_sibling().text.strip()) == 1000000.0 and \
-                format_to_int(player.find('tr').text.strip()) == 17:
-            number_in_transfermarket = '82'
-
-        # We are correcting the error when player numbers differ between two different websites
-        if url == f'https://www.transfermarkt.com/leicester-city_brentford-fc/aufstellung/spielbericht/3837818' and \
-                number_in_transfermarket == '12':
-            number_in_transfermarket = '1'
-
-        if url == f'https://www.transfermarkt.com/leicester-city_brentford-fc/aufstellung/spielbericht/3837818' and \
-                number_in_transfermarket == '29' and \
-                format_price(player.find('tr').find_next_sibling().text.strip()) == 20000000.0:
-            number_in_transfermarket = '20'
-
-        if str(number_in_skysports) == number_in_transfermarket:
-            nationality = player.find_next('td', class_='zentriert').find('img').get('title')
-            age = format_to_int(player.find('tr').text.strip())
-            position = format_position(block_players.select('td.zentriert.rueckennummer')[idx_block].get('title'))
-            transfer_fee = format_price(player.find('tr').find_next_sibling().text.strip())
-
-            dict_players[number_in_transfermarket] = [nationality, age, position, transfer_fee]
+        nationality = player.find_next('td', class_='zentriert').find('img').get('title')
+        age = format_to_int(player.find('tr').text.strip())
+        position = format_position(block_players.select('td.zentriert.rueckennummer')[idx_block].get('title'))
+        transfer_fee = format_price(player.find('tr').find_next_sibling().text.strip())
+        dict_players[number_in_transfermarket] = [nationality, age, position, transfer_fee]
 
 
 # Obtain the basic statistics of players per match
-def get_statistics(match_id: int, url: str, players, soup_transfermarket, is_home: bool, is_first_team: bool):
+def get_statistics(match_id: int, players, soup_transfermarket, is_home: bool, is_first_team: bool):
     for player in players:
         # Find the first name and last name of the football player,
         # if the first name is not specified, we keep only the last name
@@ -91,6 +73,7 @@ def get_statistics(match_id: int, url: str, players, soup_transfermarket, is_hom
             name = ''
         surname = player.find('span', class_='sdc-site-team-lineup__player-surname').text.strip()
         full_name = surname if not name else f'{name} {surname}'
+        full_name = re.sub(r'\s+', ' ', full_name)
 
         if is_first_team:
             play_time = 90
@@ -156,11 +139,14 @@ def get_statistics(match_id: int, url: str, players, soup_transfermarket, is_hom
         dict_info_players = {}
 
         if is_home:
-            get_additional_info(url, number, dict_info_players, all_home_players[0])
-            get_additional_info(url, number, dict_info_players, all_home_players[2])
+            get_additional_info(dict_info_players, all_home_players[0])
+            get_additional_info(dict_info_players, all_home_players[2])
         else:
-            get_additional_info(url, number, dict_info_players, all_home_players[1])
-            get_additional_info(url, number, dict_info_players, all_home_players[3])
+            get_additional_info(dict_info_players, all_home_players[1])
+            get_additional_info(dict_info_players, all_home_players[3])
+
+        if str(number) not in dict_info_players:
+            dict_info_players[number] = [None, None, None, None]
 
         player_statistics = {
             'match_id': match_id,
@@ -192,7 +178,7 @@ def get_statistics(match_id: int, url: str, players, soup_transfermarket, is_hom
 def set_officials_match(match_id: int, name_officials: str, role: str) -> dict:
     return {
         'match_id': match_id,
-        'name_officials': name_officials,
+        'name_officials': re.sub(r'\s+', ' ', name_officials.replace('†', '')),
         'role': role
     }
 
@@ -210,13 +196,14 @@ def get_officials_match(match_id: int, soup_skysports, soup_transfermarket) -> l
     officials_match.append(set_officials_match(match_id, manager_home_name, 'Manager Home Team'))
     officials_match.append(set_officials_match(match_id, manager_away_name, 'Manager Away Team'))
 
-    officials_list = soup_skysports.find('dl', class_='sdc-site-team-lineup__officials-list')
-    block_officials = officials_list.find_all('dd', class_='sdc-site-team-lineup__officials-name')
-    officials_data = [(official.text.strip().split(', '), official.get('data-officials-role')) for official in
-                      block_officials]
-    for name_officials, officials_role in officials_data:
-        for name_person in name_officials:
-            officials_match.append(set_officials_match(match_id, name_person, officials_role))
+    if not soup_skysports.find('dl', class_='sdc-site-team-lineup__officials-list') is None:
+        officials_list = soup_skysports.find('dl', class_='sdc-site-team-lineup__officials-list')
+        block_officials = officials_list.find_all('dd', class_='sdc-site-team-lineup__officials-name')
+        officials_data = [(official.text.strip().split(', '), official.get('data-officials-role')) for official in
+                          block_officials]
+        for name_officials, officials_role in officials_data:
+            for name_person in name_officials:
+                officials_match.append(set_officials_match(match_id, name_person, officials_role))
     return officials_match
 
 
@@ -226,12 +213,12 @@ def scrape_data(url: str):
     soup_ss = BeautifulSoup(response.text, 'html.parser')
 
     transfermarkt_match_sheet = dict_match_all_url[url[35:-14]]
+
     response = requests.get(transfermarkt_match_sheet, headers={'User-Agent': UserAgent().chrome}, timeout=50)
 
     # Generating a link to navigate to the page with match lineups
     url_lineup = BeautifulSoup(response.text, 'html.parser').find('a', string='Line-ups').get('href')
     transfermarket_line_ups = f'https://www.transfermarkt.com{url_lineup}'
-
     response = requests.get(transfermarket_line_ups, headers={'User-Agent': UserAgent().chrome}, timeout=20)
     soup_tm = BeautifulSoup(response.text, 'html.parser')
 
@@ -243,13 +230,13 @@ def scrape_data(url: str):
     flag_team = True
     for team in block_team:
         main_players = team.find_next_sibling('dl').find_all('dd', class_='sdc-site-team-lineup__player-name')
-        get_statistics(int(url[-7:]), transfermarket_line_ups, main_players, soup_tm, flag_team, True)
+        get_statistics(int(url[-7:]), main_players, soup_tm, flag_team, True)
 
         substitutes = team.find_next_sibling('h5', class_='sdc-site-team-lineup__header--subs')
         if substitutes:
             substitutes_players = substitutes.find_next_sibling('dl').find_all(
                 'dd', class_='sdc-site-team-lineup__player-name')
-            get_statistics(int(url[-7:]), transfermarket_line_ups, substitutes_players, soup_tm, flag_team, False)
+            get_statistics(int(url[-7:]), substitutes_players, soup_tm, flag_team, False)
         flag_team = False
 
 

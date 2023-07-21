@@ -13,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor
 # An example of string formatting:
 # AFC Bournemouth -> bournemouth
 def format_string(team_name: str) -> str:
-    return re.sub(r'( FC|AFC )', '', team_name).replace('&', 'and').lower().replace(' ', '-')
+    return re.sub(r'( FC|AFC | AFC)', '', team_name).replace('&', 'and').lower().replace(' ', '-')
 
 
 def get_teams_urls(soup) -> list:
