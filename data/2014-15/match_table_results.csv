@@ -1,0 +1,381 @@
+match_id,home_team,away_team,score_ht,score_at,date_start
+313757,Arsenal,West Bromwich Albion,4,1,2015-05-24 15:00:00
+313758,Aston Villa,Burnley,0,1,2015-05-24 15:00:00
+313759,Chelsea,Sunderland,3,1,2015-05-24 15:00:00
+313760,Crystal Palace,Swansea City,1,0,2015-05-24 15:00:00
+313761,Everton,Tottenham Hotspur,0,1,2015-05-24 15:00:00
+313762,Hull City,Manchester United,0,0,2015-05-24 15:00:00
+313763,Leicester City,Queens Park Rangers,5,1,2015-05-24 15:00:00
+313764,Manchester City,Southampton,2,0,2015-05-24 15:00:00
+313765,Newcastle United,West Ham United,2,0,2015-05-24 15:00:00
+313766,Stoke City,Liverpool,6,1,2015-05-24 15:00:00
+313707,Arsenal,Sunderland,0,0,2015-05-20 19:45:00
+313755,West Bromwich Albion,Chelsea,3,0,2015-05-18 20:00:00
+313753,Swansea City,Manchester City,2,4,2015-05-17 13:30:00
+313749,Manchester United,Arsenal,1,1,2015-05-17 16:00:00
+313751,Southampton,Aston Villa,6,1,2015-05-16 12:45:00
+313747,Burnley,Stoke City,0,0,2015-05-16 15:00:00
+313750,Queens Park Rangers,Newcastle United,2,1,2015-05-16 15:00:00
+313752,Sunderland,Leicester City,0,0,2015-05-16 15:00:00
+313754,Tottenham Hotspur,Hull City,2,0,2015-05-16 15:00:00
+313756,West Ham United,Everton,1,2,2015-05-16 15:00:00
+313748,Liverpool,Crystal Palace,1,3,2015-05-16 17:30:00
+313737,Arsenal,Swansea City,0,1,2015-05-11 20:00:00
+313744,Manchester City,Queens Park Rangers,6,0,2015-05-10 13:30:00
+313739,Chelsea,Liverpool,1,1,2015-05-10 16:00:00
+313741,Everton,Sunderland,0,2,2015-05-09 12:45:00
+313738,Aston Villa,West Ham United,1,0,2015-05-09 15:00:00
+313742,Hull City,Burnley,0,1,2015-05-09 15:00:00
+313743,Leicester City,Southampton,2,0,2015-05-09 15:00:00
+313745,Newcastle United,West Bromwich Albion,1,1,2015-05-09 15:00:00
+313746,Stoke City,Tottenham Hotspur,3,0,2015-05-09 15:00:00
+313740,Crystal Palace,Manchester United,1,2,2015-05-09 17:30:00
+313729,Hull City,Arsenal,1,3,2015-05-04 20:00:00
+313728,Chelsea,Crystal Palace,1,0,2015-05-03 13:30:00
+313735,Tottenham Hotspur,Manchester City,0,1,2015-05-03 16:00:00
+313730,Leicester City,Newcastle United,3,0,2015-05-02 12:45:00
+313727,Aston Villa,Everton,3,2,2015-05-02 15:00:00
+313731,Liverpool,Queens Park Rangers,2,1,2015-05-02 15:00:00
+313733,Sunderland,Southampton,2,1,2015-05-02 15:00:00
+313734,Swansea City,Stoke City,2,0,2015-05-02 15:00:00
+313736,West Ham United,Burnley,1,0,2015-05-02 15:00:00
+313732,Manchester United,West Bromwich Albion,0,1,2015-05-02 17:30:00
+313649,Leicester City,Chelsea,1,3,2015-04-29 19:45:00
+313712,Hull City,Liverpool,1,0,2015-04-28 19:45:00
+313720,Everton,Manchester United,3,0,2015-04-26 13:30:00
+313717,Arsenal,Chelsea,0,0,2015-04-26 16:00:00
+313724,Southampton,Tottenham Hotspur,2,2,2015-04-25 12:45:00
+313718,Burnley,Leicester City,0,1,2015-04-25 15:00:00
+313719,Crystal Palace,Hull City,0,2,2015-04-25 15:00:00
+313722,Newcastle United,Swansea City,2,3,2015-04-25 15:00:00
+313723,Queens Park Rangers,West Ham United,0,0,2015-04-25 15:00:00
+313725,Stoke City,Sunderland,1,1,2015-04-25 15:00:00
+313726,West Bromwich Albion,Liverpool,0,0,2015-04-25 15:00:00
+313721,Manchester City,Aston Villa,3,2,2015-04-25 17:30:00
+313714,Manchester City,West Ham United,2,0,2015-04-19 13:30:00
+313715,Newcastle United,Tottenham Hotspur,1,3,2015-04-19 16:00:00
+313710,Crystal Palace,West Bromwich Albion,0,2,2015-04-18 15:00:00
+313711,Everton,Burnley,1,0,2015-04-18 15:00:00
+313713,Leicester City,Swansea City,2,0,2015-04-18 15:00:00
+313716,Stoke City,Southampton,2,1,2015-04-18 15:00:00
+313709,Chelsea,Manchester United,1,0,2015-04-18 17:30:00
+313698,Liverpool,Newcastle United,2,0,2015-04-13 20:00:00
+313700,Queens Park Rangers,Chelsea,0,1,2015-04-12 13:30:00
+313699,Manchester United,Manchester City,4,2,2015-04-12 16:00:00
+313703,Swansea City,Everton,1,1,2015-04-11 12:45:00
+313701,Southampton,Hull City,2,0,2015-04-11 15:00:00
+313702,Sunderland,Crystal Palace,1,4,2015-04-11 15:00:00
+313704,Tottenham Hotspur,Aston Villa,0,1,2015-04-11 15:00:00
+313705,West Bromwich Albion,Leicester City,2,3,2015-04-11 15:00:00
+313706,West Ham United,Stoke City,1,1,2015-04-11 15:00:00
+313697,Burnley,Arsenal,0,1,2015-04-11 17:30:00
+313708,Aston Villa,Queens Park Rangers,3,3,2015-04-07 19:45:00
+313690,Crystal Palace,Manchester City,2,1,2015-04-06 20:00:00
+313688,Burnley,Tottenham Hotspur,0,0,2015-04-05 13:30:00
+313694,Sunderland,Newcastle United,1,0,2015-04-05 16:00:00
+313687,Arsenal,Liverpool,4,1,2015-04-04 12:45:00
+313691,Everton,Southampton,1,0,2015-04-04 15:00:00
+313692,Leicester City,West Ham United,2,1,2015-04-04 15:00:00
+313693,Manchester United,Aston Villa,3,1,2015-04-04 15:00:00
+313695,Swansea City,Hull City,3,1,2015-04-04 15:00:00
+313696,West Bromwich Albion,Queens Park Rangers,1,4,2015-04-04 15:00:00
+313689,Chelsea,Stoke City,2,1,2015-04-04 17:30:00
+313679,Liverpool,Manchester United,1,2,2015-03-22 13:30:00
+313678,Hull City,Chelsea,2,3,2015-03-22 16:00:00
+313682,Queens Park Rangers,Everton,1,2,2015-03-22 16:00:00
+313680,Manchester City,West Bromwich Albion,3,0,2015-03-21 12:45:00
+313677,Aston Villa,Swansea City,0,1,2015-03-21 15:00:00
+313681,Newcastle United,Arsenal,1,2,2015-03-21 15:00:00
+313683,Southampton,Burnley,2,0,2015-03-21 15:00:00
+313684,Stoke City,Crystal Palace,1,2,2015-03-21 15:00:00
+313685,Tottenham Hotspur,Leicester City,4,3,2015-03-21 15:00:00
+313686,West Ham United,Sunderland,1,0,2015-03-21 17:30:00
+313675,Swansea City,Liverpool,0,1,2015-03-16 20:00:00
+313669,Chelsea,Southampton,1,1,2015-03-15 13:30:00
+313671,Everton,Newcastle United,3,0,2015-03-15 16:00:00
+313673,Manchester United,Tottenham Hotspur,3,0,2015-03-15 16:00:00
+313670,Crystal Palace,Queens Park Rangers,3,1,2015-03-14 12:45:00
+313667,Arsenal,West Ham United,3,0,2015-03-14 15:00:00
+313672,Leicester City,Hull City,0,0,2015-03-14 15:00:00
+313674,Sunderland,Aston Villa,0,4,2015-03-14 15:00:00
+313676,West Bromwich Albion,Stoke City,1,0,2015-03-14 15:00:00
+313668,Burnley,Manchester City,1,0,2015-03-14 17:30:00
+313653,Queens Park Rangers,Tottenham Hotspur,1,2,2015-03-07 15:00:00
+313663,Manchester City,Leicester City,2,0,2015-03-04 19:45:00
+313664,Newcastle United,Manchester United,0,1,2015-03-04 19:45:00
+313660,Queens Park Rangers,Arsenal,1,2,2015-03-04 19:45:00
+313665,Stoke City,Everton,2,0,2015-03-04 19:45:00
+313666,Tottenham Hotspur,Swansea City,3,2,2015-03-04 19:45:00
+313662,West Ham United,Chelsea,0,1,2015-03-04 19:45:00
+313659,Liverpool,Burnley,2,0,2015-03-04 20:00:00
+313657,Aston Villa,West Bromwich Albion,2,1,2015-03-03 19:45:00
+313658,Hull City,Sunderland,1,1,2015-03-03 19:45:00
+313661,Southampton,Crystal Palace,1,0,2015-03-03 19:45:00
+313650,Liverpool,Manchester City,2,1,2015-03-01 12:00:00
+313647,Arsenal,Everton,2,0,2015-03-01 14:05:00
+313656,West Ham United,Crystal Palace,1,3,2015-02-28 12:45:00
+313648,Burnley,Swansea City,0,1,2015-02-28 15:00:00
+313651,Manchester United,Sunderland,2,0,2015-02-28 15:00:00
+313652,Newcastle United,Aston Villa,1,0,2015-02-28 15:00:00
+313654,Stoke City,Hull City,1,0,2015-02-28 15:00:00
+313655,West Bromwich Albion,Southampton,1,0,2015-02-28 15:00:00
+313646,Tottenham Hotspur,West Ham United,2,2,2015-02-22 12:00:00
+313640,Everton,Leicester City,2,2,2015-02-22 14:05:00
+313643,Southampton,Liverpool,0,2,2015-02-22 16:15:00
+313637,Aston Villa,Stoke City,1,2,2015-02-21 15:00:00
+313638,Chelsea,Burnley,1,1,2015-02-21 15:00:00
+313639,Crystal Palace,Arsenal,1,2,2015-02-21 15:00:00
+313641,Hull City,Queens Park Rangers,2,1,2015-02-21 15:00:00
+313644,Sunderland,West Bromwich Albion,0,0,2015-02-21 15:00:00
+313645,Swansea City,Manchester United,2,1,2015-02-21 15:00:00
+313642,Manchester City,Newcastle United,5,0,2015-02-21 17:30:00
+313634,Chelsea,Everton,1,0,2015-02-11 19:45:00
+313631,Manchester United,Burnley,3,1,2015-02-11 19:45:00
+313632,Southampton,West Ham United,0,0,2015-02-11 19:45:00
+313635,Stoke City,Manchester City,1,4,2015-02-11 19:45:00
+313628,Crystal Palace,Newcastle United,1,1,2015-02-11 20:00:00
+313633,West Bromwich Albion,Swansea City,2,0,2015-02-11 20:00:00
+313627,Arsenal,Leicester City,2,1,2015-02-10 19:45:00
+313629,Hull City,Aston Villa,2,0,2015-02-10 19:45:00
+313636,Sunderland,Queens Park Rangers,0,2,2015-02-10 19:45:00
+313630,Liverpool,Tottenham Hotspur,3,2,2015-02-10 20:00:00
+313618,Burnley,West Bromwich Albion,2,2,2015-02-08 12:00:00
+313622,Newcastle United,Stoke City,1,1,2015-02-08 14:05:00
+313626,West Ham United,Manchester United,1,1,2015-02-08 16:15:00
+313625,Tottenham Hotspur,Arsenal,2,1,2015-02-07 12:45:00
+313617,Aston Villa,Chelsea,1,2,2015-02-07 15:00:00
+313620,Leicester City,Crystal Palace,0,1,2015-02-07 15:00:00
+313621,Manchester City,Hull City,1,1,2015-02-07 15:00:00
+313623,Queens Park Rangers,Southampton,0,1,2015-02-07 15:00:00
+313624,Swansea City,Sunderland,1,1,2015-02-07 15:00:00
+313619,Everton,Liverpool,0,0,2015-02-07 17:30:00
+313607,Arsenal,Aston Villa,5,0,2015-02-01 13:30:00
+313613,Southampton,Swansea City,0,1,2015-02-01 16:00:00
+313610,Hull City,Newcastle United,0,3,2015-01-31 12:45:00
+313609,Crystal Palace,Everton,0,1,2015-01-31 15:00:00
+313611,Liverpool,West Ham United,2,0,2015-01-31 15:00:00
+313612,Manchester United,Leicester City,3,1,2015-01-31 15:00:00
+313614,Stoke City,Queens Park Rangers,3,1,2015-01-31 15:00:00
+313615,Sunderland,Burnley,2,0,2015-01-31 15:00:00
+313616,West Bromwich Albion,Tottenham Hotspur,0,3,2015-01-31 15:00:00
+313608,Chelsea,Manchester City,1,1,2015-01-31 17:30:00
+313599,Everton,West Bromwich Albion,0,0,2015-01-19 20:00:00
+313606,West Ham United,Hull City,3,0,2015-01-18 13:30:00
+313601,Manchester City,Arsenal,0,2,2015-01-18 16:00:00
+313597,Aston Villa,Liverpool,0,2,2015-01-17 15:00:00
+313598,Burnley,Crystal Palace,2,3,2015-01-17 15:00:00
+313600,Leicester City,Stoke City,0,1,2015-01-17 15:00:00
+313603,Queens Park Rangers,Manchester United,0,2,2015-01-17 15:00:00
+313604,Swansea City,Chelsea,0,5,2015-01-17 15:00:00
+313605,Tottenham Hotspur,Sunderland,2,1,2015-01-17 15:00:00
+313602,Newcastle United,Southampton,1,2,2015-01-17 17:30:00
+313587,Arsenal,Stoke City,3,0,2015-01-11 13:30:00
+313593,Manchester United,Southampton,0,1,2015-01-11 16:00:00
+313594,Sunderland,Liverpool,0,1,2015-01-10 12:45:00
+313588,Burnley,Queens Park Rangers,2,1,2015-01-10 15:00:00
+313589,Chelsea,Newcastle United,2,0,2015-01-10 15:00:00
+313591,Everton,Manchester City,1,1,2015-01-10 15:00:00
+313592,Leicester City,Aston Villa,1,0,2015-01-10 15:00:00
+313595,Swansea City,West Ham United,1,1,2015-01-10 15:00:00
+313596,West Bromwich Albion,Hull City,1,0,2015-01-10 15:00:00
+313590,Crystal Palace,Tottenham Hotspur,2,1,2015-01-10 17:30:00
+313584,Stoke City,Manchester United,1,1,2015-01-01 12:45:00
+313577,Aston Villa,Crystal Palace,0,0,2015-01-01 15:00:00
+313578,Hull City,Everton,2,0,2015-01-01 15:00:00
+313579,Liverpool,Leicester City,2,2,2015-01-01 15:00:00
+313580,Manchester City,Sunderland,3,2,2015-01-01 15:00:00
+313581,Newcastle United,Burnley,3,3,2015-01-01 15:00:00
+313582,Queens Park Rangers,Swansea City,1,1,2015-01-01 15:00:00
+313583,Southampton,Arsenal,2,0,2015-01-01 15:00:00
+313586,West Ham United,West Bromwich Albion,1,1,2015-01-01 15:00:00
+313585,Tottenham Hotspur,Chelsea,5,3,2015-01-01 17:30:00
+313569,Liverpool,Swansea City,4,1,2014-12-29 20:00:00
+313575,Tottenham Hotspur,Manchester United,0,0,2014-12-28 12:00:00
+313573,Southampton,Chelsea,1,1,2014-12-28 14:05:00
+313567,Aston Villa,Sunderland,0,0,2014-12-28 15:00:00
+313568,Hull City,Leicester City,0,1,2014-12-28 15:00:00
+313570,Manchester City,Burnley,2,2,2014-12-28 15:00:00
+313572,Queens Park Rangers,Crystal Palace,0,0,2014-12-28 15:00:00
+313574,Stoke City,West Bromwich Albion,2,0,2014-12-28 15:00:00
+313576,West Ham United,Arsenal,1,2,2014-12-28 15:00:00
+313571,Newcastle United,Everton,3,2,2014-12-28 16:15:00
+313559,Chelsea,West Ham United,2,0,2014-12-26 12:45:00
+313558,Burnley,Liverpool,0,1,2014-12-26 15:00:00
+313560,Crystal Palace,Southampton,1,3,2014-12-26 15:00:00
+313561,Everton,Stoke City,0,1,2014-12-26 15:00:00
+313562,Leicester City,Tottenham Hotspur,1,2,2014-12-26 15:00:00
+313563,Manchester United,Newcastle United,3,1,2014-12-26 15:00:00
+313564,Sunderland,Hull City,1,3,2014-12-26 15:00:00
+313565,Swansea City,Aston Villa,1,0,2014-12-26 15:00:00
+313566,West Bromwich Albion,Manchester City,1,3,2014-12-26 15:00:00
+313557,Arsenal,Queens Park Rangers,2,1,2014-12-26 17:30:00
+313554,Stoke City,Chelsea,0,2,2014-12-22 20:00:00
+313551,Newcastle United,Sunderland,0,1,2014-12-21 13:30:00
+313549,Liverpool,Arsenal,2,2,2014-12-21 16:00:00
+313550,Manchester City,Crystal Palace,3,0,2014-12-20 12:45:00
+313547,Aston Villa,Manchester United,1,1,2014-12-20 15:00:00
+313548,Hull City,Swansea City,0,1,2014-12-20 15:00:00
+313552,Queens Park Rangers,West Bromwich Albion,3,2,2014-12-20 15:00:00
+313553,Southampton,Everton,3,0,2014-12-20 15:00:00
+313555,Tottenham Hotspur,Burnley,2,1,2014-12-20 15:00:00
+313556,West Ham United,Leicester City,2,0,2014-12-20 15:00:00
+313541,Everton,Queens Park Rangers,3,1,2014-12-15 20:00:00
+313543,Manchester United,Liverpool,3,0,2014-12-14 13:30:00
+313545,Swansea City,Tottenham Hotspur,1,2,2014-12-14 16:00:00
+313538,Burnley,Southampton,1,0,2014-12-13 15:00:00
+313539,Chelsea,Hull City,2,0,2014-12-13 15:00:00
+313540,Crystal Palace,Stoke City,1,1,2014-12-13 15:00:00
+313542,Leicester City,Manchester City,0,1,2014-12-13 15:00:00
+313544,Sunderland,West Ham United,1,1,2014-12-13 15:00:00
+313546,West Bromwich Albion,Aston Villa,1,0,2014-12-13 15:00:00
+313537,Arsenal,Newcastle United,4,1,2014-12-13 17:30:00
+313533,Southampton,Manchester United,1,2,2014-12-08 20:00:00
+313536,West Ham United,Swansea City,3,1,2014-12-07 13:30:00
+313527,Aston Villa,Leicester City,2,1,2014-12-07 16:00:00
+313531,Newcastle United,Chelsea,2,1,2014-12-06 12:45:00
+313528,Hull City,West Bromwich Albion,0,0,2014-12-06 15:00:00
+313529,Liverpool,Sunderland,0,0,2014-12-06 15:00:00
+313532,Queens Park Rangers,Burnley,2,0,2014-12-06 15:00:00
+313534,Stoke City,Arsenal,3,2,2014-12-06 15:00:00
+313535,Tottenham Hotspur,Crystal Palace,0,0,2014-12-06 15:00:00
+313530,Manchester City,Everton,1,0,2014-12-06 17:30:00
+313517,Arsenal,Southampton,1,0,2014-12-03 19:45:00
+313524,Chelsea,Tottenham Hotspur,3,0,2014-12-03 19:45:00
+313525,Everton,Hull City,1,1,2014-12-03 19:45:00
+313526,Sunderland,Manchester City,1,4,2014-12-03 19:45:00
+313518,Burnley,Newcastle United,1,1,2014-12-02 19:45:00
+313520,Leicester City,Liverpool,1,3,2014-12-02 19:45:00
+313521,Manchester United,Stoke City,2,1,2014-12-02 19:45:00
+313522,Swansea City,Queens Park Rangers,2,0,2014-12-02 19:45:00
+313519,Crystal Palace,Aston Villa,0,1,2014-12-02 20:00:00
+313523,West Bromwich Albion,West Ham United,1,2,2014-12-02 20:00:00
+313511,Southampton,Manchester City,0,3,2014-11-30 13:30:00
+313514,Tottenham Hotspur,Everton,2,1,2014-11-30 16:00:00
+313515,West Bromwich Albion,Arsenal,0,1,2014-11-29 12:45:00
+313507,Burnley,Aston Villa,1,1,2014-11-29 15:00:00
+313508,Liverpool,Stoke City,1,0,2014-11-29 15:00:00
+313509,Manchester United,Hull City,3,0,2014-11-29 15:00:00
+313510,Queens Park Rangers,Leicester City,3,2,2014-11-29 15:00:00
+313513,Swansea City,Crystal Palace,1,1,2014-11-29 15:00:00
+313516,West Ham United,Newcastle United,1,0,2014-11-29 15:00:00
+313512,Sunderland,Chelsea,0,0,2014-11-29 17:30:00
+313498,Aston Villa,Southampton,1,1,2014-11-24 20:00:00
+313500,Crystal Palace,Liverpool,3,1,2014-11-23 13:30:00
+313502,Hull City,Tottenham Hotspur,1,2,2014-11-23 16:00:00
+313499,Chelsea,West Bromwich Albion,2,0,2014-11-22 15:00:00
+313501,Everton,West Ham United,2,1,2014-11-22 15:00:00
+313503,Leicester City,Sunderland,0,0,2014-11-22 15:00:00
+313504,Manchester City,Swansea City,2,1,2014-11-22 15:00:00
+313505,Newcastle United,Queens Park Rangers,1,0,2014-11-22 15:00:00
+313506,Stoke City,Burnley,1,2,2014-11-22 15:00:00
+313497,Arsenal,Manchester United,1,2,2014-11-22 17:30:00
+313492,Sunderland,Everton,1,1,2014-11-09 13:30:00
+313494,Tottenham Hotspur,Stoke City,1,2,2014-11-09 13:30:00
+313495,West Bromwich Albion,Newcastle United,0,2,2014-11-09 13:30:00
+313493,Swansea City,Arsenal,2,1,2014-11-09 16:00:00
+313488,Liverpool,Chelsea,1,2,2014-11-08 12:45:00
+313487,Burnley,Hull City,1,0,2014-11-08 15:00:00
+313489,Manchester United,Crystal Palace,1,0,2014-11-08 15:00:00
+313491,Southampton,Leicester City,2,0,2014-11-08 15:00:00
+313496,West Ham United,Aston Villa,0,0,2014-11-08 15:00:00
+313490,Queens Park Rangers,Manchester City,2,2,2014-11-08 17:30:00
+313480,Crystal Palace,Sunderland,1,3,2014-11-03 20:00:00
+313484,Manchester City,Manchester United,1,0,2014-11-02 13:30:00
+313478,Aston Villa,Tottenham Hotspur,1,2,2014-11-02 16:00:00
+313485,Newcastle United,Liverpool,1,0,2014-11-01 12:45:00
+313477,Arsenal,Burnley,3,0,2014-11-01 15:00:00
+313479,Chelsea,Queens Park Rangers,2,1,2014-11-01 15:00:00
+313481,Everton,Swansea City,0,0,2014-11-01 15:00:00
+313482,Hull City,Southampton,0,1,2014-11-01 15:00:00
+313483,Leicester City,West Bromwich Albion,0,1,2014-11-01 15:00:00
+313486,Stoke City,West Ham United,2,2,2014-11-01 15:00:00
+313470,Queens Park Rangers,Aston Villa,2,0,2014-10-27 20:00:00
+313467,Burnley,Everton,1,3,2014-10-26 13:30:00
+313474,Tottenham Hotspur,Newcastle United,1,2,2014-10-26 13:30:00
+313469,Manchester United,Chelsea,1,1,2014-10-26 16:00:00
+313476,West Ham United,Manchester City,2,1,2014-10-25 12:45:00
+313468,Liverpool,Hull City,0,0,2014-10-25 15:00:00
+313471,Southampton,Stoke City,1,0,2014-10-25 15:00:00
+313472,Sunderland,Arsenal,0,2,2014-10-25 15:00:00
+313475,West Bromwich Albion,Crystal Palace,2,2,2014-10-25 15:00:00
+313473,Swansea City,Leicester City,2,0,2014-10-25 17:30:00
+313466,West Bromwich Albion,Manchester United,2,2,2014-10-20 20:00:00
+313463,Queens Park Rangers,Liverpool,2,3,2014-10-19 13:30:00
+313465,Stoke City,Swansea City,2,1,2014-10-19 16:00:00
+313461,Manchester City,Tottenham Hotspur,4,1,2014-10-18 12:45:00
+313457,Arsenal,Hull City,2,2,2014-10-18 15:00:00
+313458,Burnley,West Ham United,1,3,2014-10-18 15:00:00
+313459,Crystal Palace,Chelsea,1,2,2014-10-18 15:00:00
+313460,Everton,Aston Villa,3,0,2014-10-18 15:00:00
+313462,Newcastle United,Leicester City,1,0,2014-10-18 15:00:00
+313464,Southampton,Sunderland,8,0,2014-10-18 15:00:00
+313452,Manchester United,Everton,2,1,2014-10-05 12:00:00
+313448,Chelsea,Arsenal,2,0,2014-10-05 14:05:00
+313455,Tottenham Hotspur,Southampton,1,0,2014-10-05 14:05:00
+313456,West Ham United,Queens Park Rangers,2,0,2014-10-05 16:15:00
+313449,Hull City,Crystal Palace,2,0,2014-10-04 15:00:00
+313450,Leicester City,Burnley,2,2,2014-10-04 15:00:00
+313451,Liverpool,West Bromwich Albion,2,1,2014-10-04 15:00:00
+313453,Sunderland,Stoke City,3,1,2014-10-04 15:00:00
+313454,Swansea City,Newcastle United,2,2,2014-10-04 15:00:00
+313447,Aston Villa,Manchester City,0,2,2014-10-04 17:30:00
+313444,Stoke City,Newcastle United,1,0,2014-09-29 20:00:00
+313446,West Bromwich Albion,Burnley,4,0,2014-09-28 16:00:00
+313441,Liverpool,Everton,1,1,2014-09-27 12:45:00
+313438,Chelsea,Aston Villa,3,0,2014-09-27 15:00:00
+313439,Crystal Palace,Leicester City,2,0,2014-09-27 15:00:00
+313440,Hull City,Manchester City,2,4,2014-09-27 15:00:00
+313442,Manchester United,West Ham United,2,1,2014-09-27 15:00:00
+313443,Southampton,Queens Park Rangers,2,1,2014-09-27 15:00:00
+313445,Sunderland,Swansea City,0,0,2014-09-27 15:00:00
+313437,Arsenal,Tottenham Hotspur,1,1,2014-09-27 17:30:00
+313430,Leicester City,Manchester United,5,3,2014-09-21 13:30:00
+313435,Tottenham Hotspur,West Bromwich Albion,0,1,2014-09-21 13:30:00
+313429,Everton,Crystal Palace,2,3,2014-09-21 16:00:00
+313431,Manchester City,Chelsea,1,1,2014-09-21 16:00:00
+313433,Queens Park Rangers,Stoke City,2,2,2014-09-20 12:45:00
+313427,Aston Villa,Arsenal,0,3,2014-09-20 15:00:00
+313428,Burnley,Sunderland,0,0,2014-09-20 15:00:00
+313432,Newcastle United,Hull City,2,2,2014-09-20 15:00:00
+313434,Swansea City,Southampton,0,1,2014-09-20 15:00:00
+313436,West Ham United,Liverpool,3,1,2014-09-20 17:30:00
+313420,Hull City,West Ham United,2,2,2014-09-15 20:00:00
+313422,Manchester United,Queens Park Rangers,4,0,2014-09-14 16:00:00
+313417,Arsenal,Manchester City,2,2,2014-09-13 12:45:00
+313418,Chelsea,Swansea City,4,2,2014-09-13 15:00:00
+313419,Crystal Palace,Burnley,0,0,2014-09-13 15:00:00
+313423,Southampton,Newcastle United,4,0,2014-09-13 15:00:00
+313424,Stoke City,Leicester City,0,1,2014-09-13 15:00:00
+313425,Sunderland,Tottenham Hotspur,2,2,2014-09-13 15:00:00
+313426,West Bromwich Albion,Everton,0,2,2014-09-13 15:00:00
+313421,Liverpool,Aston Villa,0,1,2014-09-13 17:30:00
+313407,Aston Villa,Hull City,2,1,2014-08-31 13:30:00
+313415,Tottenham Hotspur,Liverpool,0,3,2014-08-31 13:30:00
+313410,Leicester City,Arsenal,1,1,2014-08-31 16:00:00
+313408,Burnley,Manchester United,0,0,2014-08-30 12:45:00
+313411,Manchester City,Stoke City,0,1,2014-08-30 15:00:00
+313412,Newcastle United,Crystal Palace,3,3,2014-08-30 15:00:00
+313413,Queens Park Rangers,Sunderland,1,0,2014-08-30 15:00:00
+313414,Swansea City,West Bromwich Albion,3,0,2014-08-30 15:00:00
+313416,West Ham United,Southampton,1,3,2014-08-30 15:00:00
+313409,Everton,Chelsea,3,6,2014-08-30 17:30:00
+313402,Manchester City,Liverpool,3,1,2014-08-25 20:00:00
+313401,Hull City,Stoke City,1,1,2014-08-24 13:30:00
+313406,Tottenham Hotspur,Queens Park Rangers,4,0,2014-08-24 13:30:00
+313404,Sunderland,Manchester United,1,1,2014-08-24 16:00:00
+313397,Aston Villa,Newcastle United,0,0,2014-08-23 12:45:00
+313398,Chelsea,Leicester City,2,0,2014-08-23 15:00:00
+313399,Crystal Palace,West Ham United,1,3,2014-08-23 15:00:00
+313403,Southampton,West Bromwich Albion,0,0,2014-08-23 15:00:00
+313405,Swansea City,Burnley,1,0,2014-08-23 15:00:00
+313400,Everton,Arsenal,2,2,2014-08-23 17:30:00
+313388,Burnley,Chelsea,1,3,2014-08-18 20:00:00
+313390,Liverpool,Southampton,2,1,2014-08-17 13:30:00
+313392,Newcastle United,Manchester City,0,2,2014-08-17 16:00:00
+313391,Manchester United,Swansea City,1,2,2014-08-16 12:45:00
+313389,Leicester City,Everton,2,2,2014-08-16 15:00:00
+313393,Queens Park Rangers,Hull City,0,1,2014-08-16 15:00:00
+313394,Stoke City,Aston Villa,0,1,2014-08-16 15:00:00
+313395,West Bromwich Albion,Sunderland,2,2,2014-08-16 15:00:00
+313396,West Ham United,Tottenham Hotspur,0,1,2014-08-16 15:00:00
+313387,Arsenal,Crystal Palace,2,1,2014-08-16 17:30:00

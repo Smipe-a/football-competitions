@@ -1,0 +1,381 @@
+match_id,home_team,away_team,score_ht,score_at,date_start
+261931,Chelsea,Everton,2,1,2013-05-19 16:00:00
+261932,Liverpool,Queens Park Rangers,1,0,2013-05-19 16:00:00
+261933,Manchester City,Norwich City,2,3,2013-05-19 16:00:00
+261934,Newcastle United,Arsenal,0,1,2013-05-19 16:00:00
+261935,Southampton,Stoke City,1,1,2013-05-19 16:00:00
+261936,Swansea City,Fulham,0,3,2013-05-19 16:00:00
+261937,Tottenham Hotspur,Sunderland,1,0,2013-05-19 16:00:00
+261938,West Bromwich Albion,Manchester United,5,5,2013-05-19 16:00:00
+261939,West Ham United,Reading,4,2,2013-05-19 16:00:00
+261940,Wigan Athletic,Aston Villa,2,2,2013-05-19 16:00:00
+285706,Arsenal,Wigan Athletic,4,1,2013-05-14 19:45:00
+285708,Reading,Manchester City,0,2,2013-05-14 20:00:00
+261929,Stoke City,Tottenham Hotspur,1,2,2013-05-12 13:30:00
+261923,Everton,West Ham United,2,0,2013-05-12 15:00:00
+261924,Fulham,Liverpool,1,3,2013-05-12 15:00:00
+261926,Norwich City,West Bromwich Albion,4,0,2013-05-12 15:00:00
+261927,Queens Park Rangers,Newcastle United,1,2,2013-05-12 15:00:00
+261930,Sunderland,Southampton,1,1,2013-05-12 15:00:00
+261925,Manchester United,Swansea City,2,1,2013-05-12 16:00:00
+285626,Aston Villa,Chelsea,1,2,2013-05-11 12:45:00
+285743,Chelsea,Tottenham Hotspur,2,2,2013-05-08 19:45:00
+285704,Manchester City,West Bromwich Albion,1,0,2013-05-07 19:45:00
+284613,Wigan Athletic,Swansea City,2,3,2013-05-07 19:45:00
+285625,Sunderland,Stoke City,1,1,2013-05-06 20:00:00
+285623,Liverpool,Everton,0,0,2013-05-05 13:30:00
+285624,Manchester United,Chelsea,0,1,2013-05-05 16:00:00
+261911,Fulham,Reading,2,4,2013-05-04 15:00:00
+261914,Norwich City,Aston Villa,1,2,2013-05-04 15:00:00
+261917,Swansea City,Manchester City,0,0,2013-05-04 15:00:00
+261918,Tottenham Hotspur,Southampton,1,0,2013-05-04 15:00:00
+261919,West Bromwich Albion,Wigan Athletic,2,3,2013-05-04 15:00:00
+261920,West Ham United,Newcastle United,0,0,2013-05-04 15:00:00
+261915,Queens Park Rangers,Arsenal,0,1,2013-05-04 17:30:00
+284967,Aston Villa,Sunderland,6,1,2013-04-29 20:00:00
+283166,Reading,Queens Park Rangers,0,0,2013-04-28 13:30:00
+285703,Chelsea,Swansea City,2,0,2013-04-28 15:00:00
+283167,Arsenal,Manchester United,1,1,2013-04-28 16:00:00
+261905,Manchester City,West Ham United,2,1,2013-04-27 12:45:00
+261904,Everton,Fulham,1,0,2013-04-27 15:00:00
+261908,Southampton,West Bromwich Albion,0,3,2013-04-27 15:00:00
+261909,Stoke City,Norwich City,1,0,2013-04-27 15:00:00
+261910,Wigan Athletic,Tottenham Hotspur,2,2,2013-04-27 15:00:00
+261906,Newcastle United,Liverpool,0,6,2013-04-27 17:30:00
+283165,Manchester United,Aston Villa,3,0,2013-04-22 20:00:00
+283163,Tottenham Hotspur,Manchester City,3,1,2013-04-21 13:30:00
+283164,Liverpool,Chelsea,2,2,2013-04-21 16:00:00
+261891,Fulham,Arsenal,0,1,2013-04-20 15:00:00
+261894,Norwich City,Reading,2,1,2013-04-20 15:00:00
+261895,Queens Park Rangers,Stoke City,0,2,2013-04-20 15:00:00
+261896,Sunderland,Everton,1,0,2013-04-20 15:00:00
+261897,Swansea City,Southampton,0,0,2013-04-20 15:00:00
+261899,West Bromwich Albion,Newcastle United,1,1,2013-04-20 15:00:00
+261900,West Ham United,Wigan Athletic,2,0,2013-04-20 15:00:00
+284611,Manchester City,Wigan Athletic,1,0,2013-04-17 19:45:00
+284612,West Ham United,Manchester United,2,2,2013-04-17 19:45:00
+285064,Fulham,Chelsea,0,3,2013-04-17 20:00:00
+284111,Arsenal,Everton,0,0,2013-04-16 19:45:00
+284903,Newcastle United,Sunderland,0,3,2013-04-14 12:00:00
+283160,Stoke City,Manchester United,0,2,2013-04-14 14:05:00
+261881,Arsenal,Norwich City,3,1,2013-04-13 15:00:00
+261882,Aston Villa,Fulham,1,1,2013-04-13 15:00:00
+261884,Everton,Queens Park Rangers,2,0,2013-04-13 15:00:00
+261887,Reading,Liverpool,0,0,2013-04-13 15:00:00
+261888,Southampton,West Ham United,1,1,2013-04-13 15:00:00
+283159,Manchester United,Manchester City,1,2,2013-04-08 20:00:00
+283157,Liverpool,West Ham United,0,0,2013-04-07 13:30:00
+283156,Tottenham Hotspur,Everton,2,2,2013-04-07 14:05:00
+284902,Chelsea,Sunderland,2,1,2013-04-07 15:00:00
+284793,Newcastle United,Fulham,1,0,2013-04-07 15:00:00
+283158,Queens Park Rangers,Wigan Athletic,1,1,2013-04-07 16:10:00
+261877,Reading,Southampton,0,2,2013-04-06 12:45:00
+261875,Norwich City,Swansea City,2,2,2013-04-06 15:00:00
+261878,Stoke City,Aston Villa,1,3,2013-04-06 15:00:00
+261880,West Bromwich Albion,Arsenal,1,2,2013-04-06 15:00:00
+281858,Fulham,Queens Park Rangers,3,2,2013-04-01 20:00:00
+281856,Aston Villa,Liverpool,1,2,2013-03-31 13:30:00
+261867,Sunderland,Manchester United,0,1,2013-03-30 12:45:00
+261861,Arsenal,Reading,4,1,2013-03-30 15:00:00
+261865,Manchester City,Newcastle United,4,0,2013-03-30 15:00:00
+261866,Southampton,Chelsea,2,1,2013-03-30 15:00:00
+261868,Swansea City,Tottenham Hotspur,1,2,2013-03-30 15:00:00
+261869,West Ham United,West Bromwich Albion,3,1,2013-03-30 15:00:00
+261870,Wigan Athletic,Norwich City,1,0,2013-03-30 15:00:00
+261863,Everton,Stoke City,1,0,2013-03-30 17:30:00
+281854,Sunderland,Norwich City,1,1,2013-03-17 13:30:00
+284107,Tottenham Hotspur,Fulham,0,1,2013-03-17 15:00:00
+284106,Chelsea,West Ham United,2,0,2013-03-17 16:00:00
+281855,Wigan Athletic,Newcastle United,2,1,2013-03-17 16:00:00
+261853,Everton,Manchester City,2,0,2013-03-16 12:45:00
+261851,Aston Villa,Queens Park Rangers,3,2,2013-03-16 15:00:00
+261855,Southampton,Liverpool,3,1,2013-03-16 15:00:00
+261856,Stoke City,West Bromwich Albion,0,0,2013-03-16 15:00:00
+261858,Swansea City,Arsenal,0,2,2013-03-16 15:00:00
+261854,Manchester United,Reading,1,0,2013-03-16 17:30:00
+284105,Newcastle United,Stoke City,2,1,2013-03-10 15:00:00
+281853,Liverpool,Tottenham Hotspur,3,2,2013-03-10 16:00:00
+261846,Norwich City,Southampton,0,0,2013-03-09 15:00:00
+261847,Queens Park Rangers,Sunderland,3,1,2013-03-09 15:00:00
+261848,Reading,Aston Villa,1,2,2013-03-09 15:00:00
+261849,West Bromwich Albion,Swansea City,2,1,2013-03-09 15:00:00
+281851,Aston Villa,Manchester City,0,1,2013-03-04 20:00:00
+281850,Tottenham Hotspur,Arsenal,2,1,2013-03-03 16:00:00
+261832,Chelsea,West Bromwich Albion,1,0,2013-03-02 15:00:00
+261833,Everton,Reading,3,1,2013-03-02 15:00:00
+261834,Manchester United,Norwich City,4,0,2013-03-02 15:00:00
+261835,Southampton,Queens Park Rangers,1,2,2013-03-02 15:00:00
+261836,Stoke City,West Ham United,0,1,2013-03-02 15:00:00
+261837,Sunderland,Fulham,2,2,2013-03-02 15:00:00
+261838,Swansea City,Newcastle United,1,0,2013-03-02 15:00:00
+261840,Wigan Athletic,Liverpool,0,4,2013-03-02 17:30:00
+280461,West Ham United,Tottenham Hotspur,2,3,2013-02-25 20:00:00
+280460,Manchester City,Chelsea,2,0,2013-02-24 13:30:00
+281513,Newcastle United,Southampton,4,2,2013-02-24 13:30:00
+261822,Fulham,Stoke City,1,0,2013-02-23 12:45:00
+261821,Arsenal,Aston Villa,2,1,2013-02-23 15:00:00
+261826,Norwich City,Everton,2,1,2013-02-23 15:00:00
+261827,Queens Park Rangers,Manchester United,0,2,2013-02-23 15:00:00
+261828,Reading,Wigan Athletic,0,3,2013-02-23 15:00:00
+261829,West Bromwich Albion,Sunderland,2,1,2013-02-23 15:00:00
+282452,Liverpool,Swansea City,5,0,2013-02-17 15:00:00
+280459,Liverpool,West Bromwich Albion,0,2,2013-02-11 20:00:00
+280457,Aston Villa,West Ham United,2,1,2013-02-10 13:30:00
+280458,Manchester United,Everton,2,0,2013-02-10 16:00:00
+261820,Tottenham Hotspur,Newcastle United,2,1,2013-02-09 12:45:00
+261812,Chelsea,Wigan Athletic,4,1,2013-02-09 15:00:00
+261815,Norwich City,Fulham,0,0,2013-02-09 15:00:00
+261817,Stoke City,Reading,2,1,2013-02-09 15:00:00
+261818,Sunderland,Arsenal,0,1,2013-02-09 15:00:00
+261819,Swansea City,Queens Park Rangers,4,1,2013-02-09 15:00:00
+261816,Southampton,Manchester City,3,1,2013-02-09 17:30:00
+280455,West Bromwich Albion,Tottenham Hotspur,0,1,2013-02-03 13:30:00
+280456,Manchester City,Liverpool,2,2,2013-02-03 16:00:00
+261806,Queens Park Rangers,Norwich City,0,0,2013-02-02 12:45:00
+261801,Arsenal,Stoke City,1,0,2013-02-02 15:00:00
+261802,Everton,Aston Villa,3,3,2013-02-02 15:00:00
+261805,Newcastle United,Chelsea,3,2,2013-02-02 15:00:00
+261807,Reading,Sunderland,2,1,2013-02-02 15:00:00
+261809,West Ham United,Swansea City,1,0,2013-02-02 15:00:00
+261810,Wigan Athletic,Southampton,2,2,2013-02-02 15:00:00
+261803,Fulham,Manchester United,0,1,2013-02-02 17:30:00
+267550,Arsenal,Liverpool,2,2,2013-01-30 19:45:00
+261799,Everton,West Bromwich Albion,2,1,2013-01-30 19:45:00
+281544,Norwich City,Tottenham Hotspur,1,1,2013-01-30 19:45:00
+261800,Fulham,West Ham United,3,1,2013-01-30 20:00:00
+267551,Manchester United,Southampton,2,1,2013-01-30 20:00:00
+281555,Reading,Chelsea,2,2,2013-01-30 20:00:00
+261792,Aston Villa,Newcastle United,1,2,2013-01-29 19:45:00
+261795,Queens Park Rangers,Manchester City,0,0,2013-01-29 19:45:00
+261797,Stoke City,Wigan Athletic,2,2,2013-01-29 19:45:00
+261798,Sunderland,Swansea City,0,0,2013-01-29 19:45:00
+280743,Arsenal,West Ham United,5,1,2013-01-23 19:45:00
+279818,Southampton,Everton,0,0,2013-01-21 20:00:00
+279816,Chelsea,Arsenal,2,1,2013-01-20 13:30:00
+279817,Tottenham Hotspur,Manchester United,1,1,2013-01-20 16:00:00
+261782,Liverpool,Norwich City,5,0,2013-01-19 15:00:00
+261783,Manchester City,Fulham,2,0,2013-01-19 15:00:00
+261784,Newcastle United,Reading,1,2,2013-01-19 15:00:00
+261786,Swansea City,Stoke City,3,1,2013-01-19 15:00:00
+261789,West Ham United,Queens Park Rangers,1,1,2013-01-19 15:00:00
+261790,Wigan Athletic,Sunderland,2,3,2013-01-19 15:00:00
+261788,West Bromwich Albion,Aston Villa,2,2,2013-01-19 17:30:00
+281472,Chelsea,Southampton,2,2,2013-01-16 19:45:00
+279813,Manchester United,Liverpool,2,1,2013-01-13 13:30:00
+279814,Arsenal,Manchester City,0,2,2013-01-13 16:00:00
+261777,Queens Park Rangers,Tottenham Hotspur,0,0,2013-01-12 12:45:00
+261772,Aston Villa,Southampton,0,1,2013-01-12 15:00:00
+261773,Everton,Swansea City,0,0,2013-01-12 15:00:00
+261774,Fulham,Wigan Athletic,1,1,2013-01-12 15:00:00
+261776,Norwich City,Newcastle United,0,0,2013-01-12 15:00:00
+261778,Reading,West Bromwich Albion,3,2,2013-01-12 15:00:00
+261779,Stoke City,Chelsea,0,4,2013-01-12 15:00:00
+261780,Sunderland,West Ham United,3,0,2013-01-12 15:00:00
+278749,Chelsea,Queens Park Rangers,0,1,2013-01-02 19:45:00
+278750,Liverpool,Sunderland,3,0,2013-01-02 19:45:00
+278751,Newcastle United,Everton,1,2,2013-01-02 20:00:00
+261768,West Bromwich Albion,Fulham,1,2,2013-01-01 12:45:00
+261763,Manchester City,Stoke City,3,0,2013-01-01 15:00:00
+261766,Swansea City,Aston Villa,2,2,2013-01-01 15:00:00
+261767,Tottenham Hotspur,Reading,3,1,2013-01-01 15:00:00
+261769,West Ham United,Norwich City,2,1,2013-01-01 15:00:00
+261770,Wigan Athletic,Manchester United,0,4,2013-01-01 15:00:00
+261765,Southampton,Arsenal,1,1,2013-01-01 17:30:00
+278747,Everton,Chelsea,1,2,2012-12-30 13:30:00
+278748,Queens Park Rangers,Liverpool,0,3,2012-12-30 16:00:00
+261760,Sunderland,Tottenham Hotspur,1,2,2012-12-29 12:45:00
+261752,Aston Villa,Wigan Athletic,0,3,2012-12-29 15:00:00
+261754,Fulham,Swansea City,1,2,2012-12-29 15:00:00
+261755,Manchester United,West Bromwich Albion,2,0,2012-12-29 15:00:00
+261756,Norwich City,Manchester City,3,4,2012-12-29 15:00:00
+261758,Reading,West Ham United,1,0,2012-12-29 15:00:00
+261759,Stoke City,Southampton,3,3,2012-12-29 15:00:00
+261751,Arsenal,Newcastle United,7,3,2012-12-29 17:30:00
+261743,Everton,Wigan Athletic,2,1,2012-12-26 15:00:00
+261744,Fulham,Southampton,1,1,2012-12-26 15:00:00
+261745,Manchester United,Newcastle United,4,3,2012-12-26 15:00:00
+261746,Norwich City,Chelsea,0,1,2012-12-26 15:00:00
+261747,Queens Park Rangers,West Bromwich Albion,1,2,2012-12-26 15:00:00
+261748,Reading,Swansea City,0,0,2012-12-26 15:00:00
+261750,Sunderland,Manchester City,1,0,2012-12-26 15:00:00
+261742,Aston Villa,Tottenham Hotspur,0,4,2012-12-26 17:30:00
+261749,Stoke City,Liverpool,3,1,2012-12-26 19:45:00
+278745,Swansea City,Manchester United,1,1,2012-12-23 13:30:00
+278746,Chelsea,Aston Villa,8,0,2012-12-23 16:00:00
+261740,Wigan Athletic,Arsenal,0,1,2012-12-22 12:45:00
+261733,Manchester City,Reading,1,0,2012-12-22 15:00:00
+261734,Newcastle United,Queens Park Rangers,1,0,2012-12-22 15:00:00
+261735,Southampton,Sunderland,0,1,2012-12-22 15:00:00
+261737,Tottenham Hotspur,Stoke City,0,0,2012-12-22 15:00:00
+261738,West Bromwich Albion,Norwich City,2,1,2012-12-22 15:00:00
+261739,West Ham United,Everton,1,2,2012-12-22 15:00:00
+261732,Liverpool,Fulham,4,0,2012-12-22 17:30:00
+278744,Reading,Arsenal,2,5,2012-12-17 20:00:00
+278742,Tottenham Hotspur,Swansea City,1,0,2012-12-16 13:30:00
+278743,West Bromwich Albion,West Ham United,0,0,2012-12-16 16:00:00
+261724,Newcastle United,Manchester City,1,3,2012-12-15 12:45:00
+261722,Liverpool,Aston Villa,1,3,2012-12-15 15:00:00
+261723,Manchester United,Sunderland,3,1,2012-12-15 15:00:00
+261725,Norwich City,Wigan Athletic,2,1,2012-12-15 15:00:00
+261726,Queens Park Rangers,Fulham,2,1,2012-12-15 15:00:00
+261728,Stoke City,Everton,1,1,2012-12-15 15:00:00
+279830,Sunderland,Reading,3,0,2012-12-11 19:45:00
+278741,Fulham,Newcastle United,2,1,2012-12-10 20:00:00
+278739,Manchester City,Manchester United,2,3,2012-12-09 13:30:00
+267549,Everton,Tottenham Hotspur,2,1,2012-12-09 15:00:00
+278740,West Ham United,Liverpool,2,3,2012-12-09 16:00:00
+261711,Arsenal,West Bromwich Albion,2,0,2012-12-08 15:00:00
+261712,Aston Villa,Stoke City,0,0,2012-12-08 15:00:00
+261716,Southampton,Reading,1,0,2012-12-08 15:00:00
+261717,Sunderland,Chelsea,1,3,2012-12-08 15:00:00
+261718,Swansea City,Norwich City,3,4,2012-12-08 15:00:00
+261720,Wigan Athletic,Queens Park Rangers,2,2,2012-12-08 15:00:00
+278738,Newcastle United,Wigan Athletic,3,0,2012-12-03 20:00:00
+278733,Norwich City,Sunderland,2,1,2012-12-02 16:00:00
+261710,West Ham United,Chelsea,3,1,2012-12-01 12:45:00
+261701,Arsenal,Swansea City,0,2,2012-12-01 15:00:00
+261702,Fulham,Tottenham Hotspur,0,3,2012-12-01 15:00:00
+261703,Liverpool,Southampton,1,0,2012-12-01 15:00:00
+261704,Manchester City,Everton,1,1,2012-12-01 15:00:00
+261707,Queens Park Rangers,Aston Villa,1,1,2012-12-01 15:00:00
+261709,West Bromwich Albion,Stoke City,0,1,2012-12-01 15:00:00
+261708,Reading,Manchester United,3,4,2012-12-01 17:30:00
+261699,Chelsea,Fulham,0,0,2012-11-28 19:45:00
+261700,Everton,Arsenal,1,1,2012-11-28 19:45:00
+269333,Southampton,Norwich City,1,1,2012-11-28 19:45:00
+274525,Stoke City,Newcastle United,2,1,2012-11-28 19:45:00
+269334,Swansea City,West Bromwich Albion,3,1,2012-11-28 19:45:00
+267547,Tottenham Hotspur,Liverpool,2,1,2012-11-28 19:45:00
+267546,Manchester United,West Ham United,1,0,2012-11-28 20:00:00
+267548,Wigan Athletic,Manchester City,0,2,2012-11-28 20:00:00
+261695,Sunderland,Queens Park Rangers,0,0,2012-11-27 19:45:00
+261691,Aston Villa,Reading,1,0,2012-11-27 20:00:00
+274228,Swansea City,Liverpool,0,0,2012-11-25 13:30:00
+274524,Southampton,Newcastle United,2,0,2012-11-25 15:00:00
+267544,Chelsea,Manchester City,0,0,2012-11-25 16:00:00
+267545,Tottenham Hotspur,West Ham United,3,1,2012-11-25 16:00:00
+261687,Sunderland,West Bromwich Albion,2,4,2012-11-24 12:45:00
+261683,Everton,Norwich City,1,1,2012-11-24 15:00:00
+261684,Manchester United,Queens Park Rangers,3,1,2012-11-24 15:00:00
+261686,Stoke City,Fulham,1,0,2012-11-24 15:00:00
+261690,Wigan Athletic,Reading,3,2,2012-11-24 15:00:00
+261681,Aston Villa,Arsenal,0,0,2012-11-24 17:30:00
+267542,West Ham United,Stoke City,1,1,2012-11-19 20:00:00
+267541,Fulham,Sunderland,1,3,2012-11-18 16:00:00
+261671,Arsenal,Tottenham Hotspur,5,2,2012-11-17 12:45:00
+261673,Liverpool,Wigan Athletic,3,0,2012-11-17 15:00:00
+261674,Manchester City,Aston Villa,5,0,2012-11-17 15:00:00
+261675,Newcastle United,Swansea City,1,2,2012-11-17 15:00:00
+261677,Queens Park Rangers,Southampton,1,3,2012-11-17 15:00:00
+261678,Reading,Everton,2,1,2012-11-17 15:00:00
+261679,West Bromwich Albion,Chelsea,2,1,2012-11-17 15:00:00
+261676,Norwich City,Manchester United,1,0,2012-11-17 17:30:00
+267539,Manchester City,Tottenham Hotspur,2,1,2012-11-11 13:30:00
+274227,Newcastle United,West Ham United,0,1,2012-11-11 15:00:00
+267540,Chelsea,Liverpool,1,1,2012-11-11 16:00:00
+261661,Arsenal,Fulham,3,3,2012-11-10 15:00:00
+261664,Everton,Sunderland,2,1,2012-11-10 15:00:00
+261667,Reading,Norwich City,0,0,2012-11-10 15:00:00
+261668,Southampton,Swansea City,1,1,2012-11-10 15:00:00
+261669,Stoke City,Queens Park Rangers,1,0,2012-11-10 15:00:00
+261670,Wigan Athletic,West Bromwich Albion,1,2,2012-11-10 15:00:00
+261662,Aston Villa,Manchester United,2,3,2012-11-10 17:30:00
+267538,West Bromwich Albion,Southampton,2,0,2012-11-05 20:00:00
+267536,Queens Park Rangers,Reading,1,1,2012-11-04 13:30:00
+267537,Liverpool,Newcastle United,1,1,2012-11-04 16:00:00
+261653,Manchester United,Arsenal,2,1,2012-11-03 12:45:00
+261651,Fulham,Everton,2,2,2012-11-03 15:00:00
+261654,Norwich City,Stoke City,1,0,2012-11-03 15:00:00
+261656,Sunderland,Aston Villa,0,1,2012-11-03 15:00:00
+261657,Swansea City,Chelsea,1,1,2012-11-03 15:00:00
+261658,Tottenham Hotspur,Wigan Athletic,0,1,2012-11-03 15:00:00
+261660,West Ham United,Manchester City,0,0,2012-11-03 17:30:00
+274226,Everton,Liverpool,2,2,2012-10-28 13:30:00
+274325,Newcastle United,West Bromwich Albion,2,1,2012-10-28 15:00:00
+267535,Southampton,Tottenham Hotspur,1,2,2012-10-28 15:00:00
+267534,Chelsea,Manchester United,2,3,2012-10-28 16:00:00
+261642,Aston Villa,Norwich City,1,1,2012-10-27 12:45:00
+261641,Arsenal,Queens Park Rangers,1,0,2012-10-27 15:00:00
+261647,Reading,Fulham,3,3,2012-10-27 15:00:00
+261649,Stoke City,Sunderland,0,0,2012-10-27 15:00:00
+261650,Wigan Athletic,West Ham United,2,1,2012-10-27 15:00:00
+261645,Manchester City,Swansea City,1,0,2012-10-27 17:30:00
+267531,Sunderland,Newcastle United,1,1,2012-10-21 13:30:00
+267532,Queens Park Rangers,Everton,1,1,2012-10-21 16:00:00
+261638,Tottenham Hotspur,Chelsea,2,4,2012-10-20 12:45:00
+261631,Fulham,Aston Villa,1,0,2012-10-20 15:00:00
+261632,Liverpool,Reading,1,0,2012-10-20 15:00:00
+261633,Manchester United,Stoke City,4,2,2012-10-20 15:00:00
+261637,Swansea City,Wigan Athletic,2,1,2012-10-20 15:00:00
+261639,West Bromwich Albion,Manchester City,1,2,2012-10-20 15:00:00
+261640,West Ham United,Southampton,4,1,2012-10-20 15:00:00
+261634,Norwich City,Arsenal,1,0,2012-10-20 17:30:00
+267528,Southampton,Fulham,2,2,2012-10-07 13:30:00
+274324,Liverpool,Stoke City,0,0,2012-10-07 15:00:00
+267530,Tottenham Hotspur,Aston Villa,2,0,2012-10-07 15:00:00
+267529,Newcastle United,Manchester United,0,3,2012-10-07 16:00:00
+261623,Manchester City,Sunderland,3,0,2012-10-06 12:45:00
+261621,Chelsea,Norwich City,4,1,2012-10-06 15:00:00
+261626,Swansea City,Reading,2,2,2012-10-06 15:00:00
+261628,West Bromwich Albion,Queens Park Rangers,3,2,2012-10-06 15:00:00
+261630,Wigan Athletic,Everton,2,2,2012-10-06 15:00:00
+261629,West Ham United,Arsenal,1,3,2012-10-06 17:30:00
+267527,Queens Park Rangers,West Ham United,1,2,2012-10-01 20:00:00
+267526,Aston Villa,West Bromwich Albion,1,1,2012-09-30 16:00:00
+261611,Arsenal,Chelsea,1,2,2012-09-29 12:45:00
+261613,Everton,Southampton,3,1,2012-09-29 15:00:00
+261614,Fulham,Manchester City,1,2,2012-09-29 15:00:00
+261616,Norwich City,Liverpool,2,5,2012-09-29 15:00:00
+261618,Reading,Newcastle United,2,2,2012-09-29 15:00:00
+261619,Stoke City,Swansea City,2,0,2012-09-29 15:00:00
+261620,Sunderland,Wigan Athletic,1,0,2012-09-29 15:00:00
+261615,Manchester United,Tottenham Hotspur,2,3,2012-09-29 17:30:00
+267523,Liverpool,Manchester United,1,2,2012-09-23 13:30:00
+274323,Newcastle United,Norwich City,1,0,2012-09-23 15:00:00
+267524,Manchester City,Arsenal,1,1,2012-09-23 16:00:00
+267525,Tottenham Hotspur,Queens Park Rangers,2,1,2012-09-23 16:00:00
+261606,Swansea City,Everton,0,3,2012-09-22 12:45:00
+261601,Chelsea,Stoke City,1,0,2012-09-22 15:00:00
+261605,Southampton,Aston Villa,4,1,2012-09-22 15:00:00
+261608,West Bromwich Albion,Reading,1,0,2012-09-22 15:00:00
+261609,West Ham United,Sunderland,1,1,2012-09-22 15:00:00
+261610,Wigan Athletic,Fulham,1,2,2012-09-22 15:00:00
+267522,Everton,Newcastle United,2,2,2012-09-17 20:00:00
+267521,Reading,Tottenham Hotspur,1,3,2012-09-16 16:00:00
+261596,Norwich City,West Ham United,0,0,2012-09-15 12:45:00
+261591,Arsenal,Southampton,6,1,2012-09-15 15:00:00
+261592,Aston Villa,Swansea City,2,0,2012-09-15 15:00:00
+261594,Fulham,West Bromwich Albion,3,0,2012-09-15 15:00:00
+261595,Manchester United,Wigan Athletic,4,0,2012-09-15 15:00:00
+261597,Queens Park Rangers,Chelsea,0,0,2012-09-15 15:00:00
+261599,Stoke City,Manchester City,1,1,2012-09-15 15:00:00
+261600,Sunderland,Liverpool,1,1,2012-09-15 17:30:00
+267518,Liverpool,Arsenal,0,2,2012-09-02 13:30:00
+267519,Newcastle United,Aston Villa,1,1,2012-09-02 16:00:00
+267520,Southampton,Manchester United,2,3,2012-09-02 16:00:00
+261589,West Ham United,Fulham,3,0,2012-09-01 12:45:00
+261586,Swansea City,Sunderland,2,2,2012-09-01 15:00:00
+261587,Tottenham Hotspur,Norwich City,1,1,2012-09-01 15:00:00
+261588,West Bromwich Albion,Everton,2,0,2012-09-01 15:00:00
+261590,Wigan Athletic,Stoke City,2,2,2012-09-01 15:00:00
+261583,Manchester City,Queens Park Rangers,3,1,2012-09-01 17:30:00
+267516,Stoke City,Arsenal,0,0,2012-08-26 13:30:00
+267517,Liverpool,Manchester City,2,2,2012-08-26 16:00:00
+261579,Swansea City,West Ham United,3,0,2012-08-25 12:45:00
+261571,Aston Villa,Everton,1,3,2012-08-25 15:00:00
+261574,Manchester United,Fulham,3,2,2012-08-25 15:00:00
+261575,Norwich City,Queens Park Rangers,1,1,2012-08-25 15:00:00
+261576,Southampton,Wigan Athletic,0,2,2012-08-25 15:00:00
+261580,Tottenham Hotspur,West Bromwich Albion,1,1,2012-08-25 15:00:00
+261572,Chelsea,Newcastle United,2,0,2012-08-25 17:30:00
+265650,Chelsea,Reading,4,2,2012-08-22 19:45:00
+267515,Everton,Manchester United,1,0,2012-08-20 20:00:00
+267513,Wigan Athletic,Chelsea,0,2,2012-08-19 13:30:00
+267514,Manchester City,Southampton,3,2,2012-08-19 16:00:00
+261561,Arsenal,Sunderland,0,0,2012-08-18 15:00:00
+261563,Fulham,Norwich City,5,0,2012-08-18 15:00:00
+261566,Queens Park Rangers,Swansea City,0,5,2012-08-18 15:00:00
+261567,Reading,Stoke City,1,1,2012-08-18 15:00:00
+261568,West Bromwich Albion,Liverpool,3,0,2012-08-18 15:00:00
+261569,West Ham United,Aston Villa,1,0,2012-08-18 15:00:00
+261565,Newcastle United,Tottenham Hotspur,2,1,2012-08-18 17:30:00

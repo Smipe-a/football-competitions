@@ -1,0 +1,381 @@
+match_id,home_team,away_team,score_ht,score_at,date_start
+356705,Arsenal,Everton,3,1,2017-05-21 15:00:00
+356706,Burnley,West Ham United,1,2,2017-05-21 15:00:00
+356707,Chelsea,Sunderland,5,1,2017-05-21 15:00:00
+356708,Hull City,Tottenham Hotspur,1,7,2017-05-21 15:00:00
+356709,Leicester City,Bournemouth,1,1,2017-05-21 15:00:00
+356710,Liverpool,Middlesbrough,3,0,2017-05-21 15:00:00
+356711,Manchester United,Crystal Palace,2,0,2017-05-21 15:00:00
+356712,Southampton,Stoke City,0,1,2017-05-21 15:00:00
+356713,Swansea City,West Bromwich Albion,2,1,2017-05-21 15:00:00
+356714,Watford,Manchester City,0,5,2017-05-21 15:00:00
+356670,Leicester City,Tottenham Hotspur,1,6,2017-05-18 19:45:00
+356614,Southampton,Manchester United,0,0,2017-05-17 19:45:00
+356665,Arsenal,Sunderland,2,0,2017-05-16 19:45:00
+356672,Manchester City,West Bromwich Albion,3,1,2017-05-16 20:00:00
+356608,Chelsea,Watford,4,3,2017-05-15 20:00:00
+356696,Crystal Palace,Hull City,4,0,2017-05-14 12:00:00
+356704,West Ham United,Liverpool,0,4,2017-05-14 14:15:00
+356702,Tottenham Hotspur,Manchester United,2,1,2017-05-14 16:30:00
+356698,Manchester City,Leicester City,2,1,2017-05-13 12:30:00
+356695,Bournemouth,Burnley,2,1,2017-05-13 15:00:00
+356699,Middlesbrough,Southampton,1,2,2017-05-13 15:00:00
+356701,Sunderland,Swansea City,0,2,2017-05-13 15:00:00
+356700,Stoke City,Arsenal,1,4,2017-05-13 17:30:00
+356697,Everton,Watford,1,0,2017-05-12 19:45:00
+356703,West Bromwich Albion,Chelsea,0,1,2017-05-12 20:00:00
+356591,Southampton,Arsenal,0,2,2017-05-10 19:45:00
+356688,Chelsea,Middlesbrough,3,0,2017-05-08 20:00:00
+356691,Liverpool,Southampton,0,0,2017-05-07 13:30:00
+356685,Arsenal,Manchester United,2,0,2017-05-07 16:00:00
+356692,Manchester City,Crystal Palace,5,0,2017-05-06 12:30:00
+356686,Bournemouth,Stoke City,2,2,2017-05-06 15:00:00
+356687,Burnley,West Bromwich Albion,2,2,2017-05-06 15:00:00
+356689,Hull City,Sunderland,0,2,2017-05-06 15:00:00
+356690,Leicester City,Watford,3,0,2017-05-06 15:00:00
+356693,Swansea City,Everton,1,0,2017-05-06 17:30:00
+356694,West Ham United,Tottenham Hotspur,1,0,2017-05-05 20:00:00
+356683,Watford,Liverpool,0,1,2017-05-01 20:00:00
+356677,Manchester United,Swansea City,1,1,2017-04-30 12:00:00
+356676,Everton,Chelsea,0,3,2017-04-30 14:05:00
+356678,Middlesbrough,Manchester City,2,2,2017-04-30 14:05:00
+356682,Tottenham Hotspur,Arsenal,2,0,2017-04-30 16:30:00
+356679,Southampton,Hull City,0,0,2017-04-29 15:00:00
+356680,Stoke City,West Ham United,0,0,2017-04-29 15:00:00
+356681,Sunderland,Bournemouth,0,1,2017-04-29 15:00:00
+356684,West Bromwich Albion,Leicester City,0,1,2017-04-29 15:00:00
+356675,Crystal Palace,Burnley,0,2,2017-04-29 17:30:00
+356590,Manchester City,Manchester United,0,0,2017-04-27 20:00:00
+356605,Arsenal,Leicester City,1,0,2017-04-26 19:45:00
+356613,Middlesbrough,Sunderland,1,0,2017-04-26 19:45:00
+356609,Crystal Palace,Tottenham Hotspur,0,1,2017-04-26 20:00:00
+356668,Chelsea,Southampton,4,2,2017-04-25 19:45:00
+356667,Burnley,Manchester United,0,2,2017-04-23 14:15:00
+356671,Liverpool,Crystal Palace,1,2,2017-04-23 16:30:00
+356666,Bournemouth,Middlesbrough,4,0,2017-04-22 15:00:00
+356669,Hull City,Watford,2,0,2017-04-22 15:00:00
+356673,Swansea City,Stoke City,2,0,2017-04-22 15:00:00
+356674,West Ham United,Everton,0,0,2017-04-22 15:00:00
+356658,Middlesbrough,Arsenal,1,2,2017-04-17 20:00:00
+356664,West Bromwich Albion,Liverpool,0,1,2017-04-16 13:30:00
+356657,Manchester United,Chelsea,2,0,2017-04-16 16:00:00
+356662,Tottenham Hotspur,Bournemouth,4,0,2017-04-15 12:30:00
+356655,Crystal Palace,Leicester City,2,2,2017-04-15 15:00:00
+356656,Everton,Burnley,3,1,2017-04-15 15:00:00
+356660,Stoke City,Hull City,3,1,2017-04-15 15:00:00
+356661,Sunderland,West Ham United,2,2,2017-04-15 15:00:00
+356663,Watford,Swansea City,1,0,2017-04-15 15:00:00
+356659,Southampton,Manchester City,0,3,2017-04-15 17:30:00
+356646,Crystal Palace,Arsenal,3,0,2017-04-10 20:00:00
+356651,Sunderland,Manchester United,0,3,2017-04-09 13:30:00
+356647,Everton,Leicester City,4,2,2017-04-09 16:00:00
+356652,Tottenham Hotspur,Watford,4,0,2017-04-08 12:30:00
+356648,Manchester City,Hull City,3,1,2017-04-08 15:00:00
+356649,Middlesbrough,Burnley,0,0,2017-04-08 15:00:00
+356650,Stoke City,Liverpool,1,2,2017-04-08 15:00:00
+356653,West Bromwich Albion,Southampton,0,1,2017-04-08 15:00:00
+356654,West Ham United,Swansea City,1,0,2017-04-08 15:00:00
+356645,Bournemouth,Chelsea,1,3,2017-04-08 17:30:00
+356635,Arsenal,West Ham United,3,0,2017-04-05 19:45:00
+356637,Hull City,Middlesbrough,4,2,2017-04-05 19:45:00
+356644,Southampton,Crystal Palace,3,1,2017-04-05 19:45:00
+356640,Swansea City,Tottenham Hotspur,1,3,2017-04-05 19:45:00
+356642,Chelsea,Manchester City,2,1,2017-04-05 20:00:00
+356643,Liverpool,Bournemouth,2,2,2017-04-05 20:00:00
+356636,Burnley,Stoke City,1,0,2017-04-04 19:45:00
+356638,Leicester City,Sunderland,2,0,2017-04-04 19:45:00
+356641,Watford,West Bromwich Albion,2,0,2017-04-04 19:45:00
+356639,Manchester United,Everton,1,1,2017-04-04 20:00:00
+356633,Swansea City,Middlesbrough,0,0,2017-04-02 13:30:00
+356625,Arsenal,Manchester City,2,2,2017-04-02 16:00:00
+356630,Liverpool,Everton,3,1,2017-04-01 12:30:00
+356626,Burnley,Tottenham Hotspur,0,2,2017-04-01 15:00:00
+356627,Chelsea,Crystal Palace,1,2,2017-04-01 15:00:00
+356628,Hull City,West Ham United,2,1,2017-04-01 15:00:00
+356629,Leicester City,Stoke City,2,0,2017-04-01 15:00:00
+356631,Manchester United,West Bromwich Albion,0,0,2017-04-01 15:00:00
+356634,Watford,Sunderland,1,0,2017-04-01 15:00:00
+356632,Southampton,Bournemouth,0,0,2017-04-01 17:30:00
+356619,Middlesbrough,Manchester United,1,3,2017-03-19 12:00:00
+356622,Tottenham Hotspur,Southampton,2,1,2017-03-19 14:15:00
+356618,Manchester City,Liverpool,1,1,2017-03-19 16:30:00
+356623,West Bromwich Albion,Arsenal,3,1,2017-03-18 12:30:00
+356616,Crystal Palace,Watford,1,0,2017-03-18 15:00:00
+356617,Everton,Hull City,4,0,2017-03-18 15:00:00
+356620,Stoke City,Chelsea,1,2,2017-03-18 15:00:00
+356621,Sunderland,Burnley,0,0,2017-03-18 15:00:00
+356624,West Ham United,Leicester City,2,3,2017-03-18 15:00:00
+356615,Bournemouth,Swansea City,2,0,2017-03-18 17:30:00
+356346,Liverpool,Burnley,2,1,2017-03-12 16:00:00
+356606,Bournemouth,West Ham United,3,2,2017-03-11 15:00:00
+356610,Everton,West Bromwich Albion,3,0,2017-03-11 15:00:00
+356611,Hull City,Swansea City,2,1,2017-03-11 15:00:00
+356612,Manchester City,Stoke City,0,0,2017-03-08 20:00:00
+356604,West Ham United,Chelsea,1,2,2017-03-06 20:00:00
+356601,Tottenham Hotspur,Everton,3,2,2017-03-05 13:30:00
+356599,Sunderland,Manchester City,0,2,2017-03-05 16:00:00
+356597,Manchester United,Bournemouth,1,1,2017-03-04 12:30:00
+356595,Leicester City,Hull City,3,1,2017-03-04 15:00:00
+356598,Stoke City,Middlesbrough,2,0,2017-03-04 15:00:00
+356600,Swansea City,Burnley,3,2,2017-03-04 15:00:00
+356602,Watford,Southampton,3,4,2017-03-04 15:00:00
+356603,West Bromwich Albion,Crystal Palace,0,2,2017-03-04 15:00:00
+356596,Liverpool,Arsenal,3,1,2017-03-04 17:30:00
+356589,Leicester City,Liverpool,3,1,2017-02-27 20:00:00
+356592,Tottenham Hotspur,Stoke City,4,0,2017-02-26 13:30:00
+356585,Chelsea,Swansea City,3,1,2017-02-25 15:00:00
+356586,Crystal Palace,Middlesbrough,1,0,2017-02-25 15:00:00
+356587,Everton,Sunderland,2,0,2017-02-25 15:00:00
+356588,Hull City,Burnley,1,1,2017-02-25 15:00:00
+356594,West Bromwich Albion,Bournemouth,2,1,2017-02-25 15:00:00
+356593,Watford,West Ham United,1,1,2017-02-25 17:30:00
+356576,Bournemouth,Manchester City,0,2,2017-02-13 20:00:00
+356577,Burnley,Chelsea,1,1,2017-02-12 13:30:00
+356583,Swansea City,Leicester City,2,0,2017-02-12 16:00:00
+356575,Arsenal,Hull City,2,0,2017-02-11 12:30:00
+356579,Manchester United,Watford,2,0,2017-02-11 15:00:00
+356580,Middlesbrough,Everton,0,0,2017-02-11 15:00:00
+356581,Stoke City,Crystal Palace,1,0,2017-02-11 15:00:00
+356582,Sunderland,Southampton,0,4,2017-02-11 15:00:00
+356584,West Ham United,West Bromwich Albion,2,2,2017-02-11 15:00:00
+356578,Liverpool,Tottenham Hotspur,2,0,2017-02-11 17:30:00
+356570,Manchester City,Swansea City,2,1,2017-02-05 13:30:00
+356569,Leicester City,Manchester United,0,3,2017-02-05 16:00:00
+356565,Chelsea,Arsenal,3,1,2017-02-04 12:30:00
+356566,Crystal Palace,Sunderland,0,4,2017-02-04 15:00:00
+356567,Everton,Bournemouth,6,3,2017-02-04 15:00:00
+356568,Hull City,Liverpool,2,0,2017-02-04 15:00:00
+356571,Southampton,West Ham United,1,3,2017-02-04 15:00:00
+356573,Watford,Burnley,2,1,2017-02-04 15:00:00
+356574,West Bromwich Albion,Stoke City,1,0,2017-02-04 15:00:00
+356572,Tottenham Hotspur,Middlesbrough,1,0,2017-02-04 17:30:00
+356562,West Ham United,Manchester City,0,4,2017-02-01 19:45:00
+356558,Manchester United,Hull City,0,0,2017-02-01 20:00:00
+356564,Stoke City,Everton,1,1,2017-02-01 20:00:00
+356555,Arsenal,Watford,1,2,2017-01-31 19:45:00
+356556,Bournemouth,Crystal Palace,0,2,2017-01-31 19:45:00
+356557,Burnley,Leicester City,1,0,2017-01-31 19:45:00
+356559,Middlesbrough,West Bromwich Albion,1,1,2017-01-31 19:45:00
+356560,Sunderland,Tottenham Hotspur,0,0,2017-01-31 19:45:00
+356561,Swansea City,Southampton,2,1,2017-01-31 19:45:00
+356563,Liverpool,Chelsea,1,1,2017-01-31 20:00:00
+356552,Southampton,Leicester City,3,0,2017-01-22 12:00:00
+356545,Arsenal,Burnley,2,1,2017-01-22 14:15:00
+356547,Chelsea,Hull City,2,0,2017-01-22 16:30:00
+356549,Liverpool,Swansea City,2,3,2017-01-21 12:30:00
+356546,Bournemouth,Watford,2,2,2017-01-21 15:00:00
+356548,Crystal Palace,Everton,0,1,2017-01-21 15:00:00
+356551,Middlesbrough,West Ham United,1,3,2017-01-21 15:00:00
+356553,Stoke City,Manchester United,1,1,2017-01-21 15:00:00
+356554,West Bromwich Albion,Sunderland,2,0,2017-01-21 15:00:00
+356550,Manchester City,Tottenham Hotspur,2,2,2017-01-21 17:30:00
+356536,Everton,Manchester City,4,0,2017-01-15 13:30:00
+356539,Manchester United,Liverpool,1,1,2017-01-15 16:00:00
+356542,Tottenham Hotspur,West Bromwich Albion,4,0,2017-01-14 12:30:00
+356535,Burnley,Southampton,1,0,2017-01-14 15:00:00
+356537,Hull City,Bournemouth,3,1,2017-01-14 15:00:00
+356540,Sunderland,Stoke City,1,3,2017-01-14 15:00:00
+356541,Swansea City,Arsenal,0,4,2017-01-14 15:00:00
+356543,Watford,Middlesbrough,0,0,2017-01-14 15:00:00
+356544,West Ham United,Crystal Palace,3,0,2017-01-14 15:00:00
+356538,Leicester City,Chelsea,0,3,2017-01-14 17:30:00
+356532,Tottenham Hotspur,Chelsea,2,0,2017-01-04 20:00:00
+356525,Bournemouth,Arsenal,3,3,2017-01-03 19:45:00
+356526,Crystal Palace,Swansea City,1,2,2017-01-03 20:00:00
+356530,Stoke City,Watford,2,0,2017-01-03 20:00:00
+356529,Middlesbrough,Leicester City,0,0,2017-01-02 12:30:00
+356527,Everton,Southampton,3,0,2017-01-02 15:00:00
+356528,Manchester City,Burnley,2,1,2017-01-02 15:00:00
+356531,Sunderland,Liverpool,2,2,2017-01-02 15:00:00
+356533,West Bromwich Albion,Hull City,3,1,2017-01-02 15:00:00
+356534,West Ham United,Manchester United,0,2,2017-01-02 17:15:00
+356524,Watford,Tottenham Hotspur,1,4,2017-01-01 13:30:00
+356515,Arsenal,Crystal Palace,2,0,2017-01-01 16:00:00
+356516,Burnley,Sunderland,4,1,2016-12-31 15:00:00
+356517,Chelsea,Stoke City,4,2,2016-12-31 15:00:00
+356519,Leicester City,West Ham United,1,0,2016-12-31 15:00:00
+356521,Manchester United,Middlesbrough,2,1,2016-12-31 15:00:00
+356522,Southampton,West Bromwich Albion,1,2,2016-12-31 15:00:00
+356523,Swansea City,Bournemouth,0,3,2016-12-31 15:00:00
+356520,Liverpool,Manchester City,1,0,2016-12-31 17:30:00
+356518,Hull City,Everton,2,2,2016-12-30 20:00:00
+356512,Southampton,Tottenham Hotspur,1,4,2016-12-28 19:45:00
+356510,Liverpool,Stoke City,4,1,2016-12-27 17:15:00
+356514,Watford,Crystal Palace,1,1,2016-12-26 12:30:00
+356505,Arsenal,West Bromwich Albion,1,0,2016-12-26 15:00:00
+356506,Burnley,Middlesbrough,1,0,2016-12-26 15:00:00
+356507,Chelsea,Bournemouth,3,0,2016-12-26 15:00:00
+356509,Leicester City,Everton,0,2,2016-12-26 15:00:00
+356511,Manchester United,Sunderland,3,1,2016-12-26 15:00:00
+356513,Swansea City,West Ham United,1,4,2016-12-26 15:00:00
+356508,Hull City,Manchester City,0,3,2016-12-26 17:15:00
+356497,Everton,Liverpool,0,1,2016-12-19 20:00:00
+356495,Bournemouth,Southampton,1,3,2016-12-18 13:30:00
+356498,Manchester City,Arsenal,2,1,2016-12-18 16:00:00
+356502,Tottenham Hotspur,Burnley,2,1,2016-12-18 16:00:00
+356496,Crystal Palace,Chelsea,0,1,2016-12-17 12:30:00
+356499,Middlesbrough,Swansea City,3,0,2016-12-17 15:00:00
+356500,Stoke City,Leicester City,2,2,2016-12-17 15:00:00
+356501,Sunderland,Watford,1,0,2016-12-17 15:00:00
+356504,West Ham United,Hull City,1,0,2016-12-17 15:00:00
+356503,West Bromwich Albion,Manchester United,0,2,2016-12-17 17:30:00
+356487,Middlesbrough,Liverpool,0,3,2016-12-14 19:45:00
+356488,Sunderland,Chelsea,0,1,2016-12-14 19:45:00
+356490,West Ham United,Burnley,1,0,2016-12-14 19:45:00
+356486,Crystal Palace,Manchester United,1,2,2016-12-14 20:00:00
+356492,Manchester City,Watford,2,0,2016-12-14 20:00:00
+356493,Stoke City,Southampton,0,0,2016-12-14 20:00:00
+356494,Tottenham Hotspur,Hull City,3,0,2016-12-14 20:00:00
+356489,West Bromwich Albion,Swansea City,3,1,2016-12-14 20:00:00
+356485,Bournemouth,Leicester City,1,0,2016-12-13 19:45:00
+356491,Everton,Arsenal,2,1,2016-12-13 19:45:00
+356477,Chelsea,West Bromwich Albion,1,0,2016-12-11 12:00:00
+356481,Manchester United,Tottenham Hotspur,1,0,2016-12-11 14:15:00
+356482,Southampton,Middlesbrough,1,0,2016-12-11 14:15:00
+356480,Liverpool,West Ham United,2,2,2016-12-11 16:30:00
+356484,Watford,Everton,3,2,2016-12-10 12:30:00
+356475,Arsenal,Stoke City,3,1,2016-12-10 15:00:00
+356476,Burnley,Bournemouth,3,2,2016-12-10 15:00:00
+356478,Hull City,Crystal Palace,3,3,2016-12-10 15:00:00
+356483,Swansea City,Sunderland,3,0,2016-12-10 15:00:00
+356479,Leicester City,Manchester City,4,2,2016-12-10 17:30:00
+356469,Middlesbrough,Hull City,1,0,2016-12-05 20:00:00
+356465,Bournemouth,Liverpool,4,3,2016-12-04 13:30:00
+356467,Everton,Manchester United,1,1,2016-12-04 16:00:00
+356468,Manchester City,Chelsea,1,3,2016-12-03 12:30:00
+356466,Crystal Palace,Southampton,3,0,2016-12-03 15:00:00
+356470,Stoke City,Burnley,2,0,2016-12-03 15:00:00
+356471,Sunderland,Leicester City,2,1,2016-12-03 15:00:00
+356472,Tottenham Hotspur,Swansea City,5,0,2016-12-03 15:00:00
+356473,West Bromwich Albion,Watford,3,1,2016-12-03 15:00:00
+356474,West Ham United,Arsenal,1,5,2016-12-03 17:30:00
+356464,Watford,Stoke City,0,1,2016-11-27 12:00:00
+356455,Arsenal,Bournemouth,3,1,2016-11-27 14:15:00
+356461,Manchester United,West Ham United,1,1,2016-11-27 16:30:00
+356462,Southampton,Everton,1,0,2016-11-27 16:30:00
+356456,Burnley,Manchester City,1,2,2016-11-26 12:30:00
+356458,Hull City,West Bromwich Albion,1,1,2016-11-26 15:00:00
+356459,Leicester City,Middlesbrough,2,2,2016-11-26 15:00:00
+356460,Liverpool,Sunderland,2,0,2016-11-26 15:00:00
+356463,Swansea City,Crystal Palace,5,4,2016-11-26 15:00:00
+356457,Chelsea,Tottenham Hotspur,2,1,2016-11-26 17:30:00
+356454,West Bromwich Albion,Burnley,4,0,2016-11-21 20:00:00
+356448,Middlesbrough,Chelsea,0,1,2016-11-20 16:00:00
+356447,Manchester United,Arsenal,1,1,2016-11-19 12:30:00
+356445,Crystal Palace,Manchester City,1,2,2016-11-19 15:00:00
+356446,Everton,Swansea City,1,1,2016-11-19 15:00:00
+356449,Southampton,Liverpool,0,0,2016-11-19 15:00:00
+356450,Stoke City,Bournemouth,0,1,2016-11-19 15:00:00
+356451,Sunderland,Hull City,3,0,2016-11-19 15:00:00
+356453,Watford,Leicester City,2,1,2016-11-19 15:00:00
+356452,Tottenham Hotspur,West Ham United,3,2,2016-11-19 17:30:00
+356435,Arsenal,Tottenham Hotspur,1,1,2016-11-06 12:00:00
+356439,Hull City,Southampton,2,1,2016-11-06 14:15:00
+356441,Liverpool,Watford,6,1,2016-11-06 14:15:00
+356443,Swansea City,Manchester United,1,3,2016-11-06 15:00:00
+356440,Leicester City,West Bromwich Albion,1,2,2016-11-06 16:30:00
+356436,Bournemouth,Sunderland,1,2,2016-11-05 15:00:00
+356437,Burnley,Crystal Palace,3,2,2016-11-05 15:00:00
+356442,Manchester City,Middlesbrough,1,1,2016-11-05 15:00:00
+356444,West Ham United,Stoke City,1,1,2016-11-05 15:00:00
+356438,Chelsea,Everton,5,0,2016-11-05 17:30:00
+356430,Stoke City,Swansea City,3,1,2016-10-31 20:00:00
+356426,Everton,West Ham United,2,0,2016-10-30 13:30:00
+356429,Southampton,Chelsea,0,2,2016-10-30 16:00:00
+356431,Sunderland,Arsenal,1,4,2016-10-29 12:30:00
+356427,Manchester United,Burnley,0,0,2016-10-29 15:00:00
+356428,Middlesbrough,Bournemouth,2,0,2016-10-29 15:00:00
+356432,Tottenham Hotspur,Leicester City,1,1,2016-10-29 15:00:00
+356433,Watford,Hull City,1,0,2016-10-29 15:00:00
+356434,West Bromwich Albion,Manchester City,0,4,2016-10-29 15:00:00
+356425,Crystal Palace,Liverpool,2,4,2016-10-29 17:30:00
+356422,Manchester City,Southampton,1,1,2016-10-23 13:30:00
+356418,Chelsea,Manchester United,4,0,2016-10-23 16:00:00
+356416,Bournemouth,Tottenham Hotspur,0,0,2016-10-22 12:30:00
+356415,Arsenal,Middlesbrough,0,0,2016-10-22 15:00:00
+356417,Burnley,Everton,2,1,2016-10-22 15:00:00
+356419,Hull City,Stoke City,0,2,2016-10-22 15:00:00
+356420,Leicester City,Crystal Palace,3,1,2016-10-22 15:00:00
+356423,Swansea City,Watford,0,0,2016-10-22 15:00:00
+356424,West Ham United,Sunderland,1,0,2016-10-22 15:00:00
+356421,Liverpool,West Bromwich Albion,2,1,2016-10-22 17:30:00
+356409,Liverpool,Manchester United,0,0,2016-10-17 20:00:00
+356411,Middlesbrough,Watford,0,1,2016-10-16 13:30:00
+356412,Southampton,Burnley,3,1,2016-10-16 16:00:00
+356407,Chelsea,Leicester City,3,0,2016-10-15 12:30:00
+356405,Arsenal,Swansea City,3,2,2016-10-15 15:00:00
+356406,Bournemouth,Hull City,6,1,2016-10-15 15:00:00
+356410,Manchester City,Everton,1,1,2016-10-15 15:00:00
+356413,Stoke City,Sunderland,2,0,2016-10-15 15:00:00
+356414,West Bromwich Albion,Tottenham Hotspur,1,1,2016-10-15 15:00:00
+356408,Crystal Palace,West Ham United,0,1,2016-10-15 17:30:00
+356399,Manchester United,Stoke City,1,1,2016-10-02 12:00:00
+356398,Leicester City,Southampton,0,0,2016-10-02 14:15:00
+356402,Tottenham Hotspur,Manchester City,2,0,2016-10-02 14:15:00
+356395,Burnley,Arsenal,0,1,2016-10-02 16:30:00
+356401,Swansea City,Liverpool,1,2,2016-10-01 12:30:00
+356397,Hull City,Chelsea,0,2,2016-10-01 15:00:00
+356400,Sunderland,West Bromwich Albion,1,1,2016-10-01 15:00:00
+356403,Watford,Bournemouth,2,2,2016-10-01 15:00:00
+356404,West Ham United,Middlesbrough,1,1,2016-10-01 15:00:00
+356396,Everton,Crystal Palace,1,1,2016-09-30 20:00:00
+356387,Burnley,Watford,2,0,2016-09-26 20:00:00
+356394,West Ham United,Southampton,0,3,2016-09-25 16:00:00
+356389,Manchester United,Leicester City,4,1,2016-09-24 12:30:00
+356386,Bournemouth,Everton,1,0,2016-09-24 15:00:00
+356388,Liverpool,Hull City,5,1,2016-09-24 15:00:00
+356390,Middlesbrough,Tottenham Hotspur,1,2,2016-09-24 15:00:00
+356391,Stoke City,West Bromwich Albion,1,1,2016-09-24 15:00:00
+356392,Sunderland,Crystal Palace,2,3,2016-09-24 15:00:00
+356393,Swansea City,Manchester City,1,3,2016-09-24 15:00:00
+356385,Arsenal,Chelsea,3,0,2016-09-24 17:30:00
+356383,Watford,Manchester United,3,1,2016-09-18 12:00:00
+356376,Crystal Palace,Stoke City,4,1,2016-09-18 14:15:00
+356381,Southampton,Swansea City,1,0,2016-09-18 14:15:00
+356382,Tottenham Hotspur,Sunderland,1,0,2016-09-18 16:30:00
+356378,Hull City,Arsenal,1,4,2016-09-17 15:00:00
+356379,Leicester City,Burnley,3,0,2016-09-17 15:00:00
+356380,Manchester City,Bournemouth,4,0,2016-09-17 15:00:00
+356384,West Bromwich Albion,West Ham United,4,2,2016-09-17 15:00:00
+356377,Everton,Middlesbrough,3,1,2016-09-17 17:30:00
+356375,Chelsea,Liverpool,1,2,2016-09-16 20:00:00
+356372,Sunderland,Everton,0,3,2016-09-12 20:00:00
+356373,Swansea City,Chelsea,2,2,2016-09-11 16:00:00
+356369,Manchester United,Manchester City,1,2,2016-09-10 12:30:00
+356365,Arsenal,Southampton,2,1,2016-09-10 15:00:00
+356366,Bournemouth,West Bromwich Albion,1,0,2016-09-10 15:00:00
+356367,Burnley,Hull City,1,1,2016-09-10 15:00:00
+356370,Middlesbrough,Crystal Palace,1,2,2016-09-10 15:00:00
+356371,Stoke City,Tottenham Hotspur,0,4,2016-09-10 15:00:00
+356374,West Ham United,Watford,2,4,2016-09-10 15:00:00
+356368,Liverpool,Leicester City,4,1,2016-09-10 17:30:00
+356364,West Bromwich Albion,Middlesbrough,0,0,2016-08-28 13:30:00
+356360,Manchester City,West Ham United,3,1,2016-08-28 16:00:00
+356362,Tottenham Hotspur,Liverpool,1,1,2016-08-27 12:30:00
+356355,Chelsea,Burnley,3,0,2016-08-27 15:00:00
+356356,Crystal Palace,Bournemouth,1,1,2016-08-27 15:00:00
+356357,Everton,Stoke City,1,0,2016-08-27 15:00:00
+356359,Leicester City,Swansea City,2,1,2016-08-27 15:00:00
+356361,Southampton,Sunderland,1,1,2016-08-27 15:00:00
+356363,Watford,Arsenal,1,3,2016-08-27 15:00:00
+356358,Hull City,Manchester United,0,1,2016-08-27 17:30:00
+356349,Sunderland,Middlesbrough,1,2,2016-08-21 13:30:00
+356354,West Ham United,Bournemouth,1,0,2016-08-21 16:00:00
+356348,Stoke City,Manchester City,1,4,2016-08-20 12:30:00
+356607,Burnley,Liverpool,2,0,2016-08-20 15:00:00
+356350,Swansea City,Hull City,0,2,2016-08-20 15:00:00
+356351,Tottenham Hotspur,Crystal Palace,1,0,2016-08-20 15:00:00
+356352,Watford,Chelsea,1,2,2016-08-20 15:00:00
+356353,West Bromwich Albion,Everton,1,2,2016-08-20 15:00:00
+356345,Leicester City,Arsenal,0,0,2016-08-20 17:30:00
+356347,Manchester United,Southampton,2,0,2016-08-19 20:00:00
+356338,Chelsea,West Ham United,2,1,2016-08-15 20:00:00
+356336,Bournemouth,Manchester United,1,3,2016-08-14 13:30:00
+356335,Arsenal,Liverpool,3,4,2016-08-14 16:00:00
+356341,Hull City,Leicester City,2,1,2016-08-13 12:30:00
+356337,Burnley,Swansea City,0,1,2016-08-13 15:00:00
+356339,Crystal Palace,West Bromwich Albion,0,1,2016-08-13 15:00:00
+356340,Everton,Tottenham Hotspur,1,1,2016-08-13 15:00:00
+356343,Middlesbrough,Stoke City,1,1,2016-08-13 15:00:00
+356344,Southampton,Watford,1,1,2016-08-13 15:00:00
+356342,Manchester City,Sunderland,2,1,2016-08-13 17:30:00

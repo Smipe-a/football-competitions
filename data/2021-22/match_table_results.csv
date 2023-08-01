@@ -1,0 +1,381 @@
+match_id,home_team,away_team,score_ht,score_at,date_start
+446658,Arsenal,Everton,5,1,2022-05-22 16:00:00
+446659,Brentford,Leeds United,1,2,2022-05-22 16:00:00
+446660,Brighton and Hove Albion,West Ham United,3,1,2022-05-22 16:00:00
+446661,Burnley,Newcastle United,1,2,2022-05-22 16:00:00
+446662,Chelsea,Watford,2,1,2022-05-22 16:00:00
+446663,Crystal Palace,Manchester United,1,0,2022-05-22 16:00:00
+446664,Leicester City,Southampton,4,1,2022-05-22 16:00:00
+446665,Liverpool,Wolverhampton Wanderers,3,1,2022-05-22 16:00:00
+446666,Manchester City,Aston Villa,3,2,2022-05-22 16:00:00
+446667,Norwich City,Tottenham Hotspur,0,5,2022-05-22 16:00:00
+446609,Everton,Crystal Palace,3,2,2022-05-19 19:45:00
+446458,Aston Villa,Burnley,1,1,2022-05-19 20:00:00
+446551,Chelsea,Leicester City,1,1,2022-05-19 20:00:00
+446653,Southampton,Liverpool,1,2,2022-05-17 19:45:00
+446652,Newcastle United,Arsenal,2,0,2022-05-16 20:00:00
+446654,Tottenham Hotspur,Burnley,1,0,2022-05-15 12:00:00
+446648,Aston Villa,Crystal Palace,1,1,2022-05-15 14:00:00
+446650,Leeds United,Brighton and Hove Albion,1,1,2022-05-15 14:00:00
+446655,Watford,Leicester City,1,5,2022-05-15 14:00:00
+446656,West Ham United,Manchester City,2,2,2022-05-15 14:00:00
+446657,Wolverhampton Wanderers,Norwich City,1,1,2022-05-15 14:00:00
+446649,Everton,Brentford,2,3,2022-05-15 16:30:00
+446505,Tottenham Hotspur,Arsenal,3,0,2022-05-12 19:45:00
+446610,Leeds United,Chelsea,0,3,2022-05-11 19:30:00
+446494,Leicester City,Norwich City,3,0,2022-05-11 19:45:00
+446586,Watford,Everton,0,0,2022-05-11 19:45:00
+446617,Wolverhampton Wanderers,Manchester City,1,5,2022-05-11 20:15:00
+446608,Aston Villa,Liverpool,1,2,2022-05-10 20:00:00
+446638,Arsenal,Leeds United,2,1,2022-05-08 14:00:00
+446644,Leicester City,Everton,1,2,2022-05-08 14:00:00
+446647,Norwich City,West Ham United,0,4,2022-05-08 14:00:00
+446646,Manchester City,Newcastle United,5,0,2022-05-08 16:30:00
+446639,Brentford,Southampton,3,0,2022-05-07 15:00:00
+446641,Burnley,Aston Villa,1,3,2022-05-07 15:00:00
+446642,Chelsea,Wolverhampton Wanderers,2,2,2022-05-07 15:00:00
+446643,Crystal Palace,Watford,1,0,2022-05-07 15:00:00
+446640,Brighton and Hove Albion,Manchester United,4,0,2022-05-07 17:30:00
+446645,Liverpool,Tottenham Hotspur,1,1,2022-05-07 19:45:00
+446631,Manchester United,Brentford,3,0,2022-05-02 20:00:00
+446629,Everton,Chelsea,1,0,2022-05-01 14:00:00
+446634,Tottenham Hotspur,Leicester City,3,1,2022-05-01 14:00:00
+446636,West Ham United,Arsenal,1,2,2022-05-01 16:30:00
+446632,Newcastle United,Liverpool,0,1,2022-04-30 12:30:00
+446628,Aston Villa,Norwich City,2,0,2022-04-30 15:00:00
+446633,Southampton,Crystal Palace,1,2,2022-04-30 15:00:00
+446635,Watford,Burnley,1,2,2022-04-30 15:00:00
+446637,Wolverhampton Wanderers,Brighton and Hove Albion,0,3,2022-04-30 15:00:00
+446630,Leeds United,Manchester City,0,4,2022-04-30 17:30:00
+446651,Manchester United,Chelsea,1,1,2022-04-28 19:45:00
+446623,Crystal Palace,Leeds United,0,0,2022-04-25 20:00:00
+446620,Brighton and Hove Albion,Southampton,2,2,2022-04-24 14:00:00
+446621,Burnley,Wolverhampton Wanderers,1,0,2022-04-24 14:00:00
+446622,Chelsea,West Ham United,1,0,2022-04-24 14:00:00
+446625,Liverpool,Everton,2,0,2022-04-24 16:30:00
+446618,Arsenal,Manchester United,3,1,2022-04-23 12:30:00
+446624,Leicester City,Aston Villa,0,0,2022-04-23 15:00:00
+446626,Manchester City,Watford,5,1,2022-04-23 15:00:00
+446627,Norwich City,Newcastle United,0,3,2022-04-23 15:00:00
+446619,Brentford,Tottenham Hotspur,0,0,2022-04-23 17:30:00
+446579,Burnley,Southampton,2,0,2022-04-21 19:45:00
+446530,Chelsea,Arsenal,2,4,2022-04-20 19:45:00
+446459,Everton,Leicester City,1,1,2022-04-20 19:45:00
+446583,Newcastle United,Crystal Palace,1,0,2022-04-20 19:45:00
+446582,Manchester City,Brighton and Hove Albion,3,0,2022-04-20 20:00:00
+446581,Liverpool,Manchester United,4,0,2022-04-19 20:00:00
+446612,Newcastle United,Leicester City,2,1,2022-04-17 14:15:00
+446616,West Ham United,Burnley,1,1,2022-04-17 14:15:00
+446614,Tottenham Hotspur,Brighton and Hove Albion,0,1,2022-04-16 12:30:00
+446611,Manchester United,Norwich City,3,2,2022-04-16 15:00:00
+446613,Southampton,Arsenal,1,0,2022-04-16 15:00:00
+446615,Watford,Brentford,1,2,2022-04-16 15:00:00
+446600,Brentford,West Ham United,2,0,2022-04-10 14:00:00
+446602,Leicester City,Crystal Palace,2,1,2022-04-10 14:00:00
+446605,Norwich City,Burnley,2,0,2022-04-10 14:00:00
+446603,Manchester City,Liverpool,2,2,2022-04-10 16:30:00
+446601,Everton,Manchester United,1,0,2022-04-09 12:30:00
+446598,Arsenal,Brighton and Hove Albion,1,2,2022-04-09 15:00:00
+446606,Southampton,Chelsea,0,6,2022-04-09 15:00:00
+446607,Watford,Leeds United,0,3,2022-04-09 15:00:00
+446599,Aston Villa,Tottenham Hotspur,0,4,2022-04-09 17:30:00
+446604,Newcastle United,Wolverhampton Wanderers,1,0,2022-04-08 20:00:00
+446470,Burnley,Everton,3,2,2022-04-06 19:30:00
+446591,Crystal Palace,Arsenal,3,0,2022-04-04 20:00:00
+446596,West Ham United,Everton,2,1,2022-04-03 14:00:00
+446595,Tottenham Hotspur,Newcastle United,5,1,2022-04-03 16:30:00
+446593,Liverpool,Watford,2,0,2022-04-02 12:30:00
+446588,Brighton and Hove Albion,Norwich City,0,0,2022-04-02 15:00:00
+446589,Burnley,Manchester City,0,2,2022-04-02 15:00:00
+446590,Chelsea,Brentford,1,4,2022-04-02 15:00:00
+446592,Leeds United,Southampton,1,1,2022-04-02 15:00:00
+446597,Wolverhampton Wanderers,Aston Villa,2,1,2022-04-02 15:00:00
+446594,Manchester United,Leicester City,1,1,2022-04-02 17:30:00
+446580,Leicester City,Brentford,2,1,2022-03-20 14:00:00
+446585,Tottenham Hotspur,West Ham United,3,1,2022-03-20 16:30:00
+446578,Aston Villa,Arsenal,0,1,2022-03-19 12:30:00
+446587,Wolverhampton Wanderers,Leeds United,2,3,2022-03-18 20:00:00
+446482,Everton,Newcastle United,1,0,2022-03-17 19:45:00
+446440,Brighton and Hove Albion,Tottenham Hotspur,0,2,2022-03-16 19:30:00
+446548,Arsenal,Liverpool,0,2,2022-03-16 20:15:00
+446572,Crystal Palace,Manchester City,0,0,2022-03-14 20:00:00
+446571,Chelsea,Newcastle United,1,0,2022-03-13 14:00:00
+446573,Everton,Wolverhampton Wanderers,0,1,2022-03-13 14:00:00
+446574,Leeds United,Norwich City,2,1,2022-03-13 14:00:00
+446576,Southampton,Watford,1,2,2022-03-13 14:00:00
+446577,West Ham United,Aston Villa,2,1,2022-03-13 14:00:00
+446568,Arsenal,Leicester City,2,0,2022-03-13 16:30:00
+446570,Brighton and Hove Albion,Liverpool,0,2,2022-03-12 12:30:00
+446569,Brentford,Burnley,2,0,2022-03-12 15:00:00
+446575,Manchester United,Tottenham Hotspur,3,2,2022-03-12 17:30:00
+446584,Norwich City,Chelsea,1,3,2022-03-10 19:30:00
+446496,Southampton,Newcastle United,1,2,2022-03-10 19:30:00
+446477,Wolverhampton Wanderers,Watford,4,0,2022-03-10 19:30:00
+446483,Leeds United,Aston Villa,0,3,2022-03-10 19:45:00
+446565,Tottenham Hotspur,Everton,5,0,2022-03-07 20:00:00
+446566,Watford,Arsenal,2,3,2022-03-06 14:00:00
+446562,Manchester City,Manchester United,4,1,2022-03-06 16:30:00
+446560,Leicester City,Leeds United,1,0,2022-03-05 12:30:00
+446558,Aston Villa,Southampton,4,0,2022-03-05 15:00:00
+446559,Burnley,Chelsea,0,4,2022-03-05 15:00:00
+446563,Newcastle United,Brighton and Hove Albion,2,1,2022-03-05 15:00:00
+446564,Norwich City,Brentford,1,3,2022-03-05 15:00:00
+446567,Wolverhampton Wanderers,Crystal Palace,0,2,2022-03-05 15:00:00
+446561,Liverpool,West Ham United,1,0,2022-03-05 17:30:00
+446500,Burnley,Leicester City,0,2,2022-03-01 19:45:00
+446557,West Ham United,Wolverhampton Wanderers,1,0,2022-02-27 14:00:00
+446554,Leeds United,Tottenham Hotspur,0,4,2022-02-26 12:30:00
+446549,Brentford,Newcastle United,0,2,2022-02-26 15:00:00
+446550,Brighton and Hove Albion,Aston Villa,0,2,2022-02-26 15:00:00
+446552,Crystal Palace,Burnley,1,1,2022-02-26 15:00:00
+446555,Manchester United,Watford,0,0,2022-02-26 15:00:00
+446553,Everton,Manchester City,0,1,2022-02-26 17:30:00
+446556,Southampton,Norwich City,2,0,2022-02-25 20:00:00
+446478,Arsenal,Wolverhampton Wanderers,2,1,2022-02-24 19:45:00
+446411,Burnley,Tottenham Hotspur,1,0,2022-02-23 19:30:00
+446465,Watford,Crystal Palace,1,4,2022-02-23 19:30:00
+446471,Liverpool,Leeds United,6,0,2022-02-23 19:45:00
+446542,Leeds United,Manchester United,2,4,2022-02-20 14:00:00
+446547,Wolverhampton Wanderers,Leicester City,2,1,2022-02-20 16:30:00
+446546,West Ham United,Newcastle United,1,1,2022-02-19 12:30:00
+446538,Arsenal,Brentford,2,1,2022-02-19 15:00:00
+446539,Aston Villa,Watford,0,1,2022-02-19 15:00:00
+446540,Brighton and Hove Albion,Burnley,0,3,2022-02-19 15:00:00
+446541,Crystal Palace,Chelsea,0,1,2022-02-19 15:00:00
+446543,Liverpool,Norwich City,3,1,2022-02-19 15:00:00
+446545,Southampton,Everton,2,0,2022-02-19 15:00:00
+446544,Manchester City,Tottenham Hotspur,2,3,2022-02-19 17:30:00
+446461,Manchester United,Brighton and Hove Albion,2,0,2022-02-15 20:15:00
+446529,Burnley,Liverpool,0,1,2022-02-13 14:00:00
+446534,Newcastle United,Aston Villa,1,0,2022-02-13 14:00:00
+446536,Tottenham Hotspur,Wolverhampton Wanderers,0,2,2022-02-13 14:00:00
+446532,Leicester City,West Ham United,2,2,2022-02-13 16:30:00
+446533,Manchester United,Southampton,1,1,2022-02-12 12:30:00
+446528,Brentford,Crystal Palace,0,0,2022-02-12 15:00:00
+446531,Everton,Leeds United,3,0,2022-02-12 15:00:00
+446537,Watford,Brighton and Hove Albion,0,2,2022-02-12 15:00:00
+446535,Norwich City,Manchester City,0,4,2022-02-12 17:30:00
+446524,Liverpool,Leicester City,2,0,2022-02-10 19:45:00
+446523,Wolverhampton Wanderers,Arsenal,0,1,2022-02-10 19:45:00
+446525,Manchester City,Brentford,2,0,2022-02-09 19:45:00
+446521,Norwich City,Crystal Palace,1,1,2022-02-09 19:45:00
+446527,Tottenham Hotspur,Southampton,2,3,2022-02-09 19:45:00
+446518,Aston Villa,Leeds United,3,3,2022-02-09 20:00:00
+446526,Newcastle United,Everton,3,1,2022-02-08 19:45:00
+446522,West Ham United,Watford,1,0,2022-02-08 19:45:00
+446520,Burnley,Manchester United,1,1,2022-02-08 20:00:00
+446451,Burnley,Watford,0,0,2022-02-05 18:00:00
+446508,Arsenal,Burnley,0,0,2022-01-23 14:00:00
+446511,Crystal Palace,Liverpool,1,3,2022-01-23 14:00:00
+446514,Leicester City,Brighton and Hove Albion,1,1,2022-01-23 14:00:00
+446510,Chelsea,Tottenham Hotspur,2,0,2022-01-23 16:30:00
+446512,Everton,Aston Villa,0,1,2022-01-22 12:30:00
+446509,Brentford,Wolverhampton Wanderers,1,2,2022-01-22 15:00:00
+446513,Leeds United,Newcastle United,0,1,2022-01-22 15:00:00
+446515,Manchester United,West Ham United,1,0,2022-01-22 15:00:00
+446516,Southampton,Manchester City,1,1,2022-01-22 17:30:00
+446517,Watford,Norwich City,0,3,2022-01-21 20:00:00
+446453,Leicester City,Tottenham Hotspur,2,3,2022-01-19 19:30:00
+446449,Brentford,Manchester United,1,3,2022-01-19 20:00:00
+446519,Brighton and Hove Albion,Chelsea,1,1,2022-01-18 20:00:00
+446501,Liverpool,Brentford,3,0,2022-01-16 14:00:00
+446506,West Ham United,Leeds United,2,3,2022-01-16 14:00:00
+446502,Manchester City,Chelsea,1,0,2022-01-15 12:30:00
+446503,Newcastle United,Watford,1,1,2022-01-15 15:00:00
+446504,Norwich City,Everton,2,1,2022-01-15 15:00:00
+446507,Wolverhampton Wanderers,Southampton,3,1,2022-01-15 15:00:00
+446498,Aston Villa,Manchester United,2,2,2022-01-15 17:30:00
+446499,Brighton and Hove Albion,Crystal Palace,1,1,2022-01-14 20:00:00
+446466,West Ham United,Norwich City,2,0,2022-01-12 19:45:00
+446463,Southampton,Brentford,4,1,2022-01-11 19:45:00
+446495,Manchester United,Wolverhampton Wanderers,0,1,2022-01-03 17:30:00
+446489,Brentford,Aston Villa,2,1,2022-01-02 14:00:00
+446492,Everton,Brighton and Hove Albion,2,3,2022-01-02 14:00:00
+446493,Leeds United,Burnley,3,1,2022-01-02 14:00:00
+446490,Chelsea,Liverpool,2,2,2022-01-02 16:30:00
+446488,Arsenal,Manchester City,1,2,2022-01-01 12:30:00
+446497,Watford,Tottenham Hotspur,0,1,2022-01-01 15:00:00
+446491,Crystal Palace,West Ham United,2,3,2022-01-01 17:30:00
+446485,Manchester United,Burnley,3,1,2021-12-30 20:15:00
+446480,Chelsea,Brighton and Hove Albion,1,1,2021-12-29 19:30:00
+446479,Brentford,Manchester City,0,1,2021-12-29 20:15:00
+446481,Crystal Palace,Norwich City,3,0,2021-12-28 15:00:00
+446486,Southampton,Tottenham Hotspur,1,1,2021-12-28 15:00:00
+446487,Watford,West Ham United,1,4,2021-12-28 15:00:00
+446484,Leicester City,Liverpool,1,0,2021-12-28 20:00:00
+446473,Newcastle United,Manchester United,1,1,2021-12-27 20:00:00
+446472,Manchester City,Leicester City,6,3,2021-12-26 15:00:00
+446474,Norwich City,Arsenal,0,5,2021-12-26 15:00:00
+446475,Tottenham Hotspur,Crystal Palace,3,0,2021-12-26 15:00:00
+446476,West Ham United,Southampton,2,3,2021-12-26 15:00:00
+446468,Aston Villa,Chelsea,1,3,2021-12-26 17:30:00
+446469,Brighton and Hove Albion,Brentford,2,0,2021-12-26 20:00:00
+446462,Newcastle United,Manchester City,0,4,2021-12-19 14:00:00
+446467,Wolverhampton Wanderers,Chelsea,0,0,2021-12-19 14:00:00
+446464,Tottenham Hotspur,Liverpool,2,2,2021-12-19 16:30:00
+446460,Leeds United,Arsenal,1,4,2021-12-18 17:30:00
+446455,Chelsea,Everton,1,1,2021-12-16 19:45:00
+446456,Liverpool,Newcastle United,3,1,2021-12-16 20:00:00
+446450,Brighton and Hove Albion,Wolverhampton Wanderers,0,1,2021-12-15 19:30:00
+446452,Crystal Palace,Southampton,2,2,2021-12-15 19:30:00
+446448,Arsenal,West Ham United,2,0,2021-12-15 20:00:00
+446454,Norwich City,Aston Villa,0,2,2021-12-14 19:45:00
+446457,Manchester City,Leeds United,7,0,2021-12-14 20:00:00
+446441,Burnley,West Ham United,0,0,2021-12-12 14:00:00
+446444,Leicester City,Newcastle United,4,0,2021-12-12 14:00:00
+446443,Crystal Palace,Everton,3,1,2021-12-12 16:30:00
+446446,Manchester City,Wolverhampton Wanderers,1,0,2021-12-11 12:30:00
+446438,Arsenal,Southampton,3,0,2021-12-11 15:00:00
+446442,Chelsea,Leeds United,3,2,2021-12-11 15:00:00
+446445,Liverpool,Aston Villa,1,0,2021-12-11 15:00:00
+446447,Norwich City,Manchester United,0,1,2021-12-11 17:30:00
+446439,Brentford,Watford,2,1,2021-12-10 20:00:00
+446429,Everton,Arsenal,2,1,2021-12-06 20:00:00
+446430,Leeds United,Brentford,2,2,2021-12-05 14:00:00
+446431,Manchester United,Crystal Palace,1,0,2021-12-05 14:00:00
+446434,Tottenham Hotspur,Norwich City,3,0,2021-12-05 14:00:00
+446428,Aston Villa,Leicester City,2,1,2021-12-05 16:30:00
+446436,West Ham United,Chelsea,3,2,2021-12-04 12:30:00
+446432,Newcastle United,Burnley,1,0,2021-12-04 15:00:00
+446433,Southampton,Brighton and Hove Albion,1,1,2021-12-04 15:00:00
+446437,Wolverhampton Wanderers,Liverpool,0,1,2021-12-04 15:00:00
+446435,Watford,Manchester City,1,3,2021-12-04 17:30:00
+446427,Tottenham Hotspur,Brentford,2,0,2021-12-02 19:30:00
+446421,Manchester United,Arsenal,3,2,2021-12-02 20:15:00
+446426,Southampton,Leicester City,2,2,2021-12-01 19:30:00
+446422,Watford,Chelsea,1,2,2021-12-01 19:30:00
+446423,West Ham United,Brighton and Hove Albion,1,1,2021-12-01 19:30:00
+446424,Wolverhampton Wanderers,Burnley,0,0,2021-12-01 19:30:00
+446418,Aston Villa,Manchester City,1,2,2021-12-01 20:15:00
+446419,Everton,Liverpool,1,4,2021-12-01 20:15:00
+446425,Newcastle United,Norwich City,1,1,2021-11-30 19:30:00
+446420,Leeds United,Crystal Palace,1,0,2021-11-30 20:15:00
+446409,Brentford,Everton,1,0,2021-11-28 14:00:00
+446414,Leicester City,Watford,4,2,2021-11-28 14:00:00
+446416,Manchester City,West Ham United,2,1,2021-11-28 14:00:00
+446412,Chelsea,Manchester United,1,1,2021-11-28 16:30:00
+446408,Arsenal,Newcastle United,2,0,2021-11-27 12:30:00
+446413,Crystal Palace,Aston Villa,1,2,2021-11-27 15:00:00
+446415,Liverpool,Southampton,4,0,2021-11-27 15:00:00
+446417,Norwich City,Wolverhampton Wanderers,0,0,2021-11-27 15:00:00
+446410,Brighton and Hove Albion,Leeds United,0,0,2021-11-27 17:30:00
+446402,Manchester City,Everton,3,0,2021-11-21 14:00:00
+446405,Tottenham Hotspur,Leeds United,2,1,2021-11-21 16:30:00
+446400,Leicester City,Chelsea,0,3,2021-11-20 12:30:00
+446398,Aston Villa,Brighton and Hove Albion,2,0,2021-11-20 15:00:00
+446399,Burnley,Crystal Palace,3,3,2021-11-20 15:00:00
+446403,Newcastle United,Brentford,3,3,2021-11-20 15:00:00
+446404,Norwich City,Southampton,2,1,2021-11-20 15:00:00
+446406,Watford,Manchester United,4,1,2021-11-20 15:00:00
+446407,Wolverhampton Wanderers,West Ham United,1,0,2021-11-20 15:00:00
+446401,Liverpool,Arsenal,4,0,2021-11-20 17:30:00
+446388,Arsenal,Watford,1,0,2021-11-07 14:00:00
+446393,Everton,Tottenham Hotspur,0,0,2021-11-07 14:00:00
+446394,Leeds United,Leicester City,1,1,2021-11-07 14:00:00
+446397,West Ham United,Liverpool,3,2,2021-11-07 16:30:00
+446395,Manchester United,Manchester City,0,2,2021-11-06 12:30:00
+446389,Brentford,Norwich City,1,2,2021-11-06 15:00:00
+446391,Chelsea,Burnley,1,1,2021-11-06 15:00:00
+446392,Crystal Palace,Wolverhampton Wanderers,2,0,2021-11-06 15:00:00
+446390,Brighton and Hove Albion,Newcastle United,1,1,2021-11-06 17:30:00
+446396,Southampton,Aston Villa,1,0,2021-11-05 20:00:00
+446387,Wolverhampton Wanderers,Everton,2,1,2021-11-01 20:00:00
+446384,Norwich City,Leeds United,1,2,2021-10-31 14:00:00
+446378,Aston Villa,West Ham United,1,4,2021-10-31 16:30:00
+446380,Leicester City,Arsenal,0,2,2021-10-30 12:30:00
+446379,Burnley,Brentford,3,1,2021-10-30 15:00:00
+446381,Liverpool,Brighton and Hove Albion,2,2,2021-10-30 15:00:00
+446382,Manchester City,Crystal Palace,0,2,2021-10-30 15:00:00
+446383,Newcastle United,Chelsea,0,3,2021-10-30 15:00:00
+446386,Watford,Southampton,0,1,2021-10-30 15:00:00
+446385,Tottenham Hotspur,Manchester United,0,3,2021-10-30 17:30:00
+446369,Brentford,Leicester City,1,2,2021-10-24 14:00:00
+446377,West Ham United,Tottenham Hotspur,1,0,2021-10-24 14:00:00
+446375,Manchester United,Liverpool,0,5,2021-10-24 16:30:00
+446371,Chelsea,Norwich City,7,0,2021-10-23 12:30:00
+446372,Crystal Palace,Newcastle United,1,1,2021-10-23 15:00:00
+446373,Everton,Watford,2,5,2021-10-23 15:00:00
+446374,Leeds United,Wolverhampton Wanderers,1,1,2021-10-23 15:00:00
+446376,Southampton,Burnley,2,2,2021-10-23 15:00:00
+446370,Brighton and Hove Albion,Manchester City,1,4,2021-10-23 17:30:00
+446368,Arsenal,Aston Villa,3,1,2021-10-22 20:00:00
+446358,Arsenal,Crystal Palace,2,2,2021-10-18 20:00:00
+446361,Everton,West Ham United,0,1,2021-10-17 14:00:00
+446364,Newcastle United,Tottenham Hotspur,2,3,2021-10-17 16:30:00
+446367,Watford,Liverpool,0,5,2021-10-16 12:30:00
+446359,Aston Villa,Wolverhampton Wanderers,2,3,2021-10-16 15:00:00
+446362,Leicester City,Manchester United,4,2,2021-10-16 15:00:00
+446363,Manchester City,Burnley,2,0,2021-10-16 15:00:00
+446365,Norwich City,Brighton and Hove Albion,0,0,2021-10-16 15:00:00
+446366,Southampton,Leeds United,1,0,2021-10-16 15:00:00
+446360,Brentford,Chelsea,0,1,2021-10-16 17:30:00
+446351,Crystal Palace,Leicester City,2,2,2021-10-03 14:00:00
+446355,Tottenham Hotspur,Aston Villa,2,1,2021-10-03 14:00:00
+446356,West Ham United,Brentford,1,2,2021-10-03 14:00:00
+446353,Liverpool,Manchester City,2,2,2021-10-03 16:30:00
+446354,Manchester United,Everton,1,1,2021-10-02 12:30:00
+446349,Burnley,Norwich City,0,0,2021-10-02 15:00:00
+446350,Chelsea,Southampton,3,1,2021-10-02 15:00:00
+446352,Leeds United,Watford,1,0,2021-10-02 15:00:00
+446357,Wolverhampton Wanderers,Newcastle United,2,1,2021-10-02 15:00:00
+446348,Brighton and Hove Albion,Arsenal,0,0,2021-10-02 17:30:00
+446341,Crystal Palace,Brighton and Hove Albion,1,1,2021-09-27 20:00:00
+446346,Southampton,Wolverhampton Wanderers,0,1,2021-09-26 14:00:00
+446338,Arsenal,Tottenham Hotspur,3,1,2021-09-26 16:30:00
+446340,Chelsea,Manchester City,0,1,2021-09-25 12:30:00
+446345,Manchester United,Aston Villa,0,1,2021-09-25 12:30:00
+446342,Everton,Norwich City,2,0,2021-09-25 15:00:00
+446343,Leeds United,West Ham United,1,2,2021-09-25 15:00:00
+446344,Leicester City,Burnley,2,2,2021-09-25 15:00:00
+446347,Watford,Newcastle United,1,1,2021-09-25 15:00:00
+446339,Brentford,Liverpool,3,3,2021-09-25 17:30:00
+446329,Brighton and Hove Albion,Leicester City,2,1,2021-09-19 14:00:00
+446336,West Ham United,Manchester United,1,2,2021-09-19 14:00:00
+446335,Tottenham Hotspur,Chelsea,0,3,2021-09-19 16:30:00
+446337,Wolverhampton Wanderers,Brentford,0,2,2021-09-18 12:30:00
+446330,Burnley,Arsenal,0,1,2021-09-18 15:00:00
+446331,Liverpool,Crystal Palace,3,0,2021-09-18 15:00:00
+446332,Manchester City,Southampton,0,0,2021-09-18 15:00:00
+446334,Norwich City,Watford,1,3,2021-09-18 15:00:00
+446328,Aston Villa,Everton,3,0,2021-09-18 17:30:00
+446333,Newcastle United,Leeds United,1,1,2021-09-17 20:00:00
+446322,Everton,Burnley,3,1,2021-09-13 20:00:00
+446323,Leeds United,Liverpool,0,3,2021-09-12 16:30:00
+446321,Crystal Palace,Tottenham Hotspur,3,0,2021-09-11 12:30:00
+446318,Arsenal,Norwich City,1,0,2021-09-11 15:00:00
+446319,Brentford,Brighton and Hove Albion,0,1,2021-09-11 15:00:00
+446324,Leicester City,Manchester City,0,1,2021-09-11 15:00:00
+446325,Manchester United,Newcastle United,4,1,2021-09-11 15:00:00
+446326,Southampton,West Ham United,0,0,2021-09-11 15:00:00
+446327,Watford,Wolverhampton Wanderers,0,2,2021-09-11 15:00:00
+446320,Chelsea,Aston Villa,3,0,2021-09-11 17:30:00
+446310,Burnley,Leeds United,1,1,2021-08-29 14:00:00
+446315,Tottenham Hotspur,Watford,1,0,2021-08-29 14:00:00
+446317,Wolverhampton Wanderers,Manchester United,0,1,2021-08-29 16:30:00
+446312,Manchester City,Arsenal,5,0,2021-08-28 12:30:00
+446308,Aston Villa,Brentford,1,1,2021-08-28 15:00:00
+446309,Brighton and Hove Albion,Everton,0,2,2021-08-28 15:00:00
+446313,Newcastle United,Southampton,2,2,2021-08-28 15:00:00
+446314,Norwich City,Leicester City,1,2,2021-08-28 15:00:00
+446316,West Ham United,Crystal Palace,2,2,2021-08-28 15:00:00
+446311,Liverpool,Chelsea,1,1,2021-08-28 17:30:00
+446306,West Ham United,Leicester City,4,1,2021-08-23 20:00:00
+446305,Southampton,Manchester United,1,1,2021-08-22 14:00:00
+446307,Wolverhampton Wanderers,Tottenham Hotspur,0,1,2021-08-22 14:00:00
+446298,Arsenal,Chelsea,0,2,2021-08-22 16:30:00
+446303,Liverpool,Burnley,2,0,2021-08-21 12:30:00
+446299,Aston Villa,Newcastle United,2,0,2021-08-21 15:00:00
+446301,Crystal Palace,Brentford,0,0,2021-08-21 15:00:00
+446302,Leeds United,Everton,2,2,2021-08-21 15:00:00
+446304,Manchester City,Norwich City,5,0,2021-08-21 15:00:00
+446300,Brighton and Hove Albion,Watford,2,0,2021-08-21 17:30:00
+446294,Newcastle United,West Ham United,2,4,2021-08-15 14:00:00
+446296,Tottenham Hotspur,Manchester City,1,0,2021-08-15 16:30:00
+446293,Manchester United,Leeds United,5,1,2021-08-14 12:30:00
+446289,Burnley,Brighton and Hove Albion,1,2,2021-08-14 15:00:00
+446290,Chelsea,Crystal Palace,3,0,2021-08-14 15:00:00
+446291,Everton,Southampton,3,1,2021-08-14 15:00:00
+446292,Leicester City,Wolverhampton Wanderers,1,0,2021-08-14 15:00:00
+446297,Watford,Aston Villa,3,2,2021-08-14 15:00:00
+446295,Norwich City,Liverpool,0,3,2021-08-14 17:30:00
+446288,Brentford,Arsenal,2,0,2021-08-13 20:00:00

@@ -1,0 +1,3048 @@
+match_id,name_officials,role
+429210,Marcelo Bielsa,Manager Home Team
+429210,Sam Allardyce,Manager Away Team
+429210,David Coote,Referee
+429210,Nicholas Hopton,Assistants
+429210,Shaun Hudson,Assistants
+429210,Darren Bond,Fourth official
+429210,Graham Scott,VAR
+429210,Dan Robathan,Assistant VAR
+429213,Pep Guardiola,Manager Home Team
+429213,Carlo Ancelotti,Manager Away Team
+429213,Michael Oliver,Referee
+429213,Simon Bennett,Assistants
+429213,Stuart Burt,Assistants
+429213,Michael Salisbury,Fourth official
+429213,Darren England,VAR
+429213,Andy Halliday,Assistant VAR
+429214,Paul Heckingbottom,Manager Home Team
+429214,Sean Dyche,Manager Away Team
+429214,Kevin Friend,Referee
+429214,Andrew Fox,Assistants
+429214,Simon Beck,Assistants
+429214,Geoff Eltringham,Fourth official
+429214,Lee Mason,VAR
+429214,Matt Wilkes,Assistant VAR
+429211,Brendan Rodgers,Manager Home Team
+429211,Ryan Mason,Manager Away Team
+429211,Anthony Taylor,Referee
+429211,Mark Scholes,Assistants
+429211,Adam Nunn,Assistants
+429211,Keith Stroud,Fourth official
+429211,Peter Bankes,VAR
+429211,Lee Betts,Assistant VAR
+429208,Dean Smith,Manager Home Team
+429208,Thomas Tuchel,Manager Away Team
+429208,Stuart Attwell,Referee
+429208,Simon Long,Assistants
+429208,Neil Davies,Assistants
+429208,Tim Robinson,Fourth official
+429208,Jarred Gillet,VAR
+429208,Stephen Child,Assistant VAR
+429212,Jürgen Klopp,Manager Home Team
+429212,Roy Hodgson,Manager Away Team
+429212,Craig Pawson,Referee
+429212,Scott Ledger,Assistants
+429212,Richard West,Assistants
+429212,Tony Harrington,Fourth official
+429212,Paul Tierney,VAR
+429212,Edward Smart,Assistant VAR
+429209,Scott Parker,Manager Home Team
+429209,Steve Bruce,Manager Away Team
+429209,Chris Kavanagh,Referee
+429209,Sian Massey,Assistants
+429209,Daniel Cook,Assistants
+429209,James Linington,Fourth official
+429209,Robert Jones,VAR
+429209,Adrian Holmes,Assistant VAR
+429207,Mikel Arteta,Manager Home Team
+429207,Graham Potter,Manager Away Team
+429207,Jonathan Moss,Referee
+429207,Timothy Wood,Assistants
+429207,Marc Perry,Assistants
+429207,Dean Whitestone,Fourth official
+429207,Simon Hooper,VAR
+429207,Derek Eaton,Assistant VAR
+429216,Nuno Espírito Santo,Manager Home Team
+429216,Ole Gunnar Solskjaer,Manager Away Team
+429216,Mike Dean,Referee
+429216,Harry Lennard,Assistants
+429216,Ian Hussin,Assistants
+429216,John Brooks,Fourth official
+429216,Andy Madley,VAR
+429216,Darren Cann,Assistant VAR
+429201,Carlo Ancelotti,Manager Home Team
+429201,Nuno Espírito Santo,Manager Away Team
+429201,Andy Madley,Referee
+429201,Derek Eaton,Assistants
+429201,Simon Long,Assistants
+429201,David Coote,Fourth official
+429201,Graham Scott,VAR
+429201,Dan Robathan,Assistant VAR
+429205,Ryan Mason,Manager Home Team
+429205,Dean Smith,Manager Away Team
+429205,Craig Pawson,Referee
+429205,Ian Hussin,Assistants
+429205,Richard West,Assistants
+429205,Simon Hooper,Fourth official
+429205,Kevin Friend,VAR
+429205,Simon Beck,Assistant VAR
+429203,Steve Bruce,Manager Home Team
+429203,Paul Heckingbottom,Manager Away Team
+429203,Robert Jones,Referee
+429203,Edward Smart,Assistants
+429203,Harry Lennard,Assistants
+429203,Tony Harrington,Fourth official
+429203,Martin Atkinson,VAR
+429203,Peter Kirkup,Assistant VAR
+429198,Sean Dyche,Manager Home Team
+429198,Jürgen Klopp,Manager Away Team
+429198,Chris Kavanagh,Referee
+429198,Daniel Cook,Assistants
+429198,Sian Massey,Assistants
+429198,Jonathan Moss,Fourth official
+429198,Paul Tierney,VAR
+429198,Simon Bennett,Assistant VAR
+429215,David Moyes,Manager Home Team
+429215,Ralph Hasenhüttl,Manager Away Team
+429215,Martin Atkinson,Referee
+429215,Constantine Hatzidakis,Assistants
+429215,James Mainwaring,Assistants
+429215,Matt Donohue,Fourth official
+429215,Andre Marriner,VAR
+429215,Peter Kirkup,Assistant VAR
+429200,Roy Hodgson,Manager Home Team
+429200,Mikel Arteta,Manager Away Team
+429200,Anthony Taylor,Referee
+429200,Adam Nunn,Assistants
+429200,Gary Beswick,Assistants
+429200,Andre Marriner,Fourth official
+429200,Stuart Attwell,VAR
+429200,Scott Ledger,Assistant VAR
+429206,Sam Allardyce,Manager Home Team
+429206,David Moyes,Manager Away Team
+429206,Michael Oliver,Referee
+429206,Lee Betts,Assistants
+429206,Stuart Burt,Assistants
+429206,Darren England,Fourth official
+429206,Jarred Gillet,VAR
+429206,Stephen Child,Assistant VAR
+429202,Ole Gunnar Solskjaer,Manager Home Team
+429202,Scott Parker,Manager Away Team
+429202,Lee Mason,Referee
+429202,Simon Bennett,Assistants
+429202,Adrian Holmes,Assistants
+429202,Anthony Taylor,Fourth official
+429202,Simon Hooper,VAR
+429202,Matt Wilkes,Assistant VAR
+429204,Ralph Hasenhüttl,Manager Home Team
+429204,Marcelo Bielsa,Manager Away Team
+429204,Peter Bankes,Referee
+429204,Neil Davies,Assistants
+429204,James Mainwaring,Assistants
+429204,Kevin Friend,Fourth official
+429204,David Coote,VAR
+429204,Marc Perry,Assistant VAR
+429199,Thomas Tuchel,Manager Home Team
+429199,Brendan Rodgers,Manager Away Team
+429199,Mike Dean,Referee
+429199,Mark Scholes,Assistants
+429199,Darren Cann,Assistants
+429199,Andy Madley,Fourth official
+429199,Andre Marriner,VAR
+429199,Stephen Child,Assistant VAR
+429197,Graham Potter,Manager Home Team
+429197,Pep Guardiola,Manager Away Team
+429197,Stuart Attwell,Referee
+429197,Nicholas Hopton,Assistants
+429197,Constantine Hatzidakis,Assistants
+429197,Graham Scott,Fourth official
+429197,Jonathan Moss,VAR
+429197,Timothy Wood,Assistant VAR
+429193,Roy Hodgson,Manager Home Team
+429193,Dean Smith,Manager Away Team
+429193,David Coote,Referee
+429193,Nicholas Hopton,Assistants
+429193,James Mainwaring,Assistants
+429193,Robert Jones,Fourth official
+429193,Paul Tierney,VAR
+429193,Andy Halliday,Assistant VAR
+429196,Ryan Mason,Manager Home Team
+429196,Nuno Espírito Santo,Manager Away Team
+429196,Martin Atkinson,Referee
+429196,Lee Betts,Assistants
+429196,Constantine Hatzidakis,Assistants
+429196,Peter Bankes,Fourth official
+429196,Stuart Attwell,VAR
+429196,Matt Wilkes,Assistant VAR
+429189,Carlo Ancelotti,Manager Home Team
+429189,Paul Heckingbottom,Manager Away Team
+429189,Jonathan Moss,Referee
+429189,Marc Perry,Assistants
+429189,Timothy Wood,Assistants
+429189,Lee Mason,Fourth official
+429189,Simon Hooper,VAR
+429189,Peter Kirkup,Assistant VAR
+429191,Sam Allardyce,Manager Home Team
+429191,Jürgen Klopp,Manager Away Team
+429191,Mike Dean,Referee
+429191,Mark Scholes,Assistants
+429191,Darren Cann,Assistants
+429191,Andy Madley,Fourth official
+429191,Kevin Friend,VAR
+429191,Dan Robathan,Assistant VAR
+429188,Sean Dyche,Manager Home Team
+429188,Marcelo Bielsa,Manager Away Team
+429188,Graham Scott,Referee
+429188,Gary Beswick,Assistants
+429188,Derek Eaton,Assistants
+429188,Anthony Taylor,Fourth official
+429188,Darren England,VAR
+429188,Adam Nunn,Assistant VAR
+429187,Graham Potter,Manager Home Team
+429187,David Moyes,Manager Away Team
+429187,Andre Marriner,Referee
+429187,Simon Long,Assistants
+429187,Scott Ledger,Assistants
+429187,Simon Hooper,Fourth official
+429187,Paul Tierney,VAR
+429187,Andy Halliday,Assistant VAR
+429195,Ralph Hasenhüttl,Manager Home Team
+429195,Scott Parker,Manager Away Team
+429195,Craig Pawson,Referee
+429195,Richard West,Assistants
+429195,Ian Hussin,Assistants
+429195,Robert Jones,Fourth official
+429195,David Coote,VAR
+429195,Neil Davies,Assistant VAR
+429194,Steve Bruce,Manager Home Team
+429194,Pep Guardiola,Manager Away Team
+429194,Kevin Friend,Referee
+429194,Adrian Holmes,Assistants
+429194,Simon Beck,Assistants
+429194,Lee Mason,Fourth official
+429194,Darren England,VAR
+429194,Harry Lennard,Assistant VAR
+429018,Dean Smith,Manager Home Team
+429018,Carlo Ancelotti,Manager Away Team
+429018,Martin Atkinson,Referee
+429018,Daniel Cook,Assistants
+429018,Constantine Hatzidakis,Assistants
+429018,Craig Pawson,Fourth official
+429018,Graham Scott,VAR
+429018,Nicholas Hopton,Assistant VAR
+429172,Ole Gunnar Solskjaer,Manager Home Team
+429172,Jürgen Klopp,Manager Away Team
+429172,Anthony Taylor,Referee
+429172,Adam Nunn,Assistants
+429172,Gary Beswick,Assistants
+429172,Stuart Burt,Assistants
+429172,Simon Bennett,Assistants
+429172,David Coote,Fourth official
+429172,Paul Tierney,VAR
+429172,Timothy Wood,Assistant VAR
+429192,Thomas Tuchel,Manager Home Team
+429192,Mikel Arteta,Manager Away Team
+429192,Andre Marriner,Referee
+429192,Simon Long,Assistants
+429192,Scott Ledger,Assistants
+429192,Lee Mason,Fourth official
+429192,Kevin Friend,VAR
+429192,Darren Cann,Assistant VAR
+429190,Ole Gunnar Solskjaer,Manager Home Team
+429190,Brendan Rodgers,Manager Away Team
+429190,Craig Pawson,Referee
+429190,Richard West,Assistants
+429190,Ian Hussin,Assistants
+429190,Mike Dean,Fourth official
+429190,Jonathan Moss,VAR
+429190,Marc Perry,Assistant VAR
+429155,Ralph Hasenhüttl,Manager Home Team
+429155,Roy Hodgson,Manager Away Team
+429155,Andy Madley,Referee
+429155,Edward Smart,Assistants
+429155,Mark Scholes,Assistants
+429155,John Brooks,Fourth official
+429155,Simon Hooper,VAR
+429155,Derek Eaton,Assistant VAR
+429179,Scott Parker,Manager Home Team
+429179,Sean Dyche,Manager Away Team
+429179,David Coote,Referee
+429179,Nicholas Hopton,Assistants
+429179,Harry Lennard,Assistants
+429179,Robert Jones,Fourth official
+429179,Peter Bankes,VAR
+429179,Timothy Wood,Assistant VAR
+429186,Nuno Espírito Santo,Manager Home Team
+429186,Graham Potter,Manager Away Team
+429186,Jonathan Moss,Referee
+429186,Marc Perry,Assistants
+429186,Timothy Wood,Assistants
+429186,Andy Madley,Fourth official
+429186,Andre Marriner,VAR
+429186,Andy Halliday,Assistant VAR
+429178,Dean Smith,Manager Home Team
+429178,Ole Gunnar Solskjaer,Manager Away Team
+429178,Chris Kavanagh,Referee
+429178,Constantine Hatzidakis,Assistants
+429178,Sian Massey,Assistants
+429178,Martin Atkinson,Fourth official
+429178,Jarred Gillet,VAR
+429178,Lee Betts,Assistant VAR
+429185,David Moyes,Manager Home Team
+429185,Carlo Ancelotti,Manager Away Team
+429185,Stuart Attwell,Referee
+429185,Daniel Cook,Assistants
+429185,Simon Long,Assistants
+429185,Craig Pawson,Fourth official
+429185,Darren England,VAR
+429185,Peter Kirkup,Assistant VAR
+429177,Mikel Arteta,Manager Home Team
+429177,Sam Allardyce,Manager Away Team
+429177,Peter Bankes,Referee
+429177,James Mainwaring,Assistants
+429177,Neil Davies,Assistants
+429177,David Coote,Fourth official
+429177,Mike Dean,VAR
+429177,Dan Robathan,Assistant VAR
+429180,Marcelo Bielsa,Manager Home Team
+429180,Ryan Mason,Manager Away Team
+429180,Michael Oliver,Referee
+429180,Simon Bennett,Assistants
+429180,Stuart Burt,Assistants
+429180,Chris Kavanagh,Fourth official
+429180,Paul Tierney,VAR
+429180,Neil Davies,Assistant VAR
+429184,Paul Heckingbottom,Manager Home Team
+429184,Roy Hodgson,Manager Away Team
+429184,Simon Hooper,Referee
+429184,Edward Smart,Assistants
+429184,Derek Eaton,Assistants
+429184,Lee Mason,Fourth official
+429184,Robert Jones,VAR
+429184,Matt Wilkes,Assistant VAR
+429181,Brendan Rodgers,Manager Home Team
+429181,Steve Bruce,Manager Away Team
+429181,Darren England,Referee
+429181,Darren Cann,Assistants
+429181,Lee Betts,Assistants
+429181,Craig Pawson,Fourth official
+429181,Paul Tierney,VAR
+429181,Scott Ledger,Assistant VAR
+429183,Pep Guardiola,Manager Home Team
+429183,Thomas Tuchel,Manager Away Team
+429183,Anthony Taylor,Referee
+429183,Gary Beswick,Assistants
+429183,Adam Nunn,Assistants
+429183,Jonathan Moss,Fourth official
+429183,Stuart Attwell,VAR
+429183,Andy Halliday,Assistant VAR
+429182,Jürgen Klopp,Manager Home Team
+429182,Ralph Hasenhüttl,Manager Away Team
+429182,Kevin Friend,Referee
+429182,Adrian Holmes,Assistants
+429182,Simon Beck,Assistants
+429182,Andy Madley,Fourth official
+429182,Andre Marriner,VAR
+429182,Andy Halliday,Assistant VAR
+429176,Sam Allardyce,Manager Home Team
+429176,Nuno Espírito Santo,Manager Away Team
+429176,Paul Tierney,Referee
+429176,Lee Betts,Assistants
+429176,Constantine Hatzidakis,Assistants
+429176,Mike Dean,Fourth official
+429176,Craig Pawson,VAR
+429176,Sian Massey,Assistant VAR
+429175,Ryan Mason,Manager Home Team
+429175,Paul Heckingbottom,Manager Away Team
+429175,Andre Marriner,Referee
+429175,Simon Long,Assistants
+429175,Scott Ledger,Assistants
+429175,Kevin Friend,Fourth official
+429175,Peter Bankes,VAR
+429175,James Mainwaring,Assistant VAR
+429173,Steve Bruce,Manager Home Team
+429173,Mikel Arteta,Manager Away Team
+429173,Mike Dean,Referee
+429173,Ian Hussin,Assistants
+429173,Dan Robathan,Assistants
+429173,Andy Madley,Fourth official
+429173,Chris Kavanagh,VAR
+429173,Matt Wilkes,Assistant VAR
+429168,Sean Dyche,Manager Home Team
+429168,David Moyes,Manager Away Team
+429168,Anthony Taylor,Referee
+429168,Adam Nunn,Assistants
+429168,Gary Beswick,Assistants
+429168,Jonathan Moss,Fourth official
+429168,Stuart Attwell,VAR
+429168,Mark Scholes,Assistant VAR
+429170,Roy Hodgson,Manager Home Team
+429170,Pep Guardiola,Manager Away Team
+429170,David Coote,Referee
+429170,Nicholas Hopton,Assistants
+429170,Marc Perry,Assistants
+429170,Stuart Attwell,Fourth official
+429170,Jonathan Moss,VAR
+429170,Gary Beswick,Assistant VAR
+429169,Thomas Tuchel,Manager Home Team
+429169,Scott Parker,Manager Away Team
+429169,Kevin Friend,Referee
+429169,Adrian Holmes,Assistants
+429169,Simon Beck,Assistants
+429169,Robert Jones,Fourth official
+429169,Darren England,VAR
+429169,Adam Nunn,Assistant VAR
+429167,Graham Potter,Manager Home Team
+429167,Marcelo Bielsa,Manager Away Team
+429167,Chris Kavanagh,Referee
+429167,Neil Davies,Assistants
+429167,Daniel Cook,Assistants
+429167,John Brooks,Fourth official
+429167,Jarred Gillet,VAR
+429167,Lee Betts,Assistant VAR
+429174,Ralph Hasenhüttl,Manager Home Team
+429174,Brendan Rodgers,Manager Away Team
+429174,Robert Jones,Referee
+429174,Mark Scholes,Assistants
+429174,Darren Cann,Assistants
+429174,Andre Marriner,Fourth official
+429174,Jonathan Moss,VAR
+429174,Gary Beswick,Assistant VAR
+429171,Carlo Ancelotti,Manager Home Team
+429171,Dean Smith,Manager Away Team
+429171,Simon Hooper,Referee
+429171,Harry Lennard,Assistants
+429171,Derek Eaton,Assistants
+429171,Andy Madley,Fourth official
+429171,Graham Scott,VAR
+429171,Peter Kirkup,Assistant VAR
+429161,Brendan Rodgers,Manager Home Team
+429161,Roy Hodgson,Manager Away Team
+429161,Graham Scott,Referee
+429161,Simon Long,Assistants
+429161,Edward Smart,Assistants
+429161,Jonathan Moss,Fourth official
+429161,Stuart Attwell,VAR
+429161,Scott Ledger,Assistant VAR
+429166,Nuno Espírito Santo,Manager Home Team
+429166,Sean Dyche,Manager Away Team
+429166,Darren England,Referee
+429166,Gary Beswick,Assistants
+429166,Nicholas Hopton,Assistants
+429166,David Coote,Fourth official
+429166,Michael Oliver,VAR
+429166,Andy Halliday,Assistant VAR
+429158,Dean Smith,Manager Home Team
+429158,Sam Allardyce,Manager Away Team
+429158,Stuart Attwell,Referee
+429158,Neil Davies,Assistants
+429158,Daniel Cook,Assistants
+429158,Anthony Taylor,Fourth official
+429158,Martin Atkinson,VAR
+429158,Timothy Wood,Assistant VAR
+429162,Jürgen Klopp,Manager Home Team
+429162,Steve Bruce,Manager Away Team
+429162,Andre Marriner,Referee
+429162,Derek Eaton,Assistants
+429162,Richard West,Assistants
+429162,Lee Mason,Fourth official
+429162,Andy Madley,VAR
+429162,Matt Wilkes,Assistant VAR
+429165,David Moyes,Manager Home Team
+429165,Thomas Tuchel,Manager Away Team
+429165,Chris Kavanagh,Referee
+429165,Adam Nunn,Assistants
+429165,Sian Massey,Assistants
+429165,Mike Dean,Fourth official
+429165,Peter Bankes,VAR
+429165,Andy Halliday,Assistant VAR
+429160,Marcelo Bielsa,Manager Home Team
+429160,Ole Gunnar Solskjaer,Manager Away Team
+429160,Craig Pawson,Referee
+429160,Harry Lennard,Assistants
+429160,Ian Hussin,Assistants
+429160,Lee Mason,Fourth official
+429160,Mike Dean,VAR
+429160,Peter Kirkup,Assistant VAR
+429157,Mikel Arteta,Manager Home Team
+429157,Carlo Ancelotti,Manager Away Team
+429157,Jonathan Moss,Referee
+429157,Dan Robathan,Assistants
+429157,Marc Perry,Assistants
+429157,Graham Scott,Fourth official
+429157,David Coote,VAR
+429157,Stuart Burt,Assistant VAR
+429164,Paul Heckingbottom,Manager Home Team
+429164,Graham Potter,Manager Away Team
+429164,Kevin Friend,Referee
+429164,Simon Beck,Assistants
+429164,Darren Cann,Assistants
+429164,Tony Harrington,Fourth official
+429164,Michael Oliver,VAR
+429164,Andy Halliday,Assistant VAR
+429152,Brendan Rodgers,Manager Home Team
+429152,Sam Allardyce,Manager Away Team
+429152,Andy Madley,Referee
+429152,Simon Long,Assistants
+429152,Timothy Wood,Assistants
+429152,Mike Dean,Fourth official
+429152,Martin Atkinson,VAR
+429152,Daniel Cook,Assistant VAR
+429124,Ryan Mason,Manager Home Team
+429124,Ralph Hasenhüttl,Manager Away Team
+429124,David Coote,Referee
+429124,Adam Nunn,Assistants
+429124,Nicholas Hopton,Assistants
+429124,Darren England,Fourth official
+429124,Jonathan Moss,VAR
+429124,Marc Perry,Assistant VAR
+429148,Dean Smith,Manager Home Team
+429148,Pep Guardiola,Manager Away Team
+429148,Peter Bankes,Referee
+429148,Harry Lennard,Assistants
+429148,Neil Davies,Assistants
+429148,Anthony Taylor,Fourth official
+429148,Jarred Gillet,VAR
+429148,Stephen Child,Assistant VAR
+429149,Thomas Tuchel,Manager Home Team
+429149,Graham Potter,Manager Away Team
+429149,Stuart Attwell,Referee
+429149,Simon Bennett,Assistants
+429149,Edward Smart,Assistants
+429149,Graham Scott,Fourth official
+429149,Kevin Friend,VAR
+429149,Darren Cann,Assistant VAR
+429151,Marcelo Bielsa,Manager Home Team
+429151,Jürgen Klopp,Manager Away Team
+429151,Anthony Taylor,Referee
+429151,Stuart Burt,Assistants
+429151,Gary Beswick,Assistants
+429151,Lee Mason,Fourth official
+429151,Mike Dean,VAR
+429151,Derek Eaton,Assistant VAR
+429147,Mikel Arteta,Manager Home Team
+429147,Scott Parker,Manager Away Team
+429147,Craig Pawson,Referee
+429147,Richard West,Assistants
+429147,Scott Ledger,Assistants
+429147,Simon Hooper,Fourth official
+429147,Stuart Attwell,VAR
+429147,Constantine Hatzidakis,Assistant VAR
+429153,Ole Gunnar Solskjaer,Manager Home Team
+429153,Sean Dyche,Manager Away Team
+429153,Jonathan Moss,Referee
+429153,Harry Lennard,Assistants
+429153,Marc Perry,Assistants
+429153,Robert Jones,Fourth official
+429153,Darren England,VAR
+429153,Lee Betts,Assistant VAR
+429154,Steve Bruce,Manager Home Team
+429154,David Moyes,Manager Away Team
+429154,Kevin Friend,Referee
+429154,Adrian Holmes,Assistants
+429154,Simon Beck,Assistants
+429154,Darren England,Fourth official
+429154,Simon Hooper,VAR
+429154,Matt Wilkes,Assistant VAR
+429156,Nuno Espírito Santo,Manager Home Team
+429156,Paul Heckingbottom,Manager Away Team
+429156,Robert Jones,Referee
+429156,Darren Cann,Assistants
+429156,Mark Scholes,Assistants
+429156,Andy Madley,Fourth official
+429156,Chris Kavanagh,VAR
+429156,Peter Kirkup,Assistant VAR
+429145,Sam Allardyce,Manager Home Team
+429145,Ralph Hasenhüttl,Manager Away Team
+429145,Simon Hooper,Referee
+429145,Derek Eaton,Assistants
+429145,Harry Lennard,Assistants
+429145,Craig Pawson,Fourth official
+429145,Kevin Friend,VAR
+429145,Simon Beck,Assistant VAR
+429150,Carlo Ancelotti,Manager Home Team
+429150,José Mourinho,Manager Away Team
+429150,Michael Oliver,Referee
+429150,Simon Bennett,Assistants
+429150,Stuart Burt,Assistants
+429150,Craig Pawson,Fourth official
+429150,Andre Marriner,VAR
+429150,Sian Massey,Assistant VAR
+429137,Graham Potter,Manager Home Team
+429137,Carlo Ancelotti,Manager Away Team
+429137,Darren England,Referee
+429137,Simon Long,Assistants
+429137,Timothy Wood,Assistants
+429137,Graham Scott,Fourth official
+429137,Jonathan Moss,VAR
+429137,Simon Bennett,Assistant VAR
+429138,Sean Dyche,Manager Home Team
+429138,Steve Bruce,Manager Away Team
+429138,Anthony Taylor,Referee
+429138,Lee Betts,Assistants
+429138,Gary Beswick,Assistants
+429138,Paul Tierney,Fourth official
+429138,Stuart Attwell,VAR
+429138,Nicholas Hopton,Assistant VAR
+429146,David Moyes,Manager Home Team
+429146,Brendan Rodgers,Manager Away Team
+429146,Mike Dean,Referee
+429146,Mark Scholes,Assistants
+429146,Ian Hussin,Assistants
+429146,Simon Hooper,Fourth official
+429146,Michael Oliver,VAR
+429146,Daniel Cook,Assistant VAR
+429144,José Mourinho,Manager Home Team
+429144,Ole Gunnar Solskjaer,Manager Away Team
+429144,Chris Kavanagh,Referee
+429144,Sian Massey,Assistants
+429144,Adam Nunn,Assistants
+429144,Andre Marriner,Fourth official
+429144,Craig Pawson,VAR
+429144,Harry Lennard,Assistant VAR
+429143,Paul Heckingbottom,Manager Home Team
+429143,Mikel Arteta,Manager Away Team
+429143,Peter Bankes,Referee
+429143,James Mainwaring,Assistants
+429143,Neil Davies,Assistants
+429143,Lee Mason,Fourth official
+429143,Jarred Gillet,VAR
+429143,Stephen Child,Assistant VAR
+429142,Pep Guardiola,Manager Home Team
+429142,Marcelo Bielsa,Manager Away Team
+429142,Andre Marriner,Referee
+429142,Scott Ledger,Assistants
+429142,Richard West,Assistants
+429142,Peter Bankes,Fourth official
+429142,David Coote,VAR
+429142,Peter Kirkup,Assistant VAR
+429141,Jürgen Klopp,Manager Home Team
+429141,Dean Smith,Manager Away Team
+429141,Paul Tierney,Referee
+429141,Constantine Hatzidakis,Assistants
+429141,Simon Bennett,Assistants
+429141,Chris Kavanagh,Fourth official
+429141,Andy Madley,VAR
+429141,Adrian Holmes,Assistant VAR
+429139,Roy Hodgson,Manager Home Team
+429139,Thomas Tuchel,Manager Away Team
+429139,Michael Oliver,Referee
+429139,Stuart Burt,Assistants
+429139,Daniel Cook,Assistants
+429139,Graham Scott,Fourth official
+429139,Mike Dean,VAR
+429139,Ian Hussin,Assistant VAR
+429136,Nuno Espírito Santo,Manager Home Team
+429136,David Moyes,Manager Away Team
+429136,Michael Oliver,Referee
+429136,Stuart Burt,Assistants
+429136,Daniel Cook,Assistants
+429136,Robert Jones,Fourth official
+429136,David Coote,VAR
+429136,Sian Massey,Assistant VAR
+429140,Scott Parker,Manager Home Team
+429140,Nuno Espírito Santo,Manager Away Team
+429140,Jonathan Moss,Referee
+429140,Marc Perry,Assistants
+429140,Dan Robathan,Assistants
+429140,Robert Jones,Fourth official
+429140,David Coote,VAR
+429140,Stephen Child,Assistant VAR
+429130,Carlo Ancelotti,Manager Home Team
+429130,Roy Hodgson,Manager Away Team
+429130,Kevin Friend,Referee
+429130,Simon Bennett,Assistants
+429130,Simon Beck,Assistants
+429130,Andy Madley,Fourth official
+429130,Graham Scott,VAR
+429130,Mark Scholes,Assistant VAR
+429134,Steve Bruce,Manager Home Team
+429134,José Mourinho,Manager Away Team
+429134,Craig Pawson,Referee
+429134,Edward Smart,Assistants
+429134,Ian Hussin,Assistants
+429134,Lee Mason,Fourth official
+429134,Darren England,VAR
+429134,Andy Halliday,Assistant VAR
+429135,Ralph Hasenhüttl,Manager Home Team
+429135,Sean Dyche,Manager Away Team
+429135,Andre Marriner,Referee
+429135,Scott Ledger,Assistants
+429135,Derek Eaton,Assistants
+429135,Simon Hooper,Fourth official
+429135,Jonathan Moss,VAR
+429135,Andy Halliday,Assistant VAR
+429128,Dean Smith,Manager Home Team
+429128,Scott Parker,Manager Away Team
+429128,Andy Madley,Referee
+429128,Simon Long,Assistants
+429128,Adrian Holmes,Assistants
+429128,Robert Jones,Fourth official
+429128,Stuart Attwell,VAR
+429128,James Mainwaring,Assistant VAR
+429133,Ole Gunnar Solskjaer,Manager Home Team
+429133,Graham Potter,Manager Away Team
+429133,Mike Dean,Referee
+429133,Dan Robathan,Assistants
+429133,Darren Cann,Assistants
+429133,Chris Kavanagh,Fourth official
+429133,Peter Bankes,VAR
+429133,Matt Wilkes,Assistant VAR
+429129,Thomas Tuchel,Manager Home Team
+429129,Sam Allardyce,Manager Away Team
+429129,David Coote,Referee
+429129,Nicholas Hopton,Assistants
+429129,Neil Davies,Assistants
+429129,Darren England,Fourth official
+429129,Chris Kavanagh,VAR
+429129,Peter Kirkup,Assistant VAR
+429132,Brendan Rodgers,Manager Home Team
+429132,Pep Guardiola,Manager Away Team
+429132,Anthony Taylor,Referee
+429132,Adam Nunn,Assistants
+429132,Gary Beswick,Assistants
+429132,Craig Pawson,Fourth official
+429132,Peter Bankes,VAR
+429132,Timothy Wood,Assistant VAR
+429131,Marcelo Bielsa,Manager Home Team
+429131,Paul Heckingbottom,Manager Away Team
+429131,Graham Scott,Referee
+429131,Mark Scholes,Assistants
+429131,Richard West,Assistants
+429131,Kevin Friend,Fourth official
+429131,Jarred Gillet,VAR
+429131,Marc Perry,Assistant VAR
+429127,Mikel Arteta,Manager Home Team
+429127,Jürgen Klopp,Manager Away Team
+429127,Stuart Attwell,Referee
+429127,Constantine Hatzidakis,Assistants
+429127,Sian Massey,Assistants
+429127,Andre Marriner,Fourth official
+429127,Jonathan Moss,VAR
+429127,Andy Halliday,Assistant VAR
+429126,David Moyes,Manager Home Team
+429126,Mikel Arteta,Manager Away Team
+429126,Jonathan Moss,Referee
+429126,Marc Perry,Assistants
+429126,Dan Robathan,Assistants
+429126,Graham Scott,Fourth official
+429126,Martin Atkinson,VAR
+429126,Scott Ledger,Assistant VAR
+429008,Dean Smith,Manager Home Team
+429008,José Mourinho,Manager Away Team
+429008,Mike Dean,Referee
+429008,Darren Cann,Assistants
+429008,Mark Scholes,Assistants
+429008,Robert Jones,Fourth official
+429008,Simon Hooper,VAR
+429008,Derek Eaton,Assistant VAR
+429117,Graham Potter,Manager Home Team
+429117,Steve Bruce,Manager Away Team
+429117,Anthony Taylor,Referee
+429117,Adam Nunn,Assistants
+429117,Gary Beswick,Assistants
+429117,Kevin Friend,Fourth official
+429117,Stuart Attwell,VAR
+429117,Stephen Child,Assistant VAR
+429120,Scott Parker,Manager Home Team
+429120,Marcelo Bielsa,Manager Away Team
+429120,David Coote,Referee
+429120,Nicholas Hopton,Assistants
+429120,Daniel Cook,Assistants
+429120,Robert Jones,Fourth official
+429120,Darren England,VAR
+429120,Richard West,Assistant VAR
+429116,Nuno Espírito Santo,Manager Home Team
+429116,Jürgen Klopp,Manager Away Team
+429116,Craig Pawson,Referee
+429116,Lee Betts,Assistants
+429116,Harry Lennard,Assistants
+429116,Mike Dean,Fourth official
+429116,Andy Madley,VAR
+429116,Darren Cann,Assistant VAR
+429115,Ralph Hasenhüttl,Manager Home Team
+429115,Graham Potter,Manager Away Team
+429115,Stuart Attwell,Referee
+429115,Constantine Hatzidakis,Assistants
+429115,Richard West,Assistants
+429115,Robert Jones,Fourth official
+429115,Andre Marriner,VAR
+429115,Andy Halliday,Assistant VAR
+429112,Brendan Rodgers,Manager Home Team
+429112,Paul Heckingbottom,Manager Away Team
+429112,Peter Bankes,Referee
+429112,James Mainwaring,Assistants
+429112,Adam Nunn,Assistants
+429112,Anthony Taylor,Fourth official
+429112,David Coote,VAR
+429112,Neil Davies,Assistant VAR
+429113,Ole Gunnar Solskjaer,Manager Home Team
+429113,David Moyes,Manager Away Team
+429113,Martin Atkinson,Referee
+429113,Gary Beswick,Assistants
+429113,Sian Massey,Assistants
+429113,Craig Pawson,Fourth official
+429113,Jonathan Moss,VAR
+429113,Nicholas Hopton,Assistant VAR
+429107,Mikel Arteta,Manager Home Team
+429107,José Mourinho,Manager Away Team
+429107,Michael Oliver,Referee
+429107,Stuart Burt,Assistants
+429107,Simon Bennett,Assistants
+429107,Kevin Friend,Fourth official
+429107,Paul Tierney,VAR
+429107,Lee Betts,Assistant VAR
+429111,Marcelo Bielsa,Manager Home Team
+429111,Thomas Tuchel,Manager Away Team
+429111,Kevin Friend,Referee
+429111,Adrian Holmes,Assistants
+429111,Simon Beck,Assistants
+429111,Anthony Taylor,Fourth official
+429111,Stuart Attwell,VAR
+429111,Matt Wilkes,Assistant VAR
+429108,Roy Hodgson,Manager Home Team
+429108,Sam Allardyce,Manager Away Team
+429108,Simon Hooper,Referee
+429108,Derek Eaton,Assistants
+429108,Mark Scholes,Assistants
+429108,Graham Scott,Fourth official
+429108,Mike Dean,VAR
+429108,Harry Lennard,Assistant VAR
+429109,Carlo Ancelotti,Manager Home Team
+429109,Sean Dyche,Manager Away Team
+429109,Jonathan Moss,Referee
+429109,Marc Perry,Assistants
+429109,Dan Robathan,Assistants
+429109,Paul Tierney,Fourth official
+429109,Martin Atkinson,VAR
+429109,Andy Halliday,Assistant VAR
+429114,Steve Bruce,Manager Home Team
+429114,Dean Smith,Manager Away Team
+429114,Paul Tierney,Referee
+429114,Daniel Cook,Assistants
+429114,Ian Hussin,Assistants
+429114,Andy Madley,Fourth official
+429114,Jarred Gillet,VAR
+429114,Timothy Wood,Assistant VAR
+429106,David Moyes,Manager Home Team
+429106,Marcelo Bielsa,Manager Away Team
+429106,Mike Dean,Referee
+429106,Derek Eaton,Assistants
+429106,Darren Cann,Assistants
+429106,Graham Scott,Fourth official
+429106,Andre Marriner,VAR
+429106,Edward Smart,Assistant VAR
+429100,Thomas Tuchel,Manager Home Team
+429100,Carlo Ancelotti,Manager Away Team
+429100,David Coote,Referee
+429100,James Mainwaring,Assistants
+429100,Daniel Cook,Assistants
+429100,Simon Hooper,Fourth official
+429100,Michael Oliver,VAR
+429100,Richard West,Assistant VAR
+429110,Scott Parker,Manager Home Team
+429110,Pep Guardiola,Manager Away Team
+429110,Andre Marriner,Referee
+429110,Simon Long,Assistants
+429110,Scott Ledger,Assistants
+429110,Robert Jones,Fourth official
+429110,Craig Pawson,VAR
+429110,Andy Halliday,Assistant VAR
+429105,Sam Allardyce,Manager Home Team
+429105,Steve Bruce,Manager Away Team
+429105,Martin Atkinson,Referee
+429105,Lee Betts,Assistants
+429105,Nicholas Hopton,Assistants
+429105,Robert Jones,Fourth official
+429105,Peter Bankes,VAR
+429105,Andy Halliday,Assistant VAR
+429163,Pep Guardiola,Manager Home Team
+429163,Ralph Hasenhüttl,Manager Away Team
+429163,Jonathan Moss,Referee
+429163,Marc Perry,Assistants
+429163,Dan Robathan,Assistants
+429163,Martin Atkinson,Fourth official
+429163,Andy Madley,VAR
+429163,Stephen Child,Assistant VAR
+429101,Jürgen Klopp,Manager Home Team
+429101,Scott Parker,Manager Away Team
+429101,Kevin Friend,Referee
+429101,Simon Beck,Assistants
+429101,Adrian Holmes,Assistants
+429101,Jonathan Moss,Fourth official
+429101,Simon Hooper,VAR
+429101,Derek Eaton,Assistant VAR
+429104,José Mourinho,Manager Home Team
+429104,Roy Hodgson,Manager Away Team
+429104,Stuart Attwell,Referee
+429104,Neil Davies,Assistants
+429104,Constantine Hatzidakis,Assistants
+429104,Andre Marriner,Fourth official
+429104,Darren England,VAR
+429104,Mark Scholes,Assistant VAR
+429102,Pep Guardiola,Manager Home Team
+429102,Ole Gunnar Solskjaer,Manager Away Team
+429102,Anthony Taylor,Referee
+429102,Gary Beswick,Assistants
+429102,Adam Nunn,Assistants
+429102,Mike Dean,Fourth official
+429102,Paul Tierney,VAR
+429102,Harry Lennard,Assistant VAR
+429099,Sean Dyche,Manager Home Team
+429099,Mikel Arteta,Manager Away Team
+429099,Andre Marriner,Referee
+429099,Edward Smart,Assistants
+429099,Scott Ledger,Assistants
+429099,Anthony Taylor,Fourth official
+429099,Kevin Friend,VAR
+429099,Matt Wilkes,Assistant VAR
+429103,Chris Wilder,Manager Home Team
+429103,Ralph Hasenhüttl,Manager Away Team
+429103,Paul Tierney,Referee
+429103,Ian Hussin,Assistants
+429103,Sian Massey,Assistants
+429103,Geoff Eltringham,Fourth official
+429103,David Coote,VAR
+429103,Timothy Wood,Assistant VAR
+429097,Dean Smith,Manager Home Team
+429097,Nuno Espírito Santo,Manager Away Team
+429097,Andy Madley,Referee
+429097,Richard West,Assistants
+429097,Simon Long,Assistants
+429097,Darren England,Fourth official
+429097,Peter Bankes,VAR
+429097,Andy Halliday,Assistant VAR
+429098,Graham Potter,Manager Home Team
+429098,Brendan Rodgers,Manager Away Team
+429098,Michael Oliver,Referee
+429098,Stuart Burt,Assistants
+429098,Simon Bennett,Assistants
+429098,Keith Stroud,Fourth official
+429098,Stuart Attwell,VAR
+429098,Andy Halliday,Assistant VAR
+429159,Scott Parker,Manager Home Team
+429159,José Mourinho,Manager Away Team
+429159,David Coote,Referee
+429159,Nicholas Hopton,Assistants
+429159,Daniel Cook,Assistants
+429159,Peter Bankes,Fourth official
+429159,Jarred Gillet,VAR
+429159,Peter Kirkup,Assistant VAR
+429125,Sam Allardyce,Manager Home Team
+429125,Carlo Ancelotti,Manager Away Team
+429125,Darren England,Referee
+429125,James Mainwaring,Assistants
+429125,Gary Beswick,Assistants
+429125,Kevin Friend,Fourth official
+429125,Michael Oliver,VAR
+429125,Timothy Wood,Assistant VAR
+429121,Jürgen Klopp,Manager Home Team
+429121,Thomas Tuchel,Manager Away Team
+429121,Martin Atkinson,Referee
+429121,Simon Bennett,Assistants
+429121,Stuart Burt,Assistants
+429121,Anthony Taylor,Fourth official
+429121,Paul Tierney,VAR
+429121,Constantine Hatzidakis,Assistant VAR
+429118,Sean Dyche,Manager Home Team
+429118,Brendan Rodgers,Manager Away Team
+429118,Andy Madley,Referee
+429118,Richard West,Assistants
+429118,Adrian Holmes,Assistants
+429118,Jonathan Moss,Fourth official
+429118,Stuart Attwell,VAR
+429118,Neil Davies,Assistant VAR
+429123,Chris Wilder,Manager Home Team
+429123,Dean Smith,Manager Away Team
+429123,Robert Jones,Referee
+429123,Derek Eaton,Assistants
+429123,Darren Cann,Assistants
+429123,Tony Harrington,Fourth official
+429123,Graham Scott,VAR
+429123,Lee Betts,Assistant VAR
+429119,Roy Hodgson,Manager Home Team
+429119,Ole Gunnar Solskjaer,Manager Away Team
+429119,Andre Marriner,Referee
+429119,Scott Ledger,Assistants
+429119,Marc Perry,Assistants
+429119,Kevin Friend,Fourth official
+429119,Mike Dean,VAR
+429119,Stephen Child,Assistant VAR
+429122,Pep Guardiola,Manager Home Team
+429122,Nuno Espírito Santo,Manager Away Team
+429122,Chris Kavanagh,Referee
+429122,Sian Massey,Assistants
+429122,Adam Nunn,Assistants
+429122,Anthony Taylor,Fourth official
+429122,Craig Pawson,VAR
+429122,Stephen Child,Assistant VAR
+429089,Carlo Ancelotti,Manager Home Team
+429089,Ralph Hasenhüttl,Manager Away Team
+429089,Martin Atkinson,Referee
+429089,Edward Smart,Assistants
+429089,Lee Betts,Assistants
+429089,Darren England,Fourth official
+429089,Jonathan Moss,VAR
+429089,Marc Perry,Assistant VAR
+429088,Roy Hodgson,Manager Home Team
+429088,Scott Parker,Manager Away Team
+429088,Anthony Taylor,Referee
+429088,Adam Nunn,Assistants
+429088,Gary Beswick,Assistants
+429088,Tim Robinson,Fourth official
+429088,Peter Bankes,VAR
+429088,Andy Halliday,Assistant VAR
+429095,José Mourinho,Manager Home Team
+429095,Sean Dyche,Manager Away Team
+429095,Kevin Friend,Referee
+429095,Simon Beck,Assistants
+429095,Adrian Holmes,Assistants
+429095,Simon Hooper,Fourth official
+429095,Martin Atkinson,VAR
+429095,Andy Halliday,Assistant VAR
+429091,Brendan Rodgers,Manager Home Team
+429091,Mikel Arteta,Manager Away Team
+429091,Paul Tierney,Referee
+429091,Harry Lennard,Assistants
+429091,Daniel Cook,Assistants
+429091,Michael Oliver,Fourth official
+429091,David Coote,VAR
+429091,Nicholas Hopton,Assistant VAR
+429087,Thomas Tuchel,Manager Home Team
+429087,Ole Gunnar Solskjaer,Manager Away Team
+429087,Stuart Attwell,Referee
+429087,Constantine Hatzidakis,Assistants
+429087,Simon Long,Assistants
+429087,Andre Marriner,Fourth official
+429087,Chris Kavanagh,VAR
+429087,Sian Massey,Assistant VAR
+429094,Chris Wilder,Manager Home Team
+429094,Jürgen Klopp,Manager Away Team
+429094,Jonathan Moss,Referee
+429094,Marc Perry,Assistants
+429094,Dan Robathan,Assistants
+429094,John Brooks,Fourth official
+429094,Andy Madley,VAR
+429094,Matt Wilkes,Assistant VAR
+429092,Pep Guardiola,Manager Home Team
+429092,David Moyes,Manager Away Team
+429092,Michael Oliver,Referee
+429092,Simon Bennett,Assistants
+429092,Stuart Burt,Assistants
+429092,Paul Tierney,Fourth official
+429092,Andre Marriner,VAR
+429092,Edward Smart,Assistant VAR
+429096,Sam Allardyce,Manager Home Team
+429096,Graham Potter,Manager Away Team
+429096,Lee Mason,Referee
+429096,Mark Scholes,Assistants
+429096,Timothy Wood,Assistants
+429096,Graham Scott,Fourth official
+429096,Simon Hooper,VAR
+429096,Richard West,Assistant VAR
+429093,Steve Bruce,Manager Home Team
+429093,Nuno Espírito Santo,Manager Away Team
+429093,Mike Dean,Referee
+429093,Ian Hussin,Assistants
+429093,Darren Cann,Assistants
+429093,Andy Madley,Fourth official
+429093,Kevin Friend,VAR
+429093,Andy Halliday,Assistant VAR
+429090,Marcelo Bielsa,Manager Home Team
+429090,Dean Smith,Manager Away Team
+429090,Peter Bankes,Referee
+429090,Neil Davies,Assistants
+429090,James Mainwaring,Assistants
+429090,Craig Pawson,Fourth official
+429090,Darren England,VAR
+429090,Gary Beswick,Assistant VAR
+429010,Marcelo Bielsa,Manager Home Team
+429010,Ralph Hasenhüttl,Manager Away Team
+429010,Andre Marriner,Referee
+429010,Adrian Holmes,Assistants
+429010,Scott Ledger,Assistants
+429010,Robert Jones,Fourth official
+429010,Kevin Friend,VAR
+429010,Darren Cann,Assistant VAR
+429079,Graham Potter,Manager Home Team
+429079,Roy Hodgson,Manager Away Team
+429079,Kevin Friend,Referee
+429079,Simon Beck,Assistants
+429079,Edward Smart,Assistants
+429079,Keith Stroud,Fourth official
+429079,Simon Hooper,VAR
+429079,Mark Scholes,Assistant VAR
+429085,David Moyes,Manager Home Team
+429085,José Mourinho,Manager Away Team
+429085,Craig Pawson,Referee
+429085,Richard West,Assistants
+429085,Harry Lennard,Assistants
+429085,Graham Scott,Fourth official
+429085,Darren England,VAR
+429085,Andy Halliday,Assistant VAR
+429086,Nuno Espírito Santo,Manager Home Team
+429086,Marcelo Bielsa,Manager Away Team
+429086,David Coote,Referee
+429086,James Mainwaring,Assistants
+429086,Nicholas Hopton,Assistants
+429086,Darren England,Fourth official
+429086,Jarred Gillet,VAR
+429086,Gary Beswick,Assistant VAR
+429084,Ralph Hasenhüttl,Manager Home Team
+429084,Thomas Tuchel,Manager Away Team
+429084,Anthony Taylor,Referee
+429084,Adam Nunn,Assistants
+429084,Simon Long,Assistants
+429084,Simon Hooper,Fourth official
+429084,Stuart Attwell,VAR
+429084,Gary Beswick,Assistant VAR
+429083,Ole Gunnar Solskjaer,Manager Home Team
+429083,Steve Bruce,Manager Away Team
+429083,Paul Tierney,Referee
+429083,Neil Davies,Assistants
+429083,Lee Betts,Assistants
+429083,Lee Mason,Fourth official
+429083,Stuart Attwell,VAR
+429083,Adrian Holmes,Assistant VAR
+429078,Dean Smith,Manager Home Team
+429078,Brendan Rodgers,Manager Away Team
+429078,Michael Oliver,Referee
+429078,Stuart Burt,Assistants
+429078,Simon Bennett,Assistants
+429078,Robert Jones,Fourth official
+429078,David Coote,VAR
+429078,Andy Halliday,Assistant VAR
+429077,Mikel Arteta,Manager Home Team
+429077,Pep Guardiola,Manager Away Team
+429077,Jonathan Moss,Referee
+429077,Dan Robathan,Assistants
+429077,Marc Perry,Assistants
+429077,Andy Madley,Fourth official
+429077,Peter Bankes,VAR
+429077,Timothy Wood,Assistant VAR
+429081,Scott Parker,Manager Home Team
+429081,Chris Wilder,Manager Away Team
+429081,Martin Atkinson,Referee
+429081,Constantine Hatzidakis,Assistants
+429081,Peter Kirkup,Assistants
+429081,Gavin Ward,Fourth official
+429081,Peter Bankes,VAR
+429081,Andy Halliday,Assistant VAR
+429080,Sean Dyche,Manager Home Team
+429080,Sam Allardyce,Manager Away Team
+429080,Mike Dean,Referee
+429080,Ian Hussin,Assistants
+429080,Mark Scholes,Assistants
+429080,Andy Madley,Fourth official
+429080,Michael Oliver,VAR
+429080,Dan Robathan,Assistant VAR
+429082,Jürgen Klopp,Manager Home Team
+429082,Carlo Ancelotti,Manager Away Team
+429082,Chris Kavanagh,Referee
+429082,Daniel Cook,Assistants
+429082,Sian Massey,Assistants
+429082,Paul Tierney,Fourth official
+429082,Andre Marriner,VAR
+429082,Derek Eaton,Assistant VAR
+428998,Sean Dyche,Manager Home Team
+428998,Scott Parker,Manager Away Team
+428998,Jonathan Moss,Referee
+428998,Nicholas Hopton,Assistants
+428998,Marc Perry,Assistants
+428998,Martin Atkinson,Fourth official
+428998,Darren England,VAR
+428998,Dan Robathan,Assistant VAR
+428991,Carlo Ancelotti,Manager Home Team
+428991,Pep Guardiola,Manager Away Team
+428991,Andre Marriner,Referee
+428991,Richard West,Assistants
+428991,Scott Ledger,Assistants
+428991,Lee Mason,Fourth official
+428991,Simon Hooper,VAR
+428991,Derek Eaton,Assistant VAR
+429076,David Moyes,Manager Home Team
+429076,Chris Wilder,Manager Away Team
+429076,Simon Hooper,Referee
+429076,Derek Eaton,Assistants
+429076,Timothy Wood,Assistants
+429076,Graham Scott,Fourth official
+429076,Michael Oliver,VAR
+429076,Simon Bennett,Assistant VAR
+429074,Ralph Hasenhüttl,Manager Home Team
+429074,Nuno Espírito Santo,Manager Away Team
+429074,Graham Scott,Referee
+429074,Darren Cann,Assistants
+429074,Mark Scholes,Assistants
+429074,Darren England,Fourth official
+429074,Martin Atkinson,VAR
+429074,Constantine Hatzidakis,Assistant VAR
+429069,Thomas Tuchel,Manager Home Team
+429069,Steve Bruce,Manager Away Team
+429069,Peter Bankes,Referee
+429069,Neil Davies,Assistants
+429069,James Mainwaring,Assistants
+429069,Kevin Friend,Fourth official
+429069,Chris Kavanagh,VAR
+429069,Daniel Cook,Assistant VAR
+429067,Mikel Arteta,Manager Home Team
+429067,Marcelo Bielsa,Manager Away Team
+429067,Stuart Attwell,Referee
+429067,Daniel Cook,Assistants
+429067,Simon Long,Assistants
+429067,Simon Hooper,Fourth official
+429067,Andre Marriner,VAR
+429067,Sian Massey,Assistant VAR
+429072,Brendan Rodgers,Manager Home Team
+429072,Jürgen Klopp,Manager Away Team
+429072,Anthony Taylor,Referee
+429072,Gary Beswick,Assistants
+429072,Adam Nunn,Assistants
+429072,Lee Mason,Fourth official
+429072,Stuart Attwell,VAR
+429072,Mark Scholes,Assistant VAR
+429075,Sam Allardyce,Manager Home Team
+429075,Ole Gunnar Solskjaer,Manager Away Team
+429075,Craig Pawson,Referee
+429075,Harry Lennard,Assistants
+429075,Richard West,Assistants
+429075,Jarred Gillet,Fourth official
+429075,Jonathan Moss,VAR
+429075,Marc Perry,Assistant VAR
+429071,Carlo Ancelotti,Manager Home Team
+429071,Scott Parker,Manager Away Team
+429071,Andy Madley,Referee
+429071,Adrian Holmes,Assistants
+429071,Simon Beck,Assistants
+429071,Tony Harrington,Fourth official
+429071,Kevin Friend,VAR
+429071,Edward Smart,Assistant VAR
+429070,Roy Hodgson,Manager Home Team
+429070,Sean Dyche,Manager Away Team
+429070,Michael Oliver,Referee
+429070,Stuart Burt,Assistants
+429070,Simon Bennett,Assistants
+429070,David Coote,Fourth official
+429070,Jarred Gillet,VAR
+429070,Timothy Wood,Assistant VAR
+429073,Pep Guardiola,Manager Home Team
+429073,José Mourinho,Manager Away Team
+429073,Paul Tierney,Referee
+429073,Lee Betts,Assistants
+429073,Ian Hussin,Assistants
+429073,Craig Pawson,Fourth official
+429073,Peter Bankes,VAR
+429073,Neil Davies,Assistant VAR
+429068,Graham Potter,Manager Home Team
+429068,Dean Smith,Manager Away Team
+429068,Darren England,Referee
+429068,Peter Kirkup,Assistants
+429068,Constantine Hatzidakis,Assistants
+429068,Graham Scott,Fourth official
+429068,Martin Atkinson,VAR
+429068,Darren Cann,Assistant VAR
+429060,Marcelo Bielsa,Manager Home Team
+429060,Roy Hodgson,Manager Away Team
+429060,Andre Marriner,Referee
+429060,Scott Ledger,Assistants
+429060,Adrian Holmes,Assistants
+429060,Robert Jones,Fourth official
+429060,Kevin Friend,VAR
+429060,Simon Beck,Assistant VAR
+429065,José Mourinho,Manager Home Team
+429065,Sam Allardyce,Manager Away Team
+429065,Stuart Attwell,Referee
+429065,Harry Lennard,Assistants
+429065,Mark Scholes,Assistants
+429065,Lee Mason,Fourth official
+429065,Darren England,VAR
+429065,Andy Halliday,Assistant VAR
+429064,Chris Wilder,Manager Home Team
+429064,Thomas Tuchel,Manager Away Team
+429064,Kevin Friend,Referee
+429064,Simon Beck,Assistants
+429064,Edward Smart,Assistants
+429064,Andy Madley,Fourth official
+429064,Simon Hooper,VAR
+429064,Timothy Wood,Assistant VAR
+429066,Nuno Espírito Santo,Manager Home Team
+429066,Brendan Rodgers,Manager Away Team
+429066,Martin Atkinson,Referee
+429066,Lee Betts,Assistants
+429066,Nicholas Hopton,Assistants
+429066,David Coote,Fourth official
+429066,Peter Bankes,VAR
+429066,Andy Halliday,Assistant VAR
+429061,Jürgen Klopp,Manager Home Team
+429061,Pep Guardiola,Manager Away Team
+429061,Michael Oliver,Referee
+429061,Stuart Burt,Assistants
+429061,Simon Bennett,Assistants
+429061,Chris Kavanagh,Fourth official
+429061,Paul Tierney,VAR
+429061,Constantine Hatzidakis,Assistant VAR
+429057,Dean Smith,Manager Home Team
+429057,Mikel Arteta,Manager Away Team
+429057,Chris Kavanagh,Referee
+429057,Daniel Cook,Assistants
+429057,Constantine Hatzidakis,Assistants
+429057,Darren England,Fourth official
+429057,David Coote,VAR
+429057,Sian Massey,Assistant VAR
+429058,Sean Dyche,Manager Home Team
+429058,Graham Potter,Manager Away Team
+429058,Anthony Taylor,Referee
+429058,Gary Beswick,Assistants
+429058,Adam Nunn,Assistants
+429058,Peter Bankes,Fourth official
+429058,Stuart Attwell,VAR
+429058,Neil Davies,Assistant VAR
+429063,Steve Bruce,Manager Home Team
+429063,Ralph Hasenhüttl,Manager Away Team
+429063,Craig Pawson,Referee
+429063,Ian Hussin,Assistants
+429063,Richard West,Assistants
+429063,John Brooks,Fourth official
+429063,Robert Jones,VAR
+429063,Adrian Holmes,Assistant VAR
+429059,Scott Parker,Manager Home Team
+429059,David Moyes,Manager Away Team
+429059,Mike Dean,Referee
+429059,Darren Cann,Assistants
+429059,Simon Long,Assistants
+429059,Kevin Friend,Fourth official
+429059,Lee Mason,VAR
+429059,Scott Ledger,Assistant VAR
+429062,Ole Gunnar Solskjaer,Manager Home Team
+429062,Carlo Ancelotti,Manager Away Team
+429062,Jonathan Moss,Referee
+429062,Marc Perry,Assistants
+429062,Dan Robathan,Assistants
+429062,Andy Madley,Fourth official
+429062,Andre Marriner,VAR
+429062,Andy Halliday,Assistant VAR
+429056,José Mourinho,Manager Home Team
+429056,Thomas Tuchel,Manager Away Team
+429056,Andre Marriner,Referee
+429056,Scott Ledger,Assistants
+429056,Simon Long,Assistants
+429056,Andy Madley,Fourth official
+429056,Stuart Attwell,VAR
+429056,Adam Nunn,Assistant VAR
+429048,Sean Dyche,Manager Home Team
+429048,Pep Guardiola,Manager Away Team
+429048,Martin Atkinson,Referee
+429048,Constantine Hatzidakis,Assistants
+429048,Edward Smart,Assistants
+429048,Anthony Taylor,Fourth official
+429048,Stuart Attwell,VAR
+429048,Marc Perry,Assistant VAR
+429049,Scott Parker,Manager Home Team
+429049,Brendan Rodgers,Manager Away Team
+429049,Robert Jones,Referee
+429049,Mark Scholes,Assistants
+429049,Dan Robathan,Assistants
+429049,Keith Stroud,Fourth official
+429049,Lee Mason,VAR
+429049,Lee Betts,Assistant VAR
+429054,Jürgen Klopp,Manager Home Team
+429054,Graham Potter,Manager Away Team
+429054,Kevin Friend,Referee
+429054,Simon Beck,Assistants
+429054,Adrian Holmes,Assistants
+429054,Paul Tierney,Fourth official
+429054,Simon Hooper,VAR
+429054,Derek Eaton,Assistant VAR
+429052,Chris Wilder,Manager Home Team
+429052,Sam Allardyce,Manager Away Team
+429052,Paul Tierney,Referee
+429052,Harry Lennard,Assistants
+429052,Lee Betts,Assistants
+429052,Darren Bond,Fourth official
+429052,Peter Bankes,VAR
+429052,Neil Davies,Assistant VAR
+429047,Dean Smith,Manager Home Team
+429047,David Moyes,Manager Away Team
+429047,Andy Madley,Referee
+429047,Richard West,Assistants
+429047,James Mainwaring,Assistants
+429047,Matt Donohue,Fourth official
+429047,Jarred Gillet,VAR
+429047,Stephen Child,Assistant VAR
+429053,Nuno Espírito Santo,Manager Home Team
+429053,Mikel Arteta,Manager Away Team
+429053,Mike Dean,Referee
+429053,Ian Hussin,Assistants
+429053,Darren Cann,Assistants
+429053,Daniel Cook,Assistants
+429053,Peter Kirkup,Assistants
+429053,Lee Mason,Fourth official
+429053,Graham Scott,VAR
+429053,Stephen Child,Assistant VAR
+429050,Marcelo Bielsa,Manager Home Team
+429050,Carlo Ancelotti,Manager Away Team
+429050,Michael Oliver,Referee
+429050,Stuart Burt,Assistants
+429050,Simon Bennett,Assistants
+429050,Darren England,Fourth official
+429050,Chris Kavanagh,VAR
+429050,Daniel Cook,Assistant VAR
+429051,Ole Gunnar Solskjaer,Manager Home Team
+429051,Ralph Hasenhüttl,Manager Away Team
+429051,Mike Dean,Referee
+429051,Ian Hussin,Assistants
+429051,Darren Cann,Assistants
+429051,Lee Mason,Fourth official
+429051,Graham Scott,VAR
+429051,Stephen Child,Assistant VAR
+429055,Steve Bruce,Manager Home Team
+429055,Roy Hodgson,Manager Away Team
+429055,Darren England,Referee
+429055,Gary Beswick,Assistants
+429055,Nicholas Hopton,Assistants
+429055,Martin Atkinson,Fourth official
+429055,Andre Marriner,VAR
+429055,Sian Massey,Assistant VAR
+429039,Thomas Tuchel,Manager Home Team
+429039,Sean Dyche,Manager Away Team
+429039,Graham Scott,Referee
+429039,Darren Cann,Assistants
+429039,Timothy Wood,Assistants
+429039,Robert Jones,Fourth official
+429039,Michael Oliver,VAR
+429039,Andy Halliday,Assistant VAR
+429041,Carlo Ancelotti,Manager Home Team
+429041,Steve Bruce,Manager Away Team
+429041,Stuart Attwell,Referee
+429041,Constantine Hatzidakis,Assistants
+429041,Edward Smart,Assistants
+429041,Craig Pawson,Fourth official
+429041,Kevin Friend,VAR
+429041,Simon Beck,Assistant VAR
+429042,Brendan Rodgers,Manager Home Team
+429042,Marcelo Bielsa,Manager Away Team
+429042,Chris Kavanagh,Referee
+429042,Daniel Cook,Assistants
+429042,Sian Massey,Assistants
+429042,Anthony Taylor,Fourth official
+429042,Mike Dean,VAR
+429042,Ian Hussin,Assistant VAR
+429046,David Moyes,Manager Home Team
+429046,Jürgen Klopp,Manager Away Team
+429046,Jonathan Moss,Referee
+429046,Marc Perry,Assistants
+429046,Dan Robathan,Assistants
+429046,Andy Madley,Fourth official
+429046,Craig Pawson,VAR
+429046,Gary Beswick,Assistant VAR
+429040,Roy Hodgson,Manager Home Team
+429040,Nuno Espírito Santo,Manager Away Team
+429040,Simon Hooper,Referee
+429040,Scott Ledger,Assistants
+429040,Derek Eaton,Assistants
+429040,Steve Martin,Fourth official
+429040,Andy Madley,VAR
+429040,Adrian Holmes,Assistant VAR
+429043,Pep Guardiola,Manager Home Team
+429043,Chris Wilder,Manager Away Team
+429043,David Coote,Referee
+429043,Lee Betts,Assistants
+429043,Nicholas Hopton,Assistants
+429043,Jonathan Moss,Fourth official
+429043,Martin Atkinson,VAR
+429043,Peter Kirkup,Assistant VAR
+429038,Graham Potter,Manager Home Team
+429038,José Mourinho,Manager Away Team
+429038,Peter Bankes,Referee
+429038,Neil Davies,Assistants
+429038,James Mainwaring,Assistants
+429038,Simon Hooper,Fourth official
+429038,David Coote,VAR
+429038,Nicholas Hopton,Assistant VAR
+429045,Sam Allardyce,Manager Home Team
+429045,Scott Parker,Manager Away Team
+429045,Anthony Taylor,Referee
+429045,Gary Beswick,Assistants
+429045,Adam Nunn,Assistants
+429045,Chris Kavanagh,Fourth official
+429045,Peter Bankes,VAR
+429045,James Mainwaring,Assistant VAR
+429037,Mikel Arteta,Manager Home Team
+429037,Ole Gunnar Solskjaer,Manager Away Team
+429037,Michael Oliver,Referee
+429037,Stuart Burt,Assistants
+429037,Simon Bennett,Assistants
+429037,Robert Jones,Fourth official
+429037,Paul Tierney,VAR
+429037,Andy Halliday,Assistant VAR
+429027,Graham Potter,Manager Home Team
+429027,Scott Parker,Manager Away Team
+429027,Craig Pawson,Referee
+429027,Stuart Burt,Assistants
+429027,Richard West,Assistants
+429027,Gavin Ward,Fourth official
+429027,Andre Marriner,VAR
+429027,Timothy Wood,Assistant VAR
+429036,José Mourinho,Manager Home Team
+429036,Jürgen Klopp,Manager Away Team
+429036,Martin Atkinson,Referee
+429036,Lee Betts,Assistants
+429036,Constantine Hatzidakis,Assistants
+429036,Kevin Friend,Fourth official
+429036,Jonathan Moss,VAR
+429036,Dan Robathan,Assistant VAR
+429032,Thomas Tuchel,Manager Home Team
+429032,Nuno Espírito Santo,Manager Away Team
+429032,Andy Madley,Referee
+429032,Adrian Holmes,Assistants
+429032,Simon Long,Assistants
+429032,Graham Scott,Fourth official
+429032,Lee Mason,VAR
+429032,Scott Ledger,Assistant VAR
+429028,Sean Dyche,Manager Home Team
+429028,Dean Smith,Manager Away Team
+429028,Paul Tierney,Referee
+429028,Simon Bennett,Assistants
+429028,Ian Hussin,Assistants
+429028,Darren England,Fourth official
+429028,Stuart Attwell,VAR
+429028,Harry Lennard,Assistant VAR
+429029,Carlo Ancelotti,Manager Home Team
+429029,Brendan Rodgers,Manager Away Team
+429029,Mike Dean,Referee
+429029,Darren Cann,Assistants
+429029,Mark Scholes,Assistants
+429029,Tony Harrington,Fourth official
+429029,Simon Hooper,VAR
+429029,Stephen Child,Assistant VAR
+429030,Ole Gunnar Solskjaer,Manager Home Team
+429030,Chris Wilder,Manager Away Team
+429030,Peter Bankes,Referee
+429030,Neil Davies,Assistants
+429030,Nicholas Hopton,Assistants
+429030,Martin Atkinson,Fourth official
+429030,David Coote,VAR
+429030,Marc Perry,Assistant VAR
+429044,Ralph Hasenhüttl,Manager Home Team
+429044,Dean Smith,Manager Away Team
+429044,Lee Mason,Referee
+429044,Mark Scholes,Assistants
+429044,Simon Long,Assistants
+429044,Tim Robinson,Fourth official
+429044,Mike Dean,VAR
+429044,Andy Halliday,Assistant VAR
+429033,Roy Hodgson,Manager Home Team
+429033,David Moyes,Manager Away Team
+429033,Stuart Attwell,Referee
+429033,Daniel Cook,Assistants
+429033,Peter Kirkup,Assistants
+429033,Simon Hooper,Fourth official
+429033,Graham Scott,VAR
+429033,Derek Eaton,Assistant VAR
+429034,Steve Bruce,Manager Home Team
+429034,Marcelo Bielsa,Manager Away Team
+429034,Anthony Taylor,Referee
+429034,Gary Beswick,Assistants
+429034,James Mainwaring,Assistants
+429034,Peter Bankes,Fourth official
+429034,Jarred Gillet,VAR
+429034,Constantine Hatzidakis,Assistant VAR
+429031,Sam Allardyce,Manager Home Team
+429031,Pep Guardiola,Manager Away Team
+429031,Chris Kavanagh,Referee
+429031,Sian Massey,Assistants
+429031,Adam Nunn,Assistants
+429031,David Coote,Fourth official
+429031,Craig Pawson,VAR
+429031,Matt Wilkes,Assistant VAR
+429035,Ralph Hasenhüttl,Manager Home Team
+429035,Mikel Arteta,Manager Away Team
+429035,Kevin Friend,Referee
+429035,Simon Beck,Assistants
+429035,Edward Smart,Assistants
+429035,Keith Stroud,Fourth official
+429035,Robert Jones,VAR
+429035,Stephen Child,Assistant VAR
+428937,Dean Smith,Manager Home Team
+428937,Steve Bruce,Manager Away Team
+428937,Simon Hooper,Referee
+428937,Dan Robathan,Assistants
+428937,Derek Eaton,Assistants
+428937,Mike Dean,Fourth official
+428937,Paul Tierney,VAR
+428937,Daniel Cook,Assistant VAR
+428841,Pep Guardiola,Manager Home Team
+428841,Dean Smith,Manager Away Team
+428841,Jonathan Moss,Referee
+428841,Dan Robathan,Assistants
+428841,Harry Lennard,Assistants
+428841,Scott Ledger,Assistants
+428841,Darren Cann,Assistants
+428841,David Coote,Fourth official
+428841,Andy Madley,VAR
+428841,Simon Beck,Assistant VAR
+429013,David Moyes,Manager Home Team
+429013,Sam Allardyce,Manager Away Team
+429013,Graham Scott,Referee
+429013,Neil Davies,Assistants
+429013,Simon Long,Assistants
+429013,Gavin Ward,Fourth official
+429013,Darren England,VAR
+429013,Stephen Child,Assistant VAR
+429009,Scott Parker,Manager Home Team
+429009,Ole Gunnar Solskjaer,Manager Away Team
+429009,Martin Atkinson,Referee
+429009,Peter Kirkup,Assistants
+429009,Edward Smart,Assistants
+429009,Stuart Attwell,Fourth official
+429009,Kevin Friend,VAR
+429009,Marc Perry,Assistant VAR
+429015,Jürgen Klopp,Manager Home Team
+429015,Sean Dyche,Manager Away Team
+429015,Mike Dean,Referee
+429015,Marc Perry,Assistants
+429015,Mark Scholes,Assistants
+429015,Anthony Taylor,Fourth official
+429015,Lee Mason,VAR
+429015,Matt Wilkes,Assistant VAR
+429011,Brendan Rodgers,Manager Home Team
+429011,Frank Lampard,Manager Away Team
+429011,Craig Pawson,Referee
+429011,Ian Hussin,Assistants
+429011,Sian Massey,Assistants
+429011,Jonathan Moss,Fourth official
+429011,Andre Marriner,VAR
+429011,Stephen Child,Assistant VAR
+429017,Mikel Arteta,Manager Home Team
+429017,Steve Bruce,Manager Away Team
+429017,David Coote,Referee
+429017,Marc Perry,Assistants
+429017,Nicholas Hopton,Assistants
+429017,Graham Scott,Fourth official
+429017,Peter Bankes,VAR
+429017,Sian Massey,Assistant VAR
+429024,Chris Wilder,Manager Home Team
+429024,José Mourinho,Manager Away Team
+429024,Andre Marriner,Referee
+429024,Mark Scholes,Assistants
+429024,Richard West,Assistants
+429024,Robert Jones,Fourth official
+429024,Mike Dean,VAR
+429024,Andy Halliday,Assistant VAR
+429022,Jürgen Klopp,Manager Home Team
+429022,Ole Gunnar Solskjaer,Manager Away Team
+429022,Paul Tierney,Referee
+429022,Lee Betts,Assistants
+429022,Constantine Hatzidakis,Assistants
+429022,Craig Pawson,Fourth official
+429022,Stuart Attwell,VAR
+429022,Stuart Burt,Assistant VAR
+429025,David Moyes,Manager Home Team
+429025,Sean Dyche,Manager Away Team
+429025,Chris Kavanagh,Referee
+429025,Ian Hussin,Assistants
+429025,Dan Robathan,Assistants
+429025,Tim Robinson,Fourth official
+429025,Simon Hooper,VAR
+429025,Simon Long,Assistant VAR
+429020,Marcelo Bielsa,Manager Home Team
+429020,Graham Potter,Manager Away Team
+429020,Kevin Friend,Referee
+429020,Simon Beck,Assistants
+429020,Adrian Holmes,Assistants
+429020,Lee Mason,Fourth official
+429020,Craig Pawson,VAR
+429020,Richard West,Assistant VAR
+429023,Pep Guardiola,Manager Home Team
+429023,Roy Hodgson,Manager Away Team
+429023,Lee Mason,Referee
+429023,Scott Ledger,Assistants
+429023,Timothy Wood,Assistants
+429023,Andy Madley,Fourth official
+429023,Martin Atkinson,VAR
+429023,Peter Kirkup,Assistant VAR
+429021,Brendan Rodgers,Manager Home Team
+429021,Ralph Hasenhüttl,Manager Away Team
+429021,Stuart Attwell,Referee
+429021,Harry Lennard,Assistants
+429021,Edward Smart,Assistants
+429021,Robert Jones,Fourth official
+429021,Jonathan Moss,VAR
+429021,Andy Halliday,Assistant VAR
+429019,Scott Parker,Manager Home Team
+429019,Frank Lampard,Manager Away Team
+429019,Peter Bankes,Referee
+429019,Neil Davies,Assistants
+429019,James Mainwaring,Assistants
+429019,Mike Dean,Fourth official
+429019,Jarred Gillet,VAR
+429019,Adam Nunn,Assistant VAR
+429026,Nuno Espírito Santo,Manager Home Team
+429026,Sam Allardyce,Manager Away Team
+429026,Michael Oliver,Referee
+429026,Stuart Burt,Assistants
+429026,Simon Bennett,Assistants
+429026,Andy Madley,Fourth official
+429026,David Coote,VAR
+429026,Nicholas Hopton,Assistant VAR
+429007,Mikel Arteta,Manager Home Team
+429007,Roy Hodgson,Manager Away Team
+429007,Andre Marriner,Referee
+429007,Scott Ledger,Assistants
+429007,Simon Long,Assistants
+429007,Simon Hooper,Fourth official
+429007,Graham Scott,VAR
+429007,Timothy Wood,Assistant VAR
+429016,Pep Guardiola,Manager Home Team
+429016,Graham Potter,Manager Away Team
+429016,Darren England,Referee
+429016,Stuart Burt,Assistants
+429016,Simon Bennett,Assistants
+429016,Michael Oliver,Fourth official
+429016,Mike Dean,VAR
+429016,Dan Robathan,Assistant VAR
+428995,José Mourinho,Manager Home Team
+428995,Scott Parker,Manager Away Team
+428995,Paul Tierney,Referee
+428995,Harry Lennard,Assistants
+428995,Lee Betts,Assistants
+428995,Chris Kavanagh,Fourth official
+428995,Craig Pawson,VAR
+428995,Stephen Child,Assistant VAR
+429012,Chris Wilder,Manager Home Team
+429012,Steve Bruce,Manager Away Team
+429012,Andy Madley,Referee
+429012,Edward Smart,Assistants
+429012,Derek Eaton,Assistants
+429012,Lee Mason,Fourth official
+429012,Robert Jones,VAR
+429012,Mark Scholes,Assistant VAR
+428837,Sean Dyche,Manager Home Team
+428837,Ole Gunnar Solskjaer,Manager Away Team
+428837,Kevin Friend,Referee
+428837,Simon Beck,Assistants
+428837,Adrian Holmes,Assistants
+428837,Peter Bankes,Fourth official
+428837,Stuart Attwell,VAR
+428837,Stephen Child,Assistant VAR
+429003,Steve Bruce,Manager Home Team
+429003,Brendan Rodgers,Manager Away Team
+429003,Robert Jones,Referee
+429003,Mark Scholes,Assistants
+429003,Derek Eaton,Assistants
+429003,Martin Atkinson,Fourth official
+429003,Lee Mason,VAR
+429003,Adrian Holmes,Assistant VAR
+429014,Nuno Espírito Santo,Manager Home Team
+429014,Carlo Ancelotti,Manager Away Team
+429014,Martin Atkinson,Referee
+429014,Adam Nunn,Assistants
+429014,Nicholas Hopton,Assistants
+429014,David Coote,Fourth official
+429014,Jonathan Moss,VAR
+429014,Peter Kirkup,Assistant VAR
+429005,José Mourinho,Manager Home Team
+429005,Marcelo Bielsa,Manager Away Team
+429005,David Coote,Referee
+429005,Lee Betts,Assistants
+429005,Nicholas Hopton,Assistants
+429005,Graham Scott,Fourth official
+429005,Paul Tierney,VAR
+429005,Matt Wilkes,Assistant VAR
+428999,Frank Lampard,Manager Home Team
+428999,Pep Guardiola,Manager Away Team
+428999,Anthony Taylor,Referee
+428999,Gary Beswick,Assistants
+428999,Adam Nunn,Assistants
+428999,Peter Bankes,Fourth official
+428999,Mike Dean,VAR
+428999,Darren Cann,Assistant VAR
+429004,Ralph Hasenhüttl,Manager Home Team
+429004,Jürgen Klopp,Manager Away Team
+429004,Andre Marriner,Referee
+429004,Scott Ledger,Assistants
+429004,Simon Long,Assistants
+429004,Stuart Attwell,Fourth official
+429004,Andy Madley,VAR
+429004,Stephen Child,Assistant VAR
+429000,Roy Hodgson,Manager Home Team
+429000,Chris Wilder,Manager Away Team
+429000,Stuart Attwell,Referee
+429000,Neil Davies,Assistants
+429000,Peter Kirkup,Assistants
+429000,Keith Stroud,Fourth official
+429000,Andre Marriner,VAR
+429000,Richard West,Assistant VAR
+428997,Graham Potter,Manager Home Team
+428997,Nuno Espírito Santo,Manager Away Team
+428997,Andy Madley,Referee
+428997,Daniel Cook,Assistants
+428997,Sian Massey,Assistants
+428997,Dean Whitestone,Fourth official
+428997,Peter Bankes,VAR
+428997,James Mainwaring,Assistant VAR
+429006,Sam Allardyce,Manager Home Team
+429006,Mikel Arteta,Manager Away Team
+429006,Martin Atkinson,Referee
+429006,Darren Cann,Assistants
+429006,Harry Lennard,Assistants
+429006,Darren England,Fourth official
+429006,Jonathan Moss,VAR
+429006,Stephen Child,Assistant VAR
+429001,Carlo Ancelotti,Manager Home Team
+429001,David Moyes,Manager Away Team
+429001,Kevin Friend,Referee
+429001,Simon Beck,Assistants
+429001,Edward Smart,Assistants
+429001,Andy Madley,Fourth official
+429001,Simon Hooper,VAR
+429001,Nicholas Hopton,Assistant VAR
+429002,Ole Gunnar Solskjaer,Manager Home Team
+429002,Dean Smith,Manager Away Team
+429002,Michael Oliver,Referee
+429002,Stuart Burt,Assistants
+429002,Simon Bennett,Assistants
+429002,Darren England,Fourth official
+429002,Paul Tierney,VAR
+429002,Lee Betts,Assistant VAR
+428993,Steve Bruce,Manager Home Team
+428993,Jürgen Klopp,Manager Away Team
+428993,Paul Tierney,Referee
+428993,Harry Lennard,Assistants
+428993,Adrian Holmes,Assistants
+428993,Lee Mason,Fourth official
+428993,Stuart Attwell,VAR
+428993,Stephen Child,Assistant VAR
+428988,Sean Dyche,Manager Home Team
+428988,Chris Wilder,Manager Away Team
+428988,Chris Kavanagh,Referee
+428988,Gary Beswick,Assistants
+428988,Sian Massey,Assistants
+428988,Michael Oliver,Fourth official
+428988,Peter Bankes,VAR
+428988,Matt Wilkes,Assistant VAR
+428987,Graham Potter,Manager Home Team
+428987,Mikel Arteta,Manager Away Team
+428987,Martin Atkinson,Referee
+428987,Adam Nunn,Assistants
+428987,Ian Hussin,Assistants
+428987,John Brooks,Fourth official
+428987,Stuart Attwell,VAR
+428987,Stephen Child,Assistant VAR
+428994,Ralph Hasenhüttl,Manager Home Team
+428994,David Moyes,Manager Away Team
+428994,Andy Madley,Referee
+428994,Scott Ledger,Assistants
+428994,Richard West,Assistants
+428994,Tim Robinson,Fourth official
+428994,Andre Marriner,VAR
+428994,Timothy Wood,Assistant VAR
+428996,Sam Allardyce,Manager Home Team
+428996,Marcelo Bielsa,Manager Away Team
+428996,Lee Mason,Referee
+428996,Mark Scholes,Assistants
+428996,Nicholas Hopton,Assistants
+428996,Michael Salisbury,Fourth official
+428996,Kevin Friend,VAR
+428996,Simon Beck,Assistant VAR
+428990,Roy Hodgson,Manager Home Team
+428990,Brendan Rodgers,Manager Away Team
+428990,Graham Scott,Referee
+428990,Peter Kirkup,Assistants
+428990,Timothy Wood,Assistants
+428990,Dean Whitestone,Fourth official
+428990,Robert Jones,VAR
+428990,Mark Scholes,Assistant VAR
+428992,Ole Gunnar Solskjaer,Manager Home Team
+428992,Nuno Espírito Santo,Manager Away Team
+428992,Jonathan Moss,Referee
+428992,Simon Bennett,Assistants
+428992,Dan Robathan,Assistants
+428992,Paul Tierney,Fourth official
+428992,Simon Hooper,VAR
+428992,Derek Eaton,Assistant VAR
+428989,Frank Lampard,Manager Home Team
+428989,Dean Smith,Manager Away Team
+428989,Stuart Attwell,Referee
+428989,Simon Long,Assistants
+428989,Neil Davies,Assistants
+428989,Gavin Ward,Fourth official
+428989,Darren England,VAR
+428989,Simon Bennett,Assistant VAR
+428980,Marcelo Bielsa,Manager Home Team
+428980,Sean Dyche,Manager Away Team
+428980,Robert Jones,Referee
+428980,Darren Cann,Assistants
+428980,Nick Greenhalgh,Assistants
+428980,Craig Pawson,Fourth official
+428980,Michael Oliver,VAR
+428980,Andy Halliday,Assistant VAR
+428985,David Moyes,Manager Home Team
+428985,Graham Potter,Manager Away Team
+428985,Simon Hooper,Referee
+428985,Derek Eaton,Assistants
+428985,Matthew Jones,Assistants
+428985,Lee Mason,Fourth official
+428985,Andy Madley,VAR
+428985,Andy Halliday,Assistant VAR
+428982,Jürgen Klopp,Manager Home Team
+428982,Sam Allardyce,Manager Away Team
+428982,Kevin Friend,Referee
+428982,Simon Beck,Assistants
+428982,Adrian Holmes,Assistants
+428982,Anthony Taylor,Fourth official
+428982,Chris Kavanagh,VAR
+428982,Peter Kirkup,Assistant VAR
+428978,Dean Smith,Manager Home Team
+428978,Roy Hodgson,Manager Away Team
+428978,Anthony Taylor,Referee
+428978,Adam Nunn,Assistants
+428978,James Mainwaring,Assistants
+428978,Peter Bankes,Fourth official
+428978,Craig Pawson,VAR
+428978,Simon Long,Assistant VAR
+428986,Nuno Espírito Santo,Manager Home Team
+428986,José Mourinho,Manager Away Team
+428986,Paul Tierney,Referee
+428986,Daniel Cook,Assistants
+428986,Harry Lennard,Assistants
+428986,Andre Marriner,Fourth official
+428986,David Coote,VAR
+428986,Nicholas Hopton,Assistant VAR
+428981,Brendan Rodgers,Manager Home Team
+428981,Ole Gunnar Solskjaer,Manager Away Team
+428981,Mike Dean,Referee
+428981,Ian Hussin,Assistants
+428981,Dan Robathan,Assistants
+428981,Robert Jones,Fourth official
+428981,Graham Scott,VAR
+428981,Neil Davies,Assistant VAR
+428979,Scott Parker,Manager Home Team
+428979,Ralph Hasenhüttl,Manager Away Team
+428979,Darren England,Referee
+428979,Mark Scholes,Assistants
+428979,Sian Massey,Assistants
+428979,Simon Hooper,Fourth official
+428979,Jonathan Moss,VAR
+428979,Timothy Wood,Assistant VAR
+428984,Chris Wilder,Manager Home Team
+428984,Carlo Ancelotti,Manager Away Team
+428984,David Coote,Referee
+428984,Gary Beswick,Assistants
+428984,Nicholas Hopton,Assistants
+428984,Martin Atkinson,Fourth official
+428984,Chris Kavanagh,VAR
+428984,Andy Halliday,Assistant VAR
+428977,Mikel Arteta,Manager Home Team
+428977,Frank Lampard,Manager Away Team
+428977,Michael Oliver,Referee
+428977,Stuart Burt,Assistants
+428977,Simon Bennett,Assistants
+428977,Stuart Attwell,Fourth official
+428977,Paul Tierney,VAR
+428977,Stephen Child,Assistant VAR
+428983,Pep Guardiola,Manager Home Team
+428983,Steve Bruce,Manager Away Team
+428983,Andre Marriner,Referee
+428983,Scott Ledger,Assistants
+428983,Richard West,Assistants
+428983,Andy Madley,Fourth official
+428983,Lee Mason,VAR
+428983,Matt Wilkes,Assistant VAR
+428968,Sean Dyche,Manager Home Team
+428968,Nuno Espírito Santo,Manager Away Team
+428968,Lee Mason,Referee
+428968,Mark Scholes,Assistants
+428968,Harry Lennard,Assistants
+428968,Jonathan Moss,Fourth official
+428968,Stuart Attwell,VAR
+428968,Stuart Burt,Assistant VAR
+428969,Frank Lampard,Manager Home Team
+428969,David Moyes,Manager Away Team
+428969,Chris Kavanagh,Referee
+428969,Daniel Cook,Assistants
+428969,Sian Massey,Assistants
+428969,Simon Hooper,Fourth official
+428969,David Coote,VAR
+428969,Nicholas Hopton,Assistant VAR
+428967,Graham Potter,Manager Home Team
+428967,Chris Wilder,Manager Away Team
+428967,Peter Bankes,Referee
+428967,Neil Davies,Assistants
+428967,James Mainwaring,Assistants
+428967,Keith Stroud,Fourth official
+428967,Michael Oliver,VAR
+428967,Peter Kirkup,Assistant VAR
+428975,José Mourinho,Manager Home Team
+428975,Brendan Rodgers,Manager Away Team
+428975,Craig Pawson,Referee
+428975,Simon Bennett,Assistants
+428975,Edward Smart,Assistants
+428975,David Coote,Fourth official
+428975,Paul Tierney,VAR
+428975,Harry Lennard,Assistant VAR
+428972,Ole Gunnar Solskjaer,Manager Home Team
+428972,Marcelo Bielsa,Manager Away Team
+428972,Anthony Taylor,Referee
+428972,Gary Beswick,Assistants
+428972,Adam Nunn,Assistants
+428972,Chris Kavanagh,Fourth official
+428972,Kevin Friend,VAR
+428972,Simon Beck,Assistant VAR
+428976,Sam Allardyce,Manager Home Team
+428976,Dean Smith,Manager Away Team
+428976,Martin Atkinson,Referee
+428976,Lee Betts,Assistants
+428976,Constantine Hatzidakis,Assistants
+428976,Robert Jones,Fourth official
+428976,Darren England,VAR
+428976,Stephen Child,Assistant VAR
+428974,Ralph Hasenhüttl,Manager Home Team
+428974,Pep Guardiola,Manager Away Team
+428974,Mike Dean,Referee
+428974,Ian Hussin,Assistants
+428974,Darren Cann,Assistants
+428974,Robert Jones,Fourth official
+428974,Lee Mason,VAR
+428974,Adrian Holmes,Assistant VAR
+428970,Roy Hodgson,Manager Home Team
+428970,Jürgen Klopp,Manager Away Team
+428970,Jonathan Moss,Referee
+428970,Marc Perry,Assistants
+428970,Dan Robathan,Assistants
+428970,Stuart Attwell,Fourth official
+428970,Simon Hooper,VAR
+428970,Daniel Cook,Assistant VAR
+428971,Carlo Ancelotti,Manager Home Team
+428971,Mikel Arteta,Manager Away Team
+428971,Andre Marriner,Referee
+428971,Scott Ledger,Assistants
+428971,Simon Long,Assistants
+428971,Paul Tierney,Fourth official
+428971,Michael Oliver,VAR
+428971,James Mainwaring,Assistant VAR
+428962,Chris Wilder,Manager Home Team
+428962,Ole Gunnar Solskjaer,Manager Away Team
+428962,Michael Oliver,Referee
+428962,Stuart Burt,Assistants
+428962,Simon Bennett,Assistants
+428962,Robert Jones,Fourth official
+428962,Paul Tierney,VAR
+428962,Harry Lennard,Assistant VAR
+428958,Dean Smith,Manager Home Team
+428958,Sean Dyche,Manager Away Team
+428958,Craig Pawson,Referee
+428958,Constantine Hatzidakis,Assistants
+428958,Richard West,Assistants
+428958,Lee Mason,Fourth official
+428958,Jonathan Moss,VAR
+428958,Simon Long,Assistant VAR
+428973,Steve Bruce,Manager Home Team
+428973,Scott Parker,Manager Away Team
+428973,Graham Scott,Referee
+428973,Richard West,Assistants
+428973,Derek Eaton,Assistants
+428973,Jarred Gillet,Fourth official
+428973,Andy Madley,VAR
+428973,Stephen Child,Assistant VAR
+428960,Marcelo Bielsa,Manager Home Team
+428960,Steve Bruce,Manager Away Team
+428960,Simon Hooper,Referee
+428960,Edward Smart,Assistants
+428960,Simon Beck,Assistants
+428960,Tony Harrington,Fourth official
+428960,Kevin Friend,VAR
+428960,Matt Wilkes,Assistant VAR
+428957,Mikel Arteta,Manager Home Team
+428957,Ralph Hasenhüttl,Manager Away Team
+428957,Paul Tierney,Referee
+428957,Daniel Cook,Assistants
+428957,Sian Massey,Assistants
+428957,Andre Marriner,Fourth official
+428957,Craig Pawson,VAR
+428957,Neil Davies,Assistant VAR
+428961,Brendan Rodgers,Manager Home Team
+428961,Carlo Ancelotti,Manager Away Team
+428961,Lee Mason,Referee
+428961,Adrian Holmes,Assistants
+428961,Harry Lennard,Assistants
+428961,Jonathan Moss,Fourth official
+428961,Darren England,VAR
+428961,Derek Eaton,Assistant VAR
+428959,Scott Parker,Manager Home Team
+428959,Graham Potter,Manager Away Team
+428959,Robert Jones,Referee
+428959,Darren Cann,Assistants
+428959,Mark Scholes,Assistants
+428959,John Brooks,Fourth official
+428959,Andy Madley,VAR
+428959,Scott Ledger,Assistant VAR
+428965,Jürgen Klopp,Manager Home Team
+428965,José Mourinho,Manager Away Team
+428965,Anthony Taylor,Referee
+428965,Gary Beswick,Assistants
+428965,Adam Nunn,Assistants
+428965,Mike Dean,Fourth official
+428965,Chris Kavanagh,VAR
+428965,Peter Kirkup,Assistant VAR
+428963,David Moyes,Manager Home Team
+428963,Roy Hodgson,Manager Away Team
+428963,David Coote,Referee
+428963,Lee Betts,Assistants
+428963,Nicholas Hopton,Assistants
+428963,Graham Scott,Fourth official
+428963,Peter Bankes,VAR
+428963,Stephen Child,Assistant VAR
+428948,Roy Hodgson,Manager Home Team
+428948,José Mourinho,Manager Away Team
+428948,Kevin Friend,Referee
+428948,Simon Beck,Assistants
+428948,Harry Lennard,Assistants
+428948,Tim Robinson,Fourth official
+428948,Simon Hooper,VAR
+428948,Andy Halliday,Assistant VAR
+428964,Nuno Espírito Santo,Manager Home Team
+428964,Frank Lampard,Manager Away Team
+428964,Stuart Attwell,Referee
+428964,Marc Perry,Assistants
+428964,James Mainwaring,Assistants
+428964,Chris Kavanagh,Fourth official
+428964,Michael Oliver,VAR
+428964,Stuart Burt,Assistant VAR
+428966,Pep Guardiola,Manager Home Team
+428966,Slaven Bilic,Manager Away Team
+428966,Peter Bankes,Referee
+428966,Ian Hussin,Assistants
+428966,Neil Davies,Assistants
+428966,Anthony Taylor,Fourth official
+428966,Martin Atkinson,VAR
+428966,Stephen Child,Assistant VAR
+428950,Scott Parker,Manager Home Team
+428950,Jürgen Klopp,Manager Away Team
+428950,Andre Marriner,Referee
+428950,Scott Ledger,Assistants
+428950,Simon Long,Assistants
+428950,Keith Stroud,Fourth official
+428950,Lee Mason,VAR
+428950,James Mainwaring,Assistant VAR
+428955,Ralph Hasenhüttl,Manager Home Team
+428955,Chris Wilder,Manager Away Team
+428955,Andy Madley,Referee
+428955,Edward Smart,Assistants
+428955,Derek Eaton,Assistants
+428955,Gavin Ward,Fourth official
+428955,Robert Jones,VAR
+428955,Andy Halliday,Assistant VAR
+428952,Brendan Rodgers,Manager Home Team
+428952,Graham Potter,Manager Away Team
+428952,Martin Atkinson,Referee
+428952,Adam Nunn,Assistants
+428952,Sian Massey,Assistants
+428952,Peter Bankes,Fourth official
+428952,Jonathan Moss,VAR
+428952,Dan Robathan,Assistant VAR
+428947,Mikel Arteta,Manager Home Team
+428947,Sean Dyche,Manager Away Team
+428947,Graham Scott,Referee
+428947,Neil Davies,Assistants
+428947,Richard West,Assistants
+428947,Stuart Attwell,Fourth official
+428947,David Coote,VAR
+428947,Nicholas Hopton,Assistant VAR
+428956,Nuno Espírito Santo,Manager Home Team
+428956,Dean Smith,Manager Away Team
+428956,Mike Dean,Referee
+428956,Darren Cann,Assistants
+428956,Mark Scholes,Assistants
+428956,Robert Jones,Fourth official
+428956,Graham Scott,VAR
+428956,Timothy Wood,Assistant VAR
+428951,Marcelo Bielsa,Manager Home Team
+428951,David Moyes,Manager Away Team
+428951,Michael Oliver,Referee
+428951,Stuart Burt,Assistants
+428951,Simon Bennett,Assistants
+428951,Darren England,Fourth official
+428951,Jarred Gillet,VAR
+428951,Matt Wilkes,Assistant VAR
+428938,Graham Potter,Manager Home Team
+428938,Ralph Hasenhüttl,Manager Away Team
+428938,David Coote,Referee
+428938,Darren Cann,Assistants
+428938,Nicholas Hopton,Assistants
+428938,Graham Scott,Fourth official
+428938,Peter Bankes,VAR
+428938,Sian Massey,Assistant VAR
+428949,Carlo Ancelotti,Manager Home Team
+428949,Frank Lampard,Manager Away Team
+428949,Jonathan Moss,Referee
+428949,Marc Perry,Assistants
+428949,Dan Robathan,Assistants
+428949,Lee Mason,Fourth official
+428949,Andre Marriner,VAR
+428949,Andy Halliday,Assistant VAR
+428943,Chris Wilder,Manager Home Team
+428943,Brendan Rodgers,Manager Away Team
+428943,Stuart Attwell,Referee
+428943,Stuart Burt,Assistants
+428943,Neil Davies,Assistants
+428943,Anthony Taylor,Fourth official
+428943,David Coote,VAR
+428943,Nicholas Hopton,Assistant VAR
+428953,Ole Gunnar Solskjaer,Manager Home Team
+428953,Pep Guardiola,Manager Away Team
+428953,Chris Kavanagh,Referee
+428953,Lee Betts,Assistants
+428953,Constantine Hatzidakis,Assistants
+428953,Craig Pawson,Fourth official
+428953,Paul Tierney,VAR
+428953,Ian Hussin,Assistant VAR
+428954,Steve Bruce,Manager Home Team
+428954,Slaven Bilic,Manager Away Team
+428954,Darren England,Referee
+428954,Adrian Holmes,Assistants
+428954,James Mainwaring,Assistants
+428954,Martin Atkinson,Fourth official
+428954,Anthony Taylor,VAR
+428954,Gary Beswick,Assistant VAR
+428945,Slaven Bilic,Manager Home Team
+428945,Roy Hodgson,Manager Away Team
+428945,Paul Tierney,Referee
+428945,Ian Hussin,Assistants
+428945,Harry Lennard,Assistants
+428945,Darren England,Fourth official
+428945,Michael Oliver,VAR
+428945,Simon Bennett,Assistant VAR
+428944,José Mourinho,Manager Home Team
+428944,Mikel Arteta,Manager Away Team
+428944,Martin Atkinson,Referee
+428944,Adam Nunn,Assistants
+428944,Constantine Hatzidakis,Assistants
+428944,Andre Marriner,Fourth official
+428944,Kevin Friend,VAR
+428944,Mark Scholes,Assistant VAR
+428941,Jürgen Klopp,Manager Home Team
+428941,Nuno Espírito Santo,Manager Away Team
+428941,Craig Pawson,Referee
+428941,Lee Betts,Assistants
+428941,Richard West,Assistants
+428941,Andy Madley,Fourth official
+428941,Jonathan Moss,VAR
+428941,Dan Robathan,Assistant VAR
+428939,Sean Dyche,Manager Home Team
+428939,Carlo Ancelotti,Manager Away Team
+428939,Anthony Taylor,Referee
+428939,Gary Beswick,Assistants
+428939,James Mainwaring,Assistants
+428939,Robert Jones,Fourth official
+428939,Mike Dean,VAR
+428939,Peter Kirkup,Assistant VAR
+428942,Pep Guardiola,Manager Home Team
+428942,Scott Parker,Manager Away Team
+428942,Jonathan Moss,Referee
+428942,Marc Perry,Assistants
+428942,Dan Robathan,Assistants
+428942,Darren Bond,Fourth official
+428942,Graham Scott,VAR
+428942,Matt Wilkes,Assistant VAR
+428940,Frank Lampard,Manager Home Team
+428940,Marcelo Bielsa,Manager Away Team
+428940,Kevin Friend,Referee
+428940,Simon Beck,Assistants
+428940,Scott Ledger,Assistants
+428940,Simon Hooper,Fourth official
+428940,Michael Oliver,VAR
+428940,Constantine Hatzidakis,Assistant VAR
+428946,David Moyes,Manager Home Team
+428946,Ole Gunnar Solskjaer,Manager Away Team
+428946,Andre Marriner,Referee
+428946,Simon Long,Assistants
+428946,Edward Smart,Assistants
+428946,Andy Madley,Fourth official
+428946,Lee Mason,VAR
+428946,Adrian Holmes,Assistant VAR
+428932,Brendan Rodgers,Manager Home Team
+428932,Scott Parker,Manager Away Team
+428932,Simon Hooper,Referee
+428932,Derek Eaton,Assistants
+428932,Harry Lennard,Assistants
+428932,Andy Madley,Fourth official
+428932,Darren England,VAR
+428932,Stephen Child,Assistant VAR
+428936,David Moyes,Manager Home Team
+428936,Dean Smith,Manager Away Team
+428936,Peter Bankes,Referee
+428936,Neil Davies,Assistants
+428936,James Mainwaring,Assistants
+428936,Anthony Taylor,Fourth official
+428936,Stuart Attwell,VAR
+428936,Stephen Child,Assistant VAR
+428934,Ralph Hasenhüttl,Manager Home Team
+428934,Ole Gunnar Solskjaer,Manager Away Team
+428934,Jonathan Moss,Referee
+428934,Marc Perry,Assistants
+428934,Dan Robathan,Assistants
+428934,Graham Scott,Fourth official
+428934,Martin Atkinson,VAR
+428934,Timothy Wood,Assistant VAR
+428927,Mikel Arteta,Manager Home Team
+428927,Nuno Espírito Santo,Manager Away Team
+428927,Michael Oliver,Referee
+428927,Stuart Burt,Assistants
+428927,Simon Bennett,Assistants
+428927,David Coote,Fourth official
+428927,Andre Marriner,VAR
+428927,Sian Massey,Assistant VAR
+428929,Frank Lampard,Manager Home Team
+428929,José Mourinho,Manager Away Team
+428929,Paul Tierney,Referee
+428929,Lee Betts,Assistants
+428929,Ian Hussin,Assistants
+428929,Mike Dean,Fourth official
+428929,Craig Pawson,VAR
+428929,Stephen Child,Assistant VAR
+428928,Graham Potter,Manager Home Team
+428928,Jürgen Klopp,Manager Away Team
+428928,Stuart Attwell,Referee
+428928,Gary Beswick,Assistants
+428928,Adam Nunn,Assistants
+428928,Simon Hooper,Fourth official
+428928,Kevin Friend,VAR
+428928,Simon Beck,Assistant VAR
+428933,Pep Guardiola,Manager Home Team
+428933,Sean Dyche,Manager Away Team
+428933,Lee Mason,Referee
+428933,Richard West,Assistants
+428933,Adrian Holmes,Assistants
+428933,Anthony Taylor,Fourth official
+428933,Robert Jones,VAR
+428933,Scott Ledger,Assistant VAR
+428930,Roy Hodgson,Manager Home Team
+428930,Steve Bruce,Manager Away Team
+428930,Graham Scott,Referee
+428930,Peter Kirkup,Assistants
+428930,Simon Long,Assistants
+428930,Michael Salisbury,Fourth official
+428930,Jarred Gillet,VAR
+428930,Edward Smart,Assistant VAR
+428935,Slaven Bilic,Manager Home Team
+428935,Chris Wilder,Manager Away Team
+428935,Mike Dean,Referee
+428935,Darren Cann,Assistants
+428935,Mark Scholes,Assistants
+428935,Gavin Ward,Fourth official
+428935,Martin Atkinson,VAR
+428935,Ian Hussin,Assistant VAR
+428931,Carlo Ancelotti,Manager Home Team
+428931,Marcelo Bielsa,Manager Away Team
+428931,Chris Kavanagh,Referee
+428931,Daniel Cook,Assistants
+428931,Constantine Hatzidakis,Assistants
+428931,Darren England,Fourth official
+428931,Andre Marriner,VAR
+428931,Lee Betts,Assistant VAR
+428918,Sean Dyche,Manager Home Team
+428918,Roy Hodgson,Manager Away Team
+428918,Kevin Friend,Referee
+428918,Simon Beck,Assistants
+428918,Adrian Holmes,Assistants
+428918,Mike Dean,Fourth official
+428918,Anthony Taylor,VAR
+428918,Adam Nunn,Assistant VAR
+428926,Nuno Espírito Santo,Manager Home Team
+428926,Ralph Hasenhüttl,Manager Away Team
+428926,Andre Marriner,Referee
+428926,Simon Long,Assistants
+428926,Richard West,Assistants
+428926,Jonathan Moss,Fourth official
+428926,Paul Tierney,VAR
+428926,Gary Beswick,Assistant VAR
+428924,Chris Wilder,Manager Home Team
+428924,David Moyes,Manager Away Team
+428924,Martin Atkinson,Referee
+428924,Constantine Hatzidakis,Assistants
+428924,Peter Kirkup,Assistants
+428924,Robert Jones,Fourth official
+428924,Jonathan Moss,VAR
+428924,Andy Halliday,Assistant VAR
+428919,Scott Parker,Manager Home Team
+428919,Carlo Ancelotti,Manager Away Team
+428919,Andy Madley,Referee
+428919,Edward Smart,Assistants
+428919,Derek Eaton,Assistants
+428919,Graham Scott,Fourth official
+428919,Lee Mason,VAR
+428919,Andy Halliday,Assistant VAR
+428920,Marcelo Bielsa,Manager Home Team
+428920,Mikel Arteta,Manager Away Team
+428920,Anthony Taylor,Referee
+428920,Gary Beswick,Assistants
+428920,Adam Nunn,Assistants
+428920,Peter Bankes,Fourth official
+428920,Stuart Attwell,VAR
+428920,Neil Davies,Assistant VAR
+428921,Jürgen Klopp,Manager Home Team
+428921,Brendan Rodgers,Manager Away Team
+428921,Chris Kavanagh,Referee
+428921,Daniel Cook,Assistants
+428921,Marc Perry,Assistants
+428921,Paul Tierney,Fourth official
+428921,Andre Marriner,VAR
+428921,Nicholas Hopton,Assistant VAR
+428923,Steve Bruce,Manager Home Team
+428923,Frank Lampard,Manager Away Team
+428923,Craig Pawson,Referee
+428923,Ian Hussin,Assistants
+428923,Harry Lennard,Assistants
+428923,Robert Jones,Fourth official
+428923,Simon Hooper,VAR
+428923,Stephen Child,Assistant VAR
+428925,José Mourinho,Manager Home Team
+428925,Pep Guardiola,Manager Away Team
+428925,Mike Dean,Referee
+428925,Darren Cann,Assistants
+428925,Dan Robathan,Assistants
+428925,Andy Madley,Fourth official
+428925,Kevin Friend,VAR
+428925,Adrian Holmes,Assistant VAR
+428917,Dean Smith,Manager Home Team
+428917,Graham Potter,Manager Away Team
+428917,Michael Oliver,Referee
+428917,Stuart Burt,Assistants
+428917,Simon Bennett,Assistants
+428917,Darren England,Fourth official
+428917,Chris Kavanagh,VAR
+428917,Daniel Cook,Assistant VAR
+428922,Ole Gunnar Solskjaer,Manager Home Team
+428922,Slaven Bilic,Manager Away Team
+428922,David Coote,Referee
+428922,Lee Betts,Assistants
+428922,Nicholas Hopton,Assistants
+428922,Martin Atkinson,Fourth official
+428922,Peter Bankes,VAR
+428922,Andy Halliday,Assistant VAR
+428915,Slaven Bilic,Manager Home Team
+428915,José Mourinho,Manager Away Team
+428915,Andy Madley,Referee
+428915,Adrian Holmes,Assistants
+428915,Scott Ledger,Assistants
+428915,Steve Martin,Fourth official
+428915,Simon Hooper,VAR
+428915,Derek Eaton,Assistant VAR
+428912,Brendan Rodgers,Manager Home Team
+428912,Nuno Espírito Santo,Manager Away Team
+428912,Anthony Taylor,Referee
+428912,Gary Beswick,Assistants
+428912,Adam Nunn,Assistants
+428912,Peter Bankes,Fourth official
+428912,Stuart Attwell,VAR
+428912,Daniel Cook,Assistant VAR
+428913,Pep Guardiola,Manager Home Team
+428913,Jürgen Klopp,Manager Away Team
+428913,Craig Pawson,Referee
+428913,Lee Betts,Assistants
+428913,Richard West,Assistants
+428913,Andre Marriner,Fourth official
+428913,Paul Tierney,VAR
+428913,Stephen Child,Assistant VAR
+428911,Carlo Ancelotti,Manager Home Team
+428911,Ole Gunnar Solskjaer,Manager Away Team
+428911,Paul Tierney,Referee
+428911,Stuart Burt,Assistants
+428911,Simon Bennett,Assistants
+428911,Andy Madley,Fourth official
+428911,Michael Oliver,VAR
+428911,Constantine Hatzidakis,Assistant VAR
+428910,Roy Hodgson,Manager Home Team
+428910,Marcelo Bielsa,Manager Away Team
+428910,Chris Kavanagh,Referee
+428910,Daniel Cook,Assistants
+428910,Sian Massey,Assistants
+428910,David Coote,Fourth official
+428910,Mike Dean,VAR
+428910,Ian Hussin,Assistant VAR
+428907,Mikel Arteta,Manager Home Team
+428907,Dean Smith,Manager Away Team
+428907,Martin Atkinson,Referee
+428907,Constantine Hatzidakis,Assistants
+428907,Nicholas Hopton,Assistants
+428907,Graham Scott,Fourth official
+428907,David Coote,VAR
+428907,Stephen Child,Assistant VAR
+428908,Graham Potter,Manager Home Team
+428908,Sean Dyche,Manager Away Team
+428908,Mike Dean,Referee
+428908,Ian Hussin,Assistants
+428908,Dan Robathan,Assistants
+428908,John Brooks,Fourth official
+428908,Michael Oliver,VAR
+428908,Stephen Child,Assistant VAR
+428916,David Moyes,Manager Home Team
+428916,Scott Parker,Manager Away Team
+428916,Robert Jones,Referee
+428916,Darren Cann,Assistants
+428916,Mark Scholes,Assistants
+428916,Martin Atkinson,Fourth official
+428916,Andre Marriner,VAR
+428916,Edward Smart,Assistant VAR
+428909,Frank Lampard,Manager Home Team
+428909,Chris Wilder,Manager Away Team
+428909,Jonathan Moss,Referee
+428909,Marc Perry,Assistants
+428909,Simon Long,Assistants
+428909,Stuart Attwell,Fourth official
+428909,Kevin Friend,VAR
+428909,Simon Beck,Assistant VAR
+428899,Scott Parker,Manager Home Team
+428899,Slaven Bilic,Manager Away Team
+428899,Simon Hooper,Referee
+428899,Derek Eaton,Assistants
+428899,Neil Davies,Assistants
+428899,Andy Madley,Fourth official
+428899,Kevin Friend,VAR
+428899,Simon Beck,Assistant VAR
+428914,Ralph Hasenhüttl,Manager Home Team
+428914,Steve Bruce,Manager Away Team
+428914,Peter Bankes,Referee
+428914,Neil Davies,Assistants
+428914,James Mainwaring,Assistants
+428914,Graham Scott,Fourth official
+428914,Chris Kavanagh,VAR
+428914,Sian Massey,Assistant VAR
+428900,Marcelo Bielsa,Manager Home Team
+428900,Brendan Rodgers,Manager Away Team
+428900,Andre Marriner,Referee
+428900,Scott Ledger,Assistants
+428900,Richard West,Assistants
+428900,Robert Jones,Fourth official
+428900,Lee Mason,VAR
+428900,Simon Bennett,Assistant VAR
+428897,Dean Smith,Manager Home Team
+428897,Ralph Hasenhüttl,Manager Away Team
+428897,Darren England,Referee
+428897,Adam Nunn,Assistants
+428897,Daniel Cook,Assistants
+428897,Michael Oliver,Fourth official
+428897,Chris Kavanagh,VAR
+428897,Mark Scholes,Assistant VAR
+428903,Steve Bruce,Manager Home Team
+428903,Carlo Ancelotti,Manager Away Team
+428903,Stuart Attwell,Referee
+428903,Constantine Hatzidakis,Assistants
+428903,Marc Perry,Assistants
+428903,Martin Atkinson,Fourth official
+428903,Craig Pawson,VAR
+428903,Darren Cann,Assistant VAR
+428902,Ole Gunnar Solskjaer,Manager Home Team
+428902,Mikel Arteta,Manager Away Team
+428902,Mike Dean,Referee
+428902,Ian Hussin,Assistants
+428902,Dan Robathan,Assistants
+428902,Anthony Taylor,Fourth official
+428902,Peter Bankes,VAR
+428902,Neil Davies,Assistant VAR
+428905,José Mourinho,Manager Home Team
+428905,Graham Potter,Manager Away Team
+428905,Graham Scott,Referee
+428905,Simon Long,Assistants
+428905,Timothy Wood,Assistants
+428905,Simon Hooper,Fourth official
+428905,Jonathan Moss,VAR
+428905,Nicholas Hopton,Assistant VAR
+428898,Sean Dyche,Manager Home Team
+428898,Frank Lampard,Manager Away Team
+428898,David Coote,Referee
+428898,Gary Beswick,Assistants
+428898,Nicholas Hopton,Assistants
+428898,Jonathan Moss,Fourth official
+428898,Anthony Taylor,VAR
+428898,Andy Halliday,Assistant VAR
+428901,Jürgen Klopp,Manager Home Team
+428901,David Moyes,Manager Away Team
+428901,Kevin Friend,Referee
+428901,Simon Beck,Assistants
+428901,Edward Smart,Assistants
+428901,Craig Pawson,Fourth official
+428901,Chris Kavanagh,VAR
+428901,Sian Massey,Assistant VAR
+428904,Chris Wilder,Manager Home Team
+428904,Pep Guardiola,Manager Away Team
+428904,Michael Oliver,Referee
+428904,Stuart Burt,Assistants
+428904,Simon Bennett,Assistants
+428904,Peter Bankes,Fourth official
+428904,Paul Tierney,VAR
+428904,Andy Halliday,Assistant VAR
+428906,Nuno Espírito Santo,Manager Home Team
+428906,Roy Hodgson,Manager Away Team
+428906,Martin Atkinson,Referee
+428906,Lee Betts,Assistants
+428906,James Mainwaring,Assistants
+428906,John Brooks,Fourth official
+428906,Paul Tierney,VAR
+428906,Andy Halliday,Assistant VAR
+428889,Graham Potter,Manager Home Team
+428889,Slaven Bilic,Manager Away Team
+428889,Jonathan Moss,Referee
+428889,Dan Robathan,Assistants
+428889,Neil Davies,Assistants
+428889,Gavin Ward,Fourth official
+428889,Martin Atkinson,VAR
+428889,Sian Massey,Assistant VAR
+428890,Sean Dyche,Manager Home Team
+428890,José Mourinho,Manager Away Team
+428890,Michael Oliver,Referee
+428890,Stuart Burt,Assistants
+428890,Steve Bennett,Assistants
+428890,Kevin Friend,Fourth official
+428890,Craig Pawson,VAR
+428890,Adam Nunn,Assistant VAR
+428894,Ralph Hasenhüttl,Manager Home Team
+428894,Carlo Ancelotti,Manager Away Team
+428894,Kevin Friend,Referee
+428894,Simon Beck,Assistants
+428894,Edward Smart,Assistants
+428894,Steve Martin,Fourth official
+428894,Simon Hooper,VAR
+428894,James Mainwaring,Assistant VAR
+428896,Nuno Espírito Santo,Manager Home Team
+428896,Steve Bruce,Manager Away Team
+428896,Lee Mason,Referee
+428896,Marc Perry,Assistants
+428896,Adrian Holmes,Assistants
+428896,Darren Bond,Fourth official
+428896,Andy Madley,VAR
+428896,Richard West,Assistant VAR
+428887,Mikel Arteta,Manager Home Team
+428887,Brendan Rodgers,Manager Away Team
+428887,Craig Pawson,Referee
+428887,Ian Hussin,Assistants
+428887,Harry Lennard,Assistants
+428887,Graham Scott,Fourth official
+428887,Paul Tierney,VAR
+428887,Stephen Child,Assistant VAR
+428891,Scott Parker,Manager Home Team
+428891,Roy Hodgson,Manager Away Team
+428891,Graham Scott,Referee
+428891,Derek Eaton,Assistants
+428891,Timothy Wood,Assistants
+428891,Dean Whitestone,Fourth official
+428891,Jarred Gillet,VAR
+428891,Peter Kirkup,Assistant VAR
+428895,David Moyes,Manager Home Team
+428895,Pep Guardiola,Manager Away Team
+428895,Anthony Taylor,Referee
+428895,Gary Beswick,Assistants
+428895,Adam Nunn,Assistants
+428895,David Coote,Fourth official
+428895,Peter Bankes,VAR
+428895,Neil Davies,Assistant VAR
+428888,Dean Smith,Manager Home Team
+428888,Marcelo Bielsa,Manager Away Team
+428888,Paul Tierney,Referee
+428888,Daniel Cook,Assistants
+428888,Sian Massey,Assistants
+428888,Mike Dean,Fourth official
+428888,Stuart Attwell,VAR
+428888,Gary Beswick,Assistant VAR
+428893,Ole Gunnar Solskjaer,Manager Home Team
+428893,Frank Lampard,Manager Away Team
+428893,Martin Atkinson,Referee
+428893,Lee Betts,Assistants
+428893,Constantine Hatzidakis,Assistants
+428893,Jonathan Moss,Fourth official
+428893,Stuart Attwell,VAR
+428893,Simon Long,Assistant VAR
+428892,Jürgen Klopp,Manager Home Team
+428892,Chris Wilder,Manager Away Team
+428892,Mike Dean,Referee
+428892,Darren Cann,Assistants
+428892,Mark Scholes,Assistants
+428892,Andy Madley,Fourth official
+428892,Andre Marriner,VAR
+428892,Scott Ledger,Assistant VAR
+428886,Slaven Bilic,Manager Home Team
+428886,Sean Dyche,Manager Away Team
+428886,Anthony Taylor,Referee
+428886,Gary Beswick,Assistants
+428886,Adam Nunn,Assistants
+428886,Kevin Friend,Fourth official
+428886,Darren England,VAR
+428886,Stuart Burt,Assistant VAR
+428880,Marcelo Bielsa,Manager Home Team
+428880,Nuno Espírito Santo,Manager Away Team
+428880,David Coote,Referee
+428880,Lee Betts,Assistants
+428880,Nicholas Hopton,Assistants
+428880,Andre Marriner,Fourth official
+428880,Michael Oliver,VAR
+428880,Simon Bennett,Assistant VAR
+428884,Chris Wilder,Manager Home Team
+428884,Scott Parker,Manager Away Team
+428884,Andre Marriner,Referee
+428884,Simon Long,Assistants
+428884,Edward Smart,Assistants
+428884,Michael Salisbury,Fourth official
+428884,Martin Atkinson,VAR
+428884,Andy Halliday,Assistant VAR
+428878,Roy Hodgson,Manager Home Team
+428878,Graham Potter,Manager Away Team
+428878,Stuart Attwell,Referee
+428878,Neil Davies,Assistants
+428878,Marc Perry,Assistants
+428878,Lee Mason,Fourth official
+428878,Kevin Friend,VAR
+428878,Simon Beck,Assistant VAR
+428881,Brendan Rodgers,Manager Home Team
+428881,Dean Smith,Manager Away Team
+428881,Jonathan Moss,Referee
+428881,Harry Lennard,Assistants
+428881,Dan Robathan,Assistants
+428881,Darren England,Fourth official
+428881,Graham Scott,VAR
+428881,Timothy Wood,Assistant VAR
+428885,José Mourinho,Manager Home Team
+428885,David Moyes,Manager Away Team
+428885,Paul Tierney,Referee
+428885,Daniel Cook,Assistants
+428885,Ian Hussin,Assistants
+428885,Simon Hooper,Fourth official
+428885,Peter Bankes,VAR
+428885,Adam Nunn,Assistant VAR
+428879,Carlo Ancelotti,Manager Home Team
+428879,Jürgen Klopp,Manager Away Team
+428879,Michael Oliver,Referee
+428879,Stuart Burt,Assistants
+428879,Simon Bennett,Assistants
+428879,Paul Tierney,Fourth official
+428879,David Coote,VAR
+428879,Lee Betts,Assistant VAR
+428877,Frank Lampard,Manager Home Team
+428877,Ralph Hasenhüttl,Manager Away Team
+428877,Peter Bankes,Referee
+428877,Darren Cann,Assistants
+428877,Mark Scholes,Assistants
+428877,Martin Atkinson,Fourth official
+428877,Mike Dean,VAR
+428877,Peter Kirkup,Assistant VAR
+428883,Steve Bruce,Manager Home Team
+428883,Ole Gunnar Solskjaer,Manager Away Team
+428883,Craig Pawson,Referee
+428883,Richard West,Assistants
+428883,Adrian Holmes,Assistants
+428883,Oliver Langford,Fourth official
+428883,Lee Mason,VAR
+428883,Andy Halliday,Assistant VAR
+428882,Pep Guardiola,Manager Home Team
+428882,Mikel Arteta,Manager Away Team
+428882,Chris Kavanagh,Referee
+428882,Sian Massey,Assistants
+428882,Constantine Hatzidakis,Assistants
+428882,Anthony Taylor,Fourth official
+428882,Stuart Attwell,VAR
+428882,Andy Halliday,Assistant VAR
+428875,Ralph Hasenhüttl,Manager Home Team
+428875,Slaven Bilic,Manager Away Team
+428875,Chris Kavanagh,Referee
+428875,Daniel Cook,Assistants
+428875,Dan Robathan,Assistants
+428875,Sian Massey,Assistants
+428875,Kevin Friend,Fourth official
+428875,Paul Tierney,VAR
+428875,Neil Davies,Assistant VAR
+428872,Brendan Rodgers,Manager Home Team
+428872,David Moyes,Manager Away Team
+428872,Andy Madley,Referee
+428872,Edward Smart,Assistants
+428872,Adrian Holmes,Assistants
+428872,Simon Hooper,Fourth official
+428872,Graham Scott,VAR
+428872,Marc Perry,Assistant VAR
+428867,Mikel Arteta,Manager Home Team
+428867,Chris Wilder,Manager Away Team
+428867,Lee Mason,Referee
+428867,Mark Scholes,Assistants
+428867,Timothy Wood,Assistants
+428867,Robert Jones,Fourth official
+428867,Andre Marriner,VAR
+428867,Peter Kirkup,Assistant VAR
+428876,Nuno Espírito Santo,Manager Home Team
+428876,Scott Parker,Manager Away Team
+428876,Darren England,Referee
+428876,Simon Long,Assistants
+428876,James Mainwaring,Assistants
+428876,Mike Dean,Fourth official
+428876,Peter Bankes,VAR
+428876,Neil Davies,Assistant VAR
+428873,Ole Gunnar Solskjaer,Manager Home Team
+428873,José Mourinho,Manager Away Team
+428873,Anthony Taylor,Referee
+428873,Gary Beswick,Assistants
+428873,Adam Nunn,Assistants
+428873,Craig Pawson,Fourth official
+428873,Stuart Attwell,VAR
+428873,Stephen Child,Assistant VAR
+428868,Dean Smith,Manager Home Team
+428868,Jürgen Klopp,Manager Away Team
+428868,Martin Atkinson,Referee
+428868,Constantine Hatzidakis,Assistants
+428868,Richard West,Assistants
+428868,David Coote,Fourth official
+428868,Jonathan Moss,VAR
+428868,Stephen Child,Assistant VAR
+428869,Frank Lampard,Manager Home Team
+428869,Roy Hodgson,Manager Away Team
+428869,Michael Oliver,Referee
+428869,Stuart Burt,Assistants
+428869,Simon Bennett,Assistants
+428869,Darren England,Fourth official
+428869,Andre Marriner,VAR
+428869,Stephen Child,Assistant VAR
+428870,Carlo Ancelotti,Manager Home Team
+428870,Graham Potter,Manager Away Team
+428870,Simon Hooper,Referee
+428870,Derek Eaton,Assistants
+428870,Scott Ledger,Assistants
+428870,Jonathan Moss,Fourth official
+428870,Kevin Friend,VAR
+428870,Simon Beck,Assistant VAR
+428860,Scott Parker,Manager Home Team
+428860,Dean Smith,Manager Away Team
+428860,Stuart Attwell,Referee
+428860,Simon Long,Assistants
+428860,Neil Davies,Assistants
+428860,Andy Madley,Fourth official
+428860,Martin Atkinson,VAR
+428860,Stephen Child,Assistant VAR
+428871,Marcelo Bielsa,Manager Home Team
+428871,Pep Guardiola,Manager Away Team
+428871,Mike Dean,Referee
+428871,Ian Hussin,Assistants
+428871,Darren Cann,Assistants
+428871,Anthony Taylor,Fourth official
+428871,Peter Bankes,VAR
+428871,Dan Robathan,Assistant VAR
+428874,Steve Bruce,Manager Home Team
+428874,Sean Dyche,Manager Away Team
+428874,David Coote,Referee
+428874,Lee Betts,Assistants
+428874,Nicholas Hopton,Assistants
+428874,Martin Atkinson,Fourth official
+428874,Paul Tierney,VAR
+428874,Mark Scholes,Assistant VAR
+428861,Jürgen Klopp,Manager Home Team
+428861,Mikel Arteta,Manager Away Team
+428861,Craig Pawson,Referee
+428861,Lee Betts,Assistants
+428861,Richard West,Assistants
+428861,Anthony Taylor,Fourth official
+428861,Andre Marriner,VAR
+428861,Mark Scholes,Assistant VAR
+428863,Chris Wilder,Manager Home Team
+428863,Marcelo Bielsa,Manager Away Team
+428863,Paul Tierney,Referee
+428863,Ian Hussin,Assistants
+428863,Harry Lennard,Assistants
+428863,Jarred Gillet,Fourth official
+428863,Chris Kavanagh,VAR
+428863,Andy Halliday,Assistant VAR
+428866,David Moyes,Manager Home Team
+428866,Nuno Espírito Santo,Manager Away Team
+428866,Martin Atkinson,Referee
+428866,Adam Nunn,Assistants
+428866,Daniel Cook,Assistants
+428866,Robert Jones,Fourth official
+428866,Graham Scott,VAR
+428866,Derek Eaton,Assistant VAR
+428864,José Mourinho,Manager Home Team
+428864,Steve Bruce,Manager Away Team
+428864,Peter Bankes,Referee
+428864,Peter Kirkup,Assistants
+428864,James Mainwaring,Assistants
+428864,Mike Dean,Fourth official
+428864,Lee Mason,VAR
+428864,Andy Halliday,Assistant VAR
+428862,Pep Guardiola,Manager Home Team
+428862,Brendan Rodgers,Manager Away Team
+428862,Michael Oliver,Referee
+428862,Stuart Burt,Assistants
+428862,Simon Bennett,Assistants
+428862,Craig Pawson,Fourth official
+428862,David Coote,VAR
+428862,Simon Long,Assistant VAR
+428859,Roy Hodgson,Manager Home Team
+428859,Carlo Ancelotti,Manager Away Team
+428859,Kevin Friend,Referee
+428859,Simon Beck,Assistants
+428859,Edward Smart,Assistants
+428859,Gavin Ward,Fourth official
+428859,Anthony Taylor,VAR
+428859,Gary Beswick,Assistant VAR
+428857,Graham Potter,Manager Home Team
+428857,Ole Gunnar Solskjaer,Manager Away Team
+428857,Chris Kavanagh,Referee
+428857,Sian Massey,Assistants
+428857,Constantine Hatzidakis,Assistants
+428857,Graham Scott,Fourth official
+428857,Simon Hooper,VAR
+428857,Neil Davies,Assistant VAR
+428858,Sean Dyche,Manager Home Team
+428858,Ralph Hasenhüttl,Manager Away Team
+428858,Andre Marriner,Referee
+428858,Scott Ledger,Assistants
+428858,Adrian Holmes,Assistants
+428858,Michael Oliver,Fourth official
+428858,Mike Dean,VAR
+428858,Andy Halliday,Assistant VAR
+428865,Slaven Bilic,Manager Home Team
+428865,Frank Lampard,Manager Away Team
+428865,Jonathan Moss,Referee
+428865,Marc Perry,Assistants
+428865,Dan Robathan,Assistants
+428865,Lee Mason,Fourth official
+428865,Darren England,VAR
+428865,Darren Cann,Assistant VAR
+428856,Nuno Espírito Santo,Manager Home Team
+428856,Pep Guardiola,Manager Away Team
+428856,Andre Marriner,Referee
+428856,Scott Ledger,Assistants
+428856,Simon Long,Assistants
+428856,Jonathan Moss,Fourth official
+428856,Peter Bankes,VAR
+428856,Timothy Wood,Assistant VAR
+428848,Dean Smith,Manager Home Team
+428848,Chris Wilder,Manager Away Team
+428848,Graham Scott,Referee
+428848,Edward Smart,Assistants
+428848,Derek Eaton,Assistants
+428848,Simon Hooper,Fourth official
+428848,Mike Dean,VAR
+428848,Darren Cann,Assistant VAR
+428855,Ralph Hasenhüttl,Manager Home Team
+428855,José Mourinho,Manager Away Team
+428855,David Coote,Referee
+428855,Harry Lennard,Assistants
+428855,Nicholas Hopton,Assistants
+428855,Keith Stroud,Fourth official
+428855,Chris Kavanagh,VAR
+428855,Richard West,Assistant VAR
+428854,Steve Bruce,Manager Home Team
+428854,Graham Potter,Manager Away Team
+428854,Kevin Friend,Referee
+428854,Simon Beck,Assistants
+428854,Adrian Holmes,Assistants
+428854,Robert Jones,Fourth official
+428854,Craig Pawson,VAR
+428854,Dan Robathan,Assistant VAR
+428849,Frank Lampard,Manager Home Team
+428849,Jürgen Klopp,Manager Away Team
+428849,Paul Tierney,Referee
+428849,Daniel Cook,Assistants
+428849,Constantine Hatzidakis,Assistants
+428849,Stuart Attwell,Fourth official
+428849,Michael Oliver,VAR
+428849,Sian Massey,Assistant VAR
+428852,Brendan Rodgers,Manager Home Team
+428852,Sean Dyche,Manager Away Team
+428852,Lee Mason,Referee
+428852,Mark Scholes,Assistants
+428852,Marc Perry,Assistants
+428852,Darren England,Fourth official
+428852,Andy Madley,VAR
+428852,Stephen Child,Assistant VAR
+428850,Carlo Ancelotti,Manager Home Team
+428850,Slaven Bilic,Manager Away Team
+428850,Mike Dean,Referee
+428850,Darren Cann,Assistants
+428850,Dan Robathan,Assistants
+428850,Jeremy Simpson,Fourth official
+428850,Simon Hooper,VAR
+428850,Stephen Child,Assistant VAR
+428853,Ole Gunnar Solskjaer,Manager Home Team
+428853,Roy Hodgson,Manager Away Team
+428853,Martin Atkinson,Referee
+428853,Lee Betts,Assistants
+428853,Peter Kirkup,Assistants
+428853,Robert Jones,Fourth official
+428853,Jonathan Moss,VAR
+428853,Marc Perry,Assistant VAR
+428847,Mikel Arteta,Manager Home Team
+428847,David Moyes,Manager Away Team
+428847,Michael Oliver,Referee
+428847,Stuart Burt,Assistants
+428847,Steve Bennett,Assistants
+428847,Darren England,Fourth official
+428847,Chris Kavanagh,VAR
+428847,Neil Davies,Assistant VAR
+428851,Marcelo Bielsa,Manager Home Team
+428851,Scott Parker,Manager Away Team
+428851,Anthony Taylor,Referee
+428851,Gary Beswick,Assistants
+428851,Adam Nunn,Assistants
+428851,Kevin Friend,Fourth official
+428851,Stuart Attwell,VAR
+428851,Constantine Hatzidakis,Assistant VAR
+428846,Chris Wilder,Manager Home Team
+428846,Nuno Espírito Santo,Manager Away Team
+428846,Mike Dean,Referee
+428846,Darren Cann,Assistants
+428846,Mark Scholes,Assistants
+428846,Lee Mason,Fourth official
+428846,Graham Scott,VAR
+428846,Derek Eaton,Assistant VAR
+428845,Graham Potter,Manager Home Team
+428845,Frank Lampard,Manager Away Team
+428845,Craig Pawson,Referee
+428845,Ian Hussin,Assistants
+428845,Richard West,Assistants
+428845,Simon Hooper,Fourth official
+428845,Kevin Friend,VAR
+428845,Simon Beck,Assistant VAR
+428839,Scott Parker,Manager Home Team
+428839,Mikel Arteta,Manager Away Team
+428839,Chris Kavanagh,Referee
+428839,Daniel Cook,Assistants
+428839,Sian Massey,Assistants
+428839,Kevin Friend,Fourth official
+428839,David Coote,VAR
+428839,Stephen Child,Assistant VAR
+428843,Slaven Bilic,Manager Home Team
+428843,Brendan Rodgers,Manager Away Team
+428843,Anthony Taylor,Referee
+428843,Gary Beswick,Assistants
+428843,Adam Nunn,Assistants
+428843,Peter Bankes,Fourth official
+428843,Stuart Attwell,VAR
+428843,Andy Halliday,Assistant VAR
+428842,José Mourinho,Manager Home Team
+428842,Carlo Ancelotti,Manager Away Team
+428842,Martin Atkinson,Referee
+428842,Lee Betts,Assistants
+428842,Peter Kirkup,Assistants
+428842,Graham Scott,Fourth official
+428842,Andre Marriner,VAR
+428842,Scott Ledger,Assistant VAR
+428838,Roy Hodgson,Manager Home Team
+428838,Ralph Hasenhüttl,Manager Away Team
+428838,Jonathan Moss,Referee
+428838,Matthew Perry,Assistants
+428838,Dan Robathan,Assistants
+428838,Simon Hooper,Fourth official
+428838,Craig Pawson,VAR
+428838,Nicholas Hopton,Assistant VAR
+428840,Jürgen Klopp,Manager Home Team
+428840,Marcelo Bielsa,Manager Away Team
+428840,Michael Oliver,Referee
+428840,Stuart Burt,Assistants
+428840,Simon Bennett,Assistants
+428840,Mike Dean,Fourth official
+428840,Paul Tierney,VAR
+428840,Andy Halliday,Assistant VAR
+428844,David Moyes,Manager Home Team
+428844,Steve Bruce,Manager Away Team
+428844,Stuart Attwell,Referee
+428844,Constantine Hatzidakis,Assistants
+428844,Neil Davies,Assistants
+428844,Darren England,Fourth official
+428844,Peter Bankes,VAR
+428844,Simon Long,Assistant VAR

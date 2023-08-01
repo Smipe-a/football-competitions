@@ -1,0 +1,381 @@
+match_id,home_team,away_team,score_ht,score_at,date_start
+287656,Cardiff City,Chelsea,1,2,2014-05-11 15:00:00
+287657,Fulham,Crystal Palace,2,2,2014-05-11 15:00:00
+287658,Hull City,Everton,0,2,2014-05-11 15:00:00
+287659,Liverpool,Newcastle United,2,1,2014-05-11 15:00:00
+287660,Manchester City,West Ham United,2,0,2014-05-11 15:00:00
+287661,Norwich City,Arsenal,0,2,2014-05-11 15:00:00
+287662,Southampton,Manchester United,1,1,2014-05-11 15:00:00
+287663,Sunderland,Swansea City,1,3,2014-05-11 15:00:00
+287664,Tottenham Hotspur,Aston Villa,3,0,2014-05-11 15:00:00
+287665,West Bromwich Albion,Stoke City,1,2,2014-05-11 15:00:00
+287571,Manchester City,Aston Villa,4,0,2014-05-07 19:45:00
+287563,Sunderland,West Bromwich Albion,2,0,2014-05-07 19:45:00
+287620,Manchester United,Hull City,3,1,2014-05-06 19:45:00
+287649,Crystal Palace,Liverpool,3,3,2014-05-05 20:00:00
+287646,Arsenal,West Bromwich Albion,1,0,2014-05-04 13:30:00
+287648,Chelsea,Norwich City,0,0,2014-05-04 16:00:00
+287655,West Ham United,Tottenham Hotspur,2,0,2014-05-03 12:45:00
+287647,Aston Villa,Hull City,3,1,2014-05-03 15:00:00
+287651,Manchester United,Sunderland,0,1,2014-05-03 15:00:00
+287652,Newcastle United,Cardiff City,3,0,2014-05-03 15:00:00
+287653,Stoke City,Fulham,4,1,2014-05-03 15:00:00
+287654,Swansea City,Southampton,0,1,2014-05-03 15:00:00
+287650,Everton,Manchester City,2,3,2014-05-03 17:30:00
+287636,Arsenal,Newcastle United,3,0,2014-04-28 20:00:00
+287643,Sunderland,Cardiff City,4,0,2014-04-27 12:00:00
+287639,Liverpool,Chelsea,0,2,2014-04-27 14:05:00
+287637,Crystal Palace,Manchester City,0,2,2014-04-27 16:10:00
+287641,Southampton,Everton,2,0,2014-04-26 12:45:00
+287638,Fulham,Hull City,2,2,2014-04-26 15:00:00
+287642,Stoke City,Tottenham Hotspur,0,1,2014-04-26 15:00:00
+287644,Swansea City,Aston Villa,4,1,2014-04-26 15:00:00
+287645,West Bromwich Albion,West Ham United,1,0,2014-04-26 15:00:00
+287640,Manchester United,Norwich City,4,0,2014-04-26 17:30:00
+287631,Manchester City,West Bromwich Albion,3,1,2014-04-21 20:00:00
+287633,Norwich City,Liverpool,2,3,2014-04-20 12:00:00
+287630,Hull City,Arsenal,0,3,2014-04-20 14:05:00
+287629,Everton,Manchester United,2,0,2014-04-20 16:10:00
+287634,Tottenham Hotspur,Fulham,3,1,2014-04-19 12:45:00
+287626,Aston Villa,Southampton,0,0,2014-04-19 15:00:00
+287627,Cardiff City,Stoke City,1,1,2014-04-19 15:00:00
+287632,Newcastle United,Swansea City,1,2,2014-04-19 15:00:00
+287635,West Ham United,Crystal Palace,0,1,2014-04-19 15:00:00
+287628,Chelsea,Sunderland,1,2,2014-04-19 17:30:00
+287542,Everton,Crystal Palace,2,3,2014-04-16 19:45:00
+287544,Manchester City,Sunderland,2,2,2014-04-16 19:45:00
+287616,Arsenal,West Ham United,3,1,2014-04-15 19:45:00
+287619,Liverpool,Manchester City,3,2,2014-04-13 13:37:00
+287624,Swansea City,Chelsea,0,1,2014-04-13 16:07:00
+287617,Crystal Palace,Aston Villa,1,0,2014-04-12 15:07:00
+287618,Fulham,Norwich City,1,0,2014-04-12 15:07:00
+287621,Southampton,Cardiff City,0,1,2014-04-12 15:07:00
+287622,Stoke City,Newcastle United,1,0,2014-04-12 15:07:00
+287623,Sunderland,Everton,0,1,2014-04-12 15:07:00
+287625,West Bromwich Albion,Tottenham Hotspur,3,3,2014-04-12 15:07:00
+287614,Tottenham Hotspur,Sunderland,5,1,2014-04-07 20:00:00
+287609,Everton,Arsenal,3,0,2014-04-06 13:30:00
+287615,West Ham United,Liverpool,1,2,2014-04-06 16:00:00
+287611,Manchester City,Southampton,4,1,2014-04-05 12:45:00
+287606,Aston Villa,Fulham,1,2,2014-04-05 15:00:00
+287607,Cardiff City,Crystal Palace,0,3,2014-04-05 15:00:00
+287610,Hull City,Swansea City,1,0,2014-04-05 15:00:00
+287612,Newcastle United,Manchester United,0,4,2014-04-05 15:00:00
+287613,Norwich City,West Bromwich Albion,0,1,2014-04-05 15:00:00
+287608,Chelsea,Stoke City,3,0,2014-04-05 17:30:00
+287603,Sunderland,West Ham United,1,2,2014-03-31 20:00:00
+287598,Fulham,Everton,1,3,2014-03-30 13:30:00
+287599,Liverpool,Tottenham Hotspur,4,0,2014-03-30 16:00:00
+287600,Manchester United,Aston Villa,4,1,2014-03-29 12:45:00
+287597,Crystal Palace,Chelsea,1,0,2014-03-29 15:00:00
+287601,Southampton,Newcastle United,4,0,2014-03-29 15:00:00
+287602,Stoke City,Hull City,1,0,2014-03-29 15:00:00
+287604,Swansea City,Norwich City,3,0,2014-03-29 15:00:00
+287605,West Bromwich Albion,Cardiff City,3,3,2014-03-29 15:00:00
+287596,Arsenal,Manchester City,1,1,2014-03-29 17:30:00
+287575,West Ham United,Hull City,2,1,2014-03-26 19:45:00
+287570,Liverpool,Sunderland,2,1,2014-03-26 20:00:00
+287566,Arsenal,Swansea City,2,2,2014-03-25 19:45:00
+287560,Manchester United,Manchester City,0,3,2014-03-25 19:45:00
+287572,Newcastle United,Everton,0,3,2014-03-25 19:45:00
+287594,Tottenham Hotspur,Southampton,3,2,2014-03-23 13:30:00
+287586,Aston Villa,Stoke City,1,4,2014-03-23 16:00:00
+287588,Chelsea,Arsenal,6,0,2014-03-22 12:45:00
+287587,Cardiff City,Liverpool,3,6,2014-03-22 15:00:00
+287589,Everton,Swansea City,3,2,2014-03-22 15:00:00
+287590,Hull City,West Bromwich Albion,2,0,2014-03-22 15:00:00
+287591,Manchester City,Fulham,5,0,2014-03-22 15:00:00
+287592,Newcastle United,Crystal Palace,1,0,2014-03-22 15:00:00
+287593,Norwich City,Sunderland,2,0,2014-03-22 15:00:00
+287595,West Ham United,Manchester United,0,2,2014-03-22 17:30:00
+287580,Manchester United,Liverpool,0,3,2014-03-16 13:30:00
+287585,Tottenham Hotspur,Arsenal,0,1,2014-03-16 16:00:00
+287579,Hull City,Manchester City,0,2,2014-03-15 12:45:00
+287577,Everton,Cardiff City,2,1,2014-03-15 15:00:00
+287578,Fulham,Newcastle United,1,0,2014-03-15 15:00:00
+287581,Southampton,Norwich City,4,2,2014-03-15 15:00:00
+287582,Stoke City,West Ham United,3,1,2014-03-15 15:00:00
+287583,Sunderland,Crystal Palace,0,0,2014-03-15 15:00:00
+287584,Swansea City,West Bromwich Albion,1,2,2014-03-15 15:00:00
+287576,Aston Villa,Chelsea,1,0,2014-03-15 17:30:00
+287574,West Bromwich Albion,Manchester United,0,3,2014-03-08 12:45:00
+287567,Cardiff City,Fulham,3,1,2014-03-08 15:00:00
+287569,Crystal Palace,Southampton,0,1,2014-03-08 15:00:00
+287573,Norwich City,Stoke City,1,1,2014-03-08 15:00:00
+287568,Chelsea,Tottenham Hotspur,4,0,2014-03-08 17:30:00
+287556,Aston Villa,Norwich City,4,1,2014-03-02 16:30:00
+287564,Swansea City,Crystal Palace,1,1,2014-03-02 16:30:00
+287565,Tottenham Hotspur,Cardiff City,1,0,2014-03-02 16:30:00
+287557,Everton,West Ham United,1,0,2014-03-01 15:00:00
+287558,Fulham,Chelsea,1,3,2014-03-01 15:00:00
+287559,Hull City,Newcastle United,1,4,2014-03-01 15:00:00
+287562,Stoke City,Arsenal,1,0,2014-03-01 15:00:00
+287561,Southampton,Liverpool,0,3,2014-03-01 17:30:00
+287550,Liverpool,Swansea City,4,3,2014-02-23 13:30:00
+287552,Newcastle United,Aston Villa,1,0,2014-02-23 13:30:00
+287553,Norwich City,Tottenham Hotspur,1,0,2014-02-23 16:00:00
+287548,Chelsea,Everton,1,0,2014-02-22 12:45:00
+287546,Arsenal,Sunderland,4,1,2014-02-22 15:00:00
+287547,Cardiff City,Hull City,0,4,2014-02-22 15:00:00
+287551,Manchester City,Stoke City,1,0,2014-02-22 15:00:00
+287554,West Bromwich Albion,Fulham,1,1,2014-02-22 15:00:00
+287555,West Ham United,Southampton,3,1,2014-02-22 15:00:00
+287549,Crystal Palace,Manchester United,0,2,2014-02-22 17:30:00
+287536,Arsenal,Manchester United,0,0,2014-02-12 19:45:00
+287545,Newcastle United,Tottenham Hotspur,0,4,2014-02-12 19:45:00
+295736,Stoke City,Swansea City,1,1,2014-02-12 19:45:00
+287543,Fulham,Liverpool,2,3,2014-02-12 20:00:00
+287537,Cardiff City,Aston Villa,0,0,2014-02-11 19:45:00
+287538,Hull City,Southampton,0,1,2014-02-11 19:45:00
+287541,West Ham United,Norwich City,2,0,2014-02-11 19:45:00
+287540,West Bromwich Albion,Chelsea,1,1,2014-02-11 20:00:00
+287535,Tottenham Hotspur,Everton,1,0,2014-02-09 13:30:00
+287530,Manchester United,Fulham,2,2,2014-02-09 16:00:00
+287529,Liverpool,Arsenal,5,1,2014-02-08 12:45:00
+287526,Aston Villa,West Ham United,0,2,2014-02-08 15:00:00
+287527,Chelsea,Newcastle United,3,0,2014-02-08 15:00:00
+287528,Crystal Palace,West Bromwich Albion,3,1,2014-02-08 15:00:00
+287531,Norwich City,Manchester City,0,0,2014-02-08 15:00:00
+287532,Southampton,Stoke City,2,2,2014-02-08 15:00:00
+287533,Sunderland,Hull City,0,2,2014-02-08 15:00:00
+287534,Swansea City,Cardiff City,3,0,2014-02-08 17:30:00
+287521,Manchester City,Chelsea,0,1,2014-02-03 20:00:00
+287524,West Bromwich Albion,Liverpool,1,1,2014-02-02 13:30:00
+287516,Arsenal,Crystal Palace,2,0,2014-02-02 16:00:00
+287522,Newcastle United,Sunderland,0,3,2014-02-01 12:45:00
+287525,West Ham United,Swansea City,2,0,2014-02-01 12:45:00
+287517,Cardiff City,Norwich City,2,1,2014-02-01 15:00:00
+287518,Everton,Aston Villa,2,1,2014-02-01 15:00:00
+287519,Fulham,Southampton,0,3,2014-02-01 15:00:00
+287520,Hull City,Tottenham Hotspur,1,1,2014-02-01 15:00:00
+287523,Stoke City,Manchester United,2,1,2014-02-01 15:00:00
+287506,Aston Villa,West Bromwich Albion,4,3,2014-01-29 19:45:00
+287514,Chelsea,West Ham United,0,0,2014-01-29 19:45:00
+287512,Sunderland,Stoke City,1,0,2014-01-29 19:45:00
+287515,Tottenham Hotspur,Manchester City,1,5,2014-01-29 19:45:00
+287509,Manchester United,Cardiff City,2,0,2014-01-28 19:45:00
+287510,Norwich City,Newcastle United,0,0,2014-01-28 19:45:00
+287511,Southampton,Arsenal,2,2,2014-01-28 19:45:00
+287513,Swansea City,Fulham,2,0,2014-01-28 19:45:00
+287507,Crystal Palace,Hull City,1,0,2014-01-28 20:00:00
+287508,Liverpool,Everton,4,0,2014-01-28 20:00:00
+287504,West Bromwich Albion,Everton,1,1,2014-01-20 20:00:00
+287503,Swansea City,Tottenham Hotspur,1,3,2014-01-19 13:30:00
+287497,Chelsea,Manchester United,3,1,2014-01-19 16:00:00
+287502,Sunderland,Southampton,2,2,2014-01-18 12:45:00
+287496,Arsenal,Fulham,2,0,2014-01-18 15:00:00
+287498,Crystal Palace,Stoke City,1,0,2014-01-18 15:00:00
+287500,Manchester City,Cardiff City,4,2,2014-01-18 15:00:00
+287501,Norwich City,Hull City,1,0,2014-01-18 15:00:00
+287505,West Ham United,Newcastle United,1,3,2014-01-18 15:00:00
+287499,Liverpool,Aston Villa,2,2,2014-01-18 17:30:00
+287486,Aston Villa,Arsenal,1,2,2014-01-13 20:00:00
+287492,Newcastle United,Manchester City,0,2,2014-01-12 14:05:00
+287494,Stoke City,Liverpool,3,5,2014-01-12 16:10:00
+287490,Hull City,Chelsea,0,2,2014-01-11 12:45:00
+287487,Cardiff City,West Ham United,0,2,2014-01-11 15:00:00
+287488,Everton,Norwich City,2,0,2014-01-11 15:00:00
+287489,Fulham,Sunderland,1,4,2014-01-11 15:00:00
+287493,Southampton,West Bromwich Albion,1,0,2014-01-11 15:00:00
+287495,Tottenham Hotspur,Crystal Palace,2,0,2014-01-11 15:00:00
+287491,Manchester United,Swansea City,2,0,2014-01-11 17:30:00
+287484,Swansea City,Manchester City,2,3,2014-01-01 12:45:00
+287476,Arsenal,Cardiff City,2,0,2014-01-01 15:00:00
+287477,Crystal Palace,Norwich City,1,1,2014-01-01 15:00:00
+287478,Fulham,West Ham United,2,1,2014-01-01 15:00:00
+287479,Liverpool,Hull City,2,0,2014-01-01 15:00:00
+287481,Southampton,Chelsea,0,3,2014-01-01 15:00:00
+287482,Stoke City,Everton,1,1,2014-01-01 15:00:00
+287483,Sunderland,Aston Villa,0,1,2014-01-01 15:00:00
+287485,West Bromwich Albion,Newcastle United,1,0,2014-01-01 15:00:00
+287480,Manchester United,Tottenham Hotspur,1,2,2014-01-01 17:30:00
+287469,Everton,Southampton,2,1,2013-12-29 13:30:00
+287472,Newcastle United,Arsenal,0,1,2013-12-29 13:30:00
+287468,Chelsea,Liverpool,2,1,2013-12-29 16:00:00
+287474,Tottenham Hotspur,Stoke City,3,0,2013-12-29 16:00:00
+287475,West Ham United,West Bromwich Albion,3,3,2013-12-28 12:45:00
+287466,Aston Villa,Swansea City,1,1,2013-12-28 15:00:00
+287470,Hull City,Fulham,6,0,2013-12-28 15:00:00
+287471,Manchester City,Crystal Palace,1,0,2013-12-28 15:00:00
+287473,Norwich City,Manchester United,0,1,2013-12-28 15:00:00
+287467,Cardiff City,Sunderland,2,2,2013-12-28 17:30:00
+287460,Hull City,Manchester United,2,3,2013-12-26 12:45:00
+287456,Aston Villa,Crystal Palace,0,1,2013-12-26 15:00:00
+287457,Cardiff City,Southampton,0,3,2013-12-26 15:00:00
+287458,Chelsea,Swansea City,1,0,2013-12-26 15:00:00
+287459,Everton,Sunderland,0,1,2013-12-26 15:00:00
+287462,Newcastle United,Stoke City,5,1,2013-12-26 15:00:00
+287463,Norwich City,Fulham,1,2,2013-12-26 15:00:00
+287464,Tottenham Hotspur,West Bromwich Albion,1,1,2013-12-26 15:00:00
+287465,West Ham United,Arsenal,1,3,2013-12-26 15:00:00
+287461,Manchester City,Liverpool,2,1,2013-12-26 17:30:00
+287446,Arsenal,Chelsea,0,0,2013-12-23 20:00:00
+287451,Southampton,Tottenham Hotspur,2,3,2013-12-22 13:30:00
+287454,Swansea City,Everton,1,2,2013-12-22 16:00:00
+287449,Liverpool,Cardiff City,3,1,2013-12-21 12:45:00
+287447,Crystal Palace,Newcastle United,0,3,2013-12-21 15:00:00
+287448,Fulham,Manchester City,2,4,2013-12-21 15:00:00
+287450,Manchester United,West Ham United,3,1,2013-12-21 15:00:00
+287452,Stoke City,Aston Villa,2,1,2013-12-21 15:00:00
+287453,Sunderland,Norwich City,0,0,2013-12-21 15:00:00
+287455,West Bromwich Albion,Hull City,1,1,2013-12-21 15:00:00
+287436,Aston Villa,Manchester United,0,3,2013-12-15 13:30:00
+301337,Norwich City,Swansea City,1,1,2013-12-15 13:30:00
+301359,Tottenham Hotspur,Liverpool,0,5,2013-12-15 16:00:00
+287441,Manchester City,Arsenal,6,3,2013-12-14 12:45:00
+287437,Cardiff City,West Bromwich Albion,1,0,2013-12-14 15:00:00
+287438,Chelsea,Crystal Palace,2,1,2013-12-14 15:00:00
+287439,Everton,Fulham,4,1,2013-12-14 15:00:00
+287442,Newcastle United,Southampton,1,1,2013-12-14 15:00:00
+287445,West Ham United,Sunderland,0,0,2013-12-14 15:00:00
+287440,Hull City,Stoke City,0,0,2013-12-14 17:30:00
+287434,Swansea City,Hull City,1,1,2013-12-09 20:00:00
+287428,Fulham,Aston Villa,2,0,2013-12-08 13:30:00
+287426,Arsenal,Everton,1,1,2013-12-08 16:00:00
+287430,Manchester United,Newcastle United,0,1,2013-12-07 12:45:00
+287427,Crystal Palace,Cardiff City,2,0,2013-12-07 15:00:00
+287429,Liverpool,West Ham United,4,1,2013-12-07 15:00:00
+287431,Southampton,Manchester City,1,1,2013-12-07 15:00:00
+287432,Stoke City,Chelsea,3,2,2013-12-07 15:00:00
+287435,West Bromwich Albion,Norwich City,0,2,2013-12-07 15:00:00
+287433,Sunderland,Tottenham Hotspur,1,2,2013-12-07 17:30:00
+295742,Arsenal,Hull City,2,0,2013-12-04 19:45:00
+301797,Liverpool,Norwich City,5,1,2013-12-04 19:45:00
+300998,Manchester United,Everton,0,1,2013-12-04 19:45:00
+300344,Southampton,Aston Villa,2,3,2013-12-04 19:45:00
+295730,Stoke City,Cardiff City,0,0,2013-12-04 19:45:00
+295731,Sunderland,Chelsea,3,4,2013-12-04 19:45:00
+302579,Swansea City,Newcastle United,3,0,2013-12-04 19:45:00
+287425,Fulham,Tottenham Hotspur,1,2,2013-12-04 20:00:00
+302548,West Bromwich Albion,Manchester City,2,3,2013-12-04 20:00:00
+287417,Crystal Palace,West Ham United,1,0,2013-12-03 20:00:00
+300980,Tottenham Hotspur,Manchester United,2,2,2013-12-01 12:00:00
+295740,Hull City,Liverpool,3,1,2013-12-01 14:05:00
+295741,Chelsea,Southampton,3,1,2013-12-01 16:10:00
+302547,Manchester City,Swansea City,3,0,2013-12-01 16:10:00
+287406,Aston Villa,Sunderland,0,0,2013-11-30 15:00:00
+287407,Cardiff City,Arsenal,0,3,2013-11-30 15:00:00
+287409,Everton,Stoke City,4,0,2013-11-30 15:00:00
+287413,Norwich City,Crystal Palace,1,0,2013-11-30 15:00:00
+287415,West Ham United,Fulham,3,0,2013-11-30 15:00:00
+287412,Newcastle United,West Bromwich Albion,2,1,2013-11-30 17:30:00
+295738,West Bromwich Albion,Aston Villa,2,2,2013-11-25 20:00:00
+300979,Manchester City,Tottenham Hotspur,6,0,2013-11-24 13:30:00
+295735,Cardiff City,Manchester United,2,2,2013-11-24 16:00:00
+287398,Everton,Liverpool,3,3,2013-11-23 12:45:00
+287396,Arsenal,Southampton,2,0,2013-11-23 15:00:00
+287399,Fulham,Swansea City,1,2,2013-11-23 15:00:00
+287400,Hull City,Crystal Palace,0,1,2013-11-23 15:00:00
+287402,Newcastle United,Norwich City,2,1,2013-11-23 15:00:00
+287403,Stoke City,Sunderland,2,0,2013-11-23 15:00:00
+287405,West Ham United,Chelsea,0,3,2013-11-23 17:30:00
+295733,Tottenham Hotspur,Newcastle United,0,1,2013-11-10 12:00:00
+295737,Sunderland,Manchester City,1,0,2013-11-10 14:05:00
+295739,Manchester United,Arsenal,1,0,2013-11-10 16:10:00
+301336,Swansea City,Stoke City,3,3,2013-11-10 16:10:00
+287386,Aston Villa,Cardiff City,2,0,2013-11-09 15:00:00
+287387,Chelsea,West Bromwich Albion,2,2,2013-11-09 15:00:00
+287388,Crystal Palace,Everton,0,0,2013-11-09 15:00:00
+287389,Liverpool,Fulham,4,0,2013-11-09 15:00:00
+287392,Southampton,Hull City,4,1,2013-11-09 15:00:00
+287391,Norwich City,West Ham United,3,1,2013-11-09 17:30:00
+295727,Everton,Tottenham Hotspur,0,0,2013-11-03 13:30:00
+295728,Cardiff City,Swansea City,1,0,2013-11-03 16:00:00
+287382,Newcastle United,Chelsea,2,0,2013-11-02 12:45:00
+287379,Fulham,Manchester United,1,3,2013-11-02 15:00:00
+287380,Hull City,Sunderland,1,0,2013-11-02 15:00:00
+287381,Manchester City,Norwich City,6,0,2013-11-02 15:00:00
+287383,Stoke City,Southampton,1,1,2013-11-02 15:00:00
+287384,West Bromwich Albion,Crystal Palace,2,0,2013-11-02 15:00:00
+287385,West Ham United,Aston Villa,0,0,2013-11-02 15:00:00
+287376,Arsenal,Liverpool,2,0,2013-11-02 17:30:00
+295719,Sunderland,Newcastle United,2,1,2013-10-27 13:30:00
+295717,Chelsea,Manchester City,2,1,2013-10-27 16:00:00
+301335,Swansea City,West Ham United,0,0,2013-10-27 16:00:00
+301354,Tottenham Hotspur,Hull City,1,0,2013-10-27 16:00:00
+287368,Crystal Palace,Arsenal,0,2,2013-10-26 12:45:00
+287366,Aston Villa,Everton,0,2,2013-10-26 15:00:00
+287369,Liverpool,West Bromwich Albion,4,1,2013-10-26 15:00:00
+287370,Manchester United,Stoke City,3,2,2013-10-26 15:00:00
+287371,Norwich City,Cardiff City,0,0,2013-10-26 15:00:00
+287372,Southampton,Fulham,2,0,2013-10-26 17:30:00
+295708,Crystal Palace,Fulham,1,4,2013-10-21 20:00:00
+295732,Aston Villa,Tottenham Hotspur,0,2,2013-10-20 16:00:00
+287362,Newcastle United,Liverpool,2,2,2013-10-19 12:45:00
+287356,Arsenal,Norwich City,4,1,2013-10-19 15:00:00
+287358,Chelsea,Cardiff City,4,1,2013-10-19 15:00:00
+287360,Everton,Hull City,2,1,2013-10-19 15:00:00
+287361,Manchester United,Southampton,1,1,2013-10-19 15:00:00
+287363,Stoke City,West Bromwich Albion,0,0,2013-10-19 15:00:00
+287364,Swansea City,Sunderland,4,0,2013-10-19 15:00:00
+287365,West Ham United,Manchester City,1,3,2013-10-19 17:30:00
+295723,Norwich City,Chelsea,1,3,2013-10-06 13:30:00
+301334,Southampton,Swansea City,2,0,2013-10-06 13:30:00
+301353,Tottenham Hotspur,West Ham United,0,3,2013-10-06 16:00:00
+295726,West Bromwich Albion,Arsenal,1,1,2013-10-06 16:00:00
+287350,Manchester City,Everton,3,1,2013-10-05 12:45:00
+287346,Cardiff City,Newcastle United,1,2,2013-10-05 15:00:00
+287347,Fulham,Stoke City,1,0,2013-10-05 15:00:00
+287348,Hull City,Aston Villa,0,0,2013-10-05 15:00:00
+287349,Liverpool,Crystal Palace,3,1,2013-10-05 15:00:00
+287353,Sunderland,Manchester United,1,2,2013-10-05 17:30:00
+295718,Everton,Newcastle United,3,2,2013-09-30 20:00:00
+295712,Stoke City,Norwich City,0,1,2013-09-29 13:30:00
+295715,Sunderland,Liverpool,1,3,2013-09-29 16:00:00
+287345,Tottenham Hotspur,Chelsea,1,1,2013-09-28 12:45:00
+287336,Aston Villa,Manchester City,3,2,2013-09-28 15:00:00
+287338,Fulham,Cardiff City,1,2,2013-09-28 15:00:00
+287339,Hull City,West Ham United,1,0,2013-09-28 15:00:00
+287340,Manchester United,West Bromwich Albion,1,2,2013-09-28 15:00:00
+287341,Southampton,Crystal Palace,2,0,2013-09-28 15:00:00
+287344,Swansea City,Arsenal,1,2,2013-09-28 17:30:00
+295729,Arsenal,Stoke City,3,1,2013-09-22 13:30:00
+301333,Crystal Palace,Swansea City,0,2,2013-09-22 13:30:00
+301332,Cardiff City,Tottenham Hotspur,0,1,2013-09-22 16:00:00
+295706,Manchester City,Manchester United,4,1,2013-09-22 16:00:00
+287333,Norwich City,Aston Villa,0,1,2013-09-21 12:45:00
+287330,Liverpool,Southampton,0,1,2013-09-21 15:00:00
+287332,Newcastle United,Hull City,2,3,2013-09-21 15:00:00
+287334,West Bromwich Albion,Sunderland,3,0,2013-09-21 15:00:00
+287335,West Ham United,Everton,2,3,2013-09-21 15:00:00
+287328,Chelsea,Fulham,2,0,2013-09-21 17:30:00
+295724,Swansea City,Liverpool,2,2,2013-09-16 20:00:00
+295721,Southampton,West Ham United,0,0,2013-09-15 16:00:00
+287320,Manchester United,Crystal Palace,2,0,2013-09-14 12:45:00
+287316,Aston Villa,Newcastle United,1,2,2013-09-14 15:00:00
+287318,Fulham,West Bromwich Albion,1,1,2013-09-14 15:00:00
+287319,Hull City,Cardiff City,1,1,2013-09-14 15:00:00
+287322,Stoke City,Manchester City,0,0,2013-09-14 15:00:00
+287323,Sunderland,Arsenal,1,3,2013-09-14 15:00:00
+287325,Tottenham Hotspur,Norwich City,2,0,2013-09-14 15:00:00
+287317,Everton,Chelsea,1,0,2013-09-14 17:30:00
+295713,Liverpool,Manchester United,1,0,2013-09-01 13:30:00
+300343,West Bromwich Albion,Swansea City,0,2,2013-09-01 13:30:00
+295716,Arsenal,Tottenham Hotspur,1,0,2013-09-01 16:00:00
+287311,Manchester City,Hull City,2,0,2013-08-31 12:45:00
+287307,Cardiff City,Everton,0,0,2013-08-31 15:00:00
+287312,Newcastle United,Fulham,1,0,2013-08-31 15:00:00
+287313,Norwich City,Southampton,1,0,2013-08-31 15:00:00
+287315,West Ham United,Stoke City,0,1,2013-08-31 15:00:00
+287309,Crystal Palace,Sunderland,3,1,2013-08-31 17:30:00
+295725,Manchester United,Chelsea,0,0,2013-08-26 20:00:00
+295720,Cardiff City,Manchester City,3,2,2013-08-25 16:00:00
+295722,Tottenham Hotspur,Swansea City,1,0,2013-08-25 16:00:00
+287299,Fulham,Arsenal,1,3,2013-08-24 12:45:00
+287298,Everton,West Bromwich Albion,0,0,2013-08-24 15:00:00
+287300,Hull City,Norwich City,1,0,2013-08-24 15:00:00
+287302,Newcastle United,West Ham United,0,0,2013-08-24 15:00:00
+287303,Southampton,Sunderland,1,1,2013-08-24 15:00:00
+287304,Stoke City,Crystal Palace,2,1,2013-08-24 15:00:00
+287296,Aston Villa,Liverpool,0,1,2013-08-24 17:30:00
+299017,Chelsea,Aston Villa,2,1,2013-08-21 19:45:00
+295714,Manchester City,Newcastle United,4,0,2013-08-19 20:00:00
+295710,Crystal Palace,Tottenham Hotspur,0,1,2013-08-18 13:30:00
+295711,Chelsea,Hull City,2,0,2013-08-18 16:00:00
+287289,Liverpool,Stoke City,1,0,2013-08-17 12:45:00
+287286,Arsenal,Aston Villa,1,3,2013-08-17 15:00:00
+287291,Norwich City,Everton,2,2,2013-08-17 15:00:00
+287292,Sunderland,Fulham,0,1,2013-08-17 15:00:00
+287294,West Bromwich Albion,Southampton,0,1,2013-08-17 15:00:00
+287295,West Ham United,Cardiff City,2,0,2013-08-17 15:00:00
+287293,Swansea City,Manchester United,1,4,2013-08-17 17:30:00

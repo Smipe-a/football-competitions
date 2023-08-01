@@ -1,0 +1,761 @@
+match_id,stadium,attendance,is_home_team,team,possessions,total_shots,on_target,off_target,blocked,passing,clear_cut_chance,corners,offsides,tackles,aerial_duels,saves,fouls_committed,fouls_won,yellow_cards,red_cards
+313757,Emirates Stadium,59971,True,Arsenal,63.7,24,13,4,7,90.4,1,7,1,73.3,39.1,4,6,5,1,0
+313757,Emirates Stadium,59971,False,West Bromwich Albion,36.3,14,5,6,3,79.4,0,3,3,85,60.9,9,7,6,0,0
+313758,Villa Park,40792,True,Aston Villa,63.3,17,5,10,2,85.7,0,7,1,88.9,47.8,2,11,6,1,0
+313758,Villa Park,40792,False,Burnley,36.7,6,3,1,2,66.8,1,2,1,62.5,52.2,5,6,10,2,0
+313759,Stamford Bridge,41620,True,Chelsea,64.6,24,8,7,9,92.7,1,11,1,66.7,50,7,12,8,2,0
+313759,Stamford Bridge,41620,False,Sunderland,35.4,17,9,7,1,84.8,2,3,1,75,50,5,8,11,1,0
+313760,Selhurst Park,25076,True,Crystal Palace,47.4,13,7,2,4,76.9,1,7,2,75,51.4,2,22,13,3,0
+313760,Selhurst Park,25076,False,Swansea City,52.6,5,2,1,2,77.9,0,3,0,73.9,48.6,6,13,21,0,0
+313761,Goodison Park,39365,True,Everton,40.4,9,1,6,2,74.3,1,3,2,73.3,42.9,2,12,7,1,0
+313761,Goodison Park,39365,False,Tottenham Hotspur,59.6,16,3,4,9,83.5,2,5,4,66.7,57.1,1,8,11,2,0
+313762,MKM Stadium,24745,True,Hull City,40.9,16,6,5,5,71.7,0,8,6,76.5,51.5,1,12,15,2,0
+313762,MKM Stadium,24745,False,Manchester United,59.1,7,1,3,3,80.8,0,1,0,82.4,48.5,6,15,12,2,1
+313763,The King Power Stadium,31467,True,Leicester City,45.7,22,7,13,2,71.1,0,5,3,87.5,57.7,1,7,5,0,0
+313763,The King Power Stadium,31467,False,Queens Park Rangers,54.3,18,2,9,7,73.2,1,6,1,83.3,42.3,2,6,6,0,0
+313764,Etihad Stadium,45919,True,Manchester City,54.5,15,6,7,2,81.5,2,8,0,68.8,64.3,4,13,8,1,0
+313764,Etihad Stadium,45919,False,Southampton,45.5,13,4,6,3,77.9,1,4,7,81,35.7,5,8,12,1,0
+313765,St. James' Park,52094,True,Newcastle United,40.8,17,4,9,4,74.6,2,2,1,80,44.2,1,9,9,2,0
+313765,St. James' Park,52094,False,West Ham United,59.2,4,1,2,1,81.1,1,3,3,76.5,55.8,2,9,9,1,0
+313766,Bet365 Stadium,27602,True,Stoke City,45.5,15,9,3,3,80.7,1,3,1,83.3,45.2,3,13,4,4,0
+313766,Bet365 Stadium,27602,False,Liverpool,54.5,13,4,5,4,81.9,2,9,1,85,54.8,3,4,13,2,0
+313707,Emirates Stadium,59987,True,Arsenal,75.1,28,8,13,7,89.8,1,5,0,75,48.3,3,6,8,1,0
+313707,Emirates Stadium,59987,False,Sunderland,24.9,7,3,3,1,67.8,3,2,1,70,51.7,8,8,6,0,0
+313755,The Hawthorns,24750,True,West Bromwich Albion,40.5,9,5,3,1,87.4,0,3,1,68.4,37.5,3,12,11,3,0
+313755,The Hawthorns,24750,False,Chelsea,59.5,12,3,4,5,89.7,1,4,1,93.8,62.5,2,11,11,2,1
+313753,Swansea Stadium,20669,True,Swansea City,47.1,13,9,2,2,85.3,1,11,0,75,38.9,7,8,8,0,0
+313753,Swansea Stadium,20669,False,Manchester City,52.9,22,11,5,6,85.1,2,7,2,69.6,61.1,7,8,8,3,0
+313749,Old Trafford,75323,True,Manchester United,57.4,12,4,3,5,82,0,5,8,70.3,60,3,16,8,1,0
+313749,Old Trafford,75323,False,Arsenal,42.6,5,3,2,0,78.3,2,5,2,64.7,40,3,8,14,0,0
+313751,St. Mary's Stadium,31636,True,Southampton,35.6,18,11,4,3,75.3,6,6,3,80,48.3,3,19,7,1,0
+313751,St. Mary's Stadium,31636,False,Aston Villa,64.4,9,4,4,1,85.2,3,3,1,57.1,51.7,5,7,18,1,0
+313747,Turf Moor,18636,True,Burnley,45.7,11,4,1,6,67.9,0,7,1,63.6,36.4,3,14,9,1,0
+313747,Turf Moor,18636,False,Stoke City,54.3,11,3,5,3,74.4,1,6,3,83.3,63.6,4,9,13,2,0
+313750,Loftus Road Stadium,17608,True,Queens Park Rangers,47.5,8,4,3,1,61.6,0,3,1,79.4,46.9,6,12,8,2,0
+313750,Loftus Road Stadium,17608,False,Newcastle United,52.5,22,8,5,9,64.8,2,12,1,80,53.1,2,8,12,0,0
+313752,Stadium of Light,46705,True,Sunderland,50.6,13,3,5,5,62.5,1,8,2,78.3,61.8,0,14,15,4,0
+313752,Stadium of Light,46705,False,Leicester City,49.4,11,0,4,7,59.3,0,9,0,66.7,38.2,3,15,14,1,0
+313754,White Hart Lane,35857,True,Tottenham Hotspur,55.7,10,3,3,4,81.9,2,6,0,77.8,47.1,1,10,6,3,0
+313754,White Hart Lane,35857,False,Hull City,44.3,14,2,9,3,78.3,1,8,5,73.7,52.9,1,6,10,1,0
+313756,Upton Park,34977,True,West Ham United,45.3,13,3,5,5,79.1,1,7,2,73.3,45.2,3,12,13,1,0
+313756,Upton Park,34977,False,Everton,54.7,21,5,10,6,79.8,3,8,2,82.6,54.8,2,14,12,4,0
+313748,Anfield,44673,True,Liverpool,66.3,18,3,10,5,85.7,0,4,1,95,50,3,10,17,2,0
+313748,Anfield,44673,False,Crystal Palace,33.7,15,6,6,3,72.5,0,5,3,75,50,2,17,10,3,0
+313737,Emirates Stadium,59989,True,Arsenal,67.9,23,9,6,8,90.7,1,6,1,68.8,64.7,2,7,10,0,0
+313737,Emirates Stadium,59989,False,Swansea City,32.1,8,3,2,3,79.7,0,1,1,62.5,35.3,9,10,7,1,0
+313744,Etihad Stadium,44564,True,Manchester City,59.5,23,11,9,3,79.7,3,7,1,86.7,52.6,3,12,7,0,0
+313744,Etihad Stadium,44564,False,Queens Park Rangers,40.5,9,3,5,1,72.1,1,4,5,76.5,47.4,5,7,11,1,0
+313739,Stamford Bridge,41547,True,Chelsea,47.8,8,3,1,4,79,0,6,1,83.3,47.4,3,13,11,4,0
+313739,Stamford Bridge,41547,False,Liverpool,52.2,15,4,8,3,85.9,1,4,3,88.9,52.6,2,11,13,3,0
+313741,Goodison Park,38246,True,Everton,73,22,4,9,9,85.9,0,16,2,66.7,38.1,1,10,9,2,0
+313741,Goodison Park,38246,False,Sunderland,27,10,3,4,3,63.5,0,1,1,72,61.9,4,9,10,3,0
+313738,Villa Park,39294,True,Aston Villa,58.2,14,5,7,2,81.1,1,2,1,80,48.3,1,6,12,1,0
+313738,Villa Park,39294,False,West Ham United,41.8,6,1,4,1,74.7,0,6,3,84.2,51.7,4,13,6,1,0
+313742,MKM Stadium,24877,True,Hull City,54.5,21,3,7,11,75.2,1,9,0,81.3,43.1,1,16,12,1,0
+313742,MKM Stadium,24877,False,Burnley,45.5,8,2,5,1,71.2,0,3,0,84.6,56.9,3,12,16,1,0
+313743,The King Power Stadium,31939,True,Leicester City,30.8,10,3,6,1,58,2,4,0,85.7,47.7,3,12,9,1,0
+313743,The King Power Stadium,31939,False,Southampton,69.2,10,3,3,4,79,0,8,1,83.3,52.3,1,10,12,0,0
+313745,St. James' Park,47894,True,Newcastle United,60.7,15,5,7,3,81.1,0,7,0,75,33.3,2,11,17,2,0
+313745,St. James' Park,47894,False,West Bromwich Albion,39.3,8,3,3,2,72.9,0,2,2,96.4,66.7,3,17,11,3,0
+313746,Bet365 Stadium,27104,True,Stoke City,45,16,8,4,4,77.7,1,6,5,86.7,43.5,4,14,10,0,0
+313746,Bet365 Stadium,27104,False,Tottenham Hotspur,55,9,3,3,3,79.6,0,8,1,81.8,56.5,6,12,13,0,1
+313740,Selhurst Park,25009,True,Crystal Palace,37.5,13,4,6,3,67.8,1,7,4,77.8,51.2,2,13,11,0,0
+313740,Selhurst Park,25009,False,Manchester United,62.5,13,4,4,5,83,2,6,1,69.2,48.8,3,12,12,1,0
+313729,MKM Stadium,23628,True,Hull City,32.3,8,1,6,1,72.4,1,0,4,84.6,55,6,8,10,2,0
+313729,MKM Stadium,23628,False,Arsenal,67.7,22,9,6,7,88.3,2,5,1,70.6,45,0,11,8,0,0
+313728,Stamford Bridge,41566,True,Chelsea,61.7,17,7,8,2,83.8,0,3,1,70.8,64.6,1,12,13,2,0
+313728,Stamford Bridge,41566,False,Crystal Palace,38.3,8,1,4,3,68.9,0,6,2,61.5,35.4,6,13,12,2,0
+313735,White Hart Lane,35784,True,Tottenham Hotspur,55,21,5,11,5,78.5,3,8,2,90,53.6,3,6,11,3,0
+313735,White Hart Lane,35784,False,Manchester City,45,15,4,6,5,74.2,2,7,1,68.8,46.4,5,11,6,4,0
+313730,The King Power Stadium,31576,True,Leicester City,47.9,19,7,8,4,70.4,5,10,3,72.4,73.1,3,10,13,1,0
+313730,The King Power Stadium,31576,False,Newcastle United,52.1,12,3,7,2,75.1,0,7,1,84.2,26.9,4,13,9,2,2
+313727,Villa Park,37859,True,Aston Villa,50.4,11,4,4,3,79.6,2,5,0,55.6,76,3,13,12,2,0
+313727,Villa Park,37859,False,Everton,49.6,9,5,1,3,75.5,0,3,3,85.7,24,1,12,11,1,0
+313731,Anfield,44707,True,Liverpool,62.1,25,8,10,7,78.1,1,9,3,87.5,42.1,1,9,16,2,0
+313731,Anfield,44707,False,Queens Park Rangers,37.9,10,2,7,1,61.6,0,6,3,76.2,57.9,6,18,9,3,1
+313733,Stadium of Light,39613,True,Sunderland,43.7,12,6,4,2,74.3,0,1,3,84.2,53.8,1,12,13,2,0
+313733,Stadium of Light,39613,False,Southampton,56.3,11,2,6,3,77.1,0,1,3,80,46.2,4,13,12,2,1
+313734,Swansea Stadium,20661,True,Swansea City,47.4,17,4,7,6,77.7,3,6,1,83.3,40.9,3,9,17,1,0
+313734,Swansea Stadium,20661,False,Stoke City,52.6,9,3,4,2,78,0,2,0,59.1,59.1,2,18,9,2,1
+313736,Upton Park,34946,True,West Ham United,60.2,29,7,8,14,79.7,3,13,2,60,48.6,2,11,5,3,0
+313736,Upton Park,34946,False,Burnley,39.8,9,2,5,2,70.4,1,3,2,70,51.4,5,7,9,2,1
+313732,Old Trafford,75454,True,Manchester United,79.7,26,9,5,12,89.9,1,9,3,60,60,2,10,9,1,0
+313732,Old Trafford,75454,False,West Bromwich Albion,20.3,6,3,2,1,54.1,0,3,0,69.2,40,9,11,10,0,0
+313649,The King Power Stadium,32021,True,Leicester City,37.1,8,2,4,2,68.8,2,2,4,73.9,40.8,1,10,1,1,0
+313649,The King Power Stadium,32021,False,Chelsea,62.9,11,4,5,2,81.4,1,6,3,75,59.2,1,1,9,0,0
+313712,MKM Stadium,24843,True,Hull City,31.2,7,4,2,1,64.6,2,7,1,56.7,48.3,9,10,9,2,0
+313712,MKM Stadium,24843,False,Liverpool,68.8,12,9,1,2,84.3,0,7,0,89.3,51.7,3,10,10,0,0
+313720,Goodison Park,39497,True,Everton,34.9,9,7,1,1,69.7,1,7,1,91.3,43.8,4,6,9,0,0
+313720,Goodison Park,39497,False,Manchester United,65.1,17,4,3,10,86.3,0,7,2,78.6,56.3,4,10,6,2,0
+313717,Emirates Stadium,60066,True,Arsenal,57,11,1,6,4,86.4,1,6,0,62.5,52,2,17,10,4,0
+313717,Emirates Stadium,60066,False,Chelsea,43,7,3,2,2,74.9,2,2,0,83.3,48,1,11,15,3,0
+313724,St. Mary's Stadium,31622,True,Southampton,36.2,13,4,7,2,74.8,1,8,5,86.7,46.9,0,9,10,1,0
+313724,St. Mary's Stadium,31622,False,Tottenham Hotspur,63.8,7,2,2,3,82.4,0,3,2,75,53.1,2,10,9,3,0
+313718,Turf Moor,19582,True,Burnley,59.9,12,4,2,6,71.4,1,6,1,66.7,59.3,3,16,14,3,0
+313718,Turf Moor,19582,False,Leicester City,40.1,8,4,4,0,53.8,0,4,2,84.2,40.7,5,16,16,0,0
+313719,Selhurst Park,23876,True,Crystal Palace,46.5,7,3,3,1,74.4,0,0,5,72.2,53.6,5,15,10,0,0
+313719,Selhurst Park,23876,False,Hull City,53.5,21,7,10,4,79.1,2,9,0,52.9,46.4,3,10,14,0,0
+313722,St. James' Park,46884,True,Newcastle United,48.2,12,4,6,2,77.1,2,9,0,87.1,40,3,14,9,1,0
+313722,St. James' Park,46884,False,Swansea City,51.8,11,6,3,2,80.2,1,6,3,80,60,2,9,14,2,0
+313723,Loftus Road Stadium,18036,True,Queens Park Rangers,53.8,18,7,6,5,60,1,6,3,64.3,55.7,2,14,10,1,0
+313723,Loftus Road Stadium,18036,False,West Ham United,46.2,8,2,5,1,57.2,1,6,4,70,44.3,7,12,13,0,0
+313725,Bet365 Stadium,26706,True,Stoke City,60.5,23,8,8,7,77.1,1,9,2,89.5,78.4,4,14,15,2,0
+313725,Bet365 Stadium,26706,False,Sunderland,39.5,15,5,8,2,71.2,0,8,1,61.1,21.6,7,15,14,3,0
+313726,The Hawthorns,26663,True,West Bromwich Albion,26.8,10,4,6,0,54.2,0,2,1,66.7,47.2,4,12,10,1,0
+313726,The Hawthorns,26663,False,Liverpool,73.2,22,4,9,9,85,0,4,1,80,52.8,4,11,12,0,0
+313721,Etihad Stadium,45036,True,Manchester City,44.9,11,4,2,5,79,1,7,1,66.7,41.9,2,13,11,1,0
+313721,Etihad Stadium,45036,False,Aston Villa,55.1,13,4,6,3,83.4,0,6,6,61.5,58.1,1,11,13,2,0
+313714,Etihad Stadium,45041,True,Manchester City,66.8,18,3,7,8,90.7,2,6,5,75,44.4,3,10,6,2,0
+313714,Etihad Stadium,45041,False,West Ham United,33.2,9,3,3,3,77.7,1,3,4,80,55.6,2,6,10,2,0
+313715,St. James' Park,47427,True,Newcastle United,38.9,11,5,3,3,66.7,0,4,1,68.2,52.2,5,11,13,2,0
+313715,St. James' Park,47427,False,Tottenham Hotspur,61.1,14,8,3,3,82.2,4,3,5,76.2,47.8,4,13,9,4,0
+313710,Selhurst Park,24765,True,Crystal Palace,68.1,19,4,10,5,81.1,2,7,1,90.5,42.1,1,17,17,3,0
+313710,Selhurst Park,24765,False,West Bromwich Albion,31.9,8,4,3,1,60.2,1,6,2,83.3,57.9,4,17,16,3,0
+313711,Goodison Park,39496,True,Everton,65.6,21,8,9,4,83,3,5,1,85.7,40.8,1,12,15,1,0
+313711,Goodison Park,39496,False,Burnley,34.4,10,1,5,4,62.4,2,6,0,62.5,59.2,7,15,12,2,1
+313713,The King Power Stadium,31121,True,Leicester City,41.1,18,6,10,2,69.6,3,6,0,81.3,63.3,6,6,5,0,0
+313713,The King Power Stadium,31121,False,Swansea City,58.9,10,6,2,2,82.4,1,3,3,78.6,36.7,4,5,6,2,0
+313716,Bet365 Stadium,26467,True,Stoke City,48.3,15,2,9,4,71.8,2,2,3,85.7,48.7,3,17,15,0,0
+313716,Bet365 Stadium,26467,False,Southampton,51.7,12,6,3,3,74,1,5,2,92,51.3,0,17,16,4,0
+313709,Stamford Bridge,41422,True,Chelsea,29.6,7,2,2,3,71.4,1,3,2,82.8,45.2,2,13,10,3,0
+313709,Stamford Bridge,41422,False,Manchester United,70.4,15,2,8,5,91.4,0,7,3,90.5,54.8,1,11,13,1,0
+313698,Anfield,44611,True,Liverpool,61.8,14,6,5,3,82.9,0,6,3,78.3,50,3,8,16,2,0
+313698,Anfield,44611,False,Newcastle United,38.2,10,3,5,2,76.6,0,6,2,71.4,50,4,17,8,0,1
+313700,Loftus Road Stadium,17939,True,Queens Park Rangers,39.9,15,4,5,6,56.3,1,5,4,72,38.2,0,12,6,2,0
+313700,Loftus Road Stadium,17939,False,Chelsea,60.1,9,1,6,2,70,1,6,3,88.2,61.8,4,6,12,1,0
+313699,Old Trafford,75313,True,Manchester United,58.6,11,7,1,3,81,6,1,3,60,45.2,1,9,14,0,0
+313699,Old Trafford,75313,False,Manchester City,41.4,10,3,3,4,70.9,2,5,3,72.7,54.8,3,16,9,3,0
+313703,Swansea Stadium,20468,True,Swansea City,50.9,11,3,4,4,79.7,0,3,2,77.8,61.5,7,18,11,3,0
+313703,Swansea Stadium,20468,False,Everton,49.1,12,8,2,2,80.7,1,6,1,85.7,38.5,2,12,15,3,0
+313701,St. Mary's Stadium,30359,True,Southampton,54,9,4,3,2,81.1,2,2,2,84.2,48.7,3,7,11,2,0
+313701,St. Mary's Stadium,30359,False,Hull City,46,15,4,6,5,76.5,0,5,0,75,51.3,2,11,7,0,0
+313702,Stadium of Light,42073,True,Sunderland,53.7,12,3,5,4,75.1,0,8,0,67.9,57.1,1,15,16,2,0
+313702,Stadium of Light,42073,False,Crystal Palace,46.3,14,5,3,6,70.1,3,5,0,82.4,42.9,2,17,15,2,0
+313704,White Hart Lane,35687,True,Tottenham Hotspur,57,14,3,9,2,78.6,1,9,5,73.7,43.2,2,11,10,3,0
+313704,White Hart Lane,35687,False,Aston Villa,43,11,3,6,2,68,1,6,2,75,56.8,3,12,11,2,1
+313705,The Hawthorns,26768,True,West Bromwich Albion,45.9,8,5,2,1,61.4,1,4,0,75,45.6,1,15,14,2,0
+313705,The Hawthorns,26768,False,Leicester City,54.1,12,4,6,2,69.6,3,6,3,82.6,54.4,3,14,15,2,0
+313706,Upton Park,34946,True,West Ham United,35.3,11,3,5,3,64.7,0,4,2,73.3,42.6,1,17,12,3,0
+313706,Upton Park,34946,False,Stoke City,64.7,18,2,10,6,78.3,0,10,4,87.5,57.4,2,13,17,1,0
+313697,Turf Moor,20615,True,Burnley,31.8,8,4,1,3,65.5,1,1,3,80,49.2,4,15,6,2,0
+313697,Turf Moor,20615,False,Arsenal,68.2,17,5,6,6,83,0,6,2,66.7,50.8,4,7,13,0,0
+313708,Villa Park,33708,True,Aston Villa,63.8,21,7,9,5,74.4,1,7,4,66.7,50,2,8,11,0,0
+313708,Villa Park,33708,False,Queens Park Rangers,36.2,11,5,3,3,64.1,2,3,2,74.1,50,4,12,8,4,0
+313690,Selhurst Park,24718,True,Crystal Palace,25.9,5,3,1,1,64.7,2,4,2,66.7,65.9,3,11,10,2,0
+313690,Selhurst Park,24718,False,Manchester City,74.1,22,4,10,8,86.4,0,13,0,78.3,34.1,1,11,9,1,0
+313688,Turf Moor,18829,True,Burnley,40,15,4,6,5,64.8,2,5,4,80,55.9,2,9,5,2,0
+313688,Turf Moor,18829,False,Tottenham Hotspur,60,12,2,8,2,78.4,0,3,3,77.8,44.1,4,5,9,0,0
+313694,Stadium of Light,47563,True,Sunderland,53.2,16,4,5,7,70.8,1,8,2,81.5,59.6,1,14,18,5,0
+313694,Stadium of Light,47563,False,Newcastle United,46.8,10,1,5,4,71.2,0,4,1,80,40.4,3,18,13,2,0
+313687,Emirates Stadium,60081,True,Arsenal,48.6,16,10,4,2,83.5,1,6,4,70.8,52.9,1,7,9,1,0
+313687,Emirates Stadium,60081,False,Liverpool,51.4,13,2,9,2,82.7,1,5,3,84,47.1,6,9,7,0,1
+313691,Goodison Park,39390,True,Everton,45.1,10,1,5,4,75.1,1,5,0,66.7,46.2,2,12,15,0,0
+313691,Goodison Park,39390,False,Southampton,54.9,11,2,7,2,79.6,0,10,2,91.3,53.8,0,17,11,1,0
+313692,The King Power Stadium,31863,True,Leicester City,49.6,20,7,9,4,67.3,4,7,3,78.6,45.1,6,12,9,0,0
+313692,The King Power Stadium,31863,False,West Ham United,50.4,14,7,7,0,73,4,6,1,68.8,54.9,4,10,11,3,0
+313693,Old Trafford,75397,True,Manchester United,76.4,20,7,9,4,90.8,1,10,0,87.5,55.6,1,15,11,0,0
+313693,Old Trafford,75397,False,Aston Villa,23.6,5,2,2,1,70.9,0,2,2,68.8,44.4,4,12,15,1,0
+313695,Swansea Stadium,20333,True,Swansea City,58.4,9,4,4,1,86.5,1,4,2,76.5,58.6,0,11,14,1,0
+313695,Swansea Stadium,20333,False,Hull City,41.6,10,1,4,5,79.9,1,7,1,68.8,41.4,1,14,11,5,1
+313696,The Hawthorns,25735,True,West Bromwich Albion,55,21,6,11,4,73.6,2,2,3,46.2,62.2,3,6,15,2,1
+313696,The Hawthorns,25735,False,Queens Park Rangers,45,12,7,2,3,69.6,1,4,3,62.5,37.8,5,15,5,3,0
+313689,Stamford Bridge,41098,True,Chelsea,60.5,19,10,6,3,86,3,9,2,70,48.6,1,5,21,1,0
+313689,Stamford Bridge,41098,False,Stoke City,39.5,7,2,3,2,79.3,0,0,1,83.3,51.4,9,22,5,6,0
+313679,Anfield,44405,True,Liverpool,41.7,7,1,4,2,75.2,1,2,0,84.6,48.8,2,14,16,2,1
+313679,Anfield,44405,False,Manchester United,58.3,6,4,0,2,81.5,1,3,3,67.9,51.2,0,17,14,2,0
+313678,MKM Stadium,24598,True,Hull City,42.9,19,8,9,2,71.3,1,6,5,76.9,52.6,0,14,10,0,0
+313678,MKM Stadium,24598,False,Chelsea,57.1,8,3,2,3,78.8,1,6,1,66.7,47.4,6,11,14,2,0
+313682,Loftus Road Stadium,17706,True,Queens Park Rangers,52.3,14,1,8,5,69.2,2,1,4,81.8,49.2,1,11,11,2,0
+313682,Loftus Road Stadium,17706,False,Everton,47.7,8,3,2,3,67.3,0,3,5,85.7,50.8,0,12,11,1,0
+313680,Etihad Stadium,45018,True,Manchester City,77.6,43,16,15,12,92.9,3,9,2,92.3,61.1,0,6,5,0,0
+313680,Etihad Stadium,45018,False,West Bromwich Albion,22.4,3,0,3,0,66.5,1,2,3,63.2,38.9,13,5,6,0,1
+313677,Villa Park,35598,True,Aston Villa,42.6,12,3,5,4,72.2,0,4,1,88.2,58.3,4,13,8,0,0
+313677,Villa Park,35598,False,Swansea City,57.4,9,6,1,2,81.6,3,9,7,64.3,41.7,3,9,13,0,0
+313681,St. James' Park,50544,True,Newcastle United,50.9,16,4,4,8,76.2,2,9,3,84.6,28.6,1,11,6,0,0
+313681,St. James' Park,50544,False,Arsenal,49.1,7,3,1,3,77.1,3,4,4,87.5,71.4,3,7,11,0,0
+313683,St. Mary's Stadium,30864,True,Southampton,60.2,20,3,9,8,81,0,10,1,80,50,3,10,7,0,0
+313683,St. Mary's Stadium,30864,False,Burnley,39.8,15,3,8,4,74.7,1,5,0,75,50,2,8,10,0,0
+313684,Bet365 Stadium,27532,True,Stoke City,56.9,17,4,8,5,74.4,2,8,0,75,58.2,1,15,13,3,0
+313684,Bet365 Stadium,27532,False,Crystal Palace,43.1,12,3,6,3,68,2,4,0,73.3,41.8,3,14,15,4,0
+313685,White Hart Lane,35950,True,Tottenham Hotspur,65.8,10,4,5,1,80.3,2,5,1,87.5,56.1,2,8,9,2,0
+313685,White Hart Lane,35950,False,Leicester City,34.2,14,5,6,3,61.6,5,4,3,75,43.9,1,9,7,1,0
+313686,Upton Park,34914,True,West Ham United,53.9,15,4,4,7,75.1,1,6,1,40,60.4,3,14,11,0,0
+313686,Upton Park,34914,False,Sunderland,46.1,7,3,3,1,64.2,1,4,1,81.8,39.6,3,11,14,1,0
+313675,Swansea Stadium,20828,True,Swansea City,46.3,10,3,3,4,81.8,0,4,1,84.2,64.7,4,13,14,0,0
+313675,Swansea Stadium,20828,False,Liverpool,53.7,16,5,8,3,84.6,2,5,0,66.7,35.3,3,16,13,3,0
+313669,Stamford Bridge,41624,True,Chelsea,60.9,22,7,8,7,79.7,3,9,2,92.9,63,4,10,11,3,0
+313669,Stamford Bridge,41624,False,Southampton,39.1,12,5,3,4,74.6,2,2,4,87.5,37,6,11,10,3,0
+313671,Goodison Park,38806,True,Everton,54.1,15,9,4,2,83.3,3,3,0,86.4,66.7,3,11,10,1,0
+313671,Goodison Park,38806,False,Newcastle United,45.9,12,4,4,4,76.8,0,4,0,76,33.3,5,10,10,2,1
+313673,Old Trafford,75112,True,Manchester United,51.6,11,3,5,3,82.9,0,4,5,56.3,50,2,12,9,1,0
+313673,Old Trafford,75112,False,Tottenham Hotspur,48.4,5,1,2,2,82.6,0,2,4,90,50,0,10,11,1,0
+313670,Selhurst Park,24886,True,Crystal Palace,43.5,15,4,7,4,68.1,2,7,5,90.9,51.9,3,17,14,1,0
+313670,Selhurst Park,24886,False,Queens Park Rangers,56.5,11,4,5,2,73.6,0,3,0,88.9,48.1,1,16,16,3,0
+313667,Emirates Stadium,60002,True,Arsenal,67.9,19,9,5,5,82.9,4,8,3,81.3,58.8,1,10,9,1,0
+313667,Emirates Stadium,60002,False,West Ham United,32.1,7,1,4,2,69.1,0,5,3,61.1,41.2,6,9,9,1,0
+313672,The King Power Stadium,31456,True,Leicester City,51.2,15,3,8,4,70.9,0,7,0,90.9,46.9,5,10,14,0,0
+313672,The King Power Stadium,31456,False,Hull City,48.8,12,5,5,2,68.8,2,5,0,76.5,53.1,3,15,8,4,1
+313674,Stadium of Light,45746,True,Sunderland,40.4,12,2,7,3,72.8,0,2,2,76.7,46.7,4,10,9,1,0
+313674,Stadium of Light,45746,False,Aston Villa,59.6,14,8,4,2,83.3,2,5,0,64.7,53.3,2,9,10,1,0
+313676,The Hawthorns,24323,True,West Bromwich Albion,43.2,14,5,5,4,75.3,0,7,1,70.6,47.4,2,7,16,1,0
+313676,The Hawthorns,24323,False,Stoke City,56.8,9,2,3,4,77.7,0,5,3,82.1,52.6,4,16,6,2,0
+313668,Turf Moor,21216,True,Burnley,29.8,10,4,5,1,65.5,0,2,2,53.8,51.6,5,6,8,2,0
+313668,Turf Moor,21216,False,Manchester City,70.2,22,5,9,8,82.7,1,6,0,65.2,48.4,3,9,5,1,0
+313653,Loftus Road Stadium,17992,True,Queens Park Rangers,37.5,17,6,5,6,55.6,1,3,3,74.1,46.7,3,15,10,1,0
+313653,Loftus Road Stadium,17992,False,Tottenham Hotspur,62.5,13,6,6,1,74.2,3,5,3,75,53.3,5,12,15,2,0
+313663,Etihad Stadium,45000,True,Manchester City,69.5,22,9,7,6,87,2,10,4,77.8,58.3,2,11,3,0,0
+313663,Etihad Stadium,45000,False,Leicester City,30.5,6,2,1,3,68.2,0,3,3,61.1,41.7,7,3,9,1,0
+313664,St. James' Park,49801,True,Newcastle United,32.4,9,2,5,2,63,3,4,1,80,55.6,4,6,14,1,0
+313664,St. James' Park,49801,False,Manchester United,67.6,11,5,5,1,87.4,3,1,6,73.3,44.4,2,14,6,2,0
+313660,Loftus Road Stadium,17977,True,Queens Park Rangers,43.2,10,3,4,3,69.9,0,1,5,88.9,31.3,7,10,8,2,0
+313660,Loftus Road Stadium,17977,False,Arsenal,56.8,20,9,4,7,78.3,1,6,2,70,68.8,2,8,8,1,0
+313665,Bet365 Stadium,26431,True,Stoke City,43.7,11,3,3,5,75.6,0,5,0,73.1,52.6,5,11,14,2,0
+313665,Bet365 Stadium,26431,False,Everton,56.3,10,5,1,4,79.7,0,6,1,87.5,47.4,1,14,11,2,0
+313666,White Hart Lane,34008,True,Tottenham Hotspur,61,20,7,4,9,87.8,3,6,2,75,51.5,3,14,7,1,0
+313666,White Hart Lane,34008,False,Swansea City,39,10,5,2,3,81.1,2,4,6,75,48.5,4,7,14,0,0
+313662,Upton Park,34927,True,West Ham United,44.9,18,5,6,7,71,1,5,4,80,37.8,1,10,10,3,0
+313662,Upton Park,34927,False,Chelsea,55.1,12,3,4,5,73.4,4,4,1,93.8,62.2,5,10,9,4,0
+313659,Anfield,44717,True,Liverpool,63.1,20,8,7,5,86,1,6,0,88.9,50,1,8,14,0,0
+313659,Anfield,44717,False,Burnley,36.9,9,1,4,4,72.4,0,5,1,55.6,50,6,14,8,1,0
+313657,Villa Park,31272,True,Aston Villa,58.2,16,8,6,2,79.2,1,0,3,71.4,52.5,0,15,13,2,0
+313657,Villa Park,31272,False,West Bromwich Albion,41.8,3,1,1,1,66.7,2,3,2,66.7,47.5,5,13,15,4,0
+313658,MKM Stadium,23017,True,Hull City,41.5,14,5,8,1,70.3,1,6,2,64.7,43.8,2,9,14,2,0
+313658,MKM Stadium,23017,False,Sunderland,58.5,9,3,4,2,75.6,1,4,1,100,56.3,5,15,8,6,0
+313661,St. Mary's Stadium,28351,True,Southampton,62.2,23,3,12,8,77.6,1,10,0,88,50.9,3,11,10,0,0
+313661,St. Mary's Stadium,28351,False,Crystal Palace,37.8,9,3,5,1,65.7,0,2,0,73.9,49.1,2,10,10,2,0
+313650,Anfield,44590,True,Liverpool,48,11,5,5,1,77.8,0,3,3,58.3,45.8,0,8,14,1,0
+313650,Anfield,44590,False,Manchester City,52,8,1,7,0,78.6,2,0,6,77.3,54.2,3,16,7,3,0
+313647,Emirates Stadium,59925,True,Arsenal,47.2,17,4,7,6,80.7,2,8,2,88.9,53.1,2,12,5,2,0
+313647,Emirates Stadium,59925,False,Everton,52.8,8,2,4,2,80.2,0,9,1,85.7,46.9,3,5,11,0,0
+313656,Upton Park,34857,True,West Ham United,66.4,22,5,11,6,80.8,1,11,0,80,44.7,2,12,19,2,0
+313656,Upton Park,34857,False,Crystal Palace,33.6,12,5,3,4,60.5,1,7,6,78.3,55.3,4,19,11,2,1
+313648,Turf Moor,17388,True,Burnley,46.5,13,6,5,2,67.1,0,6,2,66.7,61.7,3,14,8,0,0
+313648,Turf Moor,17388,False,Swansea City,53.5,9,2,7,0,70,1,4,2,70,38.3,6,8,13,0,0
+313651,Old Trafford,75344,True,Manchester United,73.4,30,10,11,9,89,1,13,1,62.5,55.6,3,6,11,1,0
+313651,Old Trafford,75344,False,Sunderland,26.6,5,3,2,0,66,1,1,2,86.4,44.4,7,11,6,1,1
+313652,St. James' Park,51573,True,Newcastle United,49.5,14,5,3,6,72.3,1,9,0,87.5,37.1,3,6,16,1,0
+313652,St. James' Park,51573,False,Aston Villa,50.5,14,3,7,4,69.9,0,5,3,94.1,62.9,4,16,6,5,0
+313654,Bet365 Stadium,26473,True,Stoke City,57.9,17,2,7,8,80.9,0,5,1,80,50,0,9,10,2,0
+313654,Bet365 Stadium,26473,False,Hull City,42.1,1,0,1,0,70.6,1,2,0,79.2,50,1,10,7,2,0
+313655,The Hawthorns,25303,True,West Bromwich Albion,35.7,7,3,2,2,66.9,1,2,2,84.6,50,2,10,17,2,0
+313655,The Hawthorns,25303,False,Southampton,64.3,12,2,10,0,78.7,1,3,2,80,50,2,17,6,1,0
+313646,White Hart Lane,35837,True,Tottenham Hotspur,64.8,27,8,12,7,81.1,1,7,2,82.1,30.6,3,6,10,0,0
+313646,White Hart Lane,35837,False,West Ham United,35.2,12,5,4,3,70.5,3,9,4,66.7,69.4,6,12,6,2,0
+313640,Goodison Park,38904,True,Everton,58,18,3,11,4,82.8,3,4,1,85.7,63.2,2,7,6,0,0
+313640,Goodison Park,38904,False,Leicester City,42,15,4,7,4,74,2,8,1,70,36.8,2,6,7,1,0
+313643,St. Mary's Stadium,31723,True,Southampton,59.7,13,5,3,5,81,1,6,1,75,63,2,11,14,2,0
+313643,St. Mary's Stadium,31723,False,Liverpool,40.3,6,4,1,1,72.4,0,1,2,83.3,37,5,14,11,3,0
+313637,Villa Park,31880,True,Aston Villa,52.2,3,2,0,1,66.7,0,11,1,81.8,44.8,4,11,14,1,1
+313637,Villa Park,31880,False,Stoke City,47.8,11,6,3,2,70.4,0,3,5,90.9,55.2,1,14,11,3,0
+313638,Stamford Bridge,41629,True,Chelsea,61,14,5,6,3,81,1,7,3,75,58.1,4,9,9,1,1
+313638,Stamford Bridge,41629,False,Burnley,39,10,5,4,1,69.3,0,7,2,72.7,41.9,4,9,9,2,0
+313639,Selhurst Park,24721,True,Crystal Palace,52.9,22,3,9,10,68.3,1,10,3,81,44.4,2,15,14,1,0
+313639,Selhurst Park,24721,False,Arsenal,47.1,12,4,5,3,72.3,2,1,3,66.7,55.6,2,14,14,3,0
+313641,MKM Stadium,24466,True,Hull City,54.3,16,6,8,2,78.4,2,5,8,83.3,64.3,2,18,16,0,0
+313641,MKM Stadium,24466,False,Queens Park Rangers,45.7,8,3,3,2,70.1,0,7,3,58.3,35.7,4,16,17,4,1
+313644,Stadium of Light,40943,True,Sunderland,61.9,13,2,6,5,76.3,0,11,3,53.3,39.1,1,11,12,1,0
+313644,Stadium of Light,40943,False,West Bromwich Albion,38.1,5,1,3,1,64,0,2,2,71.4,60.9,2,12,10,2,0
+313645,Swansea Stadium,20809,True,Swansea City,36,11,6,2,3,67.6,1,4,3,83.3,41.5,2,6,15,2,0
+313645,Swansea Stadium,20809,False,Manchester United,64,18,3,9,6,86.8,1,10,1,70,58.5,3,15,6,4,0
+313642,Etihad Stadium,45602,True,Manchester City,56.9,16,9,6,1,88.4,3,7,1,75,92.9,1,9,8,3,0
+313642,Etihad Stadium,45602,False,Newcastle United,43.1,8,1,5,2,87.3,0,3,2,71.4,7.1,4,8,8,2,0
+313634,Stamford Bridge,41592,True,Chelsea,56.1,21,7,8,6,85.5,0,10,2,72.7,74.2,4,8,13,3,0
+313634,Stamford Bridge,41592,False,Everton,43.9,7,4,2,1,79.9,1,2,1,62.5,25.8,6,13,8,3,1
+313631,Old Trafford,75356,True,Manchester United,57.3,11,7,3,1,82,1,5,2,73.3,42.6,2,15,8,4,0
+313631,Old Trafford,75356,False,Burnley,42.7,13,3,6,4,74.5,2,8,0,89.5,57.4,3,8,15,3,0
+313632,St. Mary's Stadium,31241,True,Southampton,66.8,21,7,7,7,82.1,1,8,3,61.5,41.2,1,12,10,2,0
+313632,St. Mary's Stadium,31241,False,West Ham United,33.2,4,1,0,3,64.6,0,2,0,47.1,58.8,7,11,11,1,1
+313635,Bet365 Stadium,27011,True,Stoke City,50.9,16,5,7,4,80,1,3,3,54.5,60.6,4,6,10,1,0
+313635,Bet365 Stadium,27011,False,Manchester City,49.1,14,8,3,3,77.8,2,2,4,68.2,39.4,3,11,6,2,0
+313628,Selhurst Park,25118,True,Crystal Palace,53.5,7,3,3,1,71.9,1,5,6,77.8,54,0,10,11,1,0
+313628,Selhurst Park,25118,False,Newcastle United,46.5,5,1,3,1,69.6,1,2,0,72.2,46,2,11,10,2,0
+313633,The Hawthorns,23516,True,West Bromwich Albion,35.6,12,4,4,4,74.6,0,5,0,57.1,61.8,3,11,12,2,0
+313633,The Hawthorns,23516,False,Swansea City,64.4,10,3,6,1,87,0,4,1,66.7,38.2,2,12,11,1,0
+313627,Emirates Stadium,60032,True,Arsenal,57.1,17,7,3,7,84,2,6,1,86.7,65.5,3,13,13,2,0
+313627,Emirates Stadium,60032,False,Leicester City,42.9,11,4,5,2,77.3,1,6,2,77.3,34.5,5,14,10,2,0
+313629,MKM Stadium,21467,True,Hull City,37.8,10,4,4,2,72.2,0,3,1,100,67.5,4,16,11,1,0
+313629,MKM Stadium,21467,False,Aston Villa,62.2,11,4,5,2,78.2,0,7,1,92.3,32.5,2,11,15,2,0
+313636,Stadium of Light,39077,True,Sunderland,52.7,18,6,4,8,77.8,2,8,2,72.2,44,2,8,12,2,0
+313636,Stadium of Light,39077,False,Queens Park Rangers,47.3,19,4,8,7,78.2,1,4,2,78.6,56,6,12,8,3,0
+313630,Anfield,44577,True,Liverpool,49.4,16,7,5,4,77.6,1,5,1,75,43.8,3,13,16,3,0
+313630,Anfield,44577,False,Tottenham Hotspur,50.6,14,5,3,6,74.7,2,7,1,83.3,56.3,4,17,11,6,0
+313618,Turf Moor,16904,True,Burnley,56,12,5,2,5,78.5,1,5,3,81.3,39.6,2,10,13,0,0
+313618,Turf Moor,16904,False,West Bromwich Albion,44,12,5,3,4,66.7,2,6,2,50,60.4,2,15,10,4,0
+313622,St. James' Park,47763,True,Newcastle United,41.9,9,3,4,2,73.6,1,5,2,66.7,42.6,2,14,16,2,0
+313622,St. James' Park,47763,False,Stoke City,58.1,7,3,2,2,75.7,0,8,1,85,57.4,2,17,14,4,0
+313626,Upton Park,34499,True,West Ham United,41.2,13,6,6,1,67,1,9,3,88.9,56.5,5,7,12,2,0
+313626,Upton Park,34499,False,Manchester United,58.8,18,6,6,6,76.6,1,9,2,75,43.5,5,13,7,2,1
+313625,White Hart Lane,35659,True,Tottenham Hotspur,56,23,8,10,5,78.2,0,10,6,95.2,38.3,2,8,12,3,0
+313625,White Hart Lane,35659,False,Arsenal,44,7,3,3,1,69.9,1,3,3,75,61.7,7,12,8,5,0
+313617,Villa Park,35969,True,Aston Villa,51,8,1,5,2,86.4,1,7,2,92.3,50,3,8,7,3,0
+313617,Villa Park,35969,False,Chelsea,49,12,5,4,3,82.8,1,7,4,87.5,50,0,7,7,2,0
+313620,The King Power Stadium,31695,True,Leicester City,62.2,19,5,8,6,76.7,0,8,0,88.2,38.8,1,15,6,4,0
+313620,The King Power Stadium,31695,False,Crystal Palace,37.8,14,2,8,4,64.7,1,6,4,87.5,61.2,5,6,14,1,0
+313621,Etihad Stadium,45233,True,Manchester City,73.6,18,5,5,8,85.9,0,13,3,36.4,68.4,2,9,8,2,0
+313621,Etihad Stadium,45233,False,Hull City,26.4,7,3,3,1,66.8,1,1,1,80,31.6,4,8,8,4,0
+313623,Loftus Road Stadium,18082,True,Queens Park Rangers,45.9,12,3,6,3,67.3,1,3,2,75,51.4,4,13,15,2,0
+313623,Loftus Road Stadium,18082,False,Southampton,54.1,16,5,8,3,72.5,0,4,3,90.5,48.6,3,16,13,2,0
+313624,Swansea Stadium,20355,True,Swansea City,59.6,16,7,6,3,84.2,3,7,1,68.8,57.7,0,11,12,3,0
+313624,Swansea Stadium,20355,False,Sunderland,40.4,4,1,2,1,73.2,0,1,2,80,42.3,6,13,11,4,0
+313619,Goodison Park,39621,True,Everton,45.6,6,1,4,1,83.9,0,3,5,69.2,50,6,11,7,4,0
+313619,Goodison Park,39621,False,Liverpool,54.4,17,6,4,7,85.7,0,6,2,80,50,1,7,11,1,0
+313607,Emirates Stadium,59958,True,Arsenal,48,13,8,3,2,82.7,2,7,3,68.8,65.8,2,6,9,0,0
+313607,Emirates Stadium,59958,False,Aston Villa,52,9,2,5,2,84.5,1,7,0,72.2,34.2,3,10,6,2,0
+313613,St. Mary's Stadium,30943,True,Southampton,63.2,15,6,4,5,85.3,1,9,0,69.2,68.8,0,11,8,1,1
+313613,St. Mary's Stadium,30943,False,Swansea City,36.8,6,1,3,2,77.4,0,0,3,76.9,31.3,4,9,10,1,0
+313610,MKM Stadium,23925,True,Hull City,52.7,13,8,3,2,77.3,1,3,4,69.2,46.7,2,15,11,4,0
+313610,MKM Stadium,23925,False,Newcastle United,47.3,12,5,5,2,76.4,0,3,0,84.2,53.3,7,13,14,1,0
+313609,Selhurst Park,25197,True,Crystal Palace,54.1,13,3,5,5,78,0,6,0,81,64,1,12,14,0,0
+313609,Selhurst Park,25197,False,Everton,45.9,14,2,6,6,76.9,0,1,0,91.7,36,2,14,12,3,0
+313611,Anfield,44718,True,Liverpool,66.1,21,7,9,5,83.9,2,5,1,73.1,42.4,2,12,11,1,0
+313611,Anfield,44718,False,West Ham United,33.9,7,2,2,3,60.8,0,7,1,78.3,57.6,5,12,11,1,0
+313612,Old Trafford,75329,True,Manchester United,71.4,12,5,4,3,88.2,2,4,3,78.6,51.3,0,8,12,0,0
+313612,Old Trafford,75329,False,Leicester City,28.6,4,1,3,0,59.4,1,3,1,70.4,48.7,3,12,8,1,0
+313614,Bet365 Stadium,27512,True,Stoke City,51.5,15,3,11,1,76.4,0,3,5,50,57.5,3,11,12,2,0
+313614,Bet365 Stadium,27512,False,Queens Park Rangers,48.5,14,4,6,4,70.7,1,5,2,65.2,42.5,0,12,9,2,0
+313615,Stadium of Light,44022,True,Sunderland,49.7,8,3,2,3,71.8,3,6,3,81.3,60,4,12,12,3,0
+313615,Stadium of Light,44022,False,Burnley,50.3,13,4,7,2,75.2,1,3,3,66.7,40,1,12,11,1,0
+313616,The Hawthorns,25079,True,West Bromwich Albion,37.2,13,4,5,4,76.9,0,6,2,48.1,65.2,1,8,12,2,0
+313616,The Hawthorns,25079,False,Tottenham Hotspur,62.8,14,4,7,3,85.5,0,3,1,87.5,34.8,4,13,7,1,0
+313608,Stamford Bridge,41620,True,Chelsea,42.8,3,2,1,0,71.2,1,1,2,75.9,58.1,4,12,14,0,0
+313608,Stamford Bridge,41620,False,Manchester City,57.2,10,5,4,1,80.1,1,8,3,92.6,41.9,1,14,12,2,0
+313599,Goodison Park,34739,True,Everton,68.8,17,4,4,9,89.6,0,8,4,83.3,41.4,0,11,11,3,0
+313599,Goodison Park,34739,False,West Bromwich Albion,31.2,5,0,2,3,72.4,0,1,3,64,58.6,4,12,11,2,0
+313606,Upton Park,34914,True,West Ham United,54.1,17,6,7,4,76.1,3,4,1,66.7,62.1,3,5,14,1,0
+313606,Upton Park,34914,False,Hull City,45.9,9,3,3,3,76.7,0,7,2,65,37.9,3,14,5,3,0
+313601,Etihad Stadium,45596,True,Manchester City,64.7,12,4,3,5,84.4,0,16,2,60.7,39,1,12,5,3,0
+313601,Etihad Stadium,45596,False,Arsenal,35.3,9,3,4,2,76.4,1,3,0,63.6,61,4,5,10,3,0
+313597,Villa Park,39758,True,Aston Villa,48.5,15,4,7,4,78.4,0,9,1,75,57.9,3,13,9,1,0
+313597,Villa Park,39758,False,Liverpool,51.5,12,5,5,2,79.6,2,5,5,66.7,42.1,4,11,13,1,0
+313598,Turf Moor,17782,True,Burnley,50.8,8,4,1,3,61.2,2,5,0,92.3,46,1,10,20,1,0
+313598,Turf Moor,17782,False,Crystal Palace,49.2,11,4,5,2,66.5,0,8,1,88.9,54,1,20,10,3,0
+313600,The King Power Stadium,31772,True,Leicester City,43.2,7,3,3,1,74.4,0,6,0,70.4,26.8,2,9,6,1,0
+313600,The King Power Stadium,31772,False,Stoke City,56.8,13,3,6,4,80.6,1,5,3,82.4,73.2,3,6,8,0,0
+313603,Loftus Road Stadium,18098,True,Queens Park Rangers,38.3,18,4,10,4,65.9,0,3,1,60,39.4,5,12,9,3,0
+313603,Loftus Road Stadium,18098,False,Manchester United,61.7,12,7,2,3,77.5,2,3,2,84.2,60.6,4,10,12,2,0
+313604,Swansea Stadium,20785,True,Swansea City,45.4,11,0,6,5,86.7,0,1,0,66.7,54.2,6,9,13,0,0
+313604,Swansea Stadium,20785,False,Chelsea,54.6,21,11,8,2,85.9,3,2,3,91.7,45.8,0,13,8,0,0
+313605,White Hart Lane,35973,True,Tottenham Hotspur,64.8,26,7,8,11,85.7,0,6,3,81,51.6,3,14,8,1,0
+313605,White Hart Lane,35973,False,Sunderland,35.2,8,4,2,2,73.6,1,6,4,53.8,48.4,6,8,14,2,0
+313602,St. James' Park,49307,True,Newcastle United,58,16,3,9,4,83.2,1,9,1,87.5,37.5,1,9,8,0,0
+313602,St. James' Park,49307,False,Southampton,42,5,3,1,1,76.1,0,0,3,86.5,62.5,2,8,9,2,0
+313587,Emirates Stadium,59956,True,Arsenal,53.8,14,6,7,1,86.1,3,9,4,86.4,50,2,11,10,0,0
+313587,Emirates Stadium,59956,False,Stoke City,46.2,7,2,4,1,80.6,0,1,2,88,50,3,11,10,3,0
+313593,Old Trafford,75395,True,Manchester United,60.5,10,0,8,2,82.4,1,3,2,83.3,53.1,0,9,10,2,0
+313593,Old Trafford,75395,False,Southampton,39.5,9,1,5,3,73.4,2,5,2,69.2,46.9,0,10,9,3,0
+313594,Stadium of Light,45369,True,Sunderland,47.4,5,1,2,2,81.2,0,6,2,76.9,71.4,3,12,10,1,1
+313594,Stadium of Light,45369,False,Liverpool,52.6,21,4,10,7,87.6,2,6,0,80.8,28.6,1,11,10,4,0
+313588,Turf Moor,17523,True,Burnley,44.8,18,7,5,6,63.1,3,10,1,66.7,73,6,14,8,2,0
+313588,Turf Moor,17523,False,Queens Park Rangers,55.2,17,7,5,5,70.9,1,6,2,100,27,5,9,13,2,0
+313589,Stamford Bridge,41612,True,Chelsea,63,9,5,3,1,84.2,1,7,7,83.3,71.4,4,13,13,2,0
+313589,Stamford Bridge,41612,False,Newcastle United,37,11,5,2,4,72.3,0,4,0,84.6,28.6,2,13,12,3,0
+313591,Goodison Park,39499,True,Everton,38.2,11,4,4,3,75.2,2,4,3,81.3,46.9,1,9,10,1,0
+313591,Goodison Park,39499,False,Manchester City,61.8,18,2,11,5,80.3,0,9,1,73.1,53.1,3,10,9,2,0
+313592,The King Power Stadium,31728,True,Leicester City,37.6,11,3,5,3,63.3,2,6,2,85.7,37.7,1,18,6,1,1
+313592,The King Power Stadium,31728,False,Aston Villa,62.4,12,1,6,5,78,1,6,6,80,62.3,2,6,16,1,1
+313595,Swansea Stadium,20745,True,Swansea City,60.8,19,3,5,11,85.4,1,4,2,69.2,31,3,9,7,0,0
+313595,Swansea Stadium,20745,False,West Ham United,39.2,11,5,5,1,77.3,0,5,1,72.2,69,3,7,9,1,0
+313596,The Hawthorns,24818,True,West Bromwich Albion,51.5,9,3,5,1,77.3,1,5,2,75,37.8,2,5,12,1,0
+313596,The Hawthorns,24818,False,Hull City,48.5,12,2,7,3,80.4,0,2,2,80,62.2,2,13,5,0,0
+313590,Selhurst Park,24193,True,Crystal Palace,41.6,21,7,7,7,73.9,2,4,4,83.3,52.5,4,9,14,5,0
+313590,Selhurst Park,24193,False,Tottenham Hotspur,58.4,9,5,3,1,79.5,0,6,1,66.7,47.5,5,14,9,3,0
+313584,Bet365 Stadium,27203,True,Stoke City,34.1,11,2,5,4,59.4,2,11,2,69.6,43.3,1,8,12,0,0
+313584,Bet365 Stadium,27203,False,Manchester United,65.9,6,2,4,0,84.2,1,7,2,83.3,56.7,1,12,8,0,0
+313577,Villa Park,29047,True,Aston Villa,69.2,14,3,7,4,85.5,1,5,1,76,46.7,0,11,12,1,0
+313577,Villa Park,29047,False,Crystal Palace,30.8,6,0,4,2,74.5,1,2,3,77.3,53.3,3,12,11,1,0
+313578,MKM Stadium,23865,True,Hull City,44.5,14,5,6,3,71.9,2,4,2,86.7,58.5,3,16,15,3,0
+313578,MKM Stadium,23865,False,Everton,55.5,9,3,5,1,77.4,2,8,1,83.3,41.5,3,15,14,3,1
+313579,Anfield,44720,True,Liverpool,58.8,18,6,9,3,82.1,0,4,2,72.7,55.6,1,13,8,2,0
+313579,Anfield,44720,False,Leicester City,41.2,16,3,8,5,72.6,1,5,1,73.7,44.4,4,10,13,2,0
+313580,Etihad Stadium,45367,True,Manchester City,63.8,32,12,11,9,90.2,5,10,1,66.7,51.9,2,14,7,2,0
+313580,Etihad Stadium,45367,False,Sunderland,36.2,4,4,0,0,75.1,0,4,3,60,48.1,9,7,12,3,0
+313581,St. James' Park,51761,True,Newcastle United,51.5,10,4,3,3,74.8,3,5,0,72.2,44.8,2,12,12,2,0
+313581,St. James' Park,51761,False,Burnley,48.5,15,4,8,3,71.9,1,5,0,72,55.2,1,13,12,4,0
+313582,Loftus Road Stadium,17729,True,Queens Park Rangers,41.4,24,6,8,10,64.4,6,4,3,83.3,59,4,22,5,4,0
+313582,Loftus Road Stadium,17729,False,Swansea City,58.6,25,6,11,8,74.4,1,9,3,75,41,5,5,20,0,1
+313583,St. Mary's Stadium,31492,True,Southampton,41.5,13,6,5,2,79.5,2,2,1,81,58.6,6,14,7,2,0
+313583,St. Mary's Stadium,31492,False,Arsenal,58.5,11,6,4,1,84.9,1,7,1,100,41.4,3,7,13,1,0
+313586,Upton Park,34914,True,West Ham United,45.8,8,3,3,2,77.1,1,0,6,72.2,43.5,2,6,13,1,0
+313586,Upton Park,34914,False,West Bromwich Albion,54.2,14,3,8,3,78.4,1,1,0,94.1,56.5,2,13,6,0,0
+313585,White Hart Lane,35903,True,Tottenham Hotspur,46.2,11,8,2,1,76.5,1,5,1,86.7,52.9,4,14,10,3,0
+313585,White Hart Lane,35903,False,Chelsea,53.8,19,7,9,3,76.6,4,3,0,75.9,47.1,3,10,14,1,0
+313569,Anfield,44714,True,Liverpool,43.5,21,11,7,3,82.7,3,6,2,71.4,37.5,3,8,5,1,0
+313569,Anfield,44714,False,Swansea City,56.5,11,4,5,2,86.8,0,3,1,55.6,62.5,8,5,8,0,0
+313575,White Hart Lane,35711,True,Tottenham Hotspur,48.4,9,4,3,2,66.6,1,3,1,88.5,52.5,5,11,18,2,0
+313575,White Hart Lane,35711,False,Manchester United,51.6,9,5,2,2,70.8,4,6,6,74.1,47.5,4,19,11,4,0
+313573,St. Mary's Stadium,31641,True,Southampton,39.3,9,1,7,1,77.6,1,4,1,79.2,39.3,0,23,12,2,1
+313573,St. Mary's Stadium,31641,False,Chelsea,60.7,7,1,2,4,86.8,0,6,3,80,60.7,0,14,23,2,0
+313567,Villa Park,35436,True,Aston Villa,48.1,14,2,9,3,86.1,0,4,0,73.9,50,3,4,9,1,1
+313567,Villa Park,35436,False,Sunderland,51.9,14,3,5,6,85.1,0,4,4,72.7,50,3,11,4,4,0
+313568,MKM Stadium,23809,True,Hull City,61.9,19,5,7,7,78,2,7,2,78.3,57.4,1,12,12,0,1
+313568,MKM Stadium,23809,False,Leicester City,38.1,4,2,2,0,67,0,1,1,84,42.6,4,12,9,1,1
+313570,Etihad Stadium,45608,True,Manchester City,62.3,17,6,5,6,81.7,1,10,3,76.2,41.5,1,18,9,4,0
+313570,Etihad Stadium,45608,False,Burnley,37.7,12,3,5,4,76.7,1,3,3,50,58.5,4,9,16,1,0
+313572,Loftus Road Stadium,18011,True,Queens Park Rangers,53.9,11,3,2,6,61.3,0,9,1,72.4,35.3,3,11,17,2,0
+313572,Loftus Road Stadium,18011,False,Crystal Palace,46.1,10,3,6,1,64.3,0,4,0,94.7,64.7,2,17,9,1,0
+313574,Bet365 Stadium,27070,True,Stoke City,50.7,13,3,6,4,75.4,2,5,4,57.1,50,4,11,13,0,0
+313574,Bet365 Stadium,27070,False,West Bromwich Albion,49.3,15,4,7,4,75.7,1,3,4,64.3,50,1,14,11,2,0
+313576,Upton Park,34977,True,West Ham United,57.8,14,4,9,1,76.1,2,7,2,88.9,56.7,5,12,13,3,0
+313576,Upton Park,34977,False,Arsenal,42.2,21,7,8,6,66.3,3,8,1,72,43.3,3,13,12,3,0
+313571,St. James' Park,52313,True,Newcastle United,53,13,6,4,3,81.6,2,8,2,80,50,0,13,8,2,0
+313571,St. James' Park,52313,False,Everton,47,9,2,6,1,84.1,2,3,2,84.6,50,3,8,13,2,0
+313559,Stamford Bridge,41589,True,Chelsea,64.7,28,9,13,6,82,4,8,1,76.2,53.2,0,8,13,0,0
+313559,Stamford Bridge,41589,False,West Ham United,35.3,6,0,6,0,71.3,1,6,2,80,46.8,7,14,8,3,0
+313558,Turf Moor,21335,True,Burnley,47.6,16,0,12,4,72.9,0,8,0,93.3,53.8,2,7,5,0,0
+313558,Turf Moor,21335,False,Liverpool,52.4,10,3,2,5,75.8,1,2,4,77.8,46.2,0,5,5,1,0
+313560,Selhurst Park,24565,True,Crystal Palace,42.9,12,4,4,4,68.2,0,8,2,84.6,52.4,3,15,10,1,0
+313560,Selhurst Park,24565,False,Southampton,57.1,13,6,5,2,76.3,1,4,2,65.2,47.6,3,10,14,0,0
+313561,Goodison Park,39166,True,Everton,61.9,16,5,5,6,80.8,2,9,3,92.9,44.8,1,9,15,2,0
+313561,Goodison Park,39166,False,Stoke City,38.1,12,2,5,5,73.3,0,3,3,80,55.2,4,15,9,3,0
+313562,The King Power Stadium,31870,True,Leicester City,49.6,22,6,10,6,74.9,1,11,0,81,53.5,1,10,13,1,0
+313562,The King Power Stadium,31870,False,Tottenham Hotspur,50.4,8,3,4,1,75.3,2,1,3,70,46.5,5,14,10,2,0
+313563,Old Trafford,75318,True,Manchester United,61.9,9,4,4,1,88.8,3,4,4,77.8,48.1,3,16,9,1,0
+313563,Old Trafford,75318,False,Newcastle United,38.1,8,4,2,2,79.8,1,5,1,84.6,51.9,1,9,16,2,0
+313564,Stadium of Light,44817,True,Sunderland,47.6,12,3,3,6,80.5,0,10,0,88.2,50,2,12,6,4,0
+313564,Stadium of Light,44817,False,Hull City,52.4,13,5,4,4,87,1,4,0,71.4,50,1,6,12,2,0
+313565,Swansea Stadium,20683,True,Swansea City,43.4,7,2,3,2,84.2,1,4,3,88.9,46.2,3,17,12,1,0
+313565,Swansea Stadium,20683,False,Aston Villa,56.6,11,3,7,1,88.9,3,0,2,75,53.8,1,12,17,4,0
+313566,The Hawthorns,26040,True,West Bromwich Albion,47.9,18,6,6,6,78.6,5,10,4,62.5,65,2,5,9,0,0
+313566,The Hawthorns,26040,False,Manchester City,52.1,9,5,2,2,80.5,1,6,4,71.4,35,5,9,5,1,0
+313557,Emirates Stadium,59947,True,Arsenal,55.9,15,5,6,4,83.1,2,6,3,86.7,55.6,1,6,15,1,1
+313557,Emirates Stadium,59947,False,Queens Park Rangers,44.1,16,2,6,8,77.3,0,2,0,76.9,44.4,3,15,6,4,0
+313554,Bet365 Stadium,27550,True,Stoke City,50.8,13,2,4,7,81.8,0,6,1,94.7,60,4,11,4,3,0
+313554,Bet365 Stadium,27550,False,Chelsea,49.2,15,6,5,4,81.2,2,5,2,73,40,2,4,11,0,0
+313551,St. James' Park,52315,True,Newcastle United,51.8,15,7,7,1,77.3,2,7,1,60,54.5,2,15,15,4,0
+313551,St. James' Park,52315,False,Sunderland,48.2,16,3,11,2,73,3,1,4,75.9,45.5,7,15,15,4,0
+313549,Anfield,44703,True,Liverpool,63.5,27,10,13,4,83.9,0,10,0,71.9,48.8,1,6,14,0,1
+313549,Anfield,44703,False,Arsenal,36.5,7,3,3,1,72.2,1,6,1,72,51.2,8,14,6,3,0
+313550,Etihad Stadium,45302,True,Manchester City,72.5,15,3,8,4,88.9,1,8,3,83.3,52.8,1,17,5,2,0
+313550,Etihad Stadium,45302,False,Crystal Palace,27.5,6,1,4,1,65.6,1,6,1,71.4,47.2,0,5,16,1,0
+313547,Villa Park,41273,True,Aston Villa,35.3,10,4,2,4,82.4,0,3,2,77.8,60,8,9,10,1,1
+313547,Villa Park,41273,False,Manchester United,64.7,16,9,3,4,89.8,1,9,2,60,40,3,10,9,1,0
+313548,MKM Stadium,21913,True,Hull City,56.6,11,3,6,2,74.6,1,4,3,65,73.6,2,14,16,2,0
+313548,MKM Stadium,21913,False,Swansea City,43.4,13,3,6,4,72.1,1,5,4,62.5,26.4,3,16,13,2,0
+313552,Loftus Road Stadium,17560,True,Queens Park Rangers,43.4,17,7,2,8,65.9,4,5,4,88.9,56.6,4,16,8,1,0
+313552,Loftus Road Stadium,17560,False,West Bromwich Albion,56.6,16,6,6,4,67.1,1,11,1,84.6,43.4,4,8,14,0,0
+313553,St. Mary's Stadium,31475,True,Southampton,43.8,11,3,6,2,79.6,4,4,4,81.6,59.1,4,11,10,1,0
+313553,St. Mary's Stadium,31475,False,Everton,56.2,13,4,7,2,82.3,0,6,2,73.3,40.9,1,10,10,1,0
+313555,White Hart Lane,35681,True,Tottenham Hotspur,65.2,23,6,11,6,80.8,2,9,2,81,65.9,4,9,7,1,0
+313555,White Hart Lane,35681,False,Burnley,34.8,9,5,4,0,67.1,0,6,6,75,34.1,4,8,8,0,0
+313556,Upton Park,34977,True,West Ham United,47.8,10,2,5,3,72,1,9,3,56.3,65.3,4,8,17,0,0
+313556,Upton Park,34977,False,Leicester City,52.2,10,4,2,4,70.7,1,4,1,83.3,34.7,0,17,5,3,0
+313541,Goodison Park,34035,True,Everton,53.5,13,5,4,4,80.6,1,1,4,71,50,3,11,12,1,0
+313541,Goodison Park,34035,False,Queens Park Rangers,46.5,17,4,9,4,79,0,8,4,66.7,50,3,12,10,1,0
+313543,Old Trafford,75331,True,Manchester United,54.7,11,6,3,2,81.1,3,2,1,80,42.9,8,13,13,4,0
+313543,Old Trafford,75331,False,Liverpool,45.3,19,9,4,6,80,2,7,2,77.8,57.1,3,14,13,3,0
+313545,Swansea Stadium,20650,True,Swansea City,53.5,15,3,5,7,81.1,1,7,5,96.2,44.7,2,7,13,3,0
+313545,Swansea Stadium,20650,False,Tottenham Hotspur,46.5,10,4,3,3,77.3,0,9,0,76.9,55.3,2,17,7,4,0
+313538,Turf Moor,17287,True,Burnley,40.2,7,2,3,2,65.2,1,2,2,75,51.1,4,15,11,1,0
+313538,Turf Moor,17287,False,Southampton,59.8,15,4,10,1,76.7,1,4,2,75,48.9,2,11,14,3,0
+313539,Stamford Bridge,41626,True,Chelsea,59.6,12,3,3,6,82.5,1,5,0,66.7,37.1,0,13,12,3,0
+313539,Stamford Bridge,41626,False,Hull City,40.4,8,0,6,2,79.1,0,4,1,67.9,63.9,1,13,11,4,1
+313540,Selhurst Park,23038,True,Crystal Palace,43.8,11,3,3,5,63,0,9,1,68,54.3,2,12,11,2,0
+313540,Selhurst Park,23038,False,Stoke City,56.2,7,3,0,4,71.8,0,8,0,66.7,45.7,3,11,12,0,0
+313542,The King Power Stadium,31643,True,Leicester City,42.7,7,1,3,3,67.9,0,8,2,86.7,39.5,3,15,12,0,0
+313542,The King Power Stadium,31643,False,Manchester City,57.3,9,4,4,1,80.2,1,2,9,73.3,60.5,1,13,15,2,0
+313544,Stadium of Light,41694,True,Sunderland,56.9,13,4,4,5,80,0,6,2,78.6,40,6,11,17,2,0
+313544,Stadium of Light,41694,False,West Ham United,43.1,20,7,8,5,78.7,0,8,1,81.8,60,3,18,10,2,0
+313546,The Hawthorns,24684,True,West Bromwich Albion,48.6,13,5,6,2,85.1,2,4,1,84.2,33.3,2,17,11,4,0
+313546,The Hawthorns,24684,False,Aston Villa,51.4,7,2,3,2,81.3,0,2,2,74.1,66.7,4,12,15,2,1
+313537,Emirates Stadium,59949,True,Arsenal,51.3,17,4,8,5,81.6,2,9,3,65.4,58.5,3,14,15,2,0
+313537,Emirates Stadium,59949,False,Newcastle United,48.7,10,4,2,4,78.9,0,6,1,73.9,41.5,0,15,13,2,0
+313533,St. Mary's Stadium,31420,True,Southampton,51.9,15,4,8,3,79.8,1,5,4,75,58.1,0,12,8,2,0
+313533,St. Mary's Stadium,31420,False,Manchester United,48.1,3,2,1,0,80.3,1,1,1,77.8,41.9,3,9,11,1,0
+313536,Upton Park,34125,True,West Ham United,55.8,15,7,3,5,77.3,4,7,3,77.8,62.2,1,11,16,0,0
+313536,Upton Park,34125,False,Swansea City,44.2,11,2,4,5,73,1,4,1,63.6,37.8,4,18,11,1,1
+313527,Villa Park,27692,True,Aston Villa,64.8,16,7,5,4,86.7,3,5,6,83.3,47.7,3,9,14,4,0
+313527,Villa Park,27692,False,Leicester City,35.2,10,4,5,1,70.8,0,5,1,68.2,52.3,5,14,8,4,1
+313531,St. James' Park,52019,True,Newcastle United,33.5,10,3,4,3,70.7,1,1,1,73.9,35.7,7,8,5,2,1
+313531,St. James' Park,52019,False,Chelsea,66.5,26,8,13,5,85,2,10,4,88,64.3,1,6,8,3,0
+313528,MKM Stadium,23279,True,Hull City,49.3,12,2,7,3,80.2,1,3,2,64.7,40,3,10,15,1,0
+313528,MKM Stadium,23279,False,West Bromwich Albion,50.7,6,3,1,2,78.8,0,2,1,93.8,60,2,16,9,1,0
+313529,Anfield,44716,True,Liverpool,53.2,15,2,6,7,82.7,0,5,1,79.2,41,1,12,14,1,0
+313529,Anfield,44716,False,Sunderland,46.8,7,1,4,2,77.4,0,7,2,66.7,59,2,15,11,3,0
+313532,Loftus Road Stadium,17785,True,Queens Park Rangers,51,11,6,1,4,73.2,3,3,2,76.9,57.4,3,12,11,1,1
+313532,Loftus Road Stadium,17785,False,Burnley,49,15,3,7,5,66.7,0,11,2,77.8,42.6,3,12,11,1,0
+313534,Bet365 Stadium,27367,True,Stoke City,42.5,13,4,6,3,73.8,2,3,3,70,64.7,4,17,13,3,0
+313534,Bet365 Stadium,27367,False,Arsenal,57.5,14,6,5,3,82.6,1,9,3,64.3,35.3,1,14,15,2,1
+313535,White Hart Lane,35860,True,Tottenham Hotspur,67.6,14,3,8,3,82.8,1,2,1,62.1,54.7,4,11,10,1,0
+313535,White Hart Lane,35860,False,Crystal Palace,32.4,16,4,6,6,63.5,1,12,4,87.1,45.3,2,10,11,0,0
+313530,Etihad Stadium,45603,True,Manchester City,51.3,19,3,4,12,85.8,2,11,2,86.4,50,2,8,10,3,0
+313530,Etihad Stadium,45603,False,Everton,48.7,9,2,2,5,82.4,0,7,4,81.3,50,2,11,7,3,0
+313517,Emirates Stadium,60025,True,Arsenal,58.6,19,8,7,4,82.6,4,9,2,70.8,65.9,1,7,13,0,0
+313517,Emirates Stadium,60025,False,Southampton,41.4,6,1,3,2,75.7,1,4,1,90.9,34.1,7,14,6,2,0
+313524,Stamford Bridge,41518,True,Chelsea,38.7,12,8,3,1,80,2,1,3,88.2,47.1,2,9,9,1,0
+313524,Stamford Bridge,41518,False,Tottenham Hotspur,61.3,10,2,7,1,86.4,0,6,2,71,52.9,5,9,8,1,0
+313525,Goodison Park,34645,True,Everton,57.5,13,5,5,3,84.4,1,6,1,75,60.9,0,8,12,1,0
+313525,Goodison Park,34645,False,Hull City,42.5,8,1,4,3,76,0,4,0,75,39.1,4,12,8,1,0
+313526,Stadium of Light,41152,True,Sunderland,35.5,8,2,1,5,77.2,0,2,1,70.6,59.1,0,9,8,1,0
+313526,Stadium of Light,41152,False,Manchester City,64.5,15,4,10,1,90,1,0,1,85.7,40.9,1,8,9,1,0
+313518,Turf Moor,18791,True,Burnley,42.2,12,2,7,3,64.5,0,2,2,83.3,51.8,3,12,11,2,0
+313518,Turf Moor,18791,False,Newcastle United,57.8,11,4,5,2,74.8,1,5,2,77.8,48.2,1,12,10,2,0
+313520,The King Power Stadium,32000,True,Leicester City,46.6,20,4,10,6,71.3,1,7,0,76.5,53.1,0,11,9,1,1
+313520,The King Power Stadium,32000,False,Liverpool,53.4,11,3,3,5,79.3,2,4,6,79.3,46.9,3,10,11,2,0
+313521,Old Trafford,75388,True,Manchester United,64,10,3,5,2,89.1,3,3,1,77.8,66.7,2,8,12,2,0
+313521,Old Trafford,75388,False,Stoke City,36,5,4,1,0,79.2,1,2,0,84,33.3,1,13,8,4,0
+313522,Swansea Stadium,20145,True,Swansea City,59,19,7,5,7,85.9,1,9,6,92.3,56.8,1,8,10,2,0
+313522,Swansea Stadium,20145,False,Queens Park Rangers,41,5,1,3,1,71.6,1,2,0,70,43.2,5,12,8,2,0
+313519,Selhurst Park,23935,True,Crystal Palace,46.2,17,5,6,6,66,0,8,3,80,52.3,2,16,14,2,0
+313519,Selhurst Park,23935,False,Aston Villa,53.8,5,3,1,1,72.4,0,2,2,67.5,47.7,5,15,15,2,0
+313523,The Hawthorns,23975,True,West Bromwich Albion,57.6,22,5,9,8,72.9,1,7,0,80,43.4,4,11,17,2,0
+313523,The Hawthorns,23975,False,West Ham United,42.4,12,6,1,5,70.2,0,3,3,55.6,56.6,4,17,11,1,0
+313511,St. Mary's Stadium,30919,True,Southampton,52.1,13,4,5,4,83.1,2,8,5,66.7,41.7,2,10,12,1,0
+313511,St. Mary's Stadium,30919,False,Manchester City,47.9,15,6,8,1,79.6,3,6,0,89.5,58.3,4,13,10,2,1
+313514,White Hart Lane,35901,True,Tottenham Hotspur,38.6,13,6,4,3,81.8,2,3,2,82.6,56.5,4,15,4,5,0
+313514,White Hart Lane,35901,False,Everton,61.4,10,5,3,2,88.1,1,4,4,68.2,43.5,4,5,15,1,0
+313515,The Hawthorns,24228,True,West Bromwich Albion,48.4,8,1,4,3,74.7,1,4,4,73.3,46.9,4,9,9,2,0
+313515,The Hawthorns,24228,False,Arsenal,51.6,17,5,6,6,82.1,2,4,1,60,53.1,1,10,9,1,0
+313507,Turf Moor,19910,True,Burnley,46.9,11,4,4,3,76.2,4,1,1,73.7,46.3,6,8,7,3,0
+313507,Turf Moor,19910,False,Aston Villa,53.1,18,7,2,9,79.4,0,5,2,92.9,53.7,3,8,7,4,0
+313508,Anfield,44735,True,Liverpool,47.7,16,3,7,6,77,1,5,0,85.7,52.1,3,11,7,0,0
+313508,Anfield,44735,False,Stoke City,52.3,13,4,4,5,77,1,5,1,94.1,47.9,2,9,11,3,0
+313509,Old Trafford,75345,True,Manchester United,76.4,15,7,4,4,92.2,1,7,5,71.4,54.2,2,12,12,2,0
+313509,Old Trafford,75345,False,Hull City,23.6,4,2,2,0,75.7,0,0,2,77.8,45.8,2,12,11,2,0
+313510,Loftus Road Stadium,18054,True,Queens Park Rangers,59,33,6,13,14,74.1,1,11,3,77.3,55.2,2,8,17,3,0
+313510,Loftus Road Stadium,18054,False,Leicester City,41,19,5,10,4,68.7,3,5,6,73.3,44.8,3,17,8,2,0
+313513,Swansea Stadium,20240,True,Swansea City,64.3,18,4,11,3,86.2,2,4,0,68.8,51.2,4,6,9,0,0
+313513,Swansea Stadium,20240,False,Crystal Palace,35.7,11,5,3,3,69.5,0,6,1,70.8,48.8,3,12,6,2,0
+313516,Upton Park,34977,True,West Ham United,47.5,12,3,6,3,73.6,1,6,4,89.5,67.4,1,9,16,3,0
+313516,Upton Park,34977,False,Newcastle United,52.5,7,1,6,0,75.1,0,2,2,81,32.6,2,16,8,2,1
+313512,Stadium of Light,45232,True,Sunderland,34.1,12,3,5,4,77.6,0,2,0,68.2,30.4,6,13,10,3,0
+313512,Stadium of Light,45232,False,Chelsea,65.9,24,6,8,10,89,0,8,0,80,69.6,3,10,12,2,0
+313498,Villa Park,25311,True,Aston Villa,35.9,7,1,2,4,69.2,2,2,1,76.9,45,3,15,14,1,0
+313498,Villa Park,25311,False,Southampton,64.1,16,4,6,6,84,0,8,2,70,55,0,17,15,2,0
+313500,Selhurst Park,24862,True,Crystal Palace,36.4,15,5,4,6,70.4,1,4,2,88.2,44.2,0,21,9,1,0
+313500,Selhurst Park,24862,False,Liverpool,63.6,12,1,9,2,88,1,3,1,90,55.8,2,10,21,2,0
+313502,MKM Stadium,23561,True,Hull City,27.3,10,2,6,2,65.5,0,3,4,70,63.6,4,15,8,3,1
+313502,MKM Stadium,23561,False,Tottenham Hotspur,72.7,23,6,8,9,86.1,2,9,1,92.9,36.4,1,9,15,1,0
+313499,Stamford Bridge,41600,True,Chelsea,73.7,21,8,8,5,91.8,6,15,5,88.9,50,1,7,9,1,0
+313499,Stamford Bridge,41600,False,West Bromwich Albion,26.3,5,1,4,0,73,0,0,2,82.4,50,6,9,7,0,1
+313501,Goodison Park,39182,True,Everton,56.3,14,4,6,4,83.9,2,1,3,76.9,33.3,2,10,12,2,0
+313501,Goodison Park,39182,False,West Ham United,43.7,14,3,9,2,72.6,1,5,1,94.1,66.7,2,13,10,3,0
+313503,The King Power Stadium,31825,True,Leicester City,39.9,13,4,7,2,67.3,0,6,0,94.4,53.3,5,18,8,2,0
+313503,The King Power Stadium,31825,False,Sunderland,60.1,11,5,3,3,77,1,9,5,64.7,46.7,4,11,18,3,0
+313504,Etihad Stadium,45448,True,Manchester City,59.4,23,10,6,7,86.9,2,7,0,62.5,38.9,2,13,6,2,0
+313504,Etihad Stadium,45448,False,Swansea City,40.6,8,3,3,2,84.3,2,3,2,60,61.1,8,9,12,1,0
+313505,St. James' Park,51915,True,Newcastle United,54,14,6,4,4,76.3,2,16,3,76.9,43.5,4,12,15,2,0
+313505,St. James' Park,51915,False,Queens Park Rangers,46,13,4,4,5,71.8,0,7,3,80,56.5,5,15,11,3,0
+313506,Bet365 Stadium,27018,True,Stoke City,72.7,25,3,14,8,81.6,3,14,2,88.9,57.1,2,10,8,2,0
+313506,Bet365 Stadium,27018,False,Burnley,27.3,5,4,1,0,50.4,1,0,0,55.6,42.9,3,9,10,2,0
+313497,Emirates Stadium,60074,True,Arsenal,61.4,23,9,8,6,84.1,2,11,1,73.7,41.7,1,12,7,2,0
+313497,Emirates Stadium,60074,False,Manchester United,38.6,12,2,6,4,72.6,2,5,4,81.5,58.3,8,8,11,1,0
+313492,Stadium of Light,43476,True,Sunderland,41.8,10,3,4,3,75.1,0,5,2,44.4,37.8,6,12,11,1,0
+313492,Stadium of Light,43476,False,Everton,58.2,16,7,6,3,85.9,0,4,1,90,62.2,1,13,12,2,0
+313494,White Hart Lane,35699,True,Tottenham Hotspur,60.5,14,4,7,3,80.3,1,5,1,74.1,45.5,2,20,13,3,1
+313494,White Hart Lane,35699,False,Stoke City,39.5,11,4,4,3,72.5,1,5,2,76,54.5,3,13,20,2,0
+313495,The Hawthorns,26476,True,West Bromwich Albion,57.9,10,2,5,3,81.7,1,7,1,64,57.5,1,12,5,0,0
+313495,The Hawthorns,26476,False,Newcastle United,42.1,8,3,3,2,71.3,1,4,1,72,42.5,2,6,11,0,0
+313493,Swansea Stadium,20812,True,Swansea City,48.1,11,5,5,1,82.1,0,6,4,73.3,51.7,3,10,15,5,0
+313493,Swansea Stadium,20812,False,Arsenal,51.9,12,4,3,5,82.7,4,10,0,87.5,48.3,3,16,10,5,0
+313488,Anfield,44698,True,Liverpool,58.4,12,4,1,7,85.5,0,5,6,62.5,60.9,3,9,12,2,0
+313488,Anfield,44698,False,Chelsea,41.6,15,5,3,7,77.8,2,8,1,81.8,39.1,3,12,9,5,0
+313487,Turf Moor,16998,True,Burnley,47.2,14,3,3,8,72.6,2,7,2,58.3,35.9,1,17,14,6,0
+313487,Turf Moor,16998,False,Hull City,52.8,12,1,8,3,77.3,0,1,2,75,64.1,2,17,16,4,0
+313489,Old Trafford,75325,True,Manchester United,71.4,23,5,7,11,88.8,0,11,0,81.3,51.3,1,8,11,1,0
+313489,Old Trafford,75325,False,Crystal Palace,28.6,6,1,2,3,64.6,1,4,0,76.9,48.7,3,12,7,3,0
+313491,St. Mary's Stadium,31297,True,Southampton,64.4,18,6,6,6,83.8,1,14,6,87.5,50,0,10,12,2,0
+313491,St. Mary's Stadium,31297,False,Leicester City,35.6,5,0,4,1,72.6,1,4,2,73.7,50,4,12,10,2,0
+313496,Upton Park,34857,True,West Ham United,57.9,21,5,7,9,76.3,1,13,5,53.8,71.9,4,9,9,0,0
+313496,Upton Park,34857,False,Aston Villa,42.1,12,4,6,2,66.9,0,2,1,87.5,28.1,5,10,9,3,0
+313490,Loftus Road Stadium,18005,True,Queens Park Rangers,41.4,17,4,7,6,72.2,2,7,3,57.1,51.8,3,9,10,4,0
+313490,Loftus Road Stadium,18005,False,Manchester City,58.6,24,7,9,8,78.9,1,7,0,85.7,48.2,3,10,8,2,0
+313480,Selhurst Park,23212,True,Crystal Palace,53.5,9,1,3,5,73.3,1,11,0,80,50.9,4,12,18,0,1
+313480,Selhurst Park,23212,False,Sunderland,46.5,8,7,0,1,69.9,1,2,0,75,49.1,1,19,11,3,0
+313484,Etihad Stadium,45358,True,Manchester City,52,17,6,6,5,82.8,4,7,3,84.2,57.7,2,15,9,3,0
+313484,Etihad Stadium,45358,False,Manchester United,48,9,2,5,2,78.9,1,4,3,70.8,42.3,5,9,13,1,1
+313478,Villa Park,32049,True,Aston Villa,40.1,12,1,9,2,74.3,1,3,1,70,61.4,5,13,11,3,1
+313478,Villa Park,32049,False,Tottenham Hotspur,59.9,18,7,6,5,81,2,9,1,78.9,38.6,0,11,13,3,0
+313485,St. James' Park,52166,True,Newcastle United,35.5,14,3,6,5,74.9,1,7,0,59.3,50,3,13,8,4,0
+313485,St. James' Park,52166,False,Liverpool,64.5,6,3,2,1,85.1,0,2,7,65.5,50,1,8,12,3,0
+313477,Emirates Stadium,60012,True,Arsenal,67.6,32,12,10,10,86,2,18,2,80,42.4,2,5,8,0,0
+313477,Emirates Stadium,60012,False,Burnley,32.4,6,2,3,1,70.8,0,1,4,81,57.6,8,9,5,1,0
+313479,Stamford Bridge,41486,True,Chelsea,64.5,18,8,7,3,85.2,1,13,2,81.5,42.9,0,8,10,0,0
+313479,Stamford Bridge,41486,False,Queens Park Rangers,35.5,7,1,2,4,72.2,0,2,0,61.8,57.1,6,12,7,0,0
+313481,Goodison Park,39149,True,Everton,66.7,17,3,8,6,87.3,0,11,0,81.3,64.7,1,10,15,2,0
+313481,Goodison Park,39149,False,Swansea City,33.3,9,1,4,4,76.5,1,0,1,80,35.3,3,15,10,3,1
+313482,MKM Stadium,22828,True,Hull City,47.2,8,1,4,3,78.6,0,7,1,92.3,41.2,2,6,8,1,0
+313482,MKM Stadium,22828,False,Southampton,52.8,10,3,5,2,77.8,3,4,1,93.1,58.8,1,9,6,0,0
+313483,The King Power Stadium,31819,True,Leicester City,56,14,5,7,2,74.3,2,8,4,76.2,60.4,3,5,10,0,0
+313483,The King Power Stadium,31819,False,West Bromwich Albion,44,8,3,2,3,69.5,0,3,6,69.6,39.6,5,12,5,1,0
+313486,Bet365 Stadium,27174,True,Stoke City,59.5,21,6,10,5,77.4,4,9,0,94.1,55.7,0,14,12,1,0
+313486,Bet365 Stadium,27174,False,West Ham United,40.5,10,2,4,4,68.4,0,2,2,79.4,44.3,4,13,14,1,0
+313470,Loftus Road Stadium,18022,True,Queens Park Rangers,35.2,11,4,4,3,60.9,1,2,2,73.7,37.3,6,11,14,0,0
+313470,Loftus Road Stadium,18022,False,Aston Villa,64.8,15,6,4,5,80.5,1,4,5,83.3,62.7,2,14,11,2,0
+313467,Turf Moor,19927,True,Burnley,38.1,14,3,6,5,73.5,1,5,2,61.1,46.7,3,12,7,4,0
+313467,Turf Moor,19927,False,Everton,61.9,15,6,4,5,82.8,1,4,3,72.2,53.3,2,7,12,2,0
+313474,White Hart Lane,35650,True,Tottenham Hotspur,66.9,18,2,8,8,80.8,4,10,1,76.9,43.3,0,9,12,2,0
+313474,White Hart Lane,35650,False,Newcastle United,33.1,8,2,4,2,66.4,2,2,2,79.3,56.7,1,12,8,3,0
+313469,Old Trafford,75327,True,Manchester United,51.7,19,7,10,2,85.4,1,4,0,87.5,37.5,3,13,13,3,0
+313469,Old Trafford,75327,False,Chelsea,48.3,9,4,3,2,82.6,2,7,2,76.2,62.5,6,14,12,5,1
+313476,Upton Park,34977,True,West Ham United,30.5,12,4,6,2,60.3,2,4,3,75,37.2,4,12,13,2,0
+313476,Upton Park,34977,False,Manchester City,69.5,21,5,11,5,81.4,3,8,2,70.6,62.8,2,14,10,1,0
+313468,Anfield,44591,True,Liverpool,65.9,17,4,6,7,83.7,4,14,1,76.2,46.4,3,12,17,3,0
+313468,Anfield,44591,False,Hull City,34.1,6,3,2,1,72.2,0,1,1,79.2,53.6,3,17,10,2,0
+313471,St. Mary's Stadium,30017,True,Southampton,61.2,20,2,14,4,85.2,0,6,1,76.2,34.9,1,10,11,0,0
+313471,St. Mary's Stadium,30017,False,Stoke City,38.8,8,1,4,3,75.8,1,3,3,81,65.1,1,12,10,2,0
+313472,Stadium of Light,44449,True,Sunderland,42.9,11,3,5,3,73.8,0,3,2,76.2,48.4,3,11,7,3,0
+313472,Stadium of Light,44449,False,Arsenal,57.1,15,5,8,2,81.8,0,3,0,67.7,51.6,3,9,10,3,0
+313475,The Hawthorns,24738,True,West Bromwich Albion,68.8,17,4,9,4,83.2,0,6,1,92.9,54.8,4,14,8,3,0
+313475,The Hawthorns,24738,False,Crystal Palace,31.2,8,6,0,2,64.3,0,3,4,80,45.2,2,8,13,1,0
+313473,Swansea Stadium,20259,True,Swansea City,49.5,7,3,4,0,82.3,2,2,1,73.3,46.9,4,7,10,0,0
+313473,Swansea Stadium,20259,False,Leicester City,50.5,9,4,4,1,83,0,2,1,88.2,53.1,1,10,7,0,0
+313466,The Hawthorns,25794,True,West Bromwich Albion,37.3,8,2,4,2,76.6,1,0,0,69.2,17.6,5,6,7,1,0
+313466,The Hawthorns,25794,False,Manchester United,62.7,22,7,8,7,84.5,0,11,1,63.2,82.4,0,8,5,2,0
+313463,Loftus Road Stadium,18069,True,Queens Park Rangers,43.5,15,5,8,2,68.5,4,7,1,86.4,50,3,10,15,2,0
+313463,Loftus Road Stadium,18069,False,Liverpool,56.5,15,4,7,4,77.5,0,2,2,80.8,50,4,15,10,3,0
+313465,Bet365 Stadium,27017,True,Stoke City,43,17,3,8,6,80.4,1,3,0,82.6,52.9,3,17,6,4,0
+313465,Bet365 Stadium,27017,False,Swansea City,57,13,5,4,4,81.8,3,5,0,88,47.1,1,7,17,1,0
+313461,Etihad Stadium,45549,True,Manchester City,61.7,20,12,4,4,85.6,1,3,3,65,50,6,11,9,1,0
+313461,Etihad Stadium,45549,False,Tottenham Hotspur,38.3,19,7,4,8,76.1,3,4,2,89.5,50,8,9,11,2,1
+313457,Emirates Stadium,60004,True,Arsenal,65.8,25,9,6,10,88.3,1,10,0,85.7,48.4,2,9,13,2,0
+313457,Emirates Stadium,60004,False,Hull City,34.2,4,4,0,0,75.7,0,0,0,70.4,51.6,7,13,9,2,0
+313458,Turf Moor,18936,True,Burnley,46.7,17,3,10,4,69.7,2,5,2,92.3,34.2,2,3,10,0,0
+313458,Turf Moor,18936,False,West Ham United,53.3,22,6,9,7,78.4,3,7,1,82.4,65.8,2,10,3,1,0
+313459,Selhurst Park,24451,True,Crystal Palace,28.5,7,4,3,0,74.3,2,3,2,86.7,56.5,2,13,7,1,1
+313459,Selhurst Park,24451,False,Chelsea,71.5,14,5,8,1,88.9,1,2,0,82.4,43.5,3,7,13,1,1
+313460,Goodison Park,39505,True,Everton,60.7,15,6,2,7,88.1,2,4,2,92.3,48.4,2,11,16,2,0
+313460,Goodison Park,39505,False,Aston Villa,39.3,10,2,4,4,81.9,0,4,1,76.9,51.6,3,16,10,2,0
+313462,St. James' Park,51886,True,Newcastle United,50.5,19,6,6,7,75.5,2,10,2,85.7,60.9,2,13,14,0,0
+313462,St. James' Park,51886,False,Leicester City,49.5,7,2,1,4,73.3,2,7,1,84.2,39.1,5,15,12,3,0
+313464,St. Mary's Stadium,29615,True,Southampton,52.6,21,10,9,2,82.2,5,5,3,75,30,2,11,7,1,0
+313464,St. Mary's Stadium,29615,False,Sunderland,47.4,13,1,9,3,79.2,1,6,0,70,70,4,8,10,3,0
+313452,Old Trafford,75294,True,Manchester United,48.7,15,4,8,3,85,3,11,1,53.3,35,4,18,9,4,0
+313452,Old Trafford,75294,False,Everton,51.3,10,6,2,2,84.6,3,6,3,76.9,65,2,11,17,3,0
+313448,Stamford Bridge,41607,True,Chelsea,47,5,3,1,1,78.9,2,2,3,69,67.6,0,14,10,4,0
+313448,Stamford Bridge,41607,False,Arsenal,53,10,0,6,4,84.2,0,2,0,68,32.4,2,10,14,3,0
+313455,White Hart Lane,35564,True,Tottenham Hotspur,46.2,9,4,3,2,76.1,1,10,6,80,61.5,3,15,9,2,0
+313455,White Hart Lane,35564,False,Southampton,53.8,7,3,1,3,77.4,3,5,2,54.5,38.5,2,9,15,1,0
+313456,Upton Park,34907,True,West Ham United,48.5,11,3,5,3,77.9,1,7,4,69.6,35.5,3,10,11,2,0
+313456,Upton Park,34907,False,Queens Park Rangers,51.5,10,3,3,4,78.4,1,5,2,91.3,64.5,2,11,10,2,0
+313449,MKM Stadium,24281,True,Hull City,59.1,15,2,6,7,83,1,6,0,81,60,1,6,14,1,0
+313449,MKM Stadium,24281,False,Crystal Palace,40.9,11,2,5,4,68.9,1,7,0,75,40,0,14,6,2,0
+313450,The King Power Stadium,31448,True,Leicester City,53.5,15,6,3,6,75.6,0,9,1,85.7,42.6,2,16,9,2,0
+313450,The King Power Stadium,31448,False,Burnley,46.5,10,4,4,2,70,1,3,1,81.8,57.4,4,12,15,2,0
+313451,Anfield,44708,True,Liverpool,54.1,19,7,5,7,85,3,5,3,62.5,52,3,12,13,2,0
+313451,Anfield,44708,False,West Bromwich Albion,45.9,8,4,4,0,73.6,1,5,2,78.6,48,5,15,12,2,0
+313453,Stadium of Light,42713,True,Sunderland,39.5,8,3,0,5,69.5,3,7,3,67.9,45,4,10,17,3,0
+313453,Stadium of Light,42713,False,Stoke City,60.5,11,5,4,2,82.8,1,4,2,75,55,0,17,9,4,0
+313454,Swansea Stadium,20622,True,Swansea City,62.9,11,5,5,1,86.3,3,3,3,92.9,53.6,2,11,14,1,0
+313454,Swansea Stadium,20622,False,Newcastle United,37.1,9,4,4,1,73.2,1,1,3,76,46.4,3,15,10,3,0
+313447,Villa Park,32964,True,Aston Villa,32.2,6,1,4,1,76,1,0,1,58.3,37.5,5,4,6,0,0
+313447,Villa Park,32964,False,Manchester City,67.8,27,7,8,12,88.9,1,7,3,81.3,62.5,1,6,4,1,0
+313444,Bet365 Stadium,26332,True,Stoke City,44.1,12,3,4,5,78.2,1,2,4,72.7,65,1,20,15,1,0
+313444,Bet365 Stadium,26332,False,Newcastle United,55.9,16,1,7,8,78.7,1,10,0,66.7,35,2,15,20,2,0
+313446,The Hawthorns,24286,True,West Bromwich Albion,62.7,20,6,6,8,85.6,1,11,2,70,48.7,2,7,9,1,0
+313446,The Hawthorns,24286,False,Burnley,37.3,10,2,4,4,77.2,0,2,2,37.5,51.3,2,9,7,2,0
+313441,Anfield,44511,True,Liverpool,46.4,24,8,7,9,84.7,2,8,2,74.1,50,4,8,9,2,0
+313441,Anfield,44511,False,Everton,53.6,11,5,5,1,86.6,1,2,2,85,50,7,9,7,1,0
+313438,Stamford Bridge,41616,True,Chelsea,62.5,17,8,6,3,91.7,2,9,5,80,54.8,1,11,9,2,0
+313438,Stamford Bridge,41616,False,Aston Villa,37.5,7,1,5,1,83.7,0,2,0,80,45.2,4,9,11,2,0
+313439,Selhurst Park,24311,True,Crystal Palace,39.6,16,6,6,4,67.9,3,6,1,93.8,54.9,1,14,9,0,0
+313439,Selhurst Park,24311,False,Leicester City,60.4,7,1,2,4,77.2,0,6,0,75,45.1,4,9,13,2,0
+313440,MKM Stadium,22859,True,Hull City,40.3,10,5,4,1,84.6,1,3,0,75,61.5,2,10,6,0,0
+313440,MKM Stadium,22859,False,Manchester City,59.7,20,6,9,5,88.9,2,8,0,90.9,38.5,4,6,10,2,0
+313442,Old Trafford,75317,True,Manchester United,57.4,8,3,3,2,84.3,0,7,2,75,34.4,3,10,11,1,1
+313442,Old Trafford,75317,False,West Ham United,42.6,13,4,5,4,80.6,0,10,4,80,65.6,1,12,10,3,0
+313443,St. Mary's Stadium,30504,True,Southampton,55.4,19,9,6,4,79.1,1,6,4,80,62.5,1,12,9,2,0
+313443,St. Mary's Stadium,30504,False,Queens Park Rangers,44.6,10,2,8,0,76.1,0,3,1,92.3,37.5,7,11,12,1,0
+313445,Stadium of Light,41325,True,Sunderland,49.5,15,3,6,6,80.6,2,10,2,68.8,42.9,1,13,15,2,0
+313445,Stadium of Light,41325,False,Swansea City,50.5,7,1,6,0,84.5,0,1,2,83.3,57.1,3,15,13,1,1
+313437,Emirates Stadium,59900,True,Arsenal,68.6,16,6,3,7,88,0,15,3,94.1,62.5,4,7,16,3,0
+313437,Emirates Stadium,59900,False,Tottenham Hotspur,31.4,6,4,2,0,72,1,5,2,65.2,37.5,5,16,7,6,0
+313430,The King Power Stadium,31784,True,Leicester City,42.8,15,5,6,4,75.8,1,2,4,68.8,56.1,2,11,8,1,0
+313430,The King Power Stadium,31784,False,Manchester United,57.2,16,5,7,4,84.5,3,4,4,77.8,43.9,0,9,11,1,1
+313435,White Hart Lane,35861,True,Tottenham Hotspur,61.8,7,1,4,2,81.6,0,9,0,92.3,62.5,3,12,7,2,0
+313435,White Hart Lane,35861,False,West Bromwich Albion,38.2,10,4,4,2,72.2,2,7,2,88.2,37.5,1,7,11,2,0
+313429,Goodison Park,37574,True,Everton,75.4,17,6,6,5,88.6,2,8,2,83.3,55,0,8,13,2,0
+313429,Goodison Park,37574,False,Crystal Palace,24.6,10,3,2,5,66.2,1,1,1,57.9,45,4,13,8,2,0
+313431,Etihad Stadium,45602,True,Manchester City,58.5,16,4,8,4,89.5,1,14,1,78.1,63.3,1,16,12,3,1
+313431,Etihad Stadium,45602,False,Chelsea,41.5,6,2,2,2,83.9,1,2,1,90.5,36.7,3,12,16,4,0
+313433,Loftus Road Stadium,16163,True,Queens Park Rangers,52.5,21,5,10,6,80,1,10,0,89.5,50,2,6,13,2,0
+313433,Loftus Road Stadium,16163,False,Stoke City,47.5,8,4,3,1,76,1,1,1,75.9,50,3,15,6,4,0
+313427,Villa Park,40013,True,Aston Villa,29.1,6,2,2,2,72.6,1,5,1,92.3,21.4,1,11,9,1,0
+313427,Villa Park,40013,False,Arsenal,70.9,9,3,4,2,90.4,2,5,2,71.4,78.6,2,9,11,3,0
+313428,Turf Moor,20026,True,Burnley,44.3,16,6,8,2,73.2,1,5,2,78.9,53.7,6,14,14,1,0
+313428,Turf Moor,20026,False,Sunderland,55.7,14,6,6,2,82.6,0,1,1,81.8,46.3,6,14,12,2,0
+313432,St. James' Park,49119,True,Newcastle United,63,25,7,8,10,84.2,1,4,1,92.9,52.8,1,11,11,4,0
+313432,St. James' Park,49119,False,Hull City,37,10,3,5,2,73.7,0,2,5,87.5,47.2,5,11,11,2,0
+313434,Swansea Stadium,20596,True,Swansea City,44,5,2,2,1,80.6,2,2,0,83.3,47.8,3,11,15,0,1
+313434,Swansea Stadium,20596,False,Southampton,56,11,4,5,2,85.8,0,4,2,75,52.2,1,15,11,4,0
+313436,Upton Park,34977,True,West Ham United,37.9,13,7,3,3,70.7,2,7,1,73.3,42.9,5,16,9,4,0
+313436,Upton Park,34977,False,Liverpool,62.1,11,5,3,3,82.3,0,5,0,72.2,57.1,4,11,16,1,0
+313420,MKM Stadium,21275,True,Hull City,40.9,11,6,4,1,76.8,0,3,1,67.6,48.6,3,12,7,3,0
+313420,MKM Stadium,21275,False,West Ham United,59.1,17,5,4,8,80.8,0,10,1,68.8,51.4,4,7,11,1,0
+313422,Old Trafford,75355,True,Manchester United,68.5,18,9,7,2,91.4,3,3,0,55.6,66.7,1,11,7,1,0
+313422,Old Trafford,75355,False,Queens Park Rangers,31.5,9,2,4,3,77.5,1,1,2,63.6,33.3,5,8,11,0,0
+313417,Emirates Stadium,60003,True,Arsenal,45.3,15,6,9,0,79.4,4,0,2,74.2,50,6,11,15,3,0
+313417,Emirates Stadium,60003,False,Manchester City,54.7,15,8,5,2,80,4,3,2,59.5,50,4,15,9,4,0
+313418,Stamford Bridge,41400,True,Chelsea,55.3,30,9,12,9,88.7,3,7,0,100,64.7,1,12,11,0,0
+313418,Stamford Bridge,41400,False,Swansea City,44.7,12,2,8,2,86.6,2,4,0,83.3,35.3,5,11,12,3,0
+313419,Selhurst Park,23829,True,Crystal Palace,44.8,16,3,10,3,71.6,0,5,0,71.4,57.1,3,12,10,2,0
+313419,Selhurst Park,23829,False,Burnley,55.2,11,3,4,4,71.5,0,6,1,58.3,42.9,3,11,12,3,0
+313423,St. Mary's Stadium,29678,True,Southampton,50.3,10,7,3,0,83.7,2,5,3,72.4,59.1,4,16,7,0,0
+313423,St. Mary's Stadium,29678,False,Newcastle United,49.7,9,4,3,2,84.4,1,5,0,71.4,40.9,3,7,13,2,0
+313424,Bet365 Stadium,27500,True,Stoke City,59,27,6,12,9,79.1,0,16,0,85.7,60.7,0,9,14,3,0
+313424,Bet365 Stadium,27500,False,Leicester City,41,8,1,5,2,70.3,1,3,0,72.7,39.3,6,15,9,0,0
+313425,Stadium of Light,40799,True,Sunderland,38,7,1,3,3,81.4,0,6,1,86.2,63.2,4,16,13,5,0
+313425,Stadium of Light,40799,False,Tottenham Hotspur,62,16,6,4,6,86.8,1,5,1,83.3,36.8,0,14,16,1,0
+313426,The Hawthorns,23567,True,West Bromwich Albion,45.5,13,3,3,7,78.4,0,9,1,85,55.6,3,12,10,2,0
+313426,The Hawthorns,23567,False,Everton,54.5,12,5,6,1,83.5,0,1,3,78.6,44.4,3,10,12,3,0
+313421,Anfield,44689,True,Liverpool,74.7,18,1,10,7,88.9,0,7,3,75,67.6,0,9,10,2,0
+313421,Anfield,44689,False,Aston Villa,25.3,5,1,3,1,62.1,1,6,1,61.5,32.4,1,10,8,1,0
+313407,Villa Park,28336,True,Aston Villa,44.9,11,4,6,1,76.8,0,3,1,66.7,46.9,2,9,10,1,0
+313407,Villa Park,28336,False,Hull City,55.1,9,3,3,3,85.8,0,7,2,84.6,53.1,2,10,9,4,0
+313415,White Hart Lane,36130,True,Tottenham Hotspur,60.4,7,1,4,2,85.5,1,7,3,88.2,76.5,5,14,11,0,0
+313415,White Hart Lane,36130,False,Liverpool,39.6,17,8,8,1,76.5,1,3,1,85.7,23.5,1,11,12,4,0
+313410,The King Power Stadium,31535,True,Leicester City,31.7,9,3,4,2,74.9,1,5,3,81.5,27.8,5,14,4,3,0
+313410,The King Power Stadium,31535,False,Arsenal,68.3,24,6,5,13,88.8,3,10,3,77.8,72.2,2,5,14,1,0
+313408,Turf Moor,21099,True,Burnley,36,9,3,4,2,68.1,0,3,2,63.2,59.5,1,10,14,2,0
+313408,Turf Moor,21099,False,Manchester United,64,7,2,3,2,81.6,0,6,1,76.2,40.5,3,14,9,2,0
+313411,Etihad Stadium,45622,True,Manchester City,72.2,16,2,5,9,87.9,0,11,1,71.4,43.3,1,14,4,2,0
+313411,Etihad Stadium,45622,False,Stoke City,27.8,7,2,4,1,70.4,0,4,2,58.3,56.7,2,5,13,1,0
+313412,St. James' Park,49226,True,Newcastle United,64.3,18,4,10,4,84.1,1,11,0,66.7,47.2,4,12,19,1,0
+313412,St. James' Park,49226,False,Crystal Palace,35.7,12,7,4,1,66.8,1,4,2,75,52.8,1,19,10,3,0
+313413,Loftus Road Stadium,17930,True,Queens Park Rangers,39.7,18,5,7,6,77.1,1,4,0,69.6,43.3,6,8,8,1,0
+313413,Loftus Road Stadium,17930,False,Sunderland,60.3,16,6,5,5,86.7,1,6,0,61.9,56.7,3,9,8,2,0
+313414,Swansea Stadium,20318,True,Swansea City,55.9,15,8,7,0,89,3,0,2,56.3,54.5,2,10,6,1,0
+313414,Swansea Stadium,20318,False,West Bromwich Albion,44.1,16,2,7,7,83,1,7,1,66.7,45.5,4,8,9,2,0
+313416,Upton Park,34907,True,West Ham United,36.4,4,2,1,1,74.8,0,2,2,79.2,46.4,4,11,12,2,0
+313416,Upton Park,34907,False,Southampton,63.6,18,8,4,6,86.1,0,9,2,83.3,53.6,1,13,11,1,0
+313409,Goodison Park,39402,True,Everton,61.3,16,6,4,6,86,3,8,8,93.8,60,3,7,16,1,0
+313409,Goodison Park,39402,False,Chelsea,38.7,12,8,1,3,72.7,4,2,1,83.3,40,3,16,7,3,0
+313402,Etihad Stadium,45471,True,Manchester City,52.9,9,4,4,1,86.3,2,6,1,75,46.7,3,13,7,1,0
+313402,Etihad Stadium,45471,False,Liverpool,47.1,11,3,4,4,86.8,1,7,1,82.4,53.3,1,7,13,1,0
+313401,MKM Stadium,24348,True,Hull City,42.7,9,2,3,4,73.8,0,4,0,89.5,43.1,2,10,10,1,1
+313401,MKM Stadium,24348,False,Stoke City,57.3,19,3,11,5,83.8,0,5,2,81.3,56.9,1,10,9,3,0
+313406,White Hart Lane,36109,True,Tottenham Hotspur,65.5,18,5,6,7,90.2,3,7,1,79.2,43.8,1,12,6,0,0
+313406,White Hart Lane,36109,False,Queens Park Rangers,34.5,9,1,7,1,80.4,2,6,4,54.2,56.3,1,6,11,1,0
+313404,Stadium of Light,43217,True,Sunderland,44.7,11,3,6,2,84.2,0,4,1,76.5,45.5,2,10,14,0,0
+313404,Stadium of Light,43217,False,Manchester United,55.3,10,3,4,3,88.2,1,4,1,78.3,54.5,2,15,10,2,0
+313397,Villa Park,30267,True,Aston Villa,40.4,10,0,6,4,77.6,0,7,4,76.5,50,4,11,8,4,0
+313397,Villa Park,30267,False,Newcastle United,59.6,11,4,5,2,83.2,2,7,0,66.7,50,0,8,10,0,1
+313398,Stamford Bridge,41604,True,Chelsea,63.3,27,10,9,8,87.5,1,8,2,78.3,64.3,4,11,10,0,0
+313398,Stamford Bridge,41604,False,Leicester City,36.7,6,4,0,2,71.2,1,7,2,64.3,35.7,8,11,11,1,0
+313399,Selhurst Park,24242,True,Crystal Palace,45.9,9,4,3,2,72.8,1,6,1,89.7,51.9,5,14,11,1,0
+313399,Selhurst Park,24242,False,West Ham United,54.1,17,8,4,5,78.2,1,9,3,73.9,48.1,3,11,14,3,0
+313403,St. Mary's Stadium,27598,True,Southampton,57.6,9,2,5,2,81.3,0,1,1,72.7,62.5,2,14,15,1,0
+313403,St. Mary's Stadium,27598,False,West Bromwich Albion,42.4,8,2,4,2,75,1,5,1,84.2,37.5,2,15,14,2,0
+313405,Swansea Stadium,20565,True,Swansea City,55.4,10,5,3,2,85.8,1,2,3,68.8,46.3,1,14,12,2,0
+313405,Swansea Stadium,20565,False,Burnley,44.6,12,1,6,5,79.3,1,3,1,78.9,53.7,3,13,13,1,0
+313400,Goodison Park,39490,True,Everton,45.8,8,2,4,2,80,3,3,2,78.9,50,1,10,17,1,0
+313400,Goodison Park,39490,False,Arsenal,54.2,13,3,9,1,85,2,3,0,73.3,50,0,18,10,4,0
+313388,Turf Moor,20699,True,Burnley,38.6,9,2,6,1,69.7,0,4,3,75,57.4,0,6,6,1,0
+313388,Turf Moor,20699,False,Chelsea,61.4,11,3,4,4,82.5,2,3,1,89.5,42.6,1,7,6,1,0
+313390,Anfield,44736,True,Liverpool,56.1,12,5,5,2,85.5,2,2,2,68.8,62.2,5,8,11,1,0
+313390,Anfield,44736,False,Southampton,43.9,12,6,4,2,76.7,2,6,2,65.7,37.8,3,11,8,2,0
+313392,St. James' Park,50816,True,Newcastle United,44.2,12,0,9,3,83,1,3,0,78.3,46.7,3,8,11,1,0
+313392,St. James' Park,50816,False,Manchester City,55.8,13,5,5,3,86.2,2,3,0,82.8,53.3,0,11,7,5,0
+313391,Old Trafford,75339,True,Manchester United,59.6,14,5,5,4,86.4,0,4,1,100,66.7,2,14,20,2,0
+313391,Old Trafford,75339,False,Swansea City,40.4,5,4,0,1,80.2,0,0,1,100,33.3,4,20,11,4,0
+313389,The King Power Stadium,31603,True,Leicester City,36.7,11,3,5,3,77,1,3,0,53.8,65.9,1,16,10,1,0
+313389,The King Power Stadium,31603,False,Everton,63.3,13,3,5,5,84.1,0,6,0,78.9,34.1,1,10,13,1,0
+313393,Loftus Road Stadium,17603,True,Queens Park Rangers,51,19,6,7,6,77.3,1,8,0,85.7,66.7,3,10,9,1,0
+313393,Loftus Road Stadium,17603,False,Hull City,49,11,4,3,4,75.7,1,9,2,82.4,33.3,5,10,10,2,0
+313394,Bet365 Stadium,27478,True,Stoke City,63.1,12,2,4,6,83.6,0,2,1,74.1,76.9,1,14,9,0,0
+313394,Bet365 Stadium,27478,False,Aston Villa,36.9,7,1,4,2,68.2,1,8,1,63.2,23.1,2,9,14,3,0
+313395,The Hawthorns,25468,True,West Bromwich Albion,57.8,10,5,5,0,79.5,1,6,0,61.1,51.6,0,18,9,3,0
+313395,The Hawthorns,25468,False,Sunderland,42.2,7,2,2,3,74.9,2,3,3,72.4,48.4,3,9,17,1,0
+313396,Upton Park,34977,True,West Ham United,46.6,18,4,10,4,83.1,1,8,1,82.4,55.6,4,12,8,1,1
+313396,Upton Park,34977,False,Tottenham Hotspur,53.4,10,4,2,4,80.1,1,5,0,78.9,44.4,4,10,12,0,1
+313387,Emirates Stadium,59962,True,Arsenal,76,14,6,5,3,87.7,2,9,0,76.9,57.5,1,13,18,2,0
+313387,Emirates Stadium,59962,False,Crystal Palace,24,4,2,0,2,57.2,0,3,1,69.7,42.5,4,19,13,2,1
