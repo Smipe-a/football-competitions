@@ -122,7 +122,7 @@ def process_matches() -> list:
     # Create a list that contains a pair of teams for the current match_id and detailed match statistics
     match_statistics = []
     # Open the file that contains URLs of all matches
-    with open('../urls/file_teams_url.txt', 'r') as file:
+    with open('../urls/2022-23/file_teams_url.txt', 'r') as file:
         urls = file.readlines()
 
     with ThreadPoolExecutor() as executor:
@@ -137,4 +137,4 @@ if __name__ == '__main__':
     source_match_statistics = process_matches()
 
     match_statistics_df = pd.DataFrame(source_match_statistics).set_index('match_id')
-    match_statistics_df.to_csv('../data/match_statistics.csv')
+    match_statistics_df.to_csv('../data/2022-23/match_statistics.csv')

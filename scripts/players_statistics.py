@@ -47,22 +47,22 @@ def format_price(price: str):
 
 
 # We supplement the main information from the skysports
-# source with additional information from transfermarket (transfer value, age, nationality, position)
+# source with additional information from transfermarkt (transfer value, age, nationality, position)
 def get_additional_info(dict_players: dict, block_players):
     sub_block_players = block_players.find_all('table', class_='inline-table')
     for idx_block, player in enumerate(sub_block_players):
-        number_in_transfermarket = block_players.select('td.zentriert.rueckennummer')[idx_block].find(
+        number_in_transfermarkt = block_players.select('td.zentriert.rueckennummer')[idx_block].find(
             'div', class_='rn_nummer').text.strip()
 
         nationality = player.find_next('td', class_='zentriert').find('img').get('title')
         age = format_to_int(player.find('tr').text.strip())
         position = format_position(block_players.select('td.zentriert.rueckennummer')[idx_block].get('title'))
         transfer_fee = format_price(player.find('tr').find_next_sibling().text.strip())
-        dict_players[number_in_transfermarket] = [nationality, age, position, transfer_fee]
+        dict_players[number_in_transfermarkt] = [nationality, age, position, transfer_fee]
 
 
 # Obtain the basic statistics of players per match
-def get_statistics(match_id: int, players, soup_transfermarket, is_home: bool, is_first_team: bool):
+def get_statistics(match_id: int, players, soup_transfermarkt, is_home: bool, is_first_team: bool):
     for player in players:
         # Find the first name and last name of the football player,
         # if the first name is not specified, we keep only the last name
@@ -131,9 +131,9 @@ def get_statistics(match_id: int, players, soup_transfermarket, is_home: bool, i
             goals, penalty_goals, missed_penalty_goals, own_goals, assists = 0, 0, 0, 0, 0
             substitution, yellow_card, red_card = False, False, False
 
-        # Supplement the information from transfermarket.com
+        # Supplement the information from transfermarkt.com
         # with transfer fee, age, nationality, and position at the time of the match
-        all_home_players = soup_transfermarket.find_all('div', class_='responsive-table')
+        all_home_players = soup_transfermarkt.find_all('div', class_='responsive-table')
         # Create a dictionary where the key is the player's number,
         # and the value is a list with a dimension of 4
         dict_info_players = {}
@@ -184,11 +184,11 @@ def set_officials_match(match_id: int, name_officials: str, role: str) -> dict:
 
 
 # Parsing referee crew data from the skysports website
-# and adding missing coach information for each match from the transfermarket website
-def get_officials_match(match_id: int, soup_skysports, soup_transfermarket) -> list:
+# and adding missing coach information for each match from the transfermarkt website
+def get_officials_match(match_id: int, soup_skysports, soup_transfermarkt) -> list:
     officials_match = []
 
-    manager_block = soup_transfermarket.find_all('div', class_='row sb-formation')[-1]
+    manager_block = soup_transfermarkt.find_all('div', class_='row sb-formation')[-1]
     manager_name_block = manager_block.find_all('table', class_='inline-table')
     manager_home_name = manager_name_block[0].find('img').get('title')
     manager_away_name = manager_name_block[1].find('img').get('title')
@@ -218,8 +218,8 @@ def scrape_data(url: str):
 
     # Generating a link to navigate to the page with match lineups
     url_lineup = BeautifulSoup(response.text, 'html.parser').find('a', string='Line-ups').get('href')
-    transfermarket_line_ups = f'https://www.transfermarkt.com{url_lineup}'
-    response = requests.get(transfermarket_line_ups, headers={'User-Agent': UserAgent().chrome}, timeout=20)
+    transfermarkt_line_ups = f'https://www.transfermarkt.com{url_lineup}'
+    response = requests.get(transfermarkt_line_ups, headers={'User-Agent': UserAgent().chrome}, timeout=20)
     soup_tm = BeautifulSoup(response.text, 'html.parser')
 
     # Creating the match_officials table
@@ -241,7 +241,7 @@ def scrape_data(url: str):
 
 
 if __name__ == '__main__':
-    with open('../urls/file_players_url.txt', 'r') as file:
+    with open('../urls/2022-23/file_players_url.txt', 'r') as file:
         urls = file.readlines()
 
     with ThreadPoolExecutor() as executor:
@@ -250,10 +250,10 @@ if __name__ == '__main__':
             executor.map(scrape_data, batch_urls)
 
     data_match_officials = pd.DataFrame(match_officials).set_index('match_id')
-    data_match_officials.to_csv('../data/match_officials.csv')
+    data_match_officials.to_csv('../data/2022-23/match_officials.csv')
 
     data_players_statistics_home_team = pd.DataFrame(players_statistics_home_team).set_index('match_id')
-    data_players_statistics_home_team.to_csv('../data/players_statistics_home_team.csv')
+    data_players_statistics_home_team.to_csv('../data/2022-23/players_statistics_home_team.csv')
 
     data_players_statistics_away_team = pd.DataFrame(players_statistics_away_team).set_index('match_id')
-    data_players_statistics_away_team.to_csv('../data/players_statistics_away_team.csv')
+    data_players_statistics_away_team.to_csv('../data/2022-23/players_statistics_away_team.csv')

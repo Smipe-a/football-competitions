@@ -77,10 +77,10 @@ def scrape_data() -> list:
         players_path_url.append(f'https://www.skysports.com/football/{path_teams}/teams/{match_id}')
         teams_path_url.append(f'https://www.skysports.com/football/{path_teams}/stats/{match_id}')
 
-        with open('../urls/file_players_url.txt', 'w') as file_players_url:
+        with open('../urls/2022-23/file_players_url.txt', 'w') as file_players_url:
             file_players_url.writelines([url + '\n' for url in players_path_url])
 
-        with open('../urls/file_teams_url.txt', 'w') as file_teams_url:
+        with open('../urls/2022-23/file_teams_url.txt', 'w') as file_teams_url:
             file_teams_url.writelines([url + '\n' for url in teams_path_url])
     return match_table_results
 
@@ -88,4 +88,4 @@ def scrape_data() -> list:
 if __name__ == '__main__':
     data_match_table_results = pd.DataFrame(scrape_data()).set_index('match_id')
     data_match_table_results['date_start'] = pd.to_datetime(data_match_table_results['date_start'])
-    data_match_table_results.to_csv('../data/match_table_results.csv')
+    data_match_table_results.to_csv('../data/2022-23/match_table_results.csv')

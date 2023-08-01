@@ -35,4 +35,4 @@ def parse_main_table(url: str) -> pd.DataFrame:
 if __name__ == '__main__':
     source_url = 'https://www.skysports.com/premier-league-table/2022'
     data_main_table_results = parse_main_table(source_url)
-    data_main_table_results.to_csv('../data/main_table_results.csv')
+    data_main_table_results.to_csv('../data/2022-23/main_table_results.csv')
