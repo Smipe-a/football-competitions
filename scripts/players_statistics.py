@@ -97,10 +97,12 @@ def get_statistics(match_id: int, players, soup_transfermarkt, is_home: bool, is
                         sub_on_time = sub_on.find('span', class_='sdc-site-team-lineup__visually-hidden').text.strip()
                         substitution = True
                         play_time = abs(90 - format_to_int(sub_on_time))
-                    if event.find(class_='sdc-site-team-lineup__item-event-icon--sub-off'):
-                        sub_off = event.find_all('li', class_='sdc-site-team-lineup__event')[1]
-                        sub_off_time = sub_off.find('span', class_='sdc-site-team-lineup__visually-hidden').text.strip()
-                        play_time = abs(90 - format_to_int(sub_off_time)) - play_time
+                        if event.find(class_='sdc-site-team-lineup__item-event-icon--sub-off'):
+                            sub_off = event.find_all('li', class_='sdc-site-team-lineup__event')[1]
+                            sub_off_time = sub_off.find('span',
+                                                        class_='sdc-site-team-lineup__visually-hidden').text.strip()
+
+                            play_time = abs(format_to_int(sub_off_time) - format_to_int(sub_on_time))
 
                 # Counting the number of events that have occurred
                 goals = quantity_events(event.find_all(class_='sdc-site-team-lineup__item-event-icon--goal'))
@@ -245,9 +247,7 @@ if __name__ == '__main__':
         urls = file.readlines()
 
     with ThreadPoolExecutor() as executor:
-        for i in range(0, len(urls), 10):
-            batch_urls = urls[i: i + 10]
-            executor.map(scrape_data, batch_urls)
+        executor.map(scrape_data, urls)
 
     data_match_officials = pd.DataFrame(match_officials).set_index('match_id')
     data_match_officials.to_csv('../data/2022-23/match_officials.csv')
