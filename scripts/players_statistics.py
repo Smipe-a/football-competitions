@@ -98,7 +98,7 @@ def get_statistics(match_id: int, players, soup_transfermarkt, is_home: bool, is
                         substitution = True
                         play_time = abs(90 - format_to_int(sub_on_time))
                         if event.find(class_='sdc-site-team-lineup__item-event-icon--sub-off'):
-                            sub_off = event.find_all('li', class_='sdc-site-team-lineup__event')[1]
+                            sub_off = event.find_all('li', class_='sdc-site-team-lineup__event')[-1]
                             sub_off_time = sub_off.find('span',
                                                         class_='sdc-site-team-lineup__visually-hidden').text.strip()
 
