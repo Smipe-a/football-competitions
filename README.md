@@ -2,6 +2,7 @@
 ![EPL](./img/logo_epl.png "EPL")  
 ![English Premier League](https://img.shields.io/badge/English%20Premier%20League-361652)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2fa3826f006b4b5c9b71d6ee1623f428)](https://app.codacy.com?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
+
 ## Introduction
 This repository contains a comprehensive analysis of the English Premier League.  
 The dataset compiled includes official and reliable data on match results,
@@ -16,6 +17,7 @@ Whether you are a football enthusiast, data scientist, or researcher,
 this repository provides an opportunity to explore statistical trends,
 gain new perspectives on team performances, and enhance your overall
 football experience
+
 ## Execution time of files
     CPU:                    Intel(R) Core(TM) i7-7500U CPU @ 2.70GHz
     Cores (Threads):        2 (4)
