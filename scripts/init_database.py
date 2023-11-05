@@ -6,9 +6,11 @@ def create_schema(schema, connection):
     try:
         cursor = connection.cursor()
         # Check if a schema with this season already exists
-        check_schema_query = 'SELECT nspname ' \
-                             'FROM pg_namespace ' \
-                             'WHERE nspname = %s'
+        check_schema_query = """
+                             SELECT nspname
+                             FROM pg_namespace
+                             WHERE nspname = %s
+                             """
         cursor.execute(check_schema_query, (schema, ))
 
         if cursor.fetchone() is None:
@@ -28,33 +30,38 @@ def create_schema(schema, connection):
 
 
 def create_table(schema, connection):
+    # Normalization tables:
+    # standings -> 2NF
+    dict_query = {
+        'standings': f"""
+                     CREATE TABLE {schema}.standings (
+                        team VARCHAR(35) PRIMARY KEY,
+                        position INT UNIQUE,
+                        played INT,
+                        won INT,
+                        drawn INT,
+                        lost INT,
+                        goals_for INT,
+                        goals_against INT,
+                        goals_difference INT,
+                        points INT
+                     );
+                     """
+    }
+
     try:
-        # Test version without normalization
-        # Will be changed
-        # Also, the table has no keys
         cursor = connection.cursor()
         # Check if a table with this season already exists
-        check_table_query = 'SELECT table_name ' \
-                            'FROM information_schema.tables ' \
-                            'WHERE table_schema = %s AND table_name = %s'
-        cursor.execute(check_table_query, (schema, 'main_table_results'))
+        check_table_query = """
+                            SELECT table_name
+                            FROM information_schema.tables
+                            WHERE table_schema = %s AND table_name = %s
+                            """
+        cursor.execute(check_table_query, (schema, 'standings'))
 
         if cursor.fetchone() is None:
             create_table_query = (
-                f"""
-                CREATE TABLE {schema}.main_table_results (
-                    position INTEGER,
-                    team VARCHAR(35),
-                    played INTEGER,
-                    won INTEGER,
-                    drawn INTEGER,
-                    lost INTEGER,
-                    goals_for INTEGER,
-                    goals_against INTEGER,
-                    goals_difference INTEGER,
-                    points INTEGER
-                );
-                """
+                dict_query['standings']
             )
             cursor.execute(create_table_query)
             # Implementing the output of exceptions and messages to a log file

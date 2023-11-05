@@ -1,38 +1,53 @@
-import pandas as pd
 import requests
+import psycopg2
+from decouple import config
 from bs4 import BeautifulSoup
 
 
-def parse_main_table(url: str) -> pd.DataFrame:
+def parse_standings(url: str):
     # Send GET-request on web-site
     soup = BeautifulSoup(requests.get(url).content, 'html.parser')
     # Find main table on site
     table = soup.find('table', class_='standing-table__table')
 
     # Create a list to receive data from page
-    main_table_results = [
-        {
-            'position': cells[0].get_text(strip=True),
-            'team': cells[1].find('a', class_='standing-table__cell--name-link').get_text(strip=True),
-            'played': cells[2].get_text(strip=True),
-            'won': cells[3].get_text(strip=True),
-            'drawn': cells[4].get_text(strip=True),
-            'lost': cells[5].get_text(strip=True),
-            'goals_for': cells[6].get_text(strip=True),
-            'goals_against': cells[7].get_text(strip=True),
-            'goals_difference': cells[8].get_text(strip=True),
-            'points': cells[9].get_text(strip=True)
-        }
-        # Iterate through each row of the table
-        for row in table.find_all('tr')
-        # Retrieve the value of a cell
-        # Create a dictionary with the parsed data
-        if len(cells := row.find_all('td')) > 0
-    ]
-    return pd.DataFrame(main_table_results).set_index('position')
+    team_list = []
+    for row in table.find_all('tr'):
+        if row.find_all('td'):
+            data_team = tuple([row.find_all('td')[1].get_text(strip=True)] + [row.find_all('td')[0].get_text(strip=True)])
+            data_team += tuple(cell.get_text(strip=True) for cell in row.find_all('td')[2:-1])
+            team_list.append(data_team)
+
+    insert_data_to_db(season=f'season{url[-2:]}_{int(url[-2:]) + 1}', data_to_insert=team_list)
+
+
+def insert_data_to_db(season: str, data_to_insert: list):
+    database_params = {
+        'dbname': 'english_premier_league',
+        'user': config('PG_USER'),
+        'password': config('PG_PASSWORD'),
+        'host': config('PG_HOST'),
+        'port': '5432'
+    }
+    connection = psycopg2.connect(**database_params)
+    cursor = connection.cursor()
+
+    insert_query = f"""
+                   INSERT INTO {season}.standings (
+                       team, position, played, won, drawn, lost, goals_for, goals_against, goals_difference, points
+                   ) VALUES (
+                       %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                   )
+                   """
+
+    cursor.executemany(insert_query, data_to_insert)
+    connection.commit()
+    cursor.close()
 
 
 if __name__ == '__main__':
-    source_url = 'https://www.skysports.com/premier-league-table/2022'
-    data_main_table_results = parse_main_table(source_url)
-    data_main_table_results.to_csv('../data/2022-23/main_table_results.csv')
+    with open('../resources/gameweek_dates.txt', 'r') as file:
+        # Format date: 2023-08-11 -> 2023
+        year = file.readline()[:4]
+
+    parse_standings(url=f'https://www.skysports.com/premier-league-table/{year}')
