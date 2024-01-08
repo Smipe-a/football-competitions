@@ -1,5 +1,6 @@
-from decouple import config
 from psycopg2 import connect
+from decouple import config
+import logging
 
 
 def connect_to_database():
