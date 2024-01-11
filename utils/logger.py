@@ -1,6 +1,8 @@
 import logging
 import os
 
+LOG_DIRECTORY = 'logs'
+
 
 def configure_logger(logger_name: str) -> logging.Logger:
     """
@@ -19,12 +21,15 @@ def configure_logger(logger_name: str) -> logging.Logger:
 
     # We obtain the current directory and its parent directory.
     # An absolute path is constructed based on the parent path
-    current_directory = os.getcwd()
-    parent_directory = os.path.dirname(current_directory)
-    log_file_path = os.path.join(parent_directory, 'logs', 'epl_log.log')
+    current_directory = os.path.abspath(__file__)
+    project_directory = os.path.dirname(os.path.dirname(current_directory))
+    logs_directory = os.path.join(project_directory, LOG_DIRECTORY)
+
+    if not os.path.exists(logs_directory):
+        os.makedirs(logs_directory)
 
     # Create a file handler and set the formatter
-    handler = logging.FileHandler(filename=log_file_path, mode='a')
+    handler = logging.FileHandler(filename=os.path.join(logs_directory, 'test.log'), mode='a')
     handler.setFormatter(formatter)
 
     # Create and configure the logger
