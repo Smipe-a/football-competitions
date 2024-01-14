@@ -1,4 +1,4 @@
-from db_connector import connect_to_database
+from utils.db_connector import connect_to_database
 
 
 def create_table(competition, connection):

@@ -2,17 +2,20 @@ from psycopg2 import connect, OperationalError
 from utils.logger import configure_logger
 from decouple import config
 
-# Configure logger for the current module
-LOGGER = configure_logger(__name__)
 
-
-def connect_to_database():
+def connect_to_database(competition: str):
     """
     Establishes a connection to the PostgreSQL database.
 
+    Args:
+        competition (str): The identifier of the football competition for logger.
+
     Returns:
-        psycopg2.extensions.connection: Database connection object if successful, None otherwise.
+        psycopg2.extensions.connection: Database connection object if successful.
     """
+
+    # Configure logger for the current module
+    logger = configure_logger(__name__, competition)
 
     try:
         # Attempt to establish a database connection
@@ -23,9 +26,8 @@ def connect_to_database():
             host=config('PG_HOST'),
             port='5432'
         ) as connection:
-            LOGGER.info('Successfully connected to the database.')
+            logger.info('Successfully connected to the database.')
             return connection
 
     except OperationalError as e:
-        LOGGER.error(f'Error connecting to the database: {str(e)}.')
-        return None
+        logger.error(f'Error connecting to the database: {str(e)}.')
