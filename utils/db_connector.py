@@ -2,8 +2,8 @@ from psycopg2 import connect, extensions, OperationalError
 from utils.logger import configure_logger
 from decouple import config
 
-# Path to file log <your_path>/football-competitions/logs/database_football_competitions.log
-NAME_DATABASE_FILE_LOG = 'database_football_competitions'
+# Path to file log <your_abspath>/football-competitions/logs/database_info.log
+NAME_DATABASE_FILE_LOG = 'database_info'
 # Configure logger for the current module
 LOGGER = configure_logger(__name__, NAME_DATABASE_FILE_LOG)
 
@@ -29,5 +29,5 @@ def connect_to_database() -> extensions.connection:
             return current_connection
 
     except OperationalError as e:
-        LOGGER.error(f'Error connecting to the database: {str(e).strip()}.')
+        LOGGER.fatal(f'Error connecting to the database: {str(e).strip()}.')
         raise
