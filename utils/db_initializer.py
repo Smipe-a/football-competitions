@@ -3,31 +3,46 @@ from utils.logger import configure_logger
 from typing import Optional, Tuple
 import os
 
-COMPETITIONS_TITLE = ['premier_league', 'la_liga']
+COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'ligue_1', 'bundesliga']
 
-# Path to file log <your_path>/football-competitions/logs/database_football_competitions.log
-NAME_DATABASE_FILE_LOG = 'database_football_competitions'
+# Path to file log <your_abspath>/football-competitions/logs/database_info.log
+NAME_DATABASE_FILE_LOG = 'database_info'
 # Configure logger for the current module
 LOGGER = configure_logger(os.path.basename(__file__), NAME_DATABASE_FILE_LOG)
 
 
 def check_schema(cursor, name_schema: str) -> Optional[Tuple[str]]:
-    """Check if the schema already exists in the database."""
+    """
+    Check if the schema already exists in the database.
 
+    Args:
+        cursor: Database cursor.
+        name_schema (str): Schema name to check.
+
+    Returns:
+        Tuple[str]: The schema name if it exists, otherwise None.
+    """
     cursor.execute('SELECT schema_name FROM information_schema.schemata WHERE schema_name = %s;', (name_schema,))
     return cursor.fetchone()
 
 
 def create_schema(cursor, name_schema: str) -> Optional[bool]:
-    """Create a new schema in the database if it does not exist."""
+    """
+    Create a new schema in the database if it does not exist.
 
+    Args:
+        cursor: Database cursor.
+        name_schema (str): Schema name to create.
+
+    Returns:
+        bool: True if the schema is created or already exists, False on error.
+    """
     try:
         existing_schema = check_schema(cursor, name_schema)
 
         if not existing_schema:
             cursor.execute(f'CREATE SCHEMA {name_schema};')
             connection.commit()
-
             LOGGER.info(f'Schema "{name_schema}" has been successfully created in the database.')
         else:
             LOGGER.info(f'The schema "{name_schema}" already exist.')
@@ -39,8 +54,13 @@ def create_schema(cursor, name_schema: str) -> Optional[bool]:
 
 
 def create_table(cursor, name_schema: str) -> None:
-    """Create a standings table in the specified schema."""
+    """
+    Create a standings table in the specified schema.
 
+    Args:
+        cursor: Database cursor.
+        name_schema (str): Schema name in which to create the table.
+    """
     try:
         # Check if a table with this season already exists
         check_table_query = """
