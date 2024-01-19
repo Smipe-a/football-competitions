@@ -3,7 +3,7 @@ from utils.logger import configure_logger
 from decouple import config
 
 # Path to file log <your_abspath>/football-competitions/logs/database_info.log
-NAME_DATABASE_FILE_LOG = 'database_info'
+NAME_DATABASE_FILE_LOG = 'database_info.log'
 # Configure logger for the current module
 LOGGER = configure_logger(__name__, NAME_DATABASE_FILE_LOG)
 

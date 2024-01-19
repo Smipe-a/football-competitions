@@ -7,7 +7,7 @@ class JsonHelper:
     def __init__(self):
         self.path: Optional[str] = None
         self.value_json: Optional[dict] = None
-        self.logger = configure_logger(__name__, 'json_helper')
+        self.logger = configure_logger(__name__, 'json_helper.log')
 
     def read(self, path: str) -> Optional['JsonHelper']:
         """

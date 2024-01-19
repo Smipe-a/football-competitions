@@ -10,7 +10,7 @@ def configure_logger(logger_name: str, file_name: str) -> logging.Logger:
 
     Args:
         logger_name (str): The name of the module from which the log originated.
-        file_name (str): The name of the file where logs are recorded for each competition **(without '.log')**.
+        file_name (str): The name of the file where logs are recorded for each competition.
 
     Returns:
         logging.Logger: Configured logger.
@@ -30,7 +30,7 @@ def configure_logger(logger_name: str, file_name: str) -> logging.Logger:
         os.makedirs(logs_directory)
 
     # Create a file handler and set the formatter
-    handler = logging.FileHandler(filename=os.path.join(logs_directory, f'{file_name}.log'), mode='a')
+    handler = logging.FileHandler(filename=os.path.join(logs_directory, file_name), mode='a')
     handler.setFormatter(formatter)
 
     # Create and configure the logger

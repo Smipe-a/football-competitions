@@ -6,7 +6,7 @@ import os
 COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'ligue_1', 'bundesliga']
 
 # Path to file log <your_abspath>/football-competitions/logs/database_info.log
-NAME_DATABASE_FILE_LOG = 'database_info'
+NAME_DATABASE_FILE_LOG = 'database_info.log'
 # Configure logger for the current module
 LOGGER = configure_logger(os.path.basename(__file__), NAME_DATABASE_FILE_LOG)
 
@@ -75,7 +75,7 @@ def create_table(cursor, name_schema: str) -> None:
                 'standings': f"""
                     CREATE TABLE IF NOT EXISTS {name_schema}.standings (
                         team VARCHAR(35),
-                        season VARCHAR(5),
+                        season INT,
                         position INT NOT NULL,
                         won INT NOT NULL,
                         drawn INT NOT NULL,
