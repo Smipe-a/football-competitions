@@ -7,13 +7,11 @@ import requests
 import os
 import re
 
-LOG_FILE_NAME = 'metadata_parser'
+LOG_FILE_NAME = 'metadata_parser.log'
 LOGGER = configure_logger(__name__, LOG_FILE_NAME)
 
+PROJECT_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 RESOURCE_CATALOG = 'resources'
-RESOURCE_DIRECTORY = os.path.join(os.path.abspath(
-                        os.path.join(os.path.dirname(__file__), os.pardir)
-                     ), RESOURCE_CATALOG)
 RESOURCE_FILE_NAME = 'tournaments_metadata.json'
 
 
@@ -27,63 +25,6 @@ class ChampionatParser:
                           'Chrome/91.0.4472.124 Safari/537.36'
         }
         self.url = 'https://www.championat.com'
-
-    @staticmethod
-    def format_num(tour: str) -> int:
-        """
-        Format the tour string to extract and return the numeric part as an integer.
-
-        Example:
-            - "Tour: 21" -> 21
-
-        Args:
-            tour (str): The input string representing the tour.
-
-        Returns:
-            int: The extracted numeric part of the tour string as an integer.
-        """
-        num = re.search(r'\d+', tour)
-
-        if num:
-            return int(num.group())
-
-    @staticmethod
-    def add_last_date(date: str) -> str:
-        """
-        Calculate and add the last start date.
-
-        Example:
-            - "2022-01-01" -> "2022-01-08" (last date + 7 days)
-
-        Args:
-            date (str): The input date string in the format 'yyyy-mm-dd'.
-
-        Returns:
-            str: The calculated last start date in the format 'yyyy-mm-dd'.
-        """
-        last_date = datetime.strptime(date, '%Y-%m-%d') + timedelta(days=7)
-        return last_date.strftime('%Y-%m-%d')
-
-    @staticmethod
-    def format_date(date_time: str) -> str:
-        """
-        Format the date string from the given format 'dd.mm.yyyy' to 'yyyy-mm-dd'.
-
-        Example:
-            - "11.08.2023 22:00" -> "2023-08-11"
-
-        Args:
-            date_time (str): The input date string in the format 'dd.mm.yyyy'.
-
-        Returns:
-            str: The formatted date string in the format 'yyyy-mm-dd'.
-        """
-        date = re.match(r'(\d{2})\.(\d{2})\.(\d{4})', date_time)
-
-        if date:
-            day, month, year = date.groups()
-            formatted_date = f'{year}-{month}-{day}'
-            return formatted_date
 
     def get_html(self, url: str) -> Optional[bytes]:
         """
@@ -185,6 +126,81 @@ class DatesParser(ChampionatParser):
         self.competition = competition
         self.json_object = json_object
 
+    @staticmethod
+    def format_num(tour: str) -> int:
+        """
+        Format the tour string to extract and return the numeric part as an integer.
+
+        Example:
+            - "Tour: 21" -> 21
+
+        Args:
+            tour (str): The input string representing the tour.
+
+        Returns:
+            int: The extracted numeric part of the tour string as an integer.
+        """
+        num = re.search(r'\d+', tour)
+
+        if num:
+            return int(num.group())
+
+    @staticmethod
+    def add_last_date(date: str) -> str:
+        """
+        Calculate and add the last start date.
+
+        Example:
+            - "2022-01-01" -> "2022-01-08" (last date + 7 days)
+
+        Args:
+            date (str): The input date string in the format 'yyyy-mm-dd'.
+
+        Returns:
+            str: The calculated last start date in the format 'yyyy-mm-dd'.
+        """
+        last_date = datetime.strptime(date, '%Y-%m-%d') + timedelta(days=7)
+        return last_date.strftime('%Y-%m-%d')
+
+    @staticmethod
+    def minus_day(dates: list) -> list:
+        """
+        Subtract one day from each date in the given list.
+
+        Example:
+            - "2024-01-19" -> "2024-01-18"
+        Args:
+            dates (list): A list of strings representing dates in the format "%Y-%m-%d".
+
+        Returns:
+            list: A new list containing dates obtained by subtracting one day from each date in the input list.
+        """
+        return [
+            (datetime.strptime(gameweek, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
+            for gameweek in dates[1:]
+        ]
+
+    @staticmethod
+    def format_date(date_time: str) -> str:
+        """
+        Format the date string from the given format 'dd.mm.yyyy' to 'yyyy-mm-dd'.
+
+        Example:
+            - "11.08.2023 22:00" -> "2023-08-11"
+
+        Args:
+            date_time (str): The input date string in the format 'dd.mm.yyyy'.
+
+        Returns:
+            str: The formatted date string in the format 'yyyy-mm-dd'.
+        """
+        date = re.match(r'(\d{2})\.(\d{2})\.(\d{4})', date_time)
+
+        if date:
+            day, month, year = date.groups()
+            formatted_date = f'{year}-{month}-{day}'
+            return formatted_date
+
     def parse_metadate(self, html_content: Optional[bytes]) -> None:
         """
         Parse metadata from HTML content, collecting attributes such as 'start_date', 'year', and 'teams'.
@@ -237,6 +253,7 @@ class DatesParser(ChampionatParser):
                 start_date_tours.append(self.add_last_date(start_date_tours[-1]))
 
                 self.json_object.append(self.competition, 'year', int(start_date_tours[0][:4]))
+                start_date_tours = self.minus_day(start_date_tours)
                 self.json_object.append(self.competition, 'start_date', start_date_tours)
                 self.json_object.write()
 
@@ -251,7 +268,7 @@ class DatesParser(ChampionatParser):
 
 def main(competitions: list) -> None:
     json_object = JsonHelper()
-    competition_data = json_object.read(os.path.join(RESOURCE_DIRECTORY, RESOURCE_FILE_NAME))
+    competition_data = json_object.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, RESOURCE_FILE_NAME))
 
     championat_parser = ChampionatParser(competitions, competition_data)
     # We retrieve the main metadata parameter 'url' for

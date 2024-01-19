@@ -7,7 +7,8 @@ import os
 # Get the absolute path to the parent directory of the current file
 # and append this path to sys.path so that Python can find modules from this directory.
 # Path: <your_abspath>/football-competitions/
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir)))
+PROJECT_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
+sys.path.append(PROJECT_DIRECTORY)
 from scripts import metadata_parser
 
 # The provided date is an approximate start date for the competitions listed in COMPETITIONS_TITLE
