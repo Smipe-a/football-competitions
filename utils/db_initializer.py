@@ -1,9 +1,10 @@
 from utils.db_connector import connect_to_database
 from utils.logger import configure_logger
-from typing import Optional, Tuple
+from typing import Optional
 import os
 
 COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'ligue_1', 'bundesliga']
+DATABASE_TABLE_NAME = ['standings', 'team_clashes', 'result_clashes', 'info_clashes']
 
 # Path to file log <your_abspath>/football-competitions/logs/database_info.log
 NAME_DATABASE_FILE_LOG = 'database_info.log'
@@ -11,7 +12,7 @@ NAME_DATABASE_FILE_LOG = 'database_info.log'
 LOGGER = configure_logger(os.path.basename(__file__), NAME_DATABASE_FILE_LOG)
 
 
-def check_schema(cursor, name_schema: str) -> Optional[Tuple[str]]:
+def check_schema(cursor, name_schema: str) -> Optional[tuple[str]]:
     """
     Check if the schema already exists in the database.
 
@@ -20,7 +21,7 @@ def check_schema(cursor, name_schema: str) -> Optional[Tuple[str]]:
         name_schema (str): Schema name to check.
 
     Returns:
-        Tuple[str]: The schema name if it exists, otherwise None.
+        tuple[str]: The schema name if it exists, otherwise None.
     """
     cursor.execute('SELECT schema_name FROM information_schema.schemata WHERE schema_name = %s;', (name_schema,))
     return cursor.fetchone()
@@ -35,7 +36,7 @@ def create_schema(cursor, name_schema: str) -> Optional[bool]:
         name_schema (str): Schema name to create.
 
     Returns:
-        bool: True if the schema is created or already exists, False on error.
+        Optional[bool]: True if the schema is created or already exists, False on error.
     """
     try:
         existing_schema = check_schema(cursor, name_schema)
@@ -49,7 +50,7 @@ def create_schema(cursor, name_schema: str) -> Optional[bool]:
 
         return True
     except Exception as e:
-        LOGGER.error(f'Error creating schema: {e}')
+        LOGGER.error(f'Error creating schema: {e}.')
         return None
 
 
@@ -62,45 +63,70 @@ def create_table(cursor, name_schema: str) -> None:
         name_schema (str): Schema name in which to create the table.
     """
     try:
-        # Check if a table with this season already exists
-        check_table_query = """
-                            SELECT table_name
-                            FROM information_schema.tables
-                            WHERE table_schema = %s AND table_name = %s
-                            """
-        cursor.execute(check_table_query, (name_schema, 'standings'))
+        for table_name in DATABASE_TABLE_NAME:
+            # Check if a table with this season already exists
+            check_table_query = """
+                                SELECT table_name
+                                FROM information_schema.tables
+                                WHERE table_schema = %s AND table_name = %s
+                                """
+            cursor.execute(check_table_query, (name_schema, table_name))
 
-        if cursor.fetchone() is None:
-            init_standings = {
-                'standings': f"""
-                    CREATE TABLE IF NOT EXISTS {name_schema}.standings (
-                        team VARCHAR(35),
-                        season INT,
-                        position INT NOT NULL,
-                        won INT NOT NULL,
-                        drawn INT NOT NULL,
-                        lost INT NOT NULL,
-                        goals_for INT NOT NULL,
-                        goals_against INT NOT NULL,
-                        points INT NOT NULL,
-                        PRIMARY KEY (team, season)
-                    );
-                """
-            }
+            if cursor.fetchone() is None:
+                init_table = {
+                    'standings': f"""
+                        CREATE TABLE IF NOT EXISTS {name_schema}.standings (
+                            team VARCHAR(35) NOT NULL,
+                            season INT NOT NULL,
+                            position INT NOT NULL,
+                            won INT NOT NULL,
+                            drawn INT NOT NULL,
+                            lost INT NOT NULL,
+                            goals_for INT NOT NULL,
+                            goals_against INT NOT NULL,
+                            points INT NOT NULL,
+                            PRIMARY KEY (team, season)
+                        );
+                    """,
+                    'team_clashes': f"""
+                        CREATE TABLE IF NOT EXISTS {name_schema}.team_clashes (
+                            match_id INT PRIMARY KEY,
+                            season INT NOT NULL,
+                            home_team VARCHAR(35) NOT NULL,
+                            away_team VARCHAR(35) NOT NULL,
+                            FOREIGN KEY (home_team, season) REFERENCES {name_schema}.standings (team, season),
+                            FOREIGN KEY (away_team, season) REFERENCES {name_schema}.standings (team, season)
+                        );
+                    """,
+                    'result_clashes': f"""
+                        CREATE TABLE IF NOT EXISTS {name_schema}.result_clashes (
+                            match_id INT PRIMARY KEY REFERENCES {name_schema}.team_clashes (match_id),
+                            score_ht INT NOT NULL,
+                            score_at INT NOT NULL
+                        );
+                    """,
+                    'info_clashes': f"""
+                        CREATE TABLE IF NOT EXISTS {name_schema}.info_clashes (
+                            match_id INT PRIMARY KEY REFERENCES {name_schema}.team_clashes (match_id),
+                            date_start TIMESTAMP NOT NULL,
+                            stadium TEXT DEFAULT NULL,
+                            attendance INT DEFAULT NULL
+                        );
+                    """
+                }
 
-            create_table_query = (
-                init_standings['standings']
-            )
-            cursor.execute(create_table_query)
-            connection.commit()
+                create_table_query = (init_table[table_name])
+                cursor.execute(create_table_query)
+                connection.commit()
 
-            LOGGER.info(f'The table "standings" has been successfully created in the schema "{name_schema}".')
-        else:
-            LOGGER.info(f'The table "standings" in the schema "{name_schema}" already exist.')
+                LOGGER.info(f'The table "{table_name}" has been successfully created in the schema "{name_schema}".')
+            else:
+                LOGGER.info(f'The table "{table_name}" in the schema "{name_schema}" already exist.')
 
-        cursor.close()
     except Exception as e:
-        LOGGER.error(f'Error creating table: {e}')
+        LOGGER.error(f'Error creating table: {e}.')
+    finally:
+        cursor.close()
 
 
 if __name__ == '__main__':
