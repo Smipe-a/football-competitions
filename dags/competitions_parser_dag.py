@@ -9,15 +9,14 @@ import os
 # Path: <your_abspath>/football-competitions/
 PROJECT_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 RESOURCE_CATALOG = 'resources'
-RESOURCE_FILE_NAME = 'tournaments_metadata.json'
 
 sys.path.append(PROJECT_DIRECTORY)
 from utils.json_helper import JsonHelper
-from scripts import standings
+from scripts import standings, match_results
 
-# The provided date is an approximate start date for the competitions listed in COMPETITIONS_TITLE
-# that have not yet started, but new dates are already available on the championat.com website
-DATE_START_PARSE = datetime(2023, 1, 19)
+# Current date from which the DAG should start executing
+DATE_START_PARSE = datetime(2024, 1, 22, 8)
+METADATA_FILE_NAME = 'tournaments_metadata.json'
 COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'ligue_1', 'bundesliga']
 
 default_args = {
@@ -26,8 +25,6 @@ default_args = {
     'start_date': DATE_START_PARSE,
     'email_on_failure': True,
     'email_on_retry': True,
-    'retries': 1,
-    'retry_delay': timedelta(minutes=5),
 }
 
 with DAG(
@@ -38,18 +35,29 @@ with DAG(
     catchup=False,
 ) as dag:
     for competition in COMPETITIONS_TITLE:
-        json_object = JsonHelper()
-        gameweeks = json_object.read(
-            os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, RESOURCE_FILE_NAME)).get(competition, 'start_date')
+        metadata_json = JsonHelper()
+        metadata_json.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, METADATA_FILE_NAME))
+        gameweeks = metadata_json.get(competition, 'start_date')
 
         current_date = datetime.today().strftime('%Y-%m-%d')
 
         if current_date in gameweeks:
-            task_id = f'competition_parser_{current_date}_{competition}'
-            run_standings_script = PythonOperator(
-                task_id=task_id,
+            task_id = f'_{current_date}_{competition}'
+
+            standings_parse = PythonOperator(
+                task_id=f'standings_{task_id}',
                 python_callable=standings.main,
                 op_args=[competition],
                 provide_context=True,
                 dag=dag,
             )
+
+            match_results_parse = PythonOperator(
+                task_id=f'match_results_{task_id}',
+                python_callable=match_results.main,
+                op_args=[competition, current_date],
+                provide_context=True,
+                dag=dag,
+            )
+
+            standings_parse >> match_results_parse

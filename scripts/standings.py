@@ -13,7 +13,7 @@ LOGGER = configure_logger(__name__, LOG_FILE_NAME)
 
 PROJECT_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 RESOURCE_CATALOG = 'resources'
-RESOURCE_FILE_NAME = 'tournaments_metadata.json'
+METADATA_FILE_NAME = 'tournaments_metadata.json'
 
 
 class StandingsParser:
@@ -68,7 +68,7 @@ class StandingsParser:
                             f'rows of the table for the "{self.competition}" competition.')
 
                 # Add the extracted team data to the database
-                self.add_values_to_db(data_to_insert=team_list)
+                self.into_values_to_db(data_to_insert=team_list)
 
                 LOGGER.info(f'The data has been successfully added to the "{self.competition}" '
                             f'schema and the "standings" table.')
@@ -109,6 +109,7 @@ class StandingsParser:
                            f'the following tag "{tag_name}" and attribute {attribute_name}.')
             try:
                 team_name = cells[1].find(tag_name, class_=attribute_name).get_text(strip=True).replace('*', '')
+                LOGGER.info(f'The value with the tag {tag_name} and attribute {attribute_name} was successfully found.')
 
             except AttributeError:
                 LOGGER.error(f'Name of team with current tag "{tag_name}" '
@@ -116,7 +117,7 @@ class StandingsParser:
                 return None
 
         return [
-            team_name,
+            team_name.strip(),
             self.json_object.get(self.competition, 'year'),  # season
             cells[0].get_text(strip=True),  # position
             cells[3].get_text(strip=True),  # won
@@ -127,49 +128,43 @@ class StandingsParser:
             cells[9].get_text(strip=True)   # points
         ]
 
-    def add_values_to_db(self, data_to_insert: list):
+    def into_values_to_db(self, data_to_insert: list):
         """
         Add team data to the database.
 
         Args:
             data_to_insert (list): List containing team data to be inserted into the database.
         """
-        connection = connect_to_database()
-        cursor = connection.cursor()
+        with connect_to_database() as connection, connection.cursor() as cursor:
+            try:
+                insert_query = sql.SQL(
+                    """
+                    INSERT INTO {}.standings VALUES (
+                        %s, %s, %s, %s, %s, %s, %s, %s, %s
+                    )
+                    ON CONFLICT (team, season)
+                    DO UPDATE SET
+                        position = EXCLUDED.position,
+                        won = EXCLUDED.won,
+                        drawn = EXCLUDED.drawn,
+                        lost = EXCLUDED.lost,
+                        goals_for = EXCLUDED.goals_for,
+                        goals_against = EXCLUDED.goals_against,
+                        points = EXCLUDED.points
+                   """
+                ).format(sql.Identifier(self.competition))
 
-        try:
-            insert_query = sql.SQL(
-                """
-                INSERT INTO {}.standings VALUES (
-                    %s, %s, %s, %s, %s, %s, %s, %s, %s
-                )
-                ON CONFLICT (team, season)
-                DO UPDATE SET
-                    position = EXCLUDED.position,
-                    won = EXCLUDED.won,
-                    drawn = EXCLUDED.drawn,
-                    lost = EXCLUDED.lost,
-                    goals_for = EXCLUDED.goals_for,
-                    goals_against = EXCLUDED.goals_against,
-                    points = EXCLUDED.points
-               """
-            ).format(sql.Identifier(self.competition))
+                cursor.executemany(insert_query, data_to_insert)
+                connection.commit()
 
-            cursor.executemany(insert_query, data_to_insert)
-            connection.commit()
-
-        except Exception as e:
-            connection.rollback()
-            print(f'Error during the database operation: {e}.')
-
-        finally:
-            cursor.close()
-            connection.close()
+            except Exception as e:
+                connection.rollback()
+                print(f'Error during the database operation: {e}.')
 
 
 def main(competition: str):
     json_object = JsonHelper()
-    json_object.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, RESOURCE_FILE_NAME))
+    json_object.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, METADATA_FILE_NAME))
 
     competition_parser = StandingsParser(competition, json_object)
     competition_parser.parse_standings(year=json_object.get(competition, 'year'))
