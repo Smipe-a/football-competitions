@@ -1,6 +1,9 @@
-# Analyzing the English Premier League
+# Analyzing Football Leagues
 ![EPL](./img/logo_epl.png "EPL")  
-![English Premier League](https://img.shields.io/badge/English%20Premier%20League-361652)
+![Premier League](https://img.shields.io/badge/Premier%20League-3c185b)
+![La Liga](https://img.shields.io/badge/%20La%20Liga-ff4a42)
+![Ligue 1](https://img.shields.io/badge/%20Ligue%201-cefb02)
+![Bundesliga](https://img.shields.io/badge/%20Bundesliga-d2000c)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2fa3826f006b4b5c9b71d6ee1623f428)](https://app.codacy.com?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 ## Introduction
 This repository contains a comprehensive analysis of the English Premier League.  
