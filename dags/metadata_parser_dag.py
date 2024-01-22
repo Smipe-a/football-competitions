@@ -13,7 +13,7 @@ from scripts import metadata_parser
 
 # The provided date is an approximate start date for the competitions listed in COMPETITIONS_TITLE
 # that have not yet started, but new dates are already available on the championat.com website
-DATE_START_PARSE = datetime(2023, 7, 29)
+DATE_START_PARSE = datetime(2023, 7, 29, 8)
 COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'ligue_1', 'bundesliga']
 
 default_args = {

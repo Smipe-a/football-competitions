@@ -12,7 +12,7 @@ LOGGER = configure_logger(__name__, LOG_FILE_NAME)
 
 PROJECT_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 RESOURCE_CATALOG = 'resources'
-RESOURCE_FILE_NAME = 'tournaments_metadata.json'
+METADATA_FILE_NAME = 'tournaments_metadata.json'
 
 
 class ChampionatParser:
@@ -55,30 +55,32 @@ class ChampionatParser:
             soup = BeautifulSoup(html_content, 'html.parser')
             competitions_block = soup.find_all('tr', class_='fav-item js-fav-item')
 
-            if competitions_block:
-                metadata = self.json_object.get()
-
-                # Generating a dictionary for convenient comparison with HTML code elements
-                # Example: {"Англия - Премьер-лига": "premier_league", ... }
-                ru_name_competition = {
-                    metadata[competition]['ru_name']: competition for competition in self.list_competition
-                }
-
-                for element in competitions_block:
-                    # Iterating through all Russian competition names and adding the ones we are searching for
-                    link_element = element.find('a', class_='table-item')
-                    ru_name = link_element.find('span', class_='table-item__name').get_text(strip=True)
-
-                    if ru_name in ru_name_competition:
-                        self.json_object.append(ru_name_competition[ru_name], 'url',
-                                                self.url + link_element.get('href') + 'calendar/')
-
-                # Recording all found links
-                self.json_object.write()
-            else:
+            if not competitions_block:
                 LOGGER.warning("No competitions found in the HTML content.")
+                return
+
+            metadata = self.json_object.get()
+
+            # Generating a dictionary for convenient comparison with HTML code elements
+            # Example: {"Англия - Премьер-лига": "premier_league", ... }
+            ru_name_competition = {
+                metadata[competition]['ru_name']: competition for competition in self.list_competition
+            }
+
+            for element in competitions_block:
+                # Iterating through all Russian competition names and adding the ones we are searching for
+                link_element = element.find('a', class_='table-item')
+                ru_name = link_element.find('span', class_='table-item__name').get_text(strip=True)
+
+                if ru_name in ru_name_competition:
+                    self.json_object.append(
+                        ru_name_competition[ru_name], 'url', self.url + link_element.get('href') + 'calendar/')
+
+            # Recording all found links
+            self.json_object.write()
+
         except Exception as e:
-            LOGGER.error(f'Error parsing metadata: {e}')
+            LOGGER.error(f'Error parsing metadata: {e}.')
 
     def url_parse(self):
         """
@@ -98,26 +100,27 @@ class ChampionatParser:
         url_category = self.url + '/stat/football'
         html_content = self.get_html(url_category)
 
-        if html_content:
-            soup = BeautifulSoup(html_content, 'html.parser')
+        if not html_content:
+            LOGGER.warning(f'Content current url "{url_category}" not found.')
+            return
 
-            # Find tag <a> with text "Страны"
-            tag_name, tag_attribute = 'a', 'Страны'
-            countries_block = soup.find(tag_name, string=tag_attribute)
+        soup = BeautifulSoup(html_content, 'html.parser')
 
-            if countries_block:
-                path_part = countries_block.get('href')
-                url_countries = self.get_html(self.url + path_part)
+        # Find tag <a> with text "Страны"
+        tag_name, tag_attribute = 'a', 'Страны'
+        countries_block = soup.find(tag_name, string=tag_attribute)
 
-                if url_countries:
-                    self.parse_metadate(url_countries)
-                else:
-                    LOGGER.error('Failed to retrieve the link to the competitions page')
+        if countries_block:
+            path_part = countries_block.get('href')
+            url_countries = self.get_html(self.url + path_part)
+
+            if url_countries:
+                self.parse_metadate(url_countries)
             else:
-                LOGGER.warning(f'Url {url_category} with current tag "{tag_name}" '
-                               f'and attribute "{tag_attribute}" not found')
+                LOGGER.error('Failed to retrieve the link to the competitions page.')
         else:
-            LOGGER.warning(f'Content current url "{url_category}" not found')
+            LOGGER.warning(f'Url {url_category} with current tag "{tag_name}" '
+                           f'and attribute "{tag_attribute}" not found.')
 
 
 class DatesParser(ChampionatParser):
@@ -127,7 +130,7 @@ class DatesParser(ChampionatParser):
         self.json_object = json_object
 
     @staticmethod
-    def format_num(tour: str) -> int:
+    def format_num(tour: str) -> Optional[int]:
         """
         Format the tour string to extract and return the numeric part as an integer.
 
@@ -138,7 +141,7 @@ class DatesParser(ChampionatParser):
             tour (str): The input string representing the tour.
 
         Returns:
-            int: The extracted numeric part of the tour string as an integer.
+            Optional[int]: The extracted numeric part of the tour string as an integer.
         """
         num = re.search(r'\d+', tour)
 
@@ -177,11 +180,11 @@ class DatesParser(ChampionatParser):
         """
         return [
             (datetime.strptime(gameweek, "%Y-%m-%d") - timedelta(days=1)).strftime("%Y-%m-%d")
-            for gameweek in dates[1:]
+            for gameweek in dates
         ]
 
     @staticmethod
-    def format_date(date_time: str) -> str:
+    def format_date(date_time: str) -> Optional[str]:
         """
         Format the date string from the given format 'dd.mm.yyyy' to 'yyyy-mm-dd'.
 
@@ -223,10 +226,10 @@ class DatesParser(ChampionatParser):
                 participants_number = self.format_num(value_block.text)
                 self.json_object.append(self.competition, 'teams', participants_number)
             else:
-                LOGGER.warning(f'Metadata with parent tag "{tag_name_parent}" and current tag "{tag_name}" not found')
+                LOGGER.warning(f'Metadata with parent tag "{tag_name_parent}" and current tag "{tag_name}" not found.')
 
             # Attention! Not for all competitions!
-            # Formula for calculating the number of rounds:
+            # Formula for calculating the number of matchweeks:
             # QUANTITY_TOURS = (QUANTITY_TEAMS - 1) * 2 and right shift
             quantity_teams = self.json_object.get(self.competition, 'teams')
             inf_date = '9999-99-99'
@@ -252,27 +255,38 @@ class DatesParser(ChampionatParser):
                 # Check documentation
                 start_date_tours.append(self.add_last_date(start_date_tours[-1]))
 
-                self.json_object.append(self.competition, 'year', int(start_date_tours[0][:4]))
+                # Subtract 1 day from each matchday date. For additional information, refer to the documentation
                 start_date_tours = self.minus_day(start_date_tours)
-                self.json_object.append(self.competition, 'start_date', start_date_tours)
+
+                # Create new object JsonHelper for script match_results.py
+                # JSON files will be created for each competition for which data is collected
+                competition_urls = JsonHelper()
+                competition_urls.read(
+                    os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, f'{self.competition}_urls.json'))
+                competition_urls.append(self.competition, 'prev_date', start_date_tours[0])
+                competition_urls.write()
+
+                self.json_object.append(self.competition, 'year', int(start_date_tours[0][:4]))
+                # For why the first element of the list is not included, refer to the documentation
+                self.json_object.append(self.competition, 'start_date', start_date_tours[1:])
                 self.json_object.write()
 
-                LOGGER.info(f'Successfully obtained "{len(start_date_tours)}" '
+                LOGGER.info(f'Successfully obtained "{len(start_date_tours) - 1}" '
                             f'start dates of "{self.competition}" competition gameweeks.')
-                LOGGER.info(f'Attributes "year", "start_date" have been successfully gathered')
+                LOGGER.info(f'Attributes "year", "start_date", "teams", "prev_date" have been successfully gathered.')
             else:
-                LOGGER.warning(f'Metadata with current tag "{tag_name}" and attribute "{tag_attribute}" not found')
+                LOGGER.warning(f'Metadata with current tag "{tag_name}" and attribute "{tag_attribute}" not found.')
         else:
-            LOGGER.warning(f'Metadata with current tag "{tag_name}" and attribute "{tag_attribute}" not found')
+            LOGGER.warning(f'Metadata with current tag "{tag_name}" and attribute "{tag_attribute}" not found.')
 
 
 def main(competitions: list) -> None:
-    json_object = JsonHelper()
-    competition_data = json_object.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, RESOURCE_FILE_NAME))
+    metadata_json = JsonHelper()
+    competition_data = metadata_json.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, METADATA_FILE_NAME))
 
     championat_parser = ChampionatParser(competitions, competition_data)
     # We retrieve the main metadata parameter 'url' for
-    # each competition from the ChampionatParser class for further searching of gameweek dates
+    # each competition from the ChampionatParser class for further searching of matchweek dates
     championat_parser.url_parse()
 
     for competition in competitions:
@@ -284,3 +298,5 @@ def main(competitions: list) -> None:
         if html_content:
             # Retrieving metadata 'teams', 'start_date', 'year' for each competition from the metadata file
             dates_parser.parse_metadate(html_content)
+        else:
+            LOGGER.warning(f'The obtained link {url} does not contain any information.')
