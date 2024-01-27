@@ -59,7 +59,7 @@ class SkySportsParser:
             month_name (str): The name of the month in full string format (e.g., 'January').
 
         Returns:
-            str: The numeric representation of the month (e.g., '01' for 'January'), otherwise None
+            str: The numeric representation of the month (e.g., '01' for 'January'), otherwise None.
         """
         try:
             month = datetime.strptime(month_name, '%B')
@@ -80,7 +80,7 @@ class SkySportsParser:
             year (str): The year in string format.
 
         Returns:
-            str: The formatted date in 'YYYY-MM-DD' string format. Otherwise None
+            str: The formatted date in 'YYYY-MM-DD' string format. Otherwise, None.
         """
         day = re.sub(r'\D', '', date[0])
         month = self.format_month(date[1])
@@ -234,19 +234,18 @@ class SkySportsParser:
                                    f'was not added to the table {table_name} or encountered an error.')
                     connection.rollback()
 
-        self.json_object.append(self.competition, 'stat_players_urls', stats_players_url)
-        self.json_object.append(self.competition, 'stat_teams_urls', stats_teams_url)
+        self.json_object.append(self.competition, 'skysports_players_urls', stats_players_url)
+        self.json_object.append(self.competition, 'skysports_teams_urls', stats_teams_url)
 
 
 def main(competition: str, upper_date: str):
+    # Reading and extracting the year from a JSON file, which we then convert into a season
     metadata_json = JsonHelper()
-
-    # Reading and extracting the year from a JSON file, which we then convert into a season (str)
     metadata_json.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, METADATA_FILE_NAME))
     year = metadata_json.get(competition, 'year')
 
-    competition_urls_json = JsonHelper()
     # Reading and extracting the date from a JSON file from which data about matches should be obtained
+    competition_urls_json = JsonHelper()
     competition_urls_json.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, f'{competition}_urls.json'))
     lower_date = competition_urls_json.get(competition, 'prev_date')
 

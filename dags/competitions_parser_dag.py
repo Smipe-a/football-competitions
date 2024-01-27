@@ -15,9 +15,9 @@ from utils.json_helper import JsonHelper
 from scripts import standings, match_results
 
 # Current date from which the DAG should start executing
-DATE_START_PARSE = datetime(2024, 1, 22, 8)
+DATE_START_PARSE = datetime(2024, 1, 27, 8)
 METADATA_FILE_NAME = 'tournaments_metadata.json'
-COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'ligue_1', 'bundesliga']
+COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'serie_a', 'bundesliga', 'ligue_1']
 
 default_args = {
     'owner': 'Artyom Kruglov',
@@ -28,7 +28,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="competition_parser",
+    dag_id="football_competitions_parser",
     default_args=default_args,
     description='DAG for running standings scripts based on competition start dates',
     schedule=timedelta(days=1),
