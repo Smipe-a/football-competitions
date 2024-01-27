@@ -162,7 +162,7 @@ class LinkMapper:
         return keys
 
     @staticmethod
-    def create_values(soup: BeautifulSoup):
+    def create_values(soup: BeautifulSoup) -> list:
         """
         Create values for the mapping dictionary.
 
@@ -172,7 +172,12 @@ class LinkMapper:
         Returns:
             List: List of values for the mapping dictionary.
         """
-        return [f"https://www.transfermarkt.com{match.get('href')}" for match in soup.find_all('a', class_='liveLink')]
+        live_links = [f'https://www.transfermarkt.com{match.get("href")}' for match in
+                      soup.find_all('a', class_='liveLink')]
+        preview_links = [f'https://www.transfermarkt.com{match.get("href")}' for match in
+                         soup.find_all('a', title='Match preview')]
+
+        return live_links + preview_links
 
     def start_mapping(self, matchday: int) -> Optional[dict]:
         """
