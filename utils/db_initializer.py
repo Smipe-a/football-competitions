@@ -3,7 +3,7 @@ from utils.logger import configure_logger
 from typing import Optional
 import os
 
-COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'ligue_1', 'bundesliga']
+COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'serie_a', 'bundesliga', 'ligue_1']
 DATABASE_TABLE_NAME = ['standings', 'team_clashes', 'result_clashes', 'info_clashes']
 
 # Path to file log <your_abspath>/football-competitions/logs/database_info.log
@@ -130,13 +130,10 @@ def create_table(cursor, name_schema: str) -> None:
 
 
 if __name__ == '__main__':
-    connection = connect_to_database()
+    with connect_to_database() as connection:
+        for competition in COMPETITIONS_TITLE:
+            with connection.cursor() as current_cursor:
+                is_exist_schema = create_schema(cursor=current_cursor, name_schema=competition)
 
-    for competition in COMPETITIONS_TITLE:
-        with connection.cursor() as current_cursor:
-            is_exist_schema = create_schema(cursor=current_cursor, name_schema=competition)
-
-            if is_exist_schema:
-                create_table(cursor=current_cursor, name_schema=competition)
-
-    connection.close()
+                if is_exist_schema:
+                    create_table(cursor=current_cursor, name_schema=competition)
