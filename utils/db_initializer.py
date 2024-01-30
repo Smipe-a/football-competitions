@@ -4,7 +4,8 @@ from typing import Optional
 import os
 
 COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'serie_a', 'bundesliga', 'ligue_1']
-DATABASE_TABLE_NAME = ['standings', 'team_clashes', 'result_clashes', 'info_clashes']
+DATABASE_TABLE_NAME = ['standings', 'team_clashes', 'result_clashes', 'info_clashes',
+                       'home_match_statistics', 'away_match_statistics']
 
 # Path to file log <your_abspath>/football-competitions/logs/database_info.log
 NAME_DATABASE_FILE_LOG = 'database_info.log'
@@ -50,7 +51,7 @@ def create_schema(cursor, name_schema: str) -> Optional[bool]:
 
         return True
     except Exception as e:
-        LOGGER.error(f'Error creating schema: {e}.')
+        LOGGER.error(f'Error creating schema: {str(e).strip()}.')
         return None
 
 
@@ -112,6 +113,42 @@ def create_table(cursor, name_schema: str) -> None:
                             stadium TEXT DEFAULT NULL,
                             attendance INT DEFAULT NULL
                         );
+                    """,
+                    'home_match_statistics': f"""
+                        CREATE TABLE IF NOT EXISTS {name_schema}.home_match_statistics (
+                            match_id INT PRIMARY KEY REFERENCES {name_schema}.team_clashes (match_id),
+                            possessions NUMERIC,
+                            on_target INT,
+                            off_target INT,
+                            blocked INT,
+                            passing NUMERIC,
+                            clear_cut_chance INT,
+                            corners INT,
+                            offsides INT,
+                            tackles NUMERIC,
+                            aerial_duels NUMERIC,
+                            saves INT,
+                            fouls_committed INT,
+                            fouls_won INT
+                        );
+                    """,
+                    'away_match_statistics': f"""
+                        CREATE TABLE IF NOT EXISTS {name_schema}.away_match_statistics (
+                            match_id INT PRIMARY KEY REFERENCES {name_schema}.team_clashes (match_id),
+                            possessions NUMERIC,
+                            on_target INT,
+                            off_target INT,
+                            blocked INT,
+                            passing NUMERIC,
+                            clear_cut_chance INT,
+                            corners INT,
+                            offsides INT,
+                            tackles NUMERIC,
+                            aerial_duels NUMERIC,
+                            saves INT,
+                            fouls_committed INT,
+                            fouls_won INT
+                        );
                     """
                 }
 
@@ -124,7 +161,7 @@ def create_table(cursor, name_schema: str) -> None:
                 LOGGER.info(f'The table "{table_name}" in the schema "{name_schema}" already exist.')
 
     except Exception as e:
-        LOGGER.error(f'Error creating table: {e}.')
+        LOGGER.error(f'Error creating table: {str(e).strip()}.')
     finally:
         cursor.close()
 

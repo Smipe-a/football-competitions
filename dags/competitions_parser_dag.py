@@ -12,10 +12,10 @@ RESOURCE_CATALOG = 'resources'
 
 sys.path.append(PROJECT_DIRECTORY)
 from utils.json_helper import JsonHelper
-from scripts import standings, match_results
+from scripts import standings, match_results, match_statistics
 
 # Current date from which the DAG should start executing
-DATE_START_PARSE = datetime(2024, 1, 27, 8)
+DATE_START_PARSE = datetime(2024, 1, 29, 8)
 METADATA_FILE_NAME = 'tournaments_metadata.json'
 COMPETITIONS_TITLE = ['premier_league', 'la_liga', 'serie_a', 'bundesliga', 'ligue_1']
 
@@ -28,7 +28,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id="football_competitions_parser",
+    dag_id="competitions_parser",
     default_args=default_args,
     description='DAG for running standings scripts based on competition start dates',
     schedule=timedelta(days=1),
@@ -42,10 +42,8 @@ with DAG(
         current_date = datetime.today().strftime('%Y-%m-%d')
 
         if current_date in gameweeks:
-            task_id = f'_{current_date}_{competition}'
-
             standings_parse = PythonOperator(
-                task_id=f'standings_{task_id}',
+                task_id=f'standings_{competition}',
                 python_callable=standings.main,
                 op_args=[competition],
                 provide_context=True,
@@ -53,11 +51,19 @@ with DAG(
             )
 
             match_results_parse = PythonOperator(
-                task_id=f'match_results_{task_id}',
+                task_id=f'match_results_{competition}',
                 python_callable=match_results.main,
                 op_args=[competition, current_date],
                 provide_context=True,
                 dag=dag,
             )
 
-            standings_parse >> match_results_parse
+            match_statistics_parse = PythonOperator(
+                task_id=f'match_statistics_{competition}',
+                python_callable=match_statistics.main,
+                op_args=[competition],
+                provide_context=True,
+                dag=dag,
+            )
+
+            standings_parse >> match_results_parse >> match_statistics_parse
