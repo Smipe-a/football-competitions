@@ -1,7 +1,6 @@
+from scripts.constants import PROJECT_DIRECTORY, LOG_CATALOG
 import logging
 import os
-
-LOG_CATALOG = 'logs'
 
 
 def configure_logger(logger_name: str, file_name: str) -> logging.Logger:
@@ -20,11 +19,7 @@ def configure_logger(logger_name: str, file_name: str) -> logging.Logger:
     formatter = logging.Formatter(fmt='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
                                   datefmt='%m/%d/%Y %I:%M:%S %p')
 
-    # We obtain the current directory and its parent directory.
-    # An absolute path is constructed based on the parent path
-    current_directory = os.path.abspath(__file__)
-    project_directory = os.path.dirname(os.path.dirname(current_directory))
-    logs_directory = os.path.join(project_directory, LOG_CATALOG)
+    logs_directory = os.path.join(PROJECT_DIRECTORY, LOG_CATALOG)
 
     if not os.path.exists(logs_directory):
         os.makedirs(logs_directory)
