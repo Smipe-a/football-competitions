@@ -1,11 +1,10 @@
 from psycopg2 import connect, extensions, OperationalError
+from scripts.constants import DATABASE_INFO_FILE_LOG
 from utils.logger import configure_logger
 from decouple import config
 
-# Path to file log <your_abspath>/football-competitions/logs/database_info.log
-NAME_DATABASE_FILE_LOG = 'database_info.log'
 # Configure logger for the current module
-LOGGER = configure_logger(__name__, NAME_DATABASE_FILE_LOG)
+LOGGER = configure_logger(__name__, DATABASE_INFO_FILE_LOG)
 
 
 def connect_to_database() -> extensions.connection:
