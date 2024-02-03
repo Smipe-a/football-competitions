@@ -101,7 +101,7 @@ class LinkMapper(Fetcher):
                f'/spieltag/wettbewerb/{country_id}/plus/?saison_id={self.year}&spieltag={matchday}')
 
         try:
-            html_content = self.get_html(url)
+            html_content = self.fetch_data(url)
             if not html_content:
                 LOGGER.warning(f'Failed to retrieve the element code from the provided link "{url}".')
                 return None

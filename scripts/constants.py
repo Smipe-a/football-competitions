@@ -13,6 +13,10 @@ TRANSFERMARKT_SUFFIX_URL: List[List[str]] = [
     ['premier-league', 'GB1'], ['laliga', 'ES1'], ['ligue-1', 'FR1'], ['bundesliga', 'L1'],
     ['serie-a', 'IT1'], ['premier-liga', 'RU1'], ['saudi-professional-league', 'SA1'], ['premier-liga', 'KAS1']
 ]
+FOTMOB_SUFFIX_URL: List[List[str]] = [
+    ['47', 'premier-league'], ['87', 'laliga'], ['53', 'ligue-1'], ['54', 'bundesliga'],
+    ['55', 'serie'], ['63', 'premier-league'], ['536', 'saudi-pro-league'], ['225', 'premier-league']
+]
 
 # We obtain the current directory and its parent directory.
 # An absolute path is constructed based on the parent path

@@ -1,139 +1,86 @@
+from constants import (STANDINGS_FILE_LOG, LEAGUES, FOTMOB_SUFFIX_URL,
+                       PROJECT_DIRECTORY, RESOURCE_CATALOG, COMPETITIONS_JSON)
 from utils.db_connector import connect_to_database
 from utils.logger import configure_logger
 from utils.json_helper import JsonHelper
-from bs4 import BeautifulSoup
-from typing import Optional
+from typing import Union, List
+from fetcher import Fetcher
 from psycopg2 import sql
-import requests
 import os
 
 # Configure logger for the current module
-LOG_FILE_NAME = 'standings.log'
-LOGGER = configure_logger(__name__, LOG_FILE_NAME)
-
-PROJECT_DIRECTORY = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
-RESOURCE_CATALOG = 'resources'
-METADATA_FILE_NAME = 'tournaments_metadata.json'
+LOGGER = configure_logger(__name__, STANDINGS_FILE_LOG)
 
 
-class StandingsParser:
-    def __init__(self, competition: str, json_object: JsonHelper):
+class StandingsParser(Fetcher):
+    def __init__(self, competition: str):
+        super().__init__()
         self.competition = competition
-        self.json_object = json_object
 
-    @staticmethod
-    def get_html(url: str) -> Optional[bytes]:
-        """
-        Fetch HTML content from the specified URL.
+        self.suffix_pattern = dict(zip(LEAGUES, FOTMOB_SUFFIX_URL))
 
-        Args:
-            url (str): The URL from which to fetch the HTML content.
-
-        Returns:
-            Optional[bytes]: The fetched HTML content as bytes or None if an error occurs.
-        """
-        response = requests.get(url)
-
-        if response.status_code == 200:
-            return response.content
-        else:
-            LOGGER.error(f'Error {response.status_code} occurred while fetching {url}.')
-            return None
-
-    def parse_standings(self, year: str) -> None:
+    def start_parse(self, year: int) -> None:
         """
         Parse and extract standings data for a specific year.
 
         Args:
-            year (str): The year for which standings data is to be parsed.
+            year (int): The year for which standings data is to be parsed.
         """
+        id_competition = self.suffix_pattern[self.competition][0]
         # Construct the URL for standings data
-        url = f'https://www.skysports.com/{self.competition.replace("_", "-")}-table/{year}'
+        url = f'https://www.fotmob.com/api/leagues?id={id_competition}&ccode3=KAZ&season={year}%2F{year + 1}'
+        # Redesign the link string for Kazakhstan according to a different template
+        if id_competition == 225:
+            url = url[:-7]
 
         try:
-            html_content = self.get_html(url)
-
-            if html_content:
-                soup = BeautifulSoup(html_content, 'html.parser')
-                table = soup.find('table', class_='standing-table__table')
-
-                team_list = []
-                # Each row represents general data about a team
-                for row in table.find_all('tr'):
-                    cells = row.find_all('td')
-                    if len(cells) > 0:
-                        team_list.append(self.extract_data(cells))
-
-                LOGGER.info(f'Successfully gathered "{len(team_list)}" '
-                            f'rows of the table for the "{self.competition}" competition.')
-
-                # Add the extracted team data to the database
-                self.into_values_to_db(data_to_insert=team_list)
-
-                LOGGER.info(f'The data has been successfully added to the "{self.competition}" '
-                            f'schema and the "standings" table.')
-            else:
-                LOGGER.warning(f'HTML content with current url "{url}" not found.')
-
-        except Exception as e:
-            LOGGER.error(f'Error processing standings data: {e}.')
-
-        finally:
-            return None
-
-    def extract_data(self, cells) -> Optional[list]:
-        """
-        Extract team data from HTML cells.
-
-        Args:
-            cells: List of BeautifulSoup ResultSet representing HTML cells.
-
-        Returns:
-            Optional[list]: List containing extracted team data, or None if team name is not found.
-        """
-        # Default tag and attribute for team name extraction
-        tag_name, attribute_name = 'a', 'standing-table__cell--name-link'
-
-        try:
-            # Before adding to the list, it is necessary to remove the '*' symbol,
-            # as it indicates additional information about the team on the website.
-            team_name = cells[1].find(tag_name, class_=attribute_name).get_text(strip=True).replace('*', '')
-
-        except AttributeError:
-            LOGGER.warning(
-                f'Name of team with current tag "{tag_name}" and attribute name "{attribute_name}" not found.')
-
-            # Try finding the team name using an alternative tag and attribute
-            tag_name, attribute_name = 'span', 'standing-table__cell--name-text'
-            LOGGER.warning(f'Attempting to find the team name using '
-                           f'the following tag "{tag_name}" and attribute {attribute_name}.')
-            try:
-                team_name = cells[1].find(tag_name, class_=attribute_name).get_text(strip=True).replace('*', '')
-                LOGGER.info(f'The value with the tag {tag_name} and attribute {attribute_name} was successfully found.')
-
-            except AttributeError:
-                LOGGER.error(f'Name of team with current tag "{tag_name}" '
-                             f'and attribute name "{attribute_name}" not found.')
+            json_content = self.fetch_data(url, 'json')
+            if not json_content:
+                LOGGER.warning(f'Failed to retrieve the element code from the provided link "{url}".')
                 return None
 
-        return [
-            team_name.strip(),
-            self.json_object.get(self.competition, 'year'),  # season
-            cells[0].get_text(strip=True),  # position
-            cells[3].get_text(strip=True),  # won
-            cells[4].get_text(strip=True),  # drawn
-            cells[5].get_text(strip=True),  # lost
-            cells[6].get_text(strip=True),  # goals_for
-            cells[7].get_text(strip=True),  # goals_against
-            cells[9].get_text(strip=True)   # points
-        ]
+        except Exception as e:
+            LOGGER.warning(str(e).strip())
+            return None
 
-    def into_values_to_db(self, data_to_insert: list):
+        try:
+            teams = json_content['table'][0]['data']['table']['all']
+        except KeyError as key_err:
+            LOGGER.warning(f'An error occurred in the JSON object: {str(key_err).strip()}.')
+            LOGGER.warning(f'The data for the "{self.competition}" competition '
+                           f'for the "{year}" season was not received.')
+            return None
+
+        team_list = []
+        # Each row represents general data about a team
+        for team in teams:
+            goals_for, goals_against = team['scoresStr'].split('-')
+            team_list.append([
+                team['name'],        # team
+                year,                # season
+                team['idx'],         # position
+                team['wins'],        # won
+                team['draws'],       # drawn
+                team['losses'],      # lost
+                int(goals_for),      # goals_for
+                int(goals_against),  # goals_against
+                team['pts']          # points
+            ])
+
+        LOGGER.info(f'Successfully gathered "{len(team_list)}" '
+                    f'rows of the table for the "{self.competition}" competition for the season "{year}".')
+
+        self.into_values_to_db(team_list)
+
+        LOGGER.info(f'The data has been successfully added to the "{self.competition}" '
+                    f'schema and the "standings" table.')
+
+    def into_values_to_db(self, insert_data: List[List[Union[str, int]]]) -> None:
         """
         Add team data to the database.
 
         Args:
-            data_to_insert (list): List containing team data to be inserted into the database.
+            insert_data (List[List[Union[str, int]]]): List containing team data to be inserted into the database.
         """
         with connect_to_database() as connection, connection.cursor() as cursor:
             try:
@@ -154,17 +101,17 @@ class StandingsParser:
                    """
                 ).format(sql.Identifier(self.competition))
 
-                cursor.executemany(insert_query, data_to_insert)
+                cursor.executemany(insert_query, insert_data)
                 connection.commit()
 
             except Exception as e:
                 connection.rollback()
-                print(f'Error during the database operation: {e}.')
+                LOGGER.warning(f'Error during the database operation: {e}.')
 
 
-def main(competition: str):
-    json_object = JsonHelper()
-    json_object.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, METADATA_FILE_NAME))
+def main(competition: str) -> None:
+    competition_json = JsonHelper()
+    competition_json.read(os.path.join(PROJECT_DIRECTORY, RESOURCE_CATALOG, COMPETITIONS_JSON))
 
-    competition_parser = StandingsParser(competition, json_object)
-    competition_parser.parse_standings(year=json_object.get(competition, 'year'))
+    standings_parser = StandingsParser(competition)
+    standings_parser.start_parse(competition_json.get(competition, 'year'))
