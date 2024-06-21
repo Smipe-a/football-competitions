@@ -1,4 +1,4 @@
-from scripts.constants import PROJECT_DIRECTORY, LOG_CATALOG
+from utils.constants import PROJECT_DIRECTORY, LOG_CATALOG
 import logging
 import os
 
