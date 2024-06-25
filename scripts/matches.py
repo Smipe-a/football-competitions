@@ -1,5 +1,5 @@
 from concurrent.futures import ThreadPoolExecutor
-from typing import Optional, Union, List
+from typing import Optional, Union, List, Set, Tuple
 from psycopg2 import extensions
 
 from utils.database.connector import connect_to_database, insert_data
@@ -35,7 +35,7 @@ class FotmobMatches(Fetcher):
         self.total_matches = 0
 
     @staticmethod
-    def _process_match(match: dict, season: str) -> Optional[List[Union[int, str]]]:
+    def _process_match(match: dict, season: str, teams: Set[Tuple[int, str]]) -> Optional[List[Union[int, str]]]:
         """
         Process a single match to extract relevant data.
 
@@ -48,7 +48,10 @@ class FotmobMatches(Fetcher):
             and away team name, or None if the match is not finished.
         """
         if match.get('status', {}).get('finished', False):
-            return [int(match['id']), int(season[:4]), match['home']['name'], match['away']['name']]
+            teams.add((match['home']['id'], match['home']['name']))
+            
+            return [match['id'], int(season[:4]),
+                    match['home']['id'], match['away']['id']]
         
         return None
     
@@ -66,22 +69,43 @@ class FotmobMatches(Fetcher):
             json_content = self.fetch_data(matches_url, 'json')
 
             if not json_content:
-                LOGGER.warning(f'Failed to retrieve the element code from the provided link "{matches_url}".')
+                LOGGER.warning(f'Failed to retrieve the json from the provided link "{matches_url}".')
                 return None
         except Exception as e:
             LOGGER.warning(f'Failed to fetch data: {e}.')
             return None
         
         matches = json_content.get('matches', {}).get('allMatches', [])
+        # Counting the total amount of data across all seasons, including both finished and unfinished
         self.total_matches += len(matches)
+
+        # Collecting all possible unique pairs (team id, team title) into a set
+        teams = set()
+
         with ThreadPoolExecutor() as executor:
-            season_matches = executor.map(lambda match: self._process_match(match, season), matches)
-            
-            # Filter out None values from the list to prevent exceptions in insert_data
-            season_matches = [match for match in list(season_matches) if match is not None]
-            if season_matches:
+            season_matches = executor.map(lambda match: self._process_match(match, season, teams), matches)
+        
+        # Initially adding command keys to the database, ensuring no foreign key exceptions occur
+        season_teams = [[team[0], team[1]] for team in teams if team is not None]
+        if season_teams:
+            try:
+                insert_data(connection, self.schema_name, 'teams', season_teams)
+            except Exception:
+                LOGGER.error(f'League data "{self.schema_name}" for the season {season_teams} was not inserted.')
+                return None
+
+        # Filter out None values from the list to prevent exceptions in insert_data
+        season_matches = [match for match in list(season_matches) if match is not None]
+        if season_matches:
+            try:
+                # Data insertion via 'connector'
                 insert_data(connection, self.schema_name, 'matches', season_matches)
+                # Increasing the amount of data inserted into the database,
+                # regardless of whether there was a key conflict or not
                 self.finished_matches += len(season_matches)
+            except Exception:
+                LOGGER.error(f'League data "{self.schema_name}" for the season {season_teams} was not inserted.')
+                return None
 
     def start_parse(self) -> None:
         """
@@ -101,7 +125,7 @@ class FotmobMatches(Fetcher):
             json_content = self.fetch_data(league_url, 'json')
 
             if not json_content:
-                LOGGER.warning(f'Failed to retrieve the element code from the provided link "{league_url}".')
+                LOGGER.warning(f'Failed to retrieve the json from the provided link "{league_url}".')
                 return None
         except Exception as e:
             LOGGER.warning(f'Failed to fetch data: {e}.')
@@ -119,6 +143,7 @@ class FotmobMatches(Fetcher):
         LOGGER.info(f'Successfully inserted {self.finished_matches} out of {self.total_matches} ' \
                     f'possible data entries into the ' \
                     f'"{self.schema_name}.matches" table (finished matches).')
+
 
 def main(league: str) -> None:
     fotmob_matches = FotmobMatches(league)
