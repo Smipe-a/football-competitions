@@ -46,11 +46,12 @@ def queries(name_schema: str, name_table: str) -> str:
         'stadiums': f"""
             CREATE TABLE {name_schema}.stadiums (
                 stadium TEXT PRIMARY KEY,
+                city TEXT,
                 capacity INT,
-                built INT,
+                opened INT,
                 surface VARCHAR(20),
-                field_length NUMERIC,
-                field_width NUMERIC
+                latitude NUMERIC,
+                longitude NUMERIC
             );
         """,
         'match_details': f"""
@@ -82,7 +83,7 @@ def queries(name_schema: str, name_table: str) -> str:
             );
         """,
         # FUTGG DATA (EA FC)
-        # Gender - 1: Male, 2: Female
+        # Gender {1: Male, 2: Female}
         'cards': f"""
             CREATE TABLE {name_schema}.cards (
                 eaid INT PRIMARY KEY,
