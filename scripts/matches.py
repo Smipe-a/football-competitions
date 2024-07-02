@@ -4,8 +4,8 @@ from psycopg2 import extensions
 
 from utils.database.connector import connect_to_database, insert_data
 from utils.constants import MATCHES_FILE_LOG, HASHMAP_LEAGUE_IDS
+from utils.link_mapper import format_string
 from utils.logger import configure_logger
-from utils.link_mapper import LinkMapper
 from utils.fetcher import Fetcher
 
 # Configure logger for the current module
@@ -30,32 +30,35 @@ class FotmobMatches(Fetcher):
         self.league = league
 
         self.url = 'https://www.fotmob.com/api/'
-        self.schema_name = LinkMapper.format_string(league)
+        self.schema_name = format_string(league)
         self.finished_matches = 0
         self.total_matches = 0
 
     @staticmethod
-    def _process_match(match: dict, season: str, teams: Set[Tuple[int, str]]) -> Optional[List[Union[int, str]]]:
+    def _process_match(
+        match: dict, season: str,
+        teams: Set[Tuple[int, str]]) -> Optional[List[Union[int, str]]]:
         """
         Process a single match to extract relevant data.
 
         Args:
             match (dict): The match data.
             season (str): The season for which the match data is being processed.
+            teams (Set[Tuple[int, str]]): 
 
         Returns:
-            Optional[List[Union[str, int]]]: A list containing match ID, season, home team name,
+            A list containing match ID, season, home team name,
             and away team name, or None if the match is not finished.
         """
         if match.get('status', {}).get('finished', False):
             teams.add((match['home']['id'], match['home']['name']))
             
-            return [match['id'], int(season[:4]),
-                    match['home']['id'], match['away']['id']]
+            return [match['id'], int(season[:4]), match['home']['id'], match['away']['id']]
         
         return None
     
-    def get_matches(self, connection: extensions.connection, id_league: Optional[str], season: str) -> None:
+    def get_matches(self, connection: extensions.connection,
+                    id_league: Optional[str], season: str) -> None:
         """
         Fetch and process matches for a given league ID and season.
 
@@ -132,9 +135,9 @@ class FotmobMatches(Fetcher):
             return None
         
         # To speed up the data collection process,
-        # only the current season (available_seasons[:1]) is considered.
+        # only the current season (available_seasons[:1]) is considered
         # If data from previous seasons is needed,
-        # a slice from the second season onward [1:] should be used.
+        # a slice from the second season onward [1:] should be used
         with connect_to_database() as connection:
             available_seasons = json_content.get('allAvailableSeasons', [])
             for season in available_seasons[:1]:

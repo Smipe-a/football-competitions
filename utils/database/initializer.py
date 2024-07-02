@@ -5,8 +5,8 @@ from utils.constants import (DATABASE_INFO_FILE_LOG, HASHMAP_LEAGUE_IDS,
                              DATABASE_FIRST_TABLES, DATABASE_SECOND_TABLES)
 from utils.database.connector import connect_to_database
 from scripts.eafc.season import define_season
+from utils.link_mapper import format_string
 from utils.logger import configure_logger
-from utils.link_mapper import LinkMapper
 
 # Configure logger for the current module
 LOGGER = configure_logger(os.path.basename(__file__), DATABASE_INFO_FILE_LOG)
@@ -14,19 +14,19 @@ LOGGER = configure_logger(os.path.basename(__file__), DATABASE_INFO_FILE_LOG)
 
 def queries(name_schema: str, name_table: str) -> str:
     query = {
-        # FOTMOB, TRANSFERMARKT DATA
+        # FOTMOB DATA
         'teams': f"""
             CREATE TABLE {name_schema}.teams (
-                id INT PRIMARY KEY,
+                team_id INT PRIMARY KEY,
                 title VARCHAR(35) NOT NULL
             );
         """,
         'matches': f"""
             CREATE TABLE {name_schema}.matches (
                 match_id INT PRIMARY KEY,
-                season INT NOT NULL,
-                home_id INT NOT NULL REFERENCES {name_schema}.teams (id),
-                away_id INT NOT NULL REFERENCES {name_schema}.teams (id)
+                season SMALLINT,
+                home_id INT NOT NULL REFERENCES {name_schema}.teams (team_id),
+                away_id INT NOT NULL REFERENCES {name_schema}.teams (team_id)
             );
         """,
         'match_lineups': f"""
@@ -48,7 +48,7 @@ def queries(name_schema: str, name_table: str) -> str:
                 stadium TEXT PRIMARY KEY,
                 city TEXT,
                 capacity INT,
-                opened INT,
+                opened SMALLINT,
                 surface VARCHAR(20),
                 latitude NUMERIC,
                 longitude NUMERIC
@@ -63,6 +63,7 @@ def queries(name_schema: str, name_table: str) -> str:
                 reason VARCHAR(25)
             );
         """,
+        # TRANSFERMARKT DATA
         'players': f"""
             CREATE TABLE {name_schema}.players (
                 player_id INT PRIMARY KEY,
@@ -214,8 +215,6 @@ def create_table(cursor, name_schema: str, name_table: str) -> None:
         if cursor.fetchone() is None:
             cursor.execute(queries(name_schema, name_table))
             connection.commit()
-
-            LOGGER.info(f'The table "{name_table}" has been successfully created in the schema "{name_schema}".')
         else:
             LOGGER.info(f'The table "{name_table}" in the schema "{name_schema}" already exist.')
 
@@ -226,17 +225,27 @@ def create_table(cursor, name_schema: str, name_table: str) -> None:
 if __name__ == '__main__':
     with connect_to_database() as connection:
         with connection.cursor() as current_cursor:
-            leagues = [LinkMapper.format_string(league) for league in HASHMAP_LEAGUE_IDS.keys()]
+            leagues = [format_string(league) for league in HASHMAP_LEAGUE_IDS.keys()]
             
             for league in leagues:
+                created_tables = 0
                 is_exist_schema = create_schema(current_cursor, league)
                 for table_name in DATABASE_FIRST_TABLES:
                     if is_exist_schema:
                         create_table(current_cursor, league, table_name)
+                        created_tables += 1
+                
+                LOGGER.info(f'Successfully created {created_tables} tables ' \
+                            f'out of {len(DATABASE_FIRST_TABLES)} for schema "{league}".')
 
             season = define_season(LOGGER)
+            created_tables = 0
             if season:
                 is_exist_schema = create_schema(current_cursor, f'eafc{season}')
                 for table_name in DATABASE_SECOND_TABLES:
                     if is_exist_schema:
                         create_table(current_cursor, f'eafc{season}', table_name)
+                        created_tables += 1
+            
+            LOGGER.info(f'Successfully created {created_tables} tables ' \
+                        f'out of {len(DATABASE_SECOND_TABLES)} for schema "eafc{season}".')

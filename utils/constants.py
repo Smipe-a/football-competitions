@@ -10,24 +10,6 @@ DATABASE_FIRST_TABLES: List[str] = [
 DATABASE_SECOND_TABLES: List[str] = [
     'cards', 'outfield_players', 'goalkeepers', 'prices'
 ]
-LEAGUES: List[str] = [
-    'en_premier_league', 'la_liga', 'ligue_1', 'bundesliga',
-    'serie_a', 'ru_premier_league', 'saudi_pro_league', 'kz_premier_league'
-]
-TRANSFERMARKT_SUFFIX_URL: List[List[str]] = [
-    ['premier-league', 'GB1'],
-    ['laliga', 'ES1'],
-    ['ligue-1', 'FR1'],
-    ['bundesliga', 'L1'],
-    ['serie-a', 'IT1'],
-    ['premier-liga', 'RU1'],
-    ['saudi-professional-league', 'SA1'],
-    ['premier-liga', 'KAS1']
-]
-FOTMOB_SUFFIX_URL: List[List[str]] = [
-    ['47', 'premier-league'], ['87', 'laliga'], ['53', 'ligue-1'], ['54', 'bundesliga'],
-    ['55', 'serie'], ['63', 'premier-league'], ['536', 'saudi-pro-league'], ['225', 'premier-league']
-]
 HASHMAP_LEAGUE_IDS: Dict[str, List[Optional[str]]] = {
     'Liga Profesional de Fútbol': ['112', 'liga-profesional',
                                    'copa-de-la-liga-profesional-de-futbol', 'CDLP'],
@@ -147,20 +129,13 @@ PROJECT_DIRECTORY: str = os.path.abspath(os.path.join(os.path.dirname(__file__),
 RESOURCE_CATALOG: str = 'resources'
 LOG_CATALOG: str = 'logs'
 
+DATABASE_INFO_FILE_LOG: str = 'database_info.log'
+
+MATCHES_FILE_LOG: str = 'matches.log'
+STADIUMS_FILE_LOG: str = 'stadiums.log'
+MATCH_DETAILS_FILE_LOG: str = 'match_details.log'
+LINK_MAPPER_FILE_LOG: str = 'link_mapper.log'
+
 EAFC_CARDS_FILE_LOG: str = 'eafc_cards.log'
 EAFC_PARAMETERS_FILE_LOG: str = 'eafc_parameters.log'
 EAFC_PRICES_FILE_LOG: str = 'eafc_prices.log'
-
-METADATA_PARSER_FILE_LOG: str = 'metadata_parser.log'
-TRANSFERMARKT_PLAYERS_LOGS: str = 'players.log'
-LINK_MAPPER_FILE_LOG: str = 'link_mapper.log'
-MATCHES_FILE_LOG: str = 'matches.log'
-MATCH_RESULTS_FILE_LOG: str = 'match_results.log'
-CLASHES_FILE_LOG: str = 'clashes.log'
-STATISTICS_FILE_LOG: str = 'statistics.log'
-
-STADIUMS_FILE_LOG: str = 'stadiums.log'
-
-DATABASE_INFO_FILE_LOG: str = 'database_info.log'
-
-COMPETITIONS_JSON: str = 'competitions.json'

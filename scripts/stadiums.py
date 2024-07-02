@@ -5,10 +5,11 @@ from datetime import datetime
 
 from utils.database.connector import connect_to_database, insert_data
 from utils.constants import STADIUMS_FILE_LOG
+from utils.link_mapper import format_string
 from utils.logger import configure_logger
-from utils.link_mapper import LinkMapper
 from utils.fetcher import Fetcher
 
+# Configure logger for the current module
 LOGGER = configure_logger(__name__, STADIUMS_FILE_LOG)
 
 
@@ -27,7 +28,7 @@ class FotmobStadiums(Fetcher):
     """
     def __init__(self, league: str):
         super().__init__()
-        self.schema_name = LinkMapper().format_string(league)
+        self.schema_name = format_string(league)
 
         self.url = 'https://www.fotmob.com/api/teams?id='
         self.inserted_stadiums = 0
@@ -46,7 +47,7 @@ class FotmobStadiums(Fetcher):
         """
         try:
             with connection.cursor() as cursor:
-                cursor.execute(f'SELECT id FROM {self.schema_name}.teams;')
+                cursor.execute(f'SELECT team_id FROM {self.schema_name}.teams;')
                 teams_id = cursor.fetchall()
                 return teams_id
         except Exception as e:
@@ -64,7 +65,7 @@ class FotmobStadiums(Fetcher):
         Returns:
             The original year if valid, otherwise None.
         """
-        if date:
+        if date is not None:
             if date > datetime.now().year or date < 1700:
                 return None
         return date

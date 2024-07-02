@@ -1,4 +1,5 @@
 from typing import Optional, Any
+from time import sleep
 import requests
 
 
@@ -14,18 +15,26 @@ class Fetcher:
                           'Chrome/91.0.4472.124 Safari/537.36'
         }
 
-    def fetch_data(self, url: str, content_type: str = 'html') -> Optional[Any]:
-        try:
-            response = requests.get(url, headers=self.headers)
-            response.raise_for_status()
+    def fetch_data(self, url: str, content_type: str = 'html', retries=3, delay=1) -> Optional[Any]:
+        attempt = 0
+        while attempt < retries:
+            try:
+                response = requests.get(url, headers=self.headers)
+                response.raise_for_status()
 
-            if content_type == 'json':
-                return response.json()
-            elif content_type == 'html':
-                return response.content
-            else:
-                raise TypeError(f'Unsupported content type: {content_type}.')
+                if content_type == 'json':
+                    return response.json()
+                elif content_type == 'html':
+                    return response.content
+                else:
+                    raise TypeError(f'Unsupported content type: {content_type}.')
 
-        except requests.RequestException as e:
-            error_message = f'Error occurred while fetching "{url}": {str(e).strip()}.'
-            raise requests.RequestException(error_message)
+            except requests.RequestException as e:
+                if isinstance(e, requests.exceptions.ConnectionError) and '104' in str(e):
+                    attempt += 1
+                    sleep(delay)
+                else:
+                    raise e
+        
+        error_message = f'Failed to complete request after {retries} attempts.'
+        raise requests.RequestException(error_message)
